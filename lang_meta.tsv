@@ -1,12 +1,12 @@
 dir	name	family	subfamily	division	iso639-1	iso639-3	dict	xpf	epitran	acoustic	northeuralex
 fleurs/data/af_za	Afrikaans	Indo-European	Germanic	West	af	afr			afr-Latn		
 fleurs/data/am_et	Amharic	Afroasiatic	Semitic	South	am	amh			amh-Ethi-pp		
-fleurs/data/ar_eg	Arabic	Afroasiatic	Semitic	Central	ar	ara	arabic_mfa		ara-Arab		arb
+fleurs/data/ar_eg	Arabic	Afroasiatic	Semitic	Central	ar	ara	arabic_mfa	1	ara-Arab		arb
 fleurs/data/as_in	Assamese	Indo-European	Indo-Aryan	East	as	asm					
-fleurs/data/ast_es	Asturian	Indo-European	Romance	West		ast					
+fleurs/data/ast_es	Asturian	Indo-European	Romance	West		ast		1			
 fleurs/data/az_az	Azerbaijani	Turkic	Oghuz		az	aze			aze-Latn		azj
-fleurs/data/be_by	Belarusian	Indo-European	Slavic	East	be	bel	belarusian_cv				bel
-fleurs/data/bg_bg	Bulgarian	Indo-European	Slavic	South	bg	bul	bulgarian_mfa				bul
+fleurs/data/be_by	Belarusian	Indo-European	Slavic	East	be	bel	belarusian_cv	1			bel
+fleurs/data/bg_bg	Bulgarian	Indo-European	Slavic	South	bg	bul	bulgarian_mfa	1			bul
 fleurs/data/bn_in	Bengali	Indo-European	Indo-Aryan	East	bn	ben			ben-Beng		ben
 fleurs/data/bs_ba	Bosnian	Indo-European	Slavic	South	bs	bos					
 fleurs/data/ca_es	Catalan	Indo-European	Romance	West	ca	cat			cat-Latn		cat
@@ -17,7 +17,7 @@ fleurs/data/cs_cz	Czech	Indo-European	Slavic	West	cs	ces	czech_mfa		ces-Latn		ce
 fleurs/data/cy_gb	Welsh	Indo-European	Celtic		cy	cym			cym-Latn		cym
 fleurs/data/da_dk	Danish	Indo-European	Germanic	North	da	dan			dan-Latn		dan
 fleurs/data/de_de	German	Indo-European	Germanic	West	de	deu	german_mfa		deu-Latn-nar		deu
-fleurs/data/el_gr	Modern Greek (1453-)	Indo-European	Hellenic		el	ell	greek_cv				ell
+fleurs/data/el_gr	Modern Greek (1453-)	Indo-European	Hellenic		el	ell	greek_cv	1			ell
 fleurs/data/en_us	English	Indo-European	Germanic	West	en	eng	english_us_mfa		eng-Latn		eng
 fleurs/data/es_419	Spanish	Indo-European	Romance	West	es	spa	spanish_mfa		spa-Latn		spa
 fleurs/data/et_ee	Estonian	Uralic	Finnic		et	est			est-Latn		ekk
@@ -57,7 +57,7 @@ fleurs/data/lt_lt	Lithuanian	Indo-European	Baltic		lt	lit			lit-Latn		lit
 fleurs/data/luo_ke	Luo (Kenya and Tanzania)	Nilo-Saharan				luo					
 fleurs/data/lv_lv	Latvian	Indo-European	Baltic		lv	lav			lav-Latn		lav
 fleurs/data/mi_nz	Maori	Austronesian	Oceanic		mi	mri			mri-Latn		
-fleurs/data/mk_mk	Macedonian	Indo-European	Slavic	South	mk	mkd					
+fleurs/data/mk_mk	Macedonian	Indo-European	Slavic	South	mk	mkd		1			
 fleurs/data/ml_in	Malayalam	Dravidian	Southern		ml	mal			mal-Mlym		mal
 fleurs/data/mn_mn	Mongolian	Mongolic			mn	mon			mon-Cyrl-bab		khk
 fleurs/data/mr_in	Marathi	Indo-European	Indo-Aryan	South	mr	mar			mar-Deva		
@@ -65,7 +65,7 @@ fleurs/data/ms_my	Malay	Austronesian	Malayic		ms	msa			msa-Latn
 fleurs/data/mt_mt	Maltese	Afroasiatic	Semitic	Central	mt	mlt	maltese_cv		mlt-Latn		
 fleurs/data/my_mm	Burmese	Sino-Tibetan	Lolo-Burmese		my	mya			mya-Mymr		
 fleurs/data/nb_no	Norwegian Bokmål	Indo-European	Germanic	North	nb	nob					nor
-fleurs/data/ne_np	Nepali	Indo-European	Indo-Aryan	North	ne	nep					
+fleurs/data/ne_np	Nepali	Indo-European	Indo-Aryan	North	ne	nep		1			
 fleurs/data/nl_nl	Dutch	Indo-European	Germanic	West	nl	nld	dutch_cv		nld-Latn		nld
 fleurs/data/nso_za	Pedi	Niger-Congo	Bantu	Southern		nso					
 fleurs/data/ny_mw	Chichewa	Niger-Congo	Bantu	Nyasa	ny	nya			nya-Latn		
@@ -87,7 +87,7 @@ fleurs/data/sr_rs	Serbian	Indo-European	Slavic	South	sr	srp
 fleurs/data/sv_se	Swedish	Indo-European	Germanic	North	sv	swe	swedish_mfa		swe-Latn		swe
 fleurs/data/sw_ke	Swahili	Niger-Congo	Bantu	Northeast	sw	swa	swahili_mfa		swa-Latn		
 fleurs/data/ta_in	Tamil	Dravidian	Southern		ta	tam	tamil_mfa		tam-Taml		tam
-fleurs/data/te_in	Telugu	Dravidian	South-Central		te	tel			tel-Telu		tel
+fleurs/data/te_in	Telugu	Dravidian	South-Central		te	tel		1	tel-Telu		tel
 fleurs/data/tg_tj	Tajik	Indo-European	Iranian	West	tg	tgk			tgk-Cyrl		
 fleurs/data/th_th	Thai	Kra-Dai	Tai		th	tha	thai_mfa		tha-Thai		
 fleurs/data/tr_tr	Turkish	Turkic	Oghuz		tr	tur	turkish_mfa		tur-Latn		tur
@@ -95,8 +95,8 @@ fleurs/data/uk_ua	Ukrainian	Indo-European	Slavic	East	uk	ukr	ukrainian_mfa		ukr-
 fleurs/data/umb_ao	Umbundu	Niger-Congo	Bantu	Umbundu		umb					
 fleurs/data/ur_pk	Urdu	Indo-European	Indo-Aryan	Central	ur	urd	urdu_cv		urd-Arab		
 fleurs/data/uz_uz	Uzbek	Turkic	Karluk		uz	uzb	uzbek_cv		uzb-Latn		uzn
-fleurs/data/vi_vn	Vietnamese	Austroasiatic	Viet		vi	vie	vietnamese_mfa		vie-Latn		
-fleurs/data/wo_sn	Wolof	Niger-Congo	West-Atlantic		wo	wol					
+fleurs/data/vi_vn	Vietnamese	Austroasiatic	Viet		vi	vie	vietnamese_mfa	1	vie-Latn		
+fleurs/data/wo_sn	Wolof	Niger-Congo	West-Atlantic		wo	wol		1			
 fleurs/data/xh_za	Xhosa	Niger-Congo	Bantu	Southern	xh	xho			xho-Latn		
 fleurs/data/yo_ng	Yoruba	Niger-Congo	Volta-Niger		yo	yor			yor-Latn		
 fleurs/data/yue_hant_hk	Yue Chinese	Sino-Tibetan	Sinitic			yue			yue-Hant		

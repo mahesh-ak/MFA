@@ -1,2 +1,2 @@
 To fix:
-yue_, ur_, fa_, ar_, km_, da_
+ur_, fa_, da_, km_
