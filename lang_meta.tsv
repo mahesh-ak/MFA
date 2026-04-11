@@ -1,103 +1,103 @@
-dir	name	family	subfamily	division	iso639-1	iso639-3	dict	xpf	epitran	acoustic	northeuralex
-fleurs/data/af_za	Afrikaans	Indo-European	Germanic	West	af	afr			afr-Latn		
-fleurs/data/am_et	Amharic	Afroasiatic	Semitic	South	am	amh			amh-Ethi-pp		
-fleurs/data/ar_eg	Arabic	Afroasiatic	Semitic	Central	ar	ara	arabic_mfa	1	ara-Arab		arb
-fleurs/data/as_in	Assamese	Indo-European	Indo-Aryan	East	as	asm					
-fleurs/data/ast_es	Asturian	Indo-European	Romance	West		ast		1			
-fleurs/data/az_az	Azerbaijani	Turkic	Oghuz		az	aze			aze-Latn		azj
-fleurs/data/be_by	Belarusian	Indo-European	Slavic	East	be	bel	belarusian_cv	1			bel
-fleurs/data/bg_bg	Bulgarian	Indo-European	Slavic	South	bg	bul	bulgarian_mfa	1			bul
-fleurs/data/bn_in	Bengali	Indo-European	Indo-Aryan	East	bn	ben			ben-Beng		ben
-fleurs/data/bs_ba	Bosnian	Indo-European	Slavic	South	bs	bos					
-fleurs/data/ca_es	Catalan	Indo-European	Romance	West	ca	cat			cat-Latn		cat
-fleurs/data/ceb_ph	Cebuano	Austronesian	Philippine			ceb			ceb-Latn		
-fleurs/data/ckb_iq	Central Kurdish	Indo-European	Iranian	West		ckb			ckb-Arab		
-fleurs/data/cmn_hans_cn	Mandarin Chinese	Sino-Tibetan	Sinitic			cmn	mandarin_mfa		cmn-Hans		cmn
-fleurs/data/cs_cz	Czech	Indo-European	Slavic	West	cs	ces	czech_mfa		ces-Latn		ces
-fleurs/data/cy_gb	Welsh	Indo-European	Celtic		cy	cym			cym-Latn		cym
-fleurs/data/da_dk	Danish	Indo-European	Germanic	North	da	dan			dan-Latn		dan
-fleurs/data/de_de	German	Indo-European	Germanic	West	de	deu	german_mfa		deu-Latn-nar		deu
-fleurs/data/el_gr	Modern Greek (1453-)	Indo-European	Hellenic		el	ell	greek_cv	1			ell
-fleurs/data/en_us	English	Indo-European	Germanic	West	en	eng	english_us_mfa		eng-Latn		eng
-fleurs/data/es_419	Spanish	Indo-European	Romance	West	es	spa	spanish_mfa		spa-Latn		spa
-fleurs/data/et_ee	Estonian	Uralic	Finnic		et	est			est-Latn		ekk
-fleurs/data/fa_ir	Persian	Indo-European	Iranian	West	fa	fas			fas-Arab		pes
-fleurs/data/ff_sn	Fulah	Niger-Congo	West-Atlantic		ff	ful			ful-Latn		
-fleurs/data/fi_fi	Finnish	Uralic	Finnic		fi	fin			fin-Latn		fin
-fleurs/data/fil_ph	Filipino	Austronesian	Philippine			fil					
-fleurs/data/fr_fr	French	Indo-European	Romance	West	fr	fra	french_mfa		fra-Latn-p		fra
-fleurs/data/ga_ie	Irish	Indo-European	Celtic		ga	gle			gle-Latn		gle
-fleurs/data/gl_es	Galician	Indo-European	Romance	West	gl	glg			glg-Latn		
-fleurs/data/gu_in	Gujarati	Indo-European	Indo-Aryan	Central	gu	guj					
-fleurs/data/ha_ng	Hausa	Afroasiatic	Chadic		ha	hau	hausa_mfa		hau-Latn		
-fleurs/data/he_il	Hebrew	Afroasiatic	Semitic	Central	he	heb					heb
-fleurs/data/hi_in	Hindi	Indo-European	Indo-Aryan	Central	hi	hin	hindi_cv		hin-Deva		hin
-fleurs/data/hr_hr	Croatian	Indo-European	Slavic	South	hr	hrv	croatian_mfa		hrv-Latn		hrv
-fleurs/data/hu_hu	Hungarian	Uralic	Ugric		hu	hun	hungarian_cv		hun-Latn		hun
-fleurs/data/hy_am	Armenian	Indo-European	Armenian		hy	hye	armenian_cv				hye
-fleurs/data/id_id	Indonesian	Austronesian	Malayic		id	ind	indonesian_cv		ind-Latn		
-fleurs/data/ig_ng	Igbo	Niger-Congo	Volta-Niger		ig	ibo					
-fleurs/data/is_is	Icelandic	Indo-European	Germanic	North	is	isl					isl
-fleurs/data/it_it	Italian	Indo-European	Romance	South	it	ita			ita-Latn		ita
-fleurs/data/ja_jp	Japanese	Japonic			ja	jpn	japanese_mfa		jpn-Jpan		jpn
-fleurs/data/jv_id	Javanese	Austronesian	Javanesic		jv	jav			jav-Latn		
-fleurs/data/ka_ge	Georgian	Kartvelian			ka	kat			kat-Geor		kat
-fleurs/data/kam_ke	Kamba (Kenya)	Niger-Congo	Bantu	Northeast		kam					
-fleurs/data/kea_cv	Kabuverdianu	Creole				kea					
-fleurs/data/kk_kz	Kazakh	Turkic	Kipchak		kk	kaz	kazakh_cv		kaz-Cyrl		kaz
-fleurs/data/km_kh	Khmer	Austroasiatic	Khmer		km	khm			khm-Khmr		
-fleurs/data/kn_in	Kannada	Dravidian	Southern		kn	kan			kan-Knda		kan
-fleurs/data/ko_kr	Korean	Koreanic			ko	kor	korean_mfa		kor-Hang		kor
-fleurs/data/ky_kg	Kyrgyz	Turkic	Kipchak		ky	kir	kyrgyz_cv		kir-Cyrl		
-fleurs/data/lb_lu	Luxembourgish	Indo-European	Germanic	West	lb	ltz					
-fleurs/data/lg_ug	Ganda	Niger-Congo	Bantu	Northeast	lg	lug			lug-Latn		
-fleurs/data/ln_cd	Lingala	Niger-Congo	Bantu	Bantu-Ntomba	ln	lin					
-fleurs/data/lo_la	Lao	Kra-Dai	Tai		lo	lao			lao-Laoo		
-fleurs/data/lt_lt	Lithuanian	Indo-European	Baltic		lt	lit			lit-Latn		lit
-fleurs/data/luo_ke	Luo (Kenya and Tanzania)	Nilo-Saharan				luo					
-fleurs/data/lv_lv	Latvian	Indo-European	Baltic		lv	lav			lav-Latn		lav
-fleurs/data/mi_nz	Maori	Austronesian	Oceanic		mi	mri			mri-Latn		
-fleurs/data/mk_mk	Macedonian	Indo-European	Slavic	South	mk	mkd		1			
-fleurs/data/ml_in	Malayalam	Dravidian	Southern		ml	mal			mal-Mlym		mal
-fleurs/data/mn_mn	Mongolian	Mongolic			mn	mon			mon-Cyrl-bab		khk
-fleurs/data/mr_in	Marathi	Indo-European	Indo-Aryan	South	mr	mar			mar-Deva		
-fleurs/data/ms_my	Malay	Austronesian	Malayic		ms	msa			msa-Latn		
-fleurs/data/mt_mt	Maltese	Afroasiatic	Semitic	Central	mt	mlt	maltese_cv		mlt-Latn		
-fleurs/data/my_mm	Burmese	Sino-Tibetan	Lolo-Burmese		my	mya			mya-Mymr		
-fleurs/data/nb_no	Norwegian Bokmål	Indo-European	Germanic	North	nb	nob					nor
-fleurs/data/ne_np	Nepali	Indo-European	Indo-Aryan	North	ne	nep		1			
-fleurs/data/nl_nl	Dutch	Indo-European	Germanic	West	nl	nld	dutch_cv		nld-Latn		nld
-fleurs/data/nso_za	Pedi	Niger-Congo	Bantu	Southern		nso					
-fleurs/data/ny_mw	Chichewa	Niger-Congo	Bantu	Nyasa	ny	nya			nya-Latn		
-fleurs/data/oc_fr	Occitan (post 1500)	Indo-European	Romance	West	oc	oci					
-fleurs/data/om_et	Oromo	Afroasiatic	Cushitic		om	orm			orm-Latn		
-fleurs/data/or_in	Odia	Indo-European	Indo-Aryan	East	or	ori			ori-Orya		
-fleurs/data/pa_in	Punjabi	Indo-European	Indo-Aryan	Northwest	pa	pan			pan-Guru		
-fleurs/data/pl_pl	Polish	Indo-European	Slavic	West	pl	pol	polish_mfa		pol-Latn		pol
-fleurs/data/ps_af	Pushto	Indo-European	Iranian	East	ps	pus					pbu
-fleurs/data/pt_br	Portuguese	Indo-European	Romance	West	pt	por	portuguese_mfa		por-Latn		por
-fleurs/data/ro_ro	Romanian	Indo-European	Romance	East	ro	ron	romanian_cv		ron-Latn		ron
-fleurs/data/ru_ru	Russian	Indo-European	Slavic	East	ru	rus	russian_mfa		rus-Cyrl		rus
-fleurs/data/sd_in	Sindhi	Indo-European	Indo-Aryan	Northwest	sd	snd					
-fleurs/data/sk_sk	Slovak	Indo-European	Slavic	West	sk	slk					slk
-fleurs/data/sl_si	Slovenian	Indo-European	Slavic	South	sl	slv			slv-Latn		slv
-fleurs/data/sn_zw	Shona	Niger-Congo	Bantu	Southern	sn	sna			sna-Latn		
-fleurs/data/so_so	Somali	Afroasiatic	Cushitic		so	som			som-Latn		
-fleurs/data/sr_rs	Serbian	Indo-European	Slavic	South	sr	srp					
-fleurs/data/sv_se	Swedish	Indo-European	Germanic	North	sv	swe	swedish_mfa		swe-Latn		swe
-fleurs/data/sw_ke	Swahili	Niger-Congo	Bantu	Northeast	sw	swa	swahili_mfa		swa-Latn		
-fleurs/data/ta_in	Tamil	Dravidian	Southern		ta	tam	tamil_mfa		tam-Taml		tam
-fleurs/data/te_in	Telugu	Dravidian	South-Central		te	tel		1	tel-Telu		tel
-fleurs/data/tg_tj	Tajik	Indo-European	Iranian	West	tg	tgk			tgk-Cyrl		
-fleurs/data/th_th	Thai	Kra-Dai	Tai		th	tha	thai_mfa		tha-Thai		
-fleurs/data/tr_tr	Turkish	Turkic	Oghuz		tr	tur	turkish_mfa		tur-Latn		tur
-fleurs/data/uk_ua	Ukrainian	Indo-European	Slavic	East	uk	ukr	ukrainian_mfa		ukr-Cyrl		ukr
-fleurs/data/umb_ao	Umbundu	Niger-Congo	Bantu	Umbundu		umb					
-fleurs/data/ur_pk	Urdu	Indo-European	Indo-Aryan	Central	ur	urd	urdu_cv		urd-Arab		
-fleurs/data/uz_uz	Uzbek	Turkic	Karluk		uz	uzb	uzbek_cv		uzb-Latn		uzn
-fleurs/data/vi_vn	Vietnamese	Austroasiatic	Viet		vi	vie	vietnamese_mfa	1	vie-Latn		
-fleurs/data/wo_sn	Wolof	Niger-Congo	West-Atlantic		wo	wol		1			
-fleurs/data/xh_za	Xhosa	Niger-Congo	Bantu	Southern	xh	xho			xho-Latn		
-fleurs/data/yo_ng	Yoruba	Niger-Congo	Volta-Niger		yo	yor			yor-Latn		
-fleurs/data/yue_hant_hk	Yue Chinese	Sino-Tibetan	Sinitic			yue			yue-Hant		
-fleurs/data/zu_za	Zulu	Niger-Congo	Bantu	Southern	zu	zul			zul-Latn		
+dir	name	family	subfamily	division	iso639-1	iso639-3	dict	year	num2words	xpf	epitran	acoustic	northeuralex
+fleurs/data/af_za	Afrikaans	Indo-European	Germanic	West	af	afr		2	af		afr-Latn		
+fleurs/data/am_et	Amharic	Afroasiatic	Semitic	South	am	amh		3	am		amh-Ethi-pp		
+fleurs/data/ar_eg	Arabic	Afroasiatic	Semitic	Central	ar	ara	arabic_mfa	3	ar		ara-Arab		arb
+fleurs/data/as_in	Assamese	Indo-European	Indo-Aryan	East	as	asm		1					
+fleurs/data/ast_es	Asturian	Indo-European	Romance	West		ast		3	ast	1			
+fleurs/data/az_az	Azerbaijani	Turkic	Oghuz		az	aze		3	az		aze-Latn		azj
+fleurs/data/be_by	Belarusian	Indo-European	Slavic	East	be	bel	belarusian_cv	3	be	1			bel
+fleurs/data/bg_bg	Bulgarian	Indo-European	Slavic	South	bg	bul	bulgarian_mfa	3	bg	1			bul
+fleurs/data/bn_in	Bengali	Indo-European	Indo-Aryan	East	bn	ben		1	bn		ben-Beng		ben
+fleurs/data/bs_ba	Bosnian	Indo-European	Slavic	South	bs	bos		3					
+fleurs/data/ca_es	Catalan	Indo-European	Romance	West	ca	cat		3	ca		cat-Latn		cat
+fleurs/data/ceb_ph	Cebuano	Austronesian	Philippine			ceb		3	ceb		ceb-Latn		
+fleurs/data/ckb_iq	Central Kurdish	Indo-European	Iranian	West		ckb		3	ckb		ckb-Arab		
+fleurs/data/cmn_hans_cn	Mandarin Chinese	Sino-Tibetan	Sinitic			cmn	mandarin_mfa	4	zh_CN		cmn-Hans		cmn
+fleurs/data/cs_cz	Czech	Indo-European	Slavic	West	cs	ces	czech_mfa	3	cs		ces-Latn		ces
+fleurs/data/cy_gb	Welsh	Indo-European	Celtic		cy	cym		3	cy		cym-Latn		cym
+fleurs/data/da_dk	Danish	Indo-European	Germanic	North	da	dan		2	da		dan-Latn		dan
+fleurs/data/de_de	German	Indo-European	Germanic	West	de	deu	german_mfa	1	de		deu-Latn-nar		deu
+fleurs/data/el_gr	Modern Greek (1453-)	Indo-European	Hellenic		el	ell	greek_cv	3	el	1			ell
+fleurs/data/en_us	English	Indo-European	Germanic	West	en	eng	english_us_mfa	2	en_GB		eng-Latn		eng
+fleurs/data/es_419	Spanish	Indo-European	Romance	West	es	spa	spanish_mfa	3	es		spa-Latn		spa
+fleurs/data/et_ee	Estonian	Uralic	Finnic		et	est		3	et		est-Latn		ekk
+fleurs/data/fa_ir	Persian	Indo-European	Iranian	West	fa	fas		3	fa		fas-Arab		pes
+fleurs/data/ff_sn	Fulah	Niger-Congo	West-Atlantic		ff	ful		3	ff		ful-Latn		
+fleurs/data/fi_fi	Finnish	Uralic	Finnic		fi	fin		3	fi		fin-Latn		fin
+fleurs/data/fil_ph	Filipino	Austronesian	Philippine			fil		3					
+fleurs/data/fr_fr	French	Indo-European	Romance	West	fr	fra	french_mfa	3	fr		fra-Latn-p		fra
+fleurs/data/ga_ie	Irish	Indo-European	Celtic		ga	gle		3	ga		gle-Latn		gle
+fleurs/data/gl_es	Galician	Indo-European	Romance	West	gl	glg		3	gl		glg-Latn		
+fleurs/data/gu_in	Gujarati	Indo-European	Indo-Aryan	Central	gu	guj		1					
+fleurs/data/ha_ng	Hausa	Afroasiatic	Chadic		ha	hau	hausa_mfa	3	ha		hau-Latn		
+fleurs/data/he_il	Hebrew	Afroasiatic	Semitic	Central	he	heb		3	he		heb-Phonikud		heb
+fleurs/data/hi_in	Hindi	Indo-European	Indo-Aryan	Central	hi	hin	hindi_cv	1	hi		hin-Deva		hin
+fleurs/data/hr_hr	Croatian	Indo-European	Slavic	South	hr	hrv	croatian_mfa	3	hr		hrv-Latn		hrv
+fleurs/data/hu_hu	Hungarian	Uralic	Ugric		hu	hun	hungarian_cv	3	hu		hun-Latn		hun
+fleurs/data/hy_am	Armenian	Indo-European	Armenian		hy	hye	armenian_cv	3	hy	1			hye
+fleurs/data/id_id	Indonesian	Austronesian	Malayic		id	ind	indonesian_cv	3	id		ind-Latn		
+fleurs/data/ig_ng	Igbo	Niger-Congo	Volta-Niger		ig	ibo		3					
+fleurs/data/is_is	Icelandic	Indo-European	Germanic	North	is	isl		1	is				isl
+fleurs/data/it_it	Italian	Indo-European	Romance	South	it	ita		3	it		ita-Latn		ita
+fleurs/data/ja_jp	Japanese	Japonic			ja	jpn	japanese_mfa	3	ja		jpn-Jpan		jpn
+fleurs/data/jv_id	Javanese	Austronesian	Javanesic		jv	jav		3	jv		jav-Latn		
+fleurs/data/ka_ge	Georgian	Kartvelian			ka	kat		3	ka		kat-Geor		kat
+fleurs/data/kam_ke	Kamba (Kenya)	Niger-Congo	Bantu	Northeast		kam		3					
+fleurs/data/kea_cv	Kabuverdianu	Creole				kea		3					
+fleurs/data/kk_kz	Kazakh	Turkic	Kipchak		kk	kaz	kazakh_cv	3	kz		kaz-Cyrl		kaz
+fleurs/data/km_kh	Khmer	Austroasiatic	Khmer		km	khm		3	km		khm-Khmr		
+fleurs/data/kn_in	Kannada	Dravidian	Southern		kn	kan		1	kn		kan-Knda		kan
+fleurs/data/ko_kr	Korean	Koreanic			ko	kor	korean_mfa	3	ko		kor-Hang		kor
+fleurs/data/ky_kg	Kyrgyz	Turkic	Kipchak		ky	kir	kyrgyz_cv	3	ky		kir-Cyrl		
+fleurs/data/lb_lu	Luxembourgish	Indo-European	Germanic	West	lb	ltz		1					
+fleurs/data/lg_ug	Ganda	Niger-Congo	Bantu	Northeast	lg	lug		3	lg		lug-Latn		
+fleurs/data/ln_cd	Lingala	Niger-Congo	Bantu	Bantu-Ntomba	ln	lin		3					
+fleurs/data/lo_la	Lao	Kra-Dai	Tai		lo	lao		4	lo		lao-Laoo		
+fleurs/data/lt_lt	Lithuanian	Indo-European	Baltic		lt	lit		3	lt		lit-Latn		lit
+fleurs/data/luo_ke	Luo (Kenya and Tanzania)	Nilo-Saharan				luo		3					
+fleurs/data/lv_lv	Latvian	Indo-European	Baltic		lv	lav		3	lv		lav-Latn		lav
+fleurs/data/mi_nz	Maori	Austronesian	Oceanic		mi	mri		3	mi		mri-Latn		
+fleurs/data/mk_mk	Macedonian	Indo-European	Slavic	South	mk	mkd		3	mk	1			
+fleurs/data/ml_in	Malayalam	Dravidian	Southern		ml	mal		1	ml		mal-Mlym		mal
+fleurs/data/mn_mn	Mongolian	Mongolic			mn	mon		3	mn		mon-Cyrl-bab		khk
+fleurs/data/mr_in	Marathi	Indo-European	Indo-Aryan	South	mr	mar		1	mr		mar-Deva		
+fleurs/data/ms_my	Malay	Austronesian	Malayic		ms	msa		3	ms		msa-Latn		
+fleurs/data/mt_mt	Maltese	Afroasiatic	Semitic	Central	mt	mlt	maltese_cv	3	mt		mlt-Latn		
+fleurs/data/my_mm	Burmese	Sino-Tibetan	Lolo-Burmese		my	mya		4	my		mya-Mymr		
+fleurs/data/nb_no	Norwegian Bokmål	Indo-European	Germanic	North	nb	nob		2	no		nno-Latn		nor
+fleurs/data/ne_np	Nepali	Indo-European	Indo-Aryan	North	ne	nep		1	ne	1			
+fleurs/data/nl_nl	Dutch	Indo-European	Germanic	West	nl	nld	dutch_cv	1	nl		nld-Latn		nld
+fleurs/data/nso_za	Pedi	Niger-Congo	Bantu	Southern		nso		3					
+fleurs/data/ny_mw	Chichewa	Niger-Congo	Bantu	Nyasa	ny	nya		3	ny		nya-Latn		
+fleurs/data/oc_fr	Occitan (post 1500)	Indo-European	Romance	West	oc	oci		3					
+fleurs/data/om_et	Oromo	Afroasiatic	Cushitic		om	orm		3	om		orm-Latn		
+fleurs/data/or_in	Odia	Indo-European	Indo-Aryan	East	or	ori		1	or		ori-Orya		
+fleurs/data/pa_in	Punjabi	Indo-European	Indo-Aryan	Northwest	pa	pan		1	pa		pan-Guru		
+fleurs/data/pl_pl	Polish	Indo-European	Slavic	West	pl	pol	polish_mfa	3	pl		pol-Latn		pol
+fleurs/data/ps_af	Pushto	Indo-European	Iranian	East	ps	pus		3	ps		pbu-Arab		pbu
+fleurs/data/pt_br	Portuguese	Indo-European	Romance	West	pt	por	portuguese_mfa	3	pt_BR		por-Latn		por
+fleurs/data/ro_ro	Romanian	Indo-European	Romance	East	ro	ron	romanian_cv	3	ro		ron-Latn		ron
+fleurs/data/ru_ru	Russian	Indo-European	Slavic	East	ru	rus	russian_mfa	3	ru		rus-Cyrl		rus
+fleurs/data/sd_in	Sindhi	Indo-European	Indo-Aryan	Northwest	sd	snd		1					
+fleurs/data/sk_sk	Slovak	Indo-European	Slavic	West	sk	slk		3	sk				slk
+fleurs/data/sl_si	Slovenian	Indo-European	Slavic	South	sl	slv		3	sl		slv-Latn		slv
+fleurs/data/sn_zw	Shona	Niger-Congo	Bantu	Southern	sn	sna		3	sn		sna-Latn		
+fleurs/data/so_so	Somali	Afroasiatic	Cushitic		so	som		3	so		som-Latn		
+fleurs/data/sr_rs	Serbian	Indo-European	Slavic	South	sr	srp		3	sr				
+fleurs/data/sv_se	Swedish	Indo-European	Germanic	North	sv	swe	swedish_mfa	1	sv		swe-Latn		swe
+fleurs/data/sw_ke	Swahili	Niger-Congo	Bantu	Northeast	sw	swa	swahili_mfa	3	sw		swa-Latn		
+fleurs/data/ta_in	Tamil	Dravidian	Southern		ta	tam	tamil_mfa	1	ta		tam-Taml		tam
+fleurs/data/te_in	Telugu	Dravidian	South-Central		te	tel		1	te	1	tel-Telu		tel
+fleurs/data/tg_tj	Tajik	Indo-European	Iranian	West	tg	tgk		3	tg		tgk-Cyrl		
+fleurs/data/th_th	Thai	Kra-Dai	Tai		th	tha	thai_mfa	4	th		tha-Thai		
+fleurs/data/tr_tr	Turkish	Turkic	Oghuz		tr	tur	turkish_mfa	3	tr		tur-Latn		tur
+fleurs/data/uk_ua	Ukrainian	Indo-European	Slavic	East	uk	ukr	ukrainian_mfa	3	uk		ukr-Cyrl		ukr
+fleurs/data/umb_ao	Umbundu	Niger-Congo	Bantu	Umbundu		umb		3					
+fleurs/data/ur_pk	Urdu	Indo-European	Indo-Aryan	Central	ur	urd	urdu_cv	1	ur		urd-Arab		
+fleurs/data/uz_uz	Uzbek	Turkic	Karluk		uz	uzb	uzbek_cv	3	uz		uzb-Latn		uzn
+fleurs/data/vi_vn	Vietnamese	Austroasiatic	Viet		vi	vie	vietnamese_mfa	3	vi		vie-Latn		
+fleurs/data/wo_sn	Wolof	Niger-Congo	West-Atlantic		wo	wol		3	wo	1			
+fleurs/data/xh_za	Xhosa	Niger-Congo	Bantu	Southern	xh	xho		3	xh		xho-Latn		
+fleurs/data/yo_ng	Yoruba	Niger-Congo	Volta-Niger		yo	yor		3	yo		yor-Latn		
+fleurs/data/yue_hant_hk	Yue Chinese	Sino-Tibetan	Sinitic			yue		4	zh_HK		yue-Hant		
+fleurs/data/zu_za	Zulu	Niger-Congo	Bantu	Southern	zu	zul		3	zu		zul-Latn		

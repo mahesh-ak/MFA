@@ -3,9 +3,15 @@ import tarfile
 import csv
 from pathlib import Path
 import soundfile as sf
+import librosa
+import io
 from tqdm import tqdm
+import sys
+
+csv.field_size_limit(sys.maxsize)
 
 root = "fleurs/data"
+segmented_root = "fleurs_ipa/"
 out_root = "processed_data"
 
 def create_corpus_dir():
@@ -17,63 +23,58 @@ def create_corpus_dir():
             continue
 
         tsv_path = os.path.join(lang_path, "train.tsv")
+        segmented_path = os.path.join(segmented_root, lang_dir, "train_sentences_input.txt")
+        if not os.path.isfile(segmented_path):
+            continue
         tar_path = os.path.join(lang_path, "audio", "train.tar.gz")
         if not (os.path.exists(tsv_path) and os.path.exists(tar_path)):
             continue
 
         out_dir = os.path.join(out_root, lang_dir, "textgrid_corpus_directory")
-        vocab_path = os.path.join(out_root, lang_dir, "vocab.txt")
+        if os.path.isdir(out_dir):
+            continue
         Path(out_dir).mkdir(parents=True, exist_ok=True)
 
-        vocab = []
         entries = {}
 
-        # Load TSV entries: filename → (sentence, cleaned_chars)
+        # Load TSV entries: filename → (sentence, speaker_id)
         with open(tsv_path, "r", encoding="utf-8") as f:
-            reader = csv.reader(f, delimiter="\t")
-            next(reader)
-            for row in reader:
-                wav_name = row[1]
-                word_col = row[3]              # characters separated by spaces
-                text_for_textgrid = " ".join(word_col.split())   # join by space
-                cleaned = word_col.split()              # for vocab.txt
-                entries[wav_name] = (text_for_textgrid, cleaned)
-                vocab.extend(cleaned)
+            with open(segmented_path, "r", encoding="utf-8") as f1:
+                reader = csv.reader(f, delimiter="\t")
+                reader1 = f1.read().splitlines()
+
+                for row, txt in zip(reader, reader1):
+                    wav_name = row[1]
+                    try:
+                        speaker_id = row[-2]
+                    except:
+                        print(row)
+                    entries[wav_name] = (txt, speaker_id)
 
         # Extract wavs and create TextGrids
         with tarfile.open(tar_path, "r:gz") as tar:
             for member in tqdm(tar.getmembers()):
                 name = os.path.basename(member.name)
                 if name in entries:
-                    wav_out = os.path.join(out_dir, name)
-                    with tar.extractfile(member) as src, open(wav_out, "wb") as dst:
-                        dst.write(src.read())
+                    sentence, speaker_id = entries[name]
 
-                    audio, sr = sf.read(wav_out)
-                    duration = len(audio) / sr
+                    speaker_dir = os.path.join(out_dir, speaker_id)
+                    Path(speaker_dir).mkdir(parents=True, exist_ok=True)
 
-                    sentence, _ = entries[name]
-                    tg_path = wav_out.replace(".wav", ".TextGrid")
+                    wav_out = os.path.join(speaker_dir, name)
 
-                    with open(tg_path, "w", encoding="utf-8") as tg:
-                        tg.write(
-                            "File type = \"TextGrid\"\n"
-                            "Object class = \"TextGrid\"\n\n"
-                            f"xmin = 0\nxmax = {duration}\n"
-                            "tiers? <exists>\nsize = 1\nitem []:\n"
-                            "    item [1]:\n"
-                            "        class = \"IntervalTier\"\n"
-                            "        name = \"1\"\n"
-                            "        xmin = 0\n"
-                            f"        xmax = {duration}\n"
-                            "        intervals: size = 1\n"
-                            "        intervals [1]:\n"
-                            "            xmin = 0\n"
-                            f"            xmax = {duration}\n"
-                            f"            text = \"{sentence}\"\n"
-                        )
+                    with tar.extractfile(member) as src:
+                        data = src.read()
+                        audio, sr = sf.read(io.BytesIO(data))
 
-        # Write vocabulary
-        with open(vocab_path, "w", encoding="utf-8") as f:
-            for w in sorted(set(vocab)):
-                f.write(w + "\n")
+                        trimmed, _ = librosa.effects.trim(audio,top_db=15)
+
+                        sf.write(wav_out, trimmed, sr)
+
+                    txt_path = wav_out.replace(".wav", ".txt")
+
+                    with open(txt_path, "w", encoding="utf-8") as f:
+                        f.write(sentence.strip() + "\n") 
+
+if __name__=='__main__':
+    create_corpus_dir()
