@@ -1,14 +1,7 @@
 import os
 import tarfile
-import csv
 from pathlib import Path
-import soundfile as sf
-import librosa
-import io
 from tqdm import tqdm
-import sys
-
-csv.field_size_limit(sys.maxsize)
 
 root = "fleurs/data"
 segmented_root = "fleurs_ipa/"
@@ -17,6 +10,7 @@ out_root = "processed_data"
 def create_corpus_dir():
     N = len(os.listdir(root))
     for i, lang_dir in enumerate(os.listdir(root)):
+
         print(f"processing {lang_dir} ({i+1}/{N})")
         lang_path = os.path.join(root, lang_dir)
         if not os.path.isdir(lang_path):
@@ -40,15 +34,14 @@ def create_corpus_dir():
         # Load TSV entries: filename → (sentence, speaker_id)
         with open(tsv_path, "r", encoding="utf-8") as f:
             with open(segmented_path, "r", encoding="utf-8") as f1:
-                reader = csv.reader(f, delimiter="\t")
+                reader = f.read().splitlines()
                 reader1 = f1.read().splitlines()
 
                 for row, txt in zip(reader, reader1):
+                    row = row.split('\t')
                     wav_name = row[1]
-                    try:
-                        speaker_id = row[-2]
-                    except:
-                        print(row)
+                    speaker_id = row[-1]
+
                     entries[wav_name] = (txt, speaker_id)
 
         # Extract wavs and create TextGrids
@@ -56,25 +49,23 @@ def create_corpus_dir():
             for member in tqdm(tar.getmembers()):
                 name = os.path.basename(member.name)
                 if name in entries:
-                    sentence, speaker_id = entries[name]
+                    try:
+                        sentence, speaker_id = entries[name]
 
-                    speaker_dir = os.path.join(out_dir, speaker_id)
-                    Path(speaker_dir).mkdir(parents=True, exist_ok=True)
+                        speaker_dir = os.path.join(out_dir, speaker_id)
+                        Path(speaker_dir).mkdir(parents=True, exist_ok=True)
 
-                    wav_out = os.path.join(speaker_dir, name)
+                        wav_out = os.path.join(speaker_dir, name)
 
-                    with tar.extractfile(member) as src:
-                        data = src.read()
-                        audio, sr = sf.read(io.BytesIO(data))
+                        with tar.extractfile(member) as src, open(wav_out, "wb") as dst:
+                            dst.write(src.read())
 
-                        trimmed, _ = librosa.effects.trim(audio,top_db=15)
+                        txt_path = wav_out.replace(".wav", ".txt")
 
-                        sf.write(wav_out, trimmed, sr)
-
-                    txt_path = wav_out.replace(".wav", ".txt")
-
-                    with open(txt_path, "w", encoding="utf-8") as f:
-                        f.write(sentence.strip() + "\n") 
+                        with open(txt_path, "w", encoding="utf-8") as f:
+                            f.write(sentence.strip() + "\n") 
+                    except:
+                        continue
 
 if __name__=='__main__':
     create_corpus_dir()
