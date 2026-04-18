@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+
 python scripts/pre_process.py
+
 set -e
 
 ROOT="processed_data"
@@ -19,19 +21,16 @@ for lang_dir in "$ROOT"/*; do
 
     echo "==== Processing $lang ===="
 
-    # Skip if lexicon missing
     if [ ! -f "$lexicon" ]; then
         echo "Skipping $lang (no lexicon)"
         continue
     fi
 
-    # Skip if model already exists
     if [ -f "$model" ]; then
         echo "Skipping $lang (model exists)"
         continue
     fi
 
-    # Skip if corpus missing
     if [ ! -d "$corpus_dir" ]; then
         echo "Skipping $lang (no corpus dir)"
         continue
@@ -41,19 +40,29 @@ for lang_dir in "$ROOT"/*; do
     # Train
     # -----------------------
     echo "Training $lang..."
-    mfa train "$corpus_dir" "$lexicon" "$model" \
+    if ! mfa train "$corpus_dir" "$lexicon" "$model" \
         --config_path "$CONFIG" \
         --num_jobs "$NUM_JOBS" \
         --single_speaker \
-        --clean
+        --clean; then
+
+        echo "❌ Training failed for $lang, skipping..."
+        echo "$lang" >> failed_langs.txt
+        continue
+    fi
 
     # -----------------------
     # Align
     # -----------------------
     echo "Aligning $lang..."
-    mfa align "$corpus_dir" "$lexicon" "$model" "$align_out" \
+    if ! mfa align "$corpus_dir" "$lexicon" "$model" "$align_out" \
         --num_jobs "$NUM_JOBS" \
-        --single_speaker
+        --single_speaker; then
+
+        echo "❌ Alignment failed for $lang, skipping..."
+        echo "$lang" >> failed_langs.txt
+        continue
+    fi
 
     echo "Done $lang"
     echo
