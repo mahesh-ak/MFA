@@ -5,7 +5,8 @@ from tqdm import tqdm
 
 root = "fleurs/data"
 segmented_root = "fleurs_ipa/"
-out_root = "processed_data"
+split = "test"
+out_root = f"processed_data_{split}"
 
 def create_corpus_dir():
     N = len(os.listdir(root))
@@ -16,11 +17,11 @@ def create_corpus_dir():
         if not os.path.isdir(lang_path):
             continue
 
-        tsv_path = os.path.join(lang_path, "train.tsv")
-        segmented_path = os.path.join(segmented_root, lang_dir, "train_sentences_input.txt")
+        tsv_path = os.path.join(lang_path, f"{split}.tsv")
+        segmented_path = os.path.join(segmented_root, lang_dir, f"{split}_sentences_input.txt")
         if not os.path.isfile(segmented_path):
             continue
-        tar_path = os.path.join(lang_path, "audio", "train.tar.gz")
+        tar_path = os.path.join(lang_path, "audio", f"{split}.tar.gz")
         if not (os.path.exists(tsv_path) and os.path.exists(tar_path)):
             continue
 

@@ -1,6 +1,8 @@
 fleurs*/
+*.zip
 epitran*/
 .ipynb_checkpoints/
 northeuralex/
-processed_data/
+processed_data*/
 .~lock*
+.cache/
