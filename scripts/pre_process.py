@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 root = "fleurs/data"
 segmented_root = "fleurs_ipa/"
-split = "test"
+split = "dev"
 out_root = f"processed_data_{split}"
 
 def create_corpus_dir():
