@@ -1,8 +1,11 @@
 fleurs*/
 *.zip
+*.tar.gz
 epitran*/
 .ipynb_checkpoints/
 northeuralex/
 processed_data*/
 .~lock*
 .cache/
+alignments/
+buckeye*
