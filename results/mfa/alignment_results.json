@@ -1,0 +1,5138 @@
+{
+  "af_za": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.11182935787117139,
+        "cluster_entropy": 3.83276509171226,
+        "cluster_entropy_norm": 0.9797399162515377,
+        "label_entropy": 2.250238063636367,
+        "label_entropy_norm": 0.5877380069337022,
+        "mean_cluster_purity": 0.478252290641168,
+        "std_cluster_purity": 0.21190286199716285,
+        "frames": 6951,
+        "labels": 46,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.41500805421549325,
+        "negative": 0.3741444175446971,
+        "wacs": 0.04086363667079612,
+        "positive_std": 0.1251329838129641,
+        "negative_std": 0.09430452551230135,
+        "cohen_d": 0.36308241420777543,
+        "snr": 0.18621991716113603,
+        "positive_pairs": 474,
+        "negative_pairs": 376,
+        "positive_min": 0.14564136617701506,
+        "positive_max": 0.9032157717818503,
+        "negative_min": 0.17359446075089469,
+        "negative_max": 0.8034402344397671,
+        "vocab_size": 76
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.1051719288269064,
+        "cluster_entropy": 3.807192989419967,
+        "cluster_entropy_norm": 0.9732031187284119,
+        "label_entropy": 2.250238063636367,
+        "label_entropy_norm": 0.5877380069337022,
+        "mean_cluster_purity": 0.48197991493378206,
+        "std_cluster_purity": 0.20469151412472314,
+        "frames": 6951,
+        "labels": 46,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.43090493625218157,
+        "negative": 0.40555022360557935,
+        "wacs": 0.025354712646602218,
+        "positive_std": 0.12767870013464008,
+        "negative_std": 0.1125004930902487,
+        "cohen_d": 0.20916083229692176,
+        "snr": 0.10556581213595605,
+        "positive_pairs": 474,
+        "negative_pairs": 374,
+        "positive_min": 0.13785196115001475,
+        "positive_max": 0.8600262432881718,
+        "negative_min": 0.11440138718903314,
+        "negative_max": 0.7320065307329486,
+        "vocab_size": 76
+      }
+    }
+  },
+  "am_et": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.12232501998124738,
+        "cluster_entropy": 3.8288860599505816,
+        "cluster_entropy_norm": 0.9787483495464604,
+        "label_entropy": 2.1910825242472183,
+        "label_entropy_norm": 0.5939696733119497,
+        "mean_cluster_purity": 0.4559685461801739,
+        "std_cluster_purity": 0.1392230517078042,
+        "frames": 6483,
+        "labels": 40,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4275955507208209,
+        "negative": 0.383463186750165,
+        "wacs": 0.0441323639706559,
+        "positive_std": 0.1395596809531273,
+        "negative_std": 0.08798792537821064,
+        "cohen_d": 0.3727158123383145,
+        "snr": 0.1939478192836511,
+        "positive_pairs": 551,
+        "negative_pairs": 479,
+        "positive_min": 0.1625493737671514,
+        "positive_max": 0.8773843997142967,
+        "negative_min": 0.1915233093439186,
+        "negative_max": 0.7208525704531862,
+        "vocab_size": 96
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.11973346397723152,
+        "cluster_entropy": 3.850986967796797,
+        "cluster_entropy_norm": 0.9843978326439651,
+        "label_entropy": 2.1910825242472183,
+        "label_entropy_norm": 0.5939696733119497,
+        "mean_cluster_purity": 0.46622352326418776,
+        "std_cluster_purity": 0.1517096048755834,
+        "frames": 6483,
+        "labels": 40,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4630777014125182,
+        "negative": 0.41919373313764874,
+        "wacs": 0.043883968274869456,
+        "positive_std": 0.1393079139707904,
+        "negative_std": 0.10128911681093035,
+        "cohen_d": 0.35643656260302037,
+        "snr": 0.1823961264539523,
+        "positive_pairs": 551,
+        "negative_pairs": 478,
+        "positive_min": 0.15831511599247527,
+        "positive_max": 0.9154233530559943,
+        "negative_min": 0.1372291325016679,
+        "negative_max": 0.7980011993768777,
+        "vocab_size": 96
+      }
+    }
+  },
+  "ar_eg": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3160896260727044,
+        "cluster_entropy": 3.849552390989698,
+        "cluster_entropy_norm": 0.9840311229377315,
+        "label_entropy": 3.2399651789264845,
+        "label_entropy_norm": 0.8668409757453446,
+        "mean_cluster_purity": 0.33933345914292956,
+        "std_cluster_purity": 0.19259594841921374,
+        "frames": 9369,
+        "labels": 42,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5835967071089446,
+        "negative": 0.37522300043361373,
+        "wacs": 0.2083737066753309,
+        "positive_std": 0.10397066108859736,
+        "negative_std": 0.06951022760171721,
+        "cohen_d": 2.290790553053469,
+        "snr": 1.2011334288007374,
+        "positive_pairs": 1353,
+        "negative_pairs": 997,
+        "positive_min": 0.21282665748366936,
+        "positive_max": 0.8854826802643767,
+        "negative_min": 0.13579034947493163,
+        "negative_max": 0.6195778243317753,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.28124259541846935,
+        "cluster_entropy": 3.8331055431056402,
+        "cluster_entropy_norm": 0.9798269431920509,
+        "label_entropy": 3.2399651789264845,
+        "label_entropy_norm": 0.8668409757453446,
+        "mean_cluster_purity": 0.34458840856302997,
+        "std_cluster_purity": 0.2284645004685033,
+        "frames": 9369,
+        "labels": 42,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6162236462188395,
+        "negative": 0.43101166538172764,
+        "wacs": 0.18521198083711188,
+        "positive_std": 0.0967554356812631,
+        "negative_std": 0.06919207791768227,
+        "cohen_d": 2.1497856367310764,
+        "snr": 1.1160876451806776,
+        "positive_pairs": 1353,
+        "negative_pairs": 996,
+        "positive_min": 0.30750204747090837,
+        "positive_max": 0.8790414875739789,
+        "negative_min": 0.20589518222278114,
+        "negative_max": 0.6326803955032307,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ast_es": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1168876140139771,
+        "cluster_entropy": 3.858864346571184,
+        "cluster_entropy_norm": 0.9864114656833046,
+        "label_entropy": 2.6012863595318336,
+        "label_entropy_norm": 0.7892642947117325,
+        "mean_cluster_purity": 0.30911332008924314,
+        "std_cluster_purity": 0.22592164741142293,
+        "frames": 8560,
+        "labels": 27,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4371041234424367,
+        "negative": 0.3850062684420999,
+        "wacs": 0.05209785500033681,
+        "positive_std": 0.12031785735597815,
+        "negative_std": 0.07039273183514627,
+        "cohen_d": 0.511944361625772,
+        "snr": 0.2731775539550684,
+        "positive_pairs": 1009,
+        "negative_pairs": 770,
+        "positive_min": 0.1507975197042466,
+        "positive_max": 0.8718390102808758,
+        "negative_min": 0.18061224647357865,
+        "negative_max": 0.6694143445322138,
+        "vocab_size": 155
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.10598753600787107,
+        "cluster_entropy": 3.8420860364469562,
+        "cluster_entropy_norm": 0.982122556824398,
+        "label_entropy": 2.6012863595318336,
+        "label_entropy_norm": 0.7892642947117325,
+        "mean_cluster_purity": 0.3025531333568039,
+        "std_cluster_purity": 0.2258860080514357,
+        "frames": 8560,
+        "labels": 27,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.44966394429961004,
+        "negative": 0.3964811462152865,
+        "wacs": 0.053182798084323524,
+        "positive_std": 0.12417325134241997,
+        "negative_std": 0.08068113203536302,
+        "cohen_d": 0.49457128657096305,
+        "snr": 0.2596126800475608,
+        "positive_pairs": 1009,
+        "negative_pairs": 770,
+        "positive_min": 0.1101840593703276,
+        "positive_max": 0.8672363235391367,
+        "negative_min": 0.13929880456723231,
+        "negative_max": 0.6759302551598835,
+        "vocab_size": 155
+      }
+    }
+  },
+  "az_az": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.12436323961396863,
+        "cluster_entropy": 3.8405399726692204,
+        "cluster_entropy_norm": 0.9817273485713813,
+        "label_entropy": 2.631772001339423,
+        "label_entropy_norm": 0.7183643283632875,
+        "mean_cluster_purity": 0.32496142006369966,
+        "std_cluster_purity": 0.11882263436593304,
+        "frames": 8338,
+        "labels": 39,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.39272418423817285,
+        "negative": 0.36193183561014636,
+        "wacs": 0.03079234862802649,
+        "positive_std": 0.1225024319275487,
+        "negative_std": 0.10382780585657019,
+        "cohen_d": 0.27074573539459657,
+        "snr": 0.13605052320446903,
+        "positive_pairs": 470,
+        "negative_pairs": 452,
+        "positive_min": 0.12831351295540516,
+        "positive_max": 0.8989264876871019,
+        "negative_min": 0.08167817432314517,
+        "negative_max": 0.8314127768252537,
+        "vocab_size": 92
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.12585654820669434,
+        "cluster_entropy": 3.8572726019004007,
+        "cluster_entropy_norm": 0.986004580379058,
+        "label_entropy": 2.631772001339423,
+        "label_entropy_norm": 0.7183643283632875,
+        "mean_cluster_purity": 0.32656734807713855,
+        "std_cluster_purity": 0.11863422174619861,
+        "frames": 8338,
+        "labels": 39,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4247872813567438,
+        "negative": 0.39188563557933886,
+        "wacs": 0.03290164577740495,
+        "positive_std": 0.1309129987621129,
+        "negative_std": 0.11248480098637506,
+        "cohen_d": 0.2692074597536283,
+        "snr": 0.13517642501139782,
+        "positive_pairs": 470,
+        "negative_pairs": 453,
+        "positive_min": 0.07982163523627062,
+        "positive_max": 0.904040198257047,
+        "negative_min": 0.12570893094790603,
+        "negative_max": 0.7676334400541353,
+        "vocab_size": 92
+      }
+    }
+  },
+  "be_by": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3518199527020934,
+        "cluster_entropy": 3.8587744364994134,
+        "cluster_entropy_norm": 0.986388482671281,
+        "label_entropy": 3.2936043726821813,
+        "label_entropy_norm": 0.886910046047703,
+        "mean_cluster_purity": 0.35142191538114587,
+        "std_cluster_purity": 0.19848987160240728,
+        "frames": 9694,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5833663144639734,
+        "negative": 0.3523388448792258,
+        "wacs": 0.23102746958474757,
+        "positive_std": 0.11320160386549204,
+        "negative_std": 0.06986027088209269,
+        "cohen_d": 2.35142965638355,
+        "snr": 1.2620184147197016,
+        "positive_pairs": 1503,
+        "negative_pairs": 996,
+        "positive_min": 0.1790652801864273,
+        "positive_max": 0.879667145730789,
+        "negative_min": 0.15661248459455346,
+        "negative_max": 0.6705281734588575,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3345761966437511,
+        "cluster_entropy": 3.8563002558829234,
+        "cluster_entropy_norm": 0.9857560271327893,
+        "label_entropy": 3.2936043726821813,
+        "label_entropy_norm": 0.886910046047703,
+        "mean_cluster_purity": 0.3743478329983149,
+        "std_cluster_purity": 0.23301971509074376,
+        "frames": 9694,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.612103233734243,
+        "negative": 0.4119062472381372,
+        "wacs": 0.20019698649610584,
+        "positive_std": 0.10424804748844718,
+        "negative_std": 0.072257106337569,
+        "cohen_d": 2.156741180808317,
+        "snr": 1.134227362851792,
+        "positive_pairs": 1503,
+        "negative_pairs": 997,
+        "positive_min": 0.20089663053498663,
+        "positive_max": 0.8789077146223003,
+        "negative_min": 0.14327800069252383,
+        "negative_max": 0.6630913245318861,
+        "vocab_size": 200
+      }
+    }
+  },
+  "bg_bg": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.08220500224803287,
+        "cluster_entropy": 3.850929411447601,
+        "cluster_entropy_norm": 0.984383119962287,
+        "label_entropy": 2.5889067738722686,
+        "label_entropy_norm": 0.7688385293675453,
+        "mean_cluster_purity": 0.259459469688836,
+        "std_cluster_purity": 0.07796767946292214,
+        "frames": 8667,
+        "labels": 29,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.38932655019542617,
+        "negative": 0.36537492400233246,
+        "wacs": 0.02395162619309371,
+        "positive_std": 0.10884778839812723,
+        "negative_std": 0.08719559842580676,
+        "cohen_d": 0.2408175742731631,
+        "snr": 0.12217512337130436,
+        "positive_pairs": 454,
+        "negative_pairs": 388,
+        "positive_min": 0.14936688783713337,
+        "positive_max": 0.8903144246148886,
+        "negative_min": 0.14563632293027462,
+        "negative_max": 0.7929511763785149,
+        "vocab_size": 78
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.08039468156169853,
+        "cluster_entropy": 3.8703751871846013,
+        "cluster_entropy_norm": 0.9893538922992641,
+        "label_entropy": 2.5889067738722686,
+        "label_entropy_norm": 0.7688385293675453,
+        "mean_cluster_purity": 0.26245169216718334,
+        "std_cluster_purity": 0.08038033279350756,
+        "frames": 8667,
+        "labels": 29,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4350817368279802,
+        "negative": 0.4076051975143542,
+        "wacs": 0.02747653931362598,
+        "positive_std": 0.11847547942128868,
+        "negative_std": 0.11128792424820176,
+        "cohen_d": 0.2384611187030478,
+        "snr": 0.11958622512960385,
+        "positive_pairs": 454,
+        "negative_pairs": 387,
+        "positive_min": 0.08025069717896294,
+        "positive_max": 0.8601164945828651,
+        "negative_min": 0.08891285447007191,
+        "negative_max": 0.8257223123259035,
+        "vocab_size": 78
+      }
+    }
+  },
+  "bn_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2731439107323975,
+        "cluster_entropy": 3.863404512330332,
+        "cluster_entropy_norm": 0.9875720329276303,
+        "label_entropy": 3.130465034950682,
+        "label_entropy_norm": 0.7847775269111347,
+        "mean_cluster_purity": 0.34654920037893666,
+        "std_cluster_purity": 0.19405317090801097,
+        "frames": 8949,
+        "labels": 54,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6010922454623431,
+        "negative": 0.4087024910311558,
+        "wacs": 0.19238975443118728,
+        "positive_std": 0.1329434110366434,
+        "negative_std": 0.0671974522051848,
+        "cohen_d": 1.7288312641614993,
+        "snr": 0.9612716848633147,
+        "positive_pairs": 1478,
+        "negative_pairs": 994,
+        "positive_min": 0.16904809002710497,
+        "positive_max": 0.9141901209081655,
+        "negative_min": 0.23611233088735728,
+        "negative_max": 0.7791661814640362,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.25049685781287595,
+        "cluster_entropy": 3.8466891807104595,
+        "cluster_entropy_norm": 0.9832992227737332,
+        "label_entropy": 3.130465034950682,
+        "label_entropy_norm": 0.7847775269111347,
+        "mean_cluster_purity": 0.31538440825740194,
+        "std_cluster_purity": 0.18276053815155902,
+        "frames": 8949,
+        "labels": 54,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6196548534824387,
+        "negative": 0.45517049602577153,
+        "wacs": 0.16448435745666712,
+        "positive_std": 0.12164133447967025,
+        "negative_std": 0.0753711608616832,
+        "cohen_d": 1.5592908305807471,
+        "snr": 0.8348929788577305,
+        "positive_pairs": 1478,
+        "negative_pairs": 996,
+        "positive_min": 0.1480379010166082,
+        "positive_max": 0.9326521214741605,
+        "negative_min": 0.2294098367476749,
+        "negative_max": 0.704367566219561,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ca_es": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.31424580644137406,
+        "cluster_entropy": 3.845946792782698,
+        "cluster_entropy_norm": 0.9831094519245506,
+        "label_entropy": 2.650497505289086,
+        "label_entropy_norm": 0.7340231956001912,
+        "mean_cluster_purity": 0.4672284755123018,
+        "std_cluster_purity": 0.2552712311470798,
+        "frames": 8129,
+        "labels": 37,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5934975282432223,
+        "negative": 0.394796232892949,
+        "wacs": 0.1987012953502733,
+        "positive_std": 0.11101087151466368,
+        "negative_std": 0.07206185810490735,
+        "cohen_d": 2.0661540913488614,
+        "snr": 1.085368011442767,
+        "positive_pairs": 952,
+        "negative_pairs": 722,
+        "positive_min": 0.20558212784959728,
+        "positive_max": 0.8944218871001257,
+        "negative_min": 0.2039629459028115,
+        "negative_max": 0.6630502721082766,
+        "vocab_size": 145
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.28919209964979736,
+        "cluster_entropy": 3.839681172641436,
+        "cluster_entropy_norm": 0.981507820202915,
+        "label_entropy": 2.650497505289086,
+        "label_entropy_norm": 0.7340231956001912,
+        "mean_cluster_purity": 0.45017893946948206,
+        "std_cluster_purity": 0.2417716469800603,
+        "frames": 8129,
+        "labels": 37,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6057207558075045,
+        "negative": 0.4237524697149683,
+        "wacs": 0.18196828609253618,
+        "positive_std": 0.11073785132018966,
+        "negative_std": 0.07920673736764795,
+        "cohen_d": 1.8483232850689215,
+        "snr": 0.9580071628758973,
+        "positive_pairs": 952,
+        "negative_pairs": 716,
+        "positive_min": 0.17820110612842432,
+        "positive_max": 0.8981704543158611,
+        "negative_min": 0.1862772630233931,
+        "negative_max": 0.706413444545548,
+        "vocab_size": 145
+      }
+    }
+  },
+  "ceb_ph": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.09930069160857928,
+        "cluster_entropy": 3.8475842476430873,
+        "cluster_entropy_norm": 0.9835280217688785,
+        "label_entropy": 2.4319617881659044,
+        "label_entropy_norm": 0.7150310656117851,
+        "mean_cluster_purity": 0.33841590996121473,
+        "std_cluster_purity": 0.12480552147327888,
+        "frames": 8885,
+        "labels": 30,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4115271486376811,
+        "negative": 0.357610163484898,
+        "wacs": 0.05391698515278309,
+        "positive_std": 0.12151820804416123,
+        "negative_std": 0.07938847147054386,
+        "cohen_d": 0.5168869789544107,
+        "snr": 0.26836829218091673,
+        "positive_pairs": 735,
+        "negative_pairs": 624,
+        "positive_min": 0.13798878455660346,
+        "positive_max": 0.8480523625470714,
+        "negative_min": 0.1550630196902818,
+        "negative_max": 0.66193298714371,
+        "vocab_size": 126
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.10746031627077564,
+        "cluster_entropy": 3.8599948611540977,
+        "cluster_entropy_norm": 0.9867004503291886,
+        "label_entropy": 2.4319617881659044,
+        "label_entropy_norm": 0.7150310656117851,
+        "mean_cluster_purity": 0.33669630530365546,
+        "std_cluster_purity": 0.11687424495122659,
+        "frames": 8885,
+        "labels": 30,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4372968991641633,
+        "negative": 0.3867217060592053,
+        "wacs": 0.050575193104958005,
+        "positive_std": 0.12652247717878304,
+        "negative_std": 0.08786246192465022,
+        "cohen_d": 0.4580183727566797,
+        "snr": 0.23590831966733466,
+        "positive_pairs": 735,
+        "negative_pairs": 627,
+        "positive_min": 0.10545765463180201,
+        "positive_max": 0.8890902636531022,
+        "negative_min": 0.15284740627215854,
+        "negative_max": 0.7097246353489794,
+        "vocab_size": 126
+      }
+    }
+  },
+  "ckb_iq": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2212747098596621,
+        "cluster_entropy": 3.726061354662563,
+        "cluster_entropy_norm": 0.952464070250213,
+        "label_entropy": 0.6805465160323236,
+        "label_entropy_norm": 0.2354529358284617,
+        "mean_cluster_purity": 0.9723333333333334,
+        "std_cluster_purity": 0.13725928424376657,
+        "frames": 299,
+        "labels": 18,
+        "clusters_used": 50
+      },
+      "wacs": null
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.21087288411549923,
+        "cluster_entropy": 3.697682406084691,
+        "cluster_entropy_norm": 0.9452097804521994,
+        "label_entropy": 0.6805465160323236,
+        "label_entropy_norm": 0.2354529358284617,
+        "mean_cluster_purity": 0.967051282051282,
+        "std_cluster_purity": 0.13168364307704808,
+        "frames": 299,
+        "labels": 18,
+        "clusters_used": 50
+      },
+      "wacs": null
+    }
+  },
+  "cmn_hans_cn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3776416159726469,
+        "cluster_entropy": 3.850707922203413,
+        "cluster_entropy_norm": 0.9843265023902837,
+        "label_entropy": 3.322544652869113,
+        "label_entropy_norm": 0.913392702461522,
+        "mean_cluster_purity": 0.4256684666158762,
+        "std_cluster_purity": 0.23598550559542167,
+        "frames": 9506,
+        "labels": 38,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6260865187114124,
+        "negative": 0.39539205870651367,
+        "wacs": 0.23069446000489874,
+        "positive_std": 0.09642118617477302,
+        "negative_std": 0.07449900246318321,
+        "cohen_d": 2.600460602167735,
+        "snr": 1.3497202896046043,
+        "positive_pairs": 1612,
+        "negative_pairs": 992,
+        "positive_min": 0.24112699701912133,
+        "positive_max": 0.9286090283835852,
+        "negative_min": 0.2052263673079473,
+        "negative_max": 0.6663339870456708,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.34585266714037344,
+        "cluster_entropy": 3.8558291287331254,
+        "cluster_entropy_norm": 0.9856355965654986,
+        "label_entropy": 3.322544652869113,
+        "label_entropy_norm": 0.913392702461522,
+        "mean_cluster_purity": 0.39337623802514465,
+        "std_cluster_purity": 0.23925940587073416,
+        "frames": 9506,
+        "labels": 38,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6359981832889371,
+        "negative": 0.4450755652653677,
+        "wacs": 0.1909226180235694,
+        "positive_std": 0.09491623004500543,
+        "negative_std": 0.0788677397483435,
+        "cohen_d": 2.1421480807803515,
+        "snr": 1.0986203575876239,
+        "positive_pairs": 1612,
+        "negative_pairs": 997,
+        "positive_min": 0.2873737640664169,
+        "positive_max": 0.9393482512610298,
+        "negative_min": 0.18745891226061917,
+        "negative_max": 0.6870514983283476,
+        "vocab_size": 200
+      }
+    }
+  },
+  "cs_cz": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.29206173921712253,
+        "cluster_entropy": 3.8539734814898203,
+        "cluster_entropy_norm": 0.9851612519001605,
+        "label_entropy": 3.2423377032377747,
+        "label_entropy_norm": 0.873104828719605,
+        "mean_cluster_purity": 0.31629201520962746,
+        "std_cluster_purity": 0.20901123563560645,
+        "frames": 9317,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5623910561696732,
+        "negative": 0.37784675153937447,
+        "wacs": 0.18454430463029875,
+        "positive_std": 0.13275570645433873,
+        "negative_std": 0.06942772297330616,
+        "cohen_d": 1.6768865890974027,
+        "snr": 0.9127567774725752,
+        "positive_pairs": 1194,
+        "negative_pairs": 903,
+        "positive_min": 0.16529524381889282,
+        "positive_max": 0.9028189806472408,
+        "negative_min": 0.173812119098267,
+        "negative_max": 0.6160432133890508,
+        "vocab_size": 181
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.2697510719770463,
+        "cluster_entropy": 3.874784896466215,
+        "cluster_entropy_norm": 0.990481111969367,
+        "label_entropy": 3.2423377032377747,
+        "label_entropy_norm": 0.873104828719605,
+        "mean_cluster_purity": 0.29891539108015697,
+        "std_cluster_purity": 0.20219283722137216,
+        "frames": 9317,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5843103614400843,
+        "negative": 0.4253669289938724,
+        "wacs": 0.1589434324462119,
+        "positive_std": 0.1229129038522004,
+        "negative_std": 0.07515316459474382,
+        "cohen_d": 1.5120170512810984,
+        "snr": 0.8024767981095154,
+        "positive_pairs": 1194,
+        "negative_pairs": 897,
+        "positive_min": 0.21798550131190442,
+        "positive_max": 0.9099430434787797,
+        "negative_min": 0.1562865498584194,
+        "negative_max": 0.7162352874637505,
+        "vocab_size": 181
+      }
+    }
+  },
+  "cy_gb": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1432369278945308,
+        "cluster_entropy": 3.8194880091689094,
+        "cluster_entropy_norm": 0.9763459989548019,
+        "label_entropy": 2.4937399638597837,
+        "label_entropy_norm": 0.6476998343523711,
+        "mean_cluster_purity": 0.45900316846063094,
+        "std_cluster_purity": 0.14205978775672892,
+        "frames": 7169,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.3923544711849781,
+        "negative": 0.360320412775264,
+        "wacs": 0.03203405840971413,
+        "positive_std": 0.13456127226635362,
+        "negative_std": 0.11995003561760205,
+        "cohen_d": 0.2505898397952582,
+        "snr": 0.12586496614787107,
+        "positive_pairs": 436,
+        "negative_pairs": 394,
+        "positive_min": 0.10961529648317381,
+        "positive_max": 0.86210554304312,
+        "negative_min": 0.13509351885008003,
+        "negative_max": 0.8294373527313769,
+        "vocab_size": 79
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.14459171910639446,
+        "cluster_entropy": 3.8327886486230125,
+        "cluster_entropy_norm": 0.9797459379213284,
+        "label_entropy": 2.4937399638597837,
+        "label_entropy_norm": 0.6476998343523711,
+        "mean_cluster_purity": 0.4568072815706376,
+        "std_cluster_purity": 0.1645825858192468,
+        "frames": 7169,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.41697225880921857,
+        "negative": 0.3733293987040692,
+        "wacs": 0.04364286010514934,
+        "positive_std": 0.13297384769613924,
+        "negative_std": 0.11160897419326743,
+        "cohen_d": 0.3538139072421445,
+        "snr": 0.17843795399704665,
+        "positive_pairs": 436,
+        "negative_pairs": 390,
+        "positive_min": 0.10992275774173343,
+        "positive_max": 0.871535961917189,
+        "negative_min": 0.111186331831587,
+        "negative_max": 0.8147453784991168,
+        "vocab_size": 79
+      }
+    }
+  },
+  "da_dk": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.11990712654216448,
+        "cluster_entropy": 3.848267513589037,
+        "cluster_entropy_norm": 0.9837026797259002,
+        "label_entropy": 2.275861010103564,
+        "label_entropy_norm": 0.6088983892452267,
+        "mean_cluster_purity": 0.4343145519078696,
+        "std_cluster_purity": 0.16348702058766693,
+        "frames": 6985,
+        "labels": 42,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4263657691730381,
+        "negative": 0.39407296695969113,
+        "wacs": 0.03229280221334696,
+        "positive_std": 0.12492459645032725,
+        "negative_std": 0.10145073543171437,
+        "cohen_d": 0.2804511860966914,
+        "snr": 0.1426515889269155,
+        "positive_pairs": 327,
+        "negative_pairs": 259,
+        "positive_min": 0.17811840128481193,
+        "positive_max": 0.8667879721279299,
+        "negative_min": 0.14409746214986452,
+        "negative_max": 0.8093092210612975,
+        "vocab_size": 53
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.11933879854608888,
+        "cluster_entropy": 3.8547257954567327,
+        "cluster_entropy_norm": 0.9853535600654929,
+        "label_entropy": 2.275861010103564,
+        "label_entropy_norm": 0.6088983892452267,
+        "mean_cluster_purity": 0.42426110425537983,
+        "std_cluster_purity": 0.1574424613251983,
+        "frames": 6985,
+        "labels": 42,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.424585823408266,
+        "negative": 0.3824986397446843,
+        "wacs": 0.04208718366358172,
+        "positive_std": 0.13538118574716282,
+        "negative_std": 0.10184447919365415,
+        "cohen_d": 0.34588709103784454,
+        "snr": 0.17741411705997515,
+        "positive_pairs": 327,
+        "negative_pairs": 260,
+        "positive_min": 0.13285535679518456,
+        "positive_max": 0.8350092961607467,
+        "negative_min": 0.14485287056700802,
+        "negative_max": 0.7750800779094525,
+        "vocab_size": 53
+      }
+    }
+  },
+  "de_de": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.29491244787565873,
+        "cluster_entropy": 3.854404400242476,
+        "cluster_entropy_norm": 0.9852714043077658,
+        "label_entropy": 3.301953173272,
+        "label_entropy_norm": 0.8834256396338519,
+        "mean_cluster_purity": 0.35186768897498544,
+        "std_cluster_purity": 0.24422799410328677,
+        "frames": 9368,
+        "labels": 42,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5844358838977273,
+        "negative": 0.40073113507194086,
+        "wacs": 0.1837047488257864,
+        "positive_std": 0.1084622015219873,
+        "negative_std": 0.06726810237828645,
+        "cohen_d": 1.9552329978699323,
+        "snr": 1.045378823656106,
+        "positive_pairs": 1456,
+        "negative_pairs": 994,
+        "positive_min": 0.227693347497956,
+        "positive_max": 0.9030984169428182,
+        "negative_min": 0.20216283460950069,
+        "negative_max": 0.7000024480145556,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.2907336265778502,
+        "cluster_entropy": 3.8572619079111172,
+        "cluster_entropy_norm": 0.9860018467577913,
+        "label_entropy": 3.301953173272,
+        "label_entropy_norm": 0.8834256396338519,
+        "mean_cluster_purity": 0.3366534955026151,
+        "std_cluster_purity": 0.24229506562664788,
+        "frames": 9368,
+        "labels": 42,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6203441344453757,
+        "negative": 0.4374795585545513,
+        "wacs": 0.18286457589082444,
+        "positive_std": 0.11025046628983055,
+        "negative_std": 0.0744840207209977,
+        "cohen_d": 1.8786242802987436,
+        "snr": 0.9898777913694473,
+        "positive_pairs": 1456,
+        "negative_pairs": 994,
+        "positive_min": 0.20438189017152042,
+        "positive_max": 0.9203361510041256,
+        "negative_min": 0.22149336345907167,
+        "negative_max": 0.6556628176383291,
+        "vocab_size": 200
+      }
+    }
+  },
+  "el_gr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.09661979316759846,
+        "cluster_entropy": 3.8478263803722648,
+        "cluster_entropy_norm": 0.9835899162743151,
+        "label_entropy": 2.8993592195493316,
+        "label_entropy_norm": 0.861034897418258,
+        "mean_cluster_purity": 0.21827627076423245,
+        "std_cluster_purity": 0.20121217059377627,
+        "frames": 9587,
+        "labels": 29,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4029169176961144,
+        "negative": 0.38054952676669573,
+        "wacs": 0.02236739092941864,
+        "positive_std": 0.08774962851957308,
+        "negative_std": 0.06496907282401827,
+        "cohen_d": 0.28588568183038804,
+        "snr": 0.14646136503270896,
+        "positive_pairs": 704,
+        "negative_pairs": 585,
+        "positive_min": 0.1665052654520448,
+        "positive_max": 0.8161356674795934,
+        "negative_min": 0.15493341297201613,
+        "negative_max": 0.6473852765629908,
+        "vocab_size": 118
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.09315992036212356,
+        "cluster_entropy": 3.8358928555881566,
+        "cluster_entropy_norm": 0.9805394421928617,
+        "label_entropy": 2.8993592195493316,
+        "label_entropy_norm": 0.861034897418258,
+        "mean_cluster_purity": 0.23239018463303854,
+        "std_cluster_purity": 0.23299470719141135,
+        "frames": 9587,
+        "labels": 29,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.45122247109739105,
+        "negative": 0.4274770135684467,
+        "wacs": 0.023745457528944358,
+        "positive_std": 0.0927772840542301,
+        "negative_std": 0.07891120196575735,
+        "cohen_d": 0.27370845627163415,
+        "snr": 0.13830546646631459,
+        "positive_pairs": 704,
+        "negative_pairs": 586,
+        "positive_min": 0.1683377739950367,
+        "positive_max": 0.839906390264779,
+        "negative_min": 0.21798139626845536,
+        "negative_max": 0.7089561522097365,
+        "vocab_size": 118
+      }
+    }
+  },
+  "en_us": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3422100686846731,
+        "cluster_entropy": 3.8127848878007398,
+        "cluster_entropy_norm": 0.9746325321988885,
+        "label_entropy": 2.3487586106114424,
+        "label_entropy_norm": 0.6456915403450163,
+        "mean_cluster_purity": 0.5900296080834769,
+        "std_cluster_purity": 0.3227587514337552,
+        "frames": 3677,
+        "labels": 38,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5777064844481086,
+        "negative": 0.44306526028249826,
+        "wacs": 0.1346412241656103,
+        "positive_std": 0.10272030507012962,
+        "negative_std": 0.07244979013577398,
+        "cohen_d": 1.4831320370360508,
+        "snr": 0.7686312913230621,
+        "positive_pairs": 194,
+        "negative_pairs": 150,
+        "positive_min": 0.2760695314216356,
+        "positive_max": 0.8358628016476322,
+        "negative_min": 0.25281493265141164,
+        "negative_max": 0.6249343160155996,
+        "vocab_size": 31
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.317393408286356,
+        "cluster_entropy": 3.8456118692007863,
+        "cluster_entropy_norm": 0.9830238380154691,
+        "label_entropy": 2.3487586106114424,
+        "label_entropy_norm": 0.6456915403450163,
+        "mean_cluster_purity": 0.6113382300680736,
+        "std_cluster_purity": 0.328639674190295,
+        "frames": 3677,
+        "labels": 38,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.591221937151051,
+        "negative": 0.4545333838291957,
+        "wacs": 0.13668855332185526,
+        "positive_std": 0.11401172023774915,
+        "negative_std": 0.08202196030998586,
+        "cohen_d": 1.3503790404078921,
+        "snr": 0.6972707239247278,
+        "positive_pairs": 194,
+        "negative_pairs": 152,
+        "positive_min": 0.206479800297113,
+        "positive_max": 0.8949513365444217,
+        "negative_min": 0.24993067993503904,
+        "negative_max": 0.6487464802650943,
+        "vocab_size": 31
+      }
+    }
+  },
+  "es_419": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.11769675114377523,
+        "cluster_entropy": 3.8564656218315756,
+        "cluster_entropy_norm": 0.9857982983434705,
+        "label_entropy": 2.4400046815797003,
+        "label_entropy_norm": 0.7322493784906999,
+        "mean_cluster_purity": 0.38670344904985643,
+        "std_cluster_purity": 0.2504892142530368,
+        "frames": 8872,
+        "labels": 28,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4762521867819644,
+        "negative": 0.36857055566789526,
+        "wacs": 0.10768163111406914,
+        "positive_std": 0.13495490560256154,
+        "negative_std": 0.07775281167569287,
+        "cohen_d": 0.9530969106335755,
+        "snr": 0.506242215512956,
+        "positive_pairs": 868,
+        "negative_pairs": 704,
+        "positive_min": 0.11178769394991872,
+        "positive_max": 0.8532748809893584,
+        "negative_min": 0.1773178148433493,
+        "negative_max": 0.6245870851230815,
+        "vocab_size": 142
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.11507886532302292,
+        "cluster_entropy": 3.8442360735616257,
+        "cluster_entropy_norm": 0.982672154081798,
+        "label_entropy": 2.4400046815797003,
+        "label_entropy_norm": 0.7322493784906999,
+        "mean_cluster_purity": 0.3791090614912958,
+        "std_cluster_purity": 0.25276330056895985,
+        "frames": 8872,
+        "labels": 28,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5065863767802945,
+        "negative": 0.40511381883184155,
+        "wacs": 0.10147255794845295,
+        "positive_std": 0.13287028897732717,
+        "negative_std": 0.08057817910335985,
+        "cohen_d": 0.9014036829910437,
+        "snr": 0.4753960246560983,
+        "positive_pairs": 868,
+        "negative_pairs": 700,
+        "positive_min": 0.16191049188285778,
+        "positive_max": 0.9061198584847789,
+        "negative_min": 0.13448174895577936,
+        "negative_max": 0.729579904371993,
+        "vocab_size": 142
+      }
+    }
+  },
+  "et_ee": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27439879155057295,
+        "cluster_entropy": 3.8670889941664073,
+        "cluster_entropy_norm": 0.9885138683490894,
+        "label_entropy": 2.944300542716673,
+        "label_entropy_norm": 0.7877369707355053,
+        "mean_cluster_purity": 0.36618310688455336,
+        "std_cluster_purity": 0.20153802626227585,
+        "frames": 8622,
+        "labels": 42,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6337318002491589,
+        "negative": 0.4006461497200562,
+        "wacs": 0.23308565052910268,
+        "positive_std": 0.1157469795585234,
+        "negative_std": 0.06714592765333494,
+        "cohen_d": 2.4125032386496192,
+        "snr": 1.2744378190386805,
+        "positive_pairs": 823,
+        "negative_pairs": 693,
+        "positive_min": 0.2917177355800762,
+        "positive_max": 0.9345683585808193,
+        "negative_min": 0.194203461529608,
+        "negative_max": 0.5871656051074674,
+        "vocab_size": 140
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.25783326280692215,
+        "cluster_entropy": 3.866036285552555,
+        "cluster_entropy_norm": 0.98824477263764,
+        "label_entropy": 2.944300542716673,
+        "label_entropy_norm": 0.7877369707355053,
+        "mean_cluster_purity": 0.37288439882785007,
+        "std_cluster_purity": 0.21705306498773977,
+        "frames": 8622,
+        "labels": 42,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6532507139301242,
+        "negative": 0.4446440680810433,
+        "wacs": 0.20860664584908095,
+        "positive_std": 0.10500636773075546,
+        "negative_std": 0.07010887137499966,
+        "cohen_d": 2.2996422599003106,
+        "snr": 1.191253456876847,
+        "positive_pairs": 823,
+        "negative_pairs": 695,
+        "positive_min": 0.3456191489207032,
+        "positive_max": 0.9350571776105758,
+        "negative_min": 0.22151629226024738,
+        "negative_max": 0.7053340664241581,
+        "vocab_size": 140
+      }
+    }
+  },
+  "fa_ir": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.28379211830699763,
+        "cluster_entropy": 3.823171614095314,
+        "cluster_entropy_norm": 0.9772876102186654,
+        "label_entropy": 2.871265463558661,
+        "label_entropy_norm": 0.8012418834308408,
+        "mean_cluster_purity": 0.4447705142016416,
+        "std_cluster_purity": 0.2514040628300923,
+        "frames": 9239,
+        "labels": 36,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5753837422158621,
+        "negative": 0.3717035952172818,
+        "wacs": 0.20368014699858028,
+        "positive_std": 0.12744052455269375,
+        "negative_std": 0.07454465971651456,
+        "cohen_d": 1.8466647269082772,
+        "snr": 1.0083914701545547,
+        "positive_pairs": 1611,
+        "negative_pairs": 994,
+        "positive_min": 0.21266981689724196,
+        "positive_max": 0.8810584950184858,
+        "negative_min": 0.16139646438637467,
+        "negative_max": 0.6236919501074816,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.2713261284488981,
+        "cluster_entropy": 3.8503698306718754,
+        "cluster_entropy_norm": 0.9842400786828903,
+        "label_entropy": 2.871265463558661,
+        "label_entropy_norm": 0.8012418834308408,
+        "mean_cluster_purity": 0.39300279897721163,
+        "std_cluster_purity": 0.2423647508735364,
+        "frames": 9239,
+        "labels": 36,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6057138604675508,
+        "negative": 0.4332896920342112,
+        "wacs": 0.17242416843333963,
+        "positive_std": 0.12388364833521878,
+        "negative_std": 0.07930408795461964,
+        "cohen_d": 1.5813056063120872,
+        "snr": 0.848595309420796,
+        "positive_pairs": 1611,
+        "negative_pairs": 995,
+        "positive_min": 0.16543498646359234,
+        "positive_max": 0.9033067855808827,
+        "negative_min": 0.13172803265244637,
+        "negative_max": 0.7962136896092779,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ff_sn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.371203759337523,
+        "cluster_entropy": 3.8663482177616504,
+        "cluster_entropy_norm": 0.9883245094409927,
+        "label_entropy": 3.305813693507499,
+        "label_entropy_norm": 0.8539504107879443,
+        "mean_cluster_purity": 0.3912253553780134,
+        "std_cluster_purity": 0.22164877299222735,
+        "frames": 9307,
+        "labels": 48,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5799090366038828,
+        "negative": 0.41008958250044075,
+        "wacs": 0.16981945410344207,
+        "positive_std": 0.10818066506051845,
+        "negative_std": 0.07198202080609928,
+        "cohen_d": 1.7523546233726601,
+        "snr": 0.9425894372116124,
+        "positive_pairs": 1804,
+        "negative_pairs": 991,
+        "positive_min": 0.2734160910408674,
+        "positive_max": 0.8872500332330328,
+        "negative_min": 0.1941451280869112,
+        "negative_max": 0.7320341809933497,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.35198467536362765,
+        "cluster_entropy": 3.8256119339715347,
+        "cluster_entropy_norm": 0.9779114101996048,
+        "label_entropy": 3.305813693507499,
+        "label_entropy_norm": 0.8539504107879443,
+        "mean_cluster_purity": 0.42058363092695344,
+        "std_cluster_purity": 0.25696242517068413,
+        "frames": 9307,
+        "labels": 48,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6090051078543364,
+        "negative": 0.45519063984146463,
+        "wacs": 0.15381446801287174,
+        "positive_std": 0.10108157094393415,
+        "negative_std": 0.07388458315577949,
+        "cohen_d": 1.6653395393727548,
+        "snr": 0.8791097913377841,
+        "positive_pairs": 1804,
+        "negative_pairs": 991,
+        "positive_min": 0.29118283536447553,
+        "positive_max": 0.8834392126722308,
+        "negative_min": 0.20422180319488337,
+        "negative_max": 0.6808528545665974,
+        "vocab_size": 200
+      }
+    }
+  },
+  "fi_fi": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.29108509489310386,
+        "cluster_entropy": 3.8034338916340125,
+        "cluster_entropy_norm": 0.9722422098122991,
+        "label_entropy": 2.9579437352737576,
+        "label_entropy_norm": 0.7725831251749572,
+        "mean_cluster_purity": 0.34314751865613113,
+        "std_cluster_purity": 0.19561126255860978,
+        "frames": 8349,
+        "labels": 46,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5649945706181024,
+        "negative": 0.38782551597832243,
+        "wacs": 0.17716905463978,
+        "positive_std": 0.1250885724877283,
+        "negative_std": 0.06299701228809541,
+        "cohen_d": 1.7302237845210124,
+        "snr": 0.9419597223856778,
+        "positive_pairs": 588,
+        "negative_pairs": 466,
+        "positive_min": 0.2272625185166457,
+        "positive_max": 0.8776088173816476,
+        "negative_min": 0.1986975056943645,
+        "negative_max": 0.5875447316810132,
+        "vocab_size": 95
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.2742782995548138,
+        "cluster_entropy": 3.8573429338934724,
+        "cluster_entropy_norm": 0.9860225587991681,
+        "label_entropy": 2.9579437352737576,
+        "label_entropy_norm": 0.7725831251749572,
+        "mean_cluster_purity": 0.3476311832781039,
+        "std_cluster_purity": 0.20835088387576087,
+        "frames": 8349,
+        "labels": 46,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5846987501006046,
+        "negative": 0.44176694933959204,
+        "wacs": 0.14293180076101253,
+        "positive_std": 0.11588025507553182,
+        "negative_std": 0.07291134422664411,
+        "cohen_d": 1.4416491425337865,
+        "snr": 0.7570876761383969,
+        "positive_pairs": 588,
+        "negative_pairs": 469,
+        "positive_min": 0.14822966443651486,
+        "positive_max": 0.8981008467700581,
+        "negative_min": 0.23487335615353733,
+        "negative_max": 0.6554565225867305,
+        "vocab_size": 95
+      }
+    }
+  },
+  "fr_fr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.10871906308149468,
+        "cluster_entropy": 3.850463724579251,
+        "cluster_entropy_norm": 0.98426408005181,
+        "label_entropy": 2.852023316949804,
+        "label_entropy_norm": 0.749218856311552,
+        "mean_cluster_purity": 0.23963891140375634,
+        "std_cluster_purity": 0.19786434245383316,
+        "frames": 8527,
+        "labels": 45,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.3859040618939859,
+        "negative": 0.35685309252674824,
+        "wacs": 0.029050969367237667,
+        "positive_std": 0.09891245631918737,
+        "negative_std": 0.07462939636806325,
+        "cohen_d": 0.3274637169821177,
+        "snr": 0.16740035468901257,
+        "positive_pairs": 666,
+        "negative_pairs": 554,
+        "positive_min": 0.10428304952563394,
+        "positive_max": 0.8955877573437695,
+        "negative_min": 0.11902043956599029,
+        "negative_max": 0.7161773562884539,
+        "vocab_size": 112
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.10912069220515677,
+        "cluster_entropy": 3.837180685462515,
+        "cluster_entropy_norm": 0.98086864012257,
+        "label_entropy": 2.852023316949804,
+        "label_entropy_norm": 0.749218856311552,
+        "mean_cluster_purity": 0.2910175482934205,
+        "std_cluster_purity": 0.24778308375272573,
+        "frames": 8527,
+        "labels": 45,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.42547305133535107,
+        "negative": 0.39367341992024274,
+        "wacs": 0.03179963141510833,
+        "positive_std": 0.10107892118728107,
+        "negative_std": 0.07690765374378578,
+        "cohen_d": 0.34969003265658954,
+        "snr": 0.1786630797339257,
+        "positive_pairs": 666,
+        "negative_pairs": 551,
+        "positive_min": 0.13585489043175558,
+        "positive_max": 0.9063419582907748,
+        "negative_min": 0.031614362556903974,
+        "negative_max": 0.6261145844954537,
+        "vocab_size": 112
+      }
+    }
+  },
+  "ga_ie": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1735470362017464,
+        "cluster_entropy": 3.8372089734946826,
+        "cluster_entropy_norm": 0.9808758711721136,
+        "label_entropy": 2.8239621887815125,
+        "label_entropy_norm": 0.6624851666650599,
+        "mean_cluster_purity": 0.36705559310619107,
+        "std_cluster_purity": 0.17152279469449674,
+        "frames": 7156,
+        "labels": 71,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4474637986809235,
+        "negative": 0.3782522538648847,
+        "wacs": 0.0692115448160388,
+        "positive_std": 0.13164499844318842,
+        "negative_std": 0.09328907580526861,
+        "cohen_d": 0.5933470370832832,
+        "snr": 0.3076970084248741,
+        "positive_pairs": 475,
+        "negative_pairs": 361,
+        "positive_min": 0.17502702845601503,
+        "positive_max": 0.8606868970734675,
+        "negative_min": 0.08171634248486914,
+        "negative_max": 0.6809398328077436,
+        "vocab_size": 73
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.17010135397459947,
+        "cluster_entropy": 3.848057963804715,
+        "cluster_entropy_norm": 0.9836491141451172,
+        "label_entropy": 2.8239621887815125,
+        "label_entropy_norm": 0.6624851666650599,
+        "mean_cluster_purity": 0.3755985385089939,
+        "std_cluster_purity": 0.15999182609589171,
+        "frames": 7156,
+        "labels": 71,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.46710181905284354,
+        "negative": 0.39758343477079855,
+        "wacs": 0.06951838428204499,
+        "positive_std": 0.13826905935599157,
+        "negative_std": 0.09309355500586967,
+        "cohen_d": 0.5752060022807581,
+        "snr": 0.30047370215387603,
+        "positive_pairs": 475,
+        "negative_pairs": 361,
+        "positive_min": 0.08407544520464771,
+        "positive_max": 0.8595419091303365,
+        "negative_min": 0.12826907413488342,
+        "negative_max": 0.7548259478784437,
+        "vocab_size": 73
+      }
+    }
+  },
+  "gl_es": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.08941721956444813,
+        "cluster_entropy": 3.860491691873737,
+        "cluster_entropy_norm": 0.986827451300029,
+        "label_entropy": 2.4768207226666306,
+        "label_entropy_norm": 0.6714290215974432,
+        "mean_cluster_purity": 0.3131320535776445,
+        "std_cluster_purity": 0.18254016190910638,
+        "frames": 7902,
+        "labels": 40,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.3954433997620941,
+        "negative": 0.3666062596425661,
+        "wacs": 0.028837140119527982,
+        "positive_std": 0.09222727601207932,
+        "negative_std": 0.07828729861738719,
+        "cohen_d": 0.3362174600190852,
+        "snr": 0.16911832018470435,
+        "positive_pairs": 489,
+        "negative_pairs": 458,
+        "positive_min": 0.14975436605294767,
+        "positive_max": 0.8781777974478404,
+        "negative_min": 0.13209124172534337,
+        "negative_max": 0.6700433124178732,
+        "vocab_size": 92
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.08659620269597243,
+        "cluster_entropy": 3.85056186838677,
+        "cluster_entropy_norm": 0.9842891677896333,
+        "label_entropy": 2.4768207226666306,
+        "label_entropy_norm": 0.6714290215974432,
+        "mean_cluster_purity": 0.35244220554317734,
+        "std_cluster_purity": 0.23504320759121955,
+        "frames": 7902,
+        "labels": 40,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4208956104034784,
+        "negative": 0.38279336514640094,
+        "wacs": 0.03810224525707745,
+        "positive_std": 0.10105981392169826,
+        "negative_std": 0.08778147607701353,
+        "cohen_d": 0.40156125231192064,
+        "snr": 0.2017686028286046,
+        "positive_pairs": 489,
+        "negative_pairs": 456,
+        "positive_min": 0.11178182131605718,
+        "positive_max": 0.9019518251801464,
+        "negative_min": 0.1280469691120999,
+        "negative_max": 0.6212091558751236,
+        "vocab_size": 92
+      }
+    }
+  },
+  "ha_ng": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.43241459502876084,
+        "cluster_entropy": 3.836071799178268,
+        "cluster_entropy_norm": 0.9805851841503765,
+        "label_entropy": 3.1196986906511768,
+        "label_entropy_norm": 0.8016039929093607,
+        "mean_cluster_purity": 0.4863963904646702,
+        "std_cluster_purity": 0.22652601102496764,
+        "frames": 9142,
+        "labels": 49,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.627959935806351,
+        "negative": 0.3901676549442047,
+        "wacs": 0.23779228086214632,
+        "positive_std": 0.1095017646772966,
+        "negative_std": 0.07337958119330053,
+        "cohen_d": 2.424144875259335,
+        "snr": 1.3002543628908951,
+        "positive_pairs": 1776,
+        "negative_pairs": 993,
+        "positive_min": 0.22992785195969845,
+        "positive_max": 0.8828878287207407,
+        "negative_min": 0.14581628982745298,
+        "negative_max": 0.6789917349671617,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3973695516096708,
+        "cluster_entropy": 3.864319216859171,
+        "cluster_entropy_norm": 0.9878058517286878,
+        "label_entropy": 3.1196986906511768,
+        "label_entropy_norm": 0.8016039929093607,
+        "mean_cluster_purity": 0.46300850221758316,
+        "std_cluster_purity": 0.22979051857513566,
+        "frames": 9142,
+        "labels": 49,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6494193980103925,
+        "negative": 0.43894979206414714,
+        "wacs": 0.21046960594624536,
+        "positive_std": 0.10298036516463227,
+        "negative_std": 0.0763843625264752,
+        "cohen_d": 2.2321895361078115,
+        "snr": 1.173416852473562,
+        "positive_pairs": 1776,
+        "negative_pairs": 997,
+        "positive_min": 0.31499103619872604,
+        "positive_max": 0.902582201903118,
+        "negative_min": 0.1647712492623129,
+        "negative_max": 0.6613821253601112,
+        "vocab_size": 200
+      }
+    }
+  },
+  "he_il": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.17999647756469428,
+        "cluster_entropy": 3.860594834311881,
+        "cluster_entropy_norm": 0.9868538167989029,
+        "label_entropy": 1.453583523470804,
+        "label_entropy_norm": 0.4157244044000158,
+        "mean_cluster_purity": 0.726294790133332,
+        "std_cluster_purity": 0.17684208299775916,
+        "frames": 6301,
+        "labels": 33,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5388092623951675,
+        "negative": 0.4078284685747576,
+        "wacs": 0.1309807938204099,
+        "positive_std": 0.13176023496656414,
+        "negative_std": 0.0708535152950061,
+        "cohen_d": 1.235619194752365,
+        "snr": 0.6464555697071924,
+        "positive_pairs": 135,
+        "negative_pairs": 133,
+        "positive_min": 0.2797539525480328,
+        "positive_max": 0.880274120035353,
+        "negative_min": 0.2408005978987564,
+        "negative_max": 0.6077812422314419,
+        "vocab_size": 27
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.1638160709953817,
+        "cluster_entropy": 3.837969655022851,
+        "cluster_entropy_norm": 0.9810703182720188,
+        "label_entropy": 1.453583523470804,
+        "label_entropy_norm": 0.4157244044000158,
+        "mean_cluster_purity": 0.7287540628351931,
+        "std_cluster_purity": 0.17573218930075393,
+        "frames": 6301,
+        "labels": 33,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5802893002041198,
+        "negative": 0.464758876704313,
+        "wacs": 0.11553042349980686,
+        "positive_std": 0.12393446248007249,
+        "negative_std": 0.07538494379893576,
+        "cohen_d": 1.1224149109213506,
+        "snr": 0.5796245326049262,
+        "positive_pairs": 135,
+        "negative_pairs": 131,
+        "positive_min": 0.27060852457832285,
+        "positive_max": 0.907368225598674,
+        "negative_min": 0.27301453502590345,
+        "negative_max": 0.6647095483112175,
+        "vocab_size": 27
+      }
+    }
+  },
+  "hi_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3483610092354112,
+        "cluster_entropy": 3.847137920896512,
+        "cluster_entropy_norm": 0.9834139307356827,
+        "label_entropy": 3.4993088992369916,
+        "label_entropy_norm": 0.8446041778334151,
+        "mean_cluster_purity": 0.3732307549598442,
+        "std_cluster_purity": 0.22342427324803107,
+        "frames": 9153,
+        "labels": 63,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.577971254504905,
+        "negative": 0.38567150182093834,
+        "wacs": 0.1922997526839667,
+        "positive_std": 0.10501840802008959,
+        "negative_std": 0.06733225731435326,
+        "cohen_d": 2.0643685240775045,
+        "snr": 1.1157470216511371,
+        "positive_pairs": 1756,
+        "negative_pairs": 997,
+        "positive_min": 0.24103175864343473,
+        "positive_max": 0.8911328711527932,
+        "negative_min": 0.18076709711007888,
+        "negative_max": 0.6169737344269186,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.33157292842167246,
+        "cluster_entropy": 3.8548399420620267,
+        "cluster_entropy_norm": 0.9853827384739878,
+        "label_entropy": 3.4993088992369916,
+        "label_entropy_norm": 0.8446041778334151,
+        "mean_cluster_purity": 0.34839581542903375,
+        "std_cluster_purity": 0.20323580577562667,
+        "frames": 9153,
+        "labels": 63,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6044024972836226,
+        "negative": 0.43797288701959564,
+        "wacs": 0.16642961026402697,
+        "positive_std": 0.10207425487491766,
+        "negative_std": 0.07428186249801129,
+        "cohen_d": 1.790136886355778,
+        "snr": 0.9437132281323518,
+        "positive_pairs": 1756,
+        "negative_pairs": 998,
+        "positive_min": 0.2152465984954014,
+        "positive_max": 0.9087633473745609,
+        "negative_min": 0.20637592953224848,
+        "negative_max": 0.7182908761966136,
+        "vocab_size": 200
+      }
+    }
+  },
+  "hr_hr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.31301505495277354,
+        "cluster_entropy": 3.84460229199926,
+        "cluster_entropy_norm": 0.9827657676513313,
+        "label_entropy": 3.0727271979825486,
+        "label_entropy_norm": 0.87135934528901,
+        "mean_cluster_purity": 0.37471062637682695,
+        "std_cluster_purity": 0.22189303997273718,
+        "frames": 9387,
+        "labels": 34,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6274906158840852,
+        "negative": 0.408605467136525,
+        "wacs": 0.21888514874756015,
+        "positive_std": 0.1034416022292751,
+        "negative_std": 0.06504660501298247,
+        "cohen_d": 2.4604523699994645,
+        "snr": 1.2991124977768642,
+        "positive_pairs": 1319,
+        "negative_pairs": 998,
+        "positive_min": 0.19399083383287763,
+        "positive_max": 0.8989296599146541,
+        "negative_min": 0.21957111308439048,
+        "negative_max": 0.6479829585544319,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.29785552583043695,
+        "cluster_entropy": 3.8739300213087424,
+        "cluster_entropy_norm": 0.9902625868849576,
+        "label_entropy": 3.0727271979825486,
+        "label_entropy_norm": 0.87135934528901,
+        "mean_cluster_purity": 0.3590697674770583,
+        "std_cluster_purity": 0.22766809436162305,
+        "frames": 9387,
+        "labels": 34,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6436918155142424,
+        "negative": 0.4557458267922816,
+        "wacs": 0.18794598872196078,
+        "positive_std": 0.10071297002619113,
+        "negative_std": 0.07297669224257795,
+        "cohen_d": 2.091611092589371,
+        "snr": 1.0820792409069167,
+        "positive_pairs": 1319,
+        "negative_pairs": 993,
+        "positive_min": 0.2224845592959489,
+        "positive_max": 0.9033421435073938,
+        "negative_min": 0.24685190543377855,
+        "negative_max": 0.7287897776065149,
+        "vocab_size": 200
+      }
+    }
+  },
+  "hu_hu": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": null
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": null
+    }
+  },
+  "hy_am": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.32731169875009414,
+        "cluster_entropy": 3.8542025047486392,
+        "cluster_entropy_norm": 0.9852197953336989,
+        "label_entropy": 3.1700846679441295,
+        "label_entropy_norm": 0.8846289701234004,
+        "mean_cluster_purity": 0.396764087382151,
+        "std_cluster_purity": 0.2240041425168985,
+        "frames": 9439,
+        "labels": 36,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6068993491889991,
+        "negative": 0.3704198844320317,
+        "wacs": 0.2364794647569674,
+        "positive_std": 0.1008528182019205,
+        "negative_std": 0.07020418542736957,
+        "cohen_d": 2.6356352264480307,
+        "snr": 1.382459916373023,
+        "positive_pairs": 1467,
+        "negative_pairs": 997,
+        "positive_min": 0.28044673060510694,
+        "positive_max": 0.9228462672228431,
+        "negative_min": 0.13493368457670096,
+        "negative_max": 0.6261321175686003,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.28647690231135803,
+        "cluster_entropy": 3.8673772973594964,
+        "cluster_entropy_norm": 0.9885875650509465,
+        "label_entropy": 3.1700846679441295,
+        "label_entropy_norm": 0.8846289701234004,
+        "mean_cluster_purity": 0.3447900248421481,
+        "std_cluster_purity": 0.2106701135105781,
+        "frames": 9439,
+        "labels": 36,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.644027329049341,
+        "negative": 0.4336055405309882,
+        "wacs": 0.2104217885183528,
+        "positive_std": 0.09622221511726466,
+        "negative_std": 0.07561351106109217,
+        "cohen_d": 2.378584117803645,
+        "snr": 1.2245519657211792,
+        "positive_pairs": 1467,
+        "negative_pairs": 997,
+        "positive_min": 0.3491493239336009,
+        "positive_max": 0.9324585393179115,
+        "negative_min": 0.1834774981803553,
+        "negative_max": 0.685848952248395,
+        "vocab_size": 200
+      }
+    }
+  },
+  "id_id": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2918030481704016,
+        "cluster_entropy": 3.866985479925597,
+        "cluster_entropy_norm": 0.9884874078091932,
+        "label_entropy": 2.871812905066963,
+        "label_entropy_norm": 0.8362910908101449,
+        "mean_cluster_purity": 0.41436526512676286,
+        "std_cluster_purity": 0.2130045250702814,
+        "frames": 9195,
+        "labels": 31,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5751855541508707,
+        "negative": 0.399165389684977,
+        "wacs": 0.1760201644658937,
+        "positive_std": 0.10869340157847117,
+        "negative_std": 0.07007087593980764,
+        "cohen_d": 1.830431462405556,
+        "snr": 0.9846494896129379,
+        "positive_pairs": 1684,
+        "negative_pairs": 997,
+        "positive_min": 0.2257421167639021,
+        "positive_max": 0.9148134133191352,
+        "negative_min": 0.20776777071498165,
+        "negative_max": 0.6010628405060627,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.24876746493502117,
+        "cluster_entropy": 3.846553622368128,
+        "cluster_entropy_norm": 0.9832645710495118,
+        "label_entropy": 2.871812905066963,
+        "label_entropy_norm": 0.8362910908101449,
+        "mean_cluster_purity": 0.4306882282847049,
+        "std_cluster_purity": 0.27331371856551023,
+        "frames": 9195,
+        "labels": 31,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6049550981199994,
+        "negative": 0.46637440361200033,
+        "wacs": 0.13858069450799904,
+        "positive_std": 0.10146322563884891,
+        "negative_std": 0.08218191616568396,
+        "cohen_d": 1.4626646485535486,
+        "snr": 0.7546112333828487,
+        "positive_pairs": 1684,
+        "negative_pairs": 999,
+        "positive_min": 0.31997805893713516,
+        "positive_max": 0.933826148665282,
+        "negative_min": 0.20077504158260717,
+        "negative_max": 0.8152928288035288,
+        "vocab_size": 200
+      }
+    }
+  },
+  "it_it": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.16017814239127295,
+        "cluster_entropy": 3.785790632353253,
+        "cluster_entropy_norm": 0.967732200730993,
+        "label_entropy": 2.8492445104798323,
+        "label_entropy_norm": 0.7529338606452555,
+        "mean_cluster_purity": 0.3089574764302028,
+        "std_cluster_purity": 0.21462548985096752,
+        "frames": 8737,
+        "labels": 44,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4589756409693041,
+        "negative": 0.3730961959180396,
+        "wacs": 0.08587944505126449,
+        "positive_std": 0.14418083497530898,
+        "negative_std": 0.07666052363148675,
+        "cohen_d": 0.7284637908300396,
+        "snr": 0.3888739034404889,
+        "positive_pairs": 887,
+        "negative_pairs": 762,
+        "positive_min": 0.1604136130047421,
+        "positive_max": 0.9122343130510873,
+        "negative_min": 0.1181092773488377,
+        "negative_max": 0.6957545631969866,
+        "vocab_size": 153
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.14525922274002784,
+        "cluster_entropy": 3.8646925177363,
+        "cluster_entropy_norm": 0.9879012757271181,
+        "label_entropy": 2.8492445104798323,
+        "label_entropy_norm": 0.7529338606452555,
+        "mean_cluster_purity": 0.32398636091032024,
+        "std_cluster_purity": 0.23199900362850479,
+        "frames": 8737,
+        "labels": 44,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4980444087223145,
+        "negative": 0.4138258759741114,
+        "wacs": 0.08421853274820307,
+        "positive_std": 0.13802440057375367,
+        "negative_std": 0.0792411838959574,
+        "cohen_d": 0.7341983713860186,
+        "snr": 0.387629403328947,
+        "positive_pairs": 887,
+        "negative_pairs": 760,
+        "positive_min": 0.11281213760752129,
+        "positive_max": 0.910663569427962,
+        "negative_min": 0.15768164170572163,
+        "negative_max": 0.6993250750118757,
+        "vocab_size": 153
+      }
+    }
+  },
+  "ja_jp": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1356909916550902,
+        "cluster_entropy": 3.7999203404699764,
+        "cluster_entropy_norm": 0.9713440680684595,
+        "label_entropy": 2.6903878235487015,
+        "label_entropy_norm": 0.6912929214267195,
+        "mean_cluster_purity": 0.29658458421741485,
+        "std_cluster_purity": 0.08956521673134682,
+        "frames": 8478,
+        "labels": 49,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4354496288530192,
+        "negative": 0.3860836195797769,
+        "wacs": 0.049366009273242306,
+        "positive_std": 0.1362988210444923,
+        "negative_std": 0.11052227799568604,
+        "cohen_d": 0.39216813332075284,
+        "snr": 0.2000072419462565,
+        "positive_pairs": 518,
+        "negative_pairs": 390,
+        "positive_min": 0.05417968099979664,
+        "positive_max": 0.9378439744680477,
+        "negative_min": 0.05840767657438661,
+        "negative_max": 0.8802646518210486,
+        "vocab_size": 80
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.13942665257600734,
+        "cluster_entropy": 3.82948133180744,
+        "cluster_entropy_norm": 0.9789005142592018,
+        "label_entropy": 2.6903878235487015,
+        "label_entropy_norm": 0.6912929214267195,
+        "mean_cluster_purity": 0.3089911349701192,
+        "std_cluster_purity": 0.09400762485983237,
+        "frames": 8478,
+        "labels": 49,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4649225946288565,
+        "negative": 0.41677426822926567,
+        "wacs": 0.048148326399590824,
+        "positive_std": 0.13947360996538893,
+        "negative_std": 0.12716055783453975,
+        "cohen_d": 0.3585886459561493,
+        "snr": 0.1805782244304755,
+        "positive_pairs": 518,
+        "negative_pairs": 397,
+        "positive_min": 0.13972700887047496,
+        "positive_max": 0.9392266106450877,
+        "negative_min": 0.030304923372983295,
+        "negative_max": 0.8178618811218169,
+        "vocab_size": 80
+      }
+    }
+  },
+  "jv_id": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.25507648763249463,
+        "cluster_entropy": 3.8436847148373188,
+        "cluster_entropy_norm": 0.9825312145414268,
+        "label_entropy": 2.671279874284575,
+        "label_entropy_norm": 0.7639851558519742,
+        "mean_cluster_purity": 0.4258433722046619,
+        "std_cluster_purity": 0.22182290027019477,
+        "frames": 8844,
+        "labels": 33,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5588504723305342,
+        "negative": 0.39539697369353094,
+        "wacs": 0.16345349863700326,
+        "positive_std": 0.1221208551444515,
+        "negative_std": 0.07768641171097736,
+        "cohen_d": 1.535078316755056,
+        "snr": 0.8180557846012311,
+        "positive_pairs": 1478,
+        "negative_pairs": 997,
+        "positive_min": 0.21751953815271174,
+        "positive_max": 0.8691702551733586,
+        "negative_min": 0.11969674273746911,
+        "negative_max": 0.6444156865592943,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.2369771500912259,
+        "cluster_entropy": 3.861131355333575,
+        "cluster_entropy_norm": 0.9869909634928128,
+        "label_entropy": 2.671279874284575,
+        "label_entropy_norm": 0.7639851558519742,
+        "mean_cluster_purity": 0.422959086663953,
+        "std_cluster_purity": 0.2301610034010939,
+        "frames": 8844,
+        "labels": 33,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5906664438528396,
+        "negative": 0.4522139057376868,
+        "wacs": 0.1384525381151528,
+        "positive_std": 0.11001360113623905,
+        "negative_std": 0.08087638098910896,
+        "cohen_d": 1.3936396815623928,
+        "snr": 0.7253001405345434,
+        "positive_pairs": 1478,
+        "negative_pairs": 992,
+        "positive_min": 0.2119155360287106,
+        "positive_max": 0.8921273418059464,
+        "negative_min": 0.16929405631261718,
+        "negative_max": 0.7417578412664578,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ka_ge": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.07003703998765513,
+        "cluster_entropy": 3.821492936220754,
+        "cluster_entropy_norm": 0.9768585028559963,
+        "label_entropy": 0.8613509057507076,
+        "label_entropy_norm": 0.25579899992159805,
+        "mean_cluster_purity": 0.8139794296165102,
+        "std_cluster_purity": 0.10837295618697547,
+        "frames": 6207,
+        "labels": 29,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.38173928493134346,
+        "negative": 0.3685360368593666,
+        "wacs": 0.01320324807197687,
+        "positive_std": 0.12110624366424134,
+        "negative_std": 0.09891880000790991,
+        "cohen_d": 0.11893629015831,
+        "snr": 0.060007930240755195,
+        "positive_pairs": 53,
+        "negative_pairs": 49,
+        "positive_min": 0.16107817738781927,
+        "positive_max": 0.7162955490553701,
+        "negative_min": 0.17569257210531886,
+        "negative_max": 0.7684171527605608,
+        "vocab_size": 11
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.06693821574969971,
+        "cluster_entropy": 3.8127969855306816,
+        "cluster_entropy_norm": 0.9746356246474566,
+        "label_entropy": 0.8613509057507076,
+        "label_entropy_norm": 0.25579899992159805,
+        "mean_cluster_purity": 0.8198979266155116,
+        "std_cluster_purity": 0.09886356324510756,
+        "frames": 6207,
+        "labels": 29,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.41373266270970555,
+        "negative": 0.4283739043070421,
+        "wacs": -0.01464124159733654,
+        "positive_std": 0.12654747879372763,
+        "negative_std": 0.1328688884561577,
+        "cohen_d": -0.1128987350919798,
+        "snr": -0.056439156820208086,
+        "positive_pairs": 53,
+        "negative_pairs": 51,
+        "positive_min": 0.2232745396312691,
+        "positive_max": 0.7123405037049675,
+        "negative_min": 0.20433028445439427,
+        "negative_max": 0.8401161618110842,
+        "vocab_size": 11
+      }
+    }
+  },
+  "kk_kz": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.39181146866160843,
+        "cluster_entropy": 3.848355921018527,
+        "cluster_entropy_norm": 0.9837252786291703,
+        "label_entropy": 3.2318750380931514,
+        "label_entropy_norm": 0.8821675053584677,
+        "mean_cluster_purity": 0.4099805774825751,
+        "std_cluster_purity": 0.2097787524926115,
+        "frames": 9737,
+        "labels": 39,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5887529426702952,
+        "negative": 0.3556811467585884,
+        "wacs": 0.2330717959117068,
+        "positive_std": 0.10678062274028638,
+        "negative_std": 0.06974475559906827,
+        "cohen_d": 2.477477845398664,
+        "snr": 1.3203301695257943,
+        "positive_pairs": 1549,
+        "negative_pairs": 992,
+        "positive_min": 0.21112642192027187,
+        "positive_max": 0.8653606644948306,
+        "negative_min": 0.15501408614521328,
+        "negative_max": 0.6459706636239463,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.36335806163498935,
+        "cluster_entropy": 3.8642172830648325,
+        "cluster_entropy_norm": 0.9877797951860251,
+        "label_entropy": 3.2318750380931514,
+        "label_entropy_norm": 0.8821675053584677,
+        "mean_cluster_purity": 0.41457821447086757,
+        "std_cluster_purity": 0.23787133090643786,
+        "frames": 9737,
+        "labels": 39,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6256891982280492,
+        "negative": 0.42063071625316306,
+        "wacs": 0.2050584819748862,
+        "positive_std": 0.09937671455109161,
+        "negative_std": 0.07329788346972407,
+        "cohen_d": 2.276188750220771,
+        "snr": 1.1875427680146617,
+        "positive_pairs": 1549,
+        "negative_pairs": 994,
+        "positive_min": 0.2913445025664637,
+        "positive_max": 0.8919681283004396,
+        "negative_min": 0.1810064025801097,
+        "negative_max": 0.6596602299567182,
+        "vocab_size": 200
+      }
+    }
+  },
+  "km_kh": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1558627674058609,
+        "cluster_entropy": 3.796846492741097,
+        "cluster_entropy_norm": 0.9705583242922562,
+        "label_entropy": 0.8664000345621152,
+        "label_entropy_norm": 0.2477901218090705,
+        "mean_cluster_purity": 0.8856486183418625,
+        "std_cluster_purity": 0.1515276873792356,
+        "frames": 1470,
+        "labels": 33,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4721427557924142,
+        "negative": 0.4728507748903531,
+        "wacs": -0.0007080190979388834,
+        "positive_std": 0.13285098181461358,
+        "negative_std": 0.13100042765750494,
+        "cohen_d": -0.005365164426168382,
+        "snr": -0.0026834007539372007,
+        "positive_pairs": 27,
+        "negative_pairs": 25,
+        "positive_min": 0.28907231735381456,
+        "positive_max": 0.6890991862953078,
+        "negative_min": 0.24190244025239982,
+        "negative_max": 0.7905084638259926,
+        "vocab_size": 6
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.16439582670692,
+        "cluster_entropy": 3.8403903182050727,
+        "cluster_entropy_norm": 0.9816890935652273,
+        "label_entropy": 0.8664000345621152,
+        "label_entropy_norm": 0.2477901218090705,
+        "mean_cluster_purity": 0.8725912477026889,
+        "std_cluster_purity": 0.17597687653486543,
+        "frames": 1470,
+        "labels": 33,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4879450827690668,
+        "negative": 0.505434680561667,
+        "wacs": -0.017489597792600176,
+        "positive_std": 0.14330102347426518,
+        "negative_std": 0.17718901582278762,
+        "cohen_d": -0.10876100184037066,
+        "snr": -0.05457142220471745,
+        "positive_pairs": 27,
+        "negative_pairs": 26,
+        "positive_min": 0.28473541796315205,
+        "positive_max": 0.7257683301497866,
+        "negative_min": 0.20406855634716037,
+        "negative_max": 0.8867395598538192,
+        "vocab_size": 6
+      }
+    }
+  },
+  "kn_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1536022137317457,
+        "cluster_entropy": 3.8756345135070727,
+        "cluster_entropy_norm": 0.9906982929623415,
+        "label_entropy": 2.4335533414964163,
+        "label_entropy_norm": 0.5993319781057412,
+        "mean_cluster_purity": 0.4690620983643469,
+        "std_cluster_purity": 0.1604702006831568,
+        "frames": 6578,
+        "labels": 58,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4410689022227944,
+        "negative": 0.3504378224626892,
+        "wacs": 0.0906310797601052,
+        "positive_std": 0.14935628040081145,
+        "negative_std": 0.09143064189388798,
+        "cohen_d": 0.7245418640918733,
+        "snr": 0.3763953421242217,
+        "positive_pairs": 280,
+        "negative_pairs": 256,
+        "positive_min": 0.16022133262286875,
+        "positive_max": 0.8803199191563116,
+        "negative_min": 0.14179971469305463,
+        "negative_max": 0.6785153369008599,
+        "vocab_size": 52
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.14695617612812165,
+        "cluster_entropy": 3.8572408911893747,
+        "cluster_entropy_norm": 0.9859964744167511,
+        "label_entropy": 2.4335533414964163,
+        "label_entropy_norm": 0.5993319781057412,
+        "mean_cluster_purity": 0.4600192979559061,
+        "std_cluster_purity": 0.16437101330481171,
+        "frames": 6578,
+        "labels": 58,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4899731275382905,
+        "negative": 0.40512251845818253,
+        "wacs": 0.08485060908010794,
+        "positive_std": 0.1412487855005583,
+        "negative_std": 0.09125753645371235,
+        "cohen_d": 0.7073481291344044,
+        "snr": 0.3649389174347147,
+        "positive_pairs": 280,
+        "negative_pairs": 257,
+        "positive_min": 0.1968769419624401,
+        "positive_max": 0.8929983451998498,
+        "negative_min": 0.1261386420182108,
+        "negative_max": 0.682319599813765,
+        "vocab_size": 52
+      }
+    }
+  },
+  "ko_kr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1667757290265871,
+        "cluster_entropy": 3.7916634544076397,
+        "cluster_entropy_norm": 0.9692334245341858,
+        "label_entropy": 2.352408521892367,
+        "label_entropy_norm": 0.6514710604899161,
+        "mean_cluster_purity": 0.3714725287076104,
+        "std_cluster_purity": 0.16677016365108777,
+        "frames": 7466,
+        "labels": 37,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5119343696336014,
+        "negative": 0.3836280459366304,
+        "wacs": 0.12830632369697098,
+        "positive_std": 0.18041388307730466,
+        "negative_std": 0.08713156763714433,
+        "cohen_d": 0.899637696795214,
+        "snr": 0.47956830721158145,
+        "positive_pairs": 308,
+        "negative_pairs": 295,
+        "positive_min": 0.18433455210060679,
+        "positive_max": 0.9216151619095568,
+        "negative_min": 0.20280432221823785,
+        "negative_max": 0.7942970272498869,
+        "vocab_size": 60
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.16095076977317166,
+        "cluster_entropy": 3.815699935316685,
+        "cluster_entropy_norm": 0.9753776831123417,
+        "label_entropy": 2.352408521892367,
+        "label_entropy_norm": 0.6514710604899161,
+        "mean_cluster_purity": 0.38547432049817654,
+        "std_cluster_purity": 0.17698575197391847,
+        "frames": 7466,
+        "labels": 37,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5486956510685643,
+        "negative": 0.4301434764256074,
+        "wacs": 0.11855217464295692,
+        "positive_std": 0.16709053705311985,
+        "negative_std": 0.08726106824072746,
+        "cohen_d": 0.8818374254865443,
+        "snr": 0.4660956232025339,
+        "positive_pairs": 308,
+        "negative_pairs": 290,
+        "positive_min": 0.2389444321762919,
+        "positive_max": 0.9208583763807178,
+        "negative_min": 0.19720549317919323,
+        "negative_max": 0.7396786958294842,
+        "vocab_size": 60
+      }
+    }
+  },
+  "ky_kg": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.34791795879556786,
+        "cluster_entropy": 3.850879613647522,
+        "cluster_entropy_norm": 0.9843703905381477,
+        "label_entropy": 3.2115416562290733,
+        "label_entropy_norm": 0.8766173375632679,
+        "mean_cluster_purity": 0.3980612507437845,
+        "std_cluster_purity": 0.2318141298979359,
+        "frames": 9470,
+        "labels": 39,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6330748620399593,
+        "negative": 0.3948676738938606,
+        "wacs": 0.2382071881460987,
+        "positive_std": 0.09108296135887901,
+        "negative_std": 0.06989029520215996,
+        "cohen_d": 2.875136273785521,
+        "snr": 1.4797934665491406,
+        "positive_pairs": 1378,
+        "negative_pairs": 997,
+        "positive_min": 0.31567990827080594,
+        "positive_max": 0.8836426652485346,
+        "negative_min": 0.1778190597730459,
+        "negative_max": 0.6336776854441102,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3354914348586373,
+        "cluster_entropy": 3.848121121134353,
+        "cluster_entropy_norm": 0.9836652585618424,
+        "label_entropy": 3.2115416562290733,
+        "label_entropy_norm": 0.8766173375632679,
+        "mean_cluster_purity": 0.35636343445282476,
+        "std_cluster_purity": 0.21297023709590823,
+        "frames": 9470,
+        "labels": 39,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6605170178371725,
+        "negative": 0.4451004499083833,
+        "wacs": 0.21541656792878922,
+        "positive_std": 0.08461725771887964,
+        "negative_std": 0.07181760129508336,
+        "cohen_d": 2.7091360093962877,
+        "snr": 1.3770367775841694,
+        "positive_pairs": 1378,
+        "negative_pairs": 991,
+        "positive_min": 0.2801103731589034,
+        "positive_max": 0.8995031701020387,
+        "negative_min": 0.21715528232073167,
+        "negative_max": 0.6711150300216207,
+        "vocab_size": 200
+      }
+    }
+  },
+  "lg_ug": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.16369523637380196,
+        "cluster_entropy": 3.815872970803051,
+        "cluster_entropy_norm": 0.9754219148272693,
+        "label_entropy": 1.4343570385985125,
+        "label_entropy_norm": 0.3705199070151412,
+        "mean_cluster_purity": 0.6847435990140797,
+        "std_cluster_purity": 0.16349766775191107,
+        "frames": 5102,
+        "labels": 48,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5293743306158597,
+        "negative": 0.37734632325123085,
+        "wacs": 0.15202800736462885,
+        "positive_std": 0.16380962969099822,
+        "negative_std": 0.0915051904873138,
+        "cohen_d": 1.1365285710244672,
+        "snr": 0.5954531010143531,
+        "positive_pairs": 116,
+        "negative_pairs": 109,
+        "positive_min": 0.22913431921514926,
+        "positive_max": 0.8990930598783499,
+        "negative_min": 0.15427495334654684,
+        "negative_max": 0.6650327170646864,
+        "vocab_size": 23
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.15489946526394882,
+        "cluster_entropy": 3.829598445577507,
+        "cluster_entropy_norm": 0.978930451140939,
+        "label_entropy": 1.4343570385985125,
+        "label_entropy_norm": 0.3705199070151412,
+        "mean_cluster_purity": 0.7079005016517175,
+        "std_cluster_purity": 0.16026751105959883,
+        "frames": 5102,
+        "labels": 48,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.561469797018249,
+        "negative": 0.41758267202691257,
+        "wacs": 0.14388712499133638,
+        "positive_std": 0.1596248687796015,
+        "negative_std": 0.09257254494787823,
+        "cohen_d": 1.093019442257753,
+        "snr": 0.570533682956327,
+        "positive_pairs": 116,
+        "negative_pairs": 108,
+        "positive_min": 0.2516387321706999,
+        "positive_max": 0.8888178878309797,
+        "negative_min": 0.1857859953707871,
+        "negative_max": 0.6665692403828185,
+        "vocab_size": 23
+      }
+    }
+  },
+  "lo_la": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.39169275290756095,
+        "cluster_entropy": 3.8436527013954955,
+        "cluster_entropy_norm": 0.9825230311944018,
+        "label_entropy": 3.507168178918404,
+        "label_entropy_norm": 0.871270002815056,
+        "mean_cluster_purity": 0.3866812445612321,
+        "std_cluster_purity": 0.21122893233113996,
+        "frames": 9525,
+        "labels": 56,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.60654713889191,
+        "negative": 0.4176442777547747,
+        "wacs": 0.18890286113713534,
+        "positive_std": 0.10017615900516705,
+        "negative_std": 0.0748523623606229,
+        "cohen_d": 2.048471670563935,
+        "snr": 1.0792689606836134,
+        "positive_pairs": 1884,
+        "negative_pairs": 995,
+        "positive_min": 0.2413083934388811,
+        "positive_max": 0.8811110518704838,
+        "negative_min": 0.18671788741994688,
+        "negative_max": 0.6612582717648567,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3417234496908538,
+        "cluster_entropy": 3.872334254545718,
+        "cluster_entropy_norm": 0.9898546734445688,
+        "label_entropy": 3.507168178918404,
+        "label_entropy_norm": 0.871270002815056,
+        "mean_cluster_purity": 0.3362585756880657,
+        "std_cluster_purity": 0.244905042974213,
+        "frames": 9525,
+        "labels": 56,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6195514574841424,
+        "negative": 0.46065737641325744,
+        "wacs": 0.15889408107088498,
+        "positive_std": 0.09473700286489256,
+        "negative_std": 0.07989766835326455,
+        "cohen_d": 1.7676358036925837,
+        "snr": 0.9098655545538021,
+        "positive_pairs": 1884,
+        "negative_pairs": 994,
+        "positive_min": 0.27792416879059423,
+        "positive_max": 0.9018432087269912,
+        "negative_min": 0.1704665869184936,
+        "negative_max": 0.72012838076276,
+        "vocab_size": 200
+      }
+    }
+  },
+  "lt_lt": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3324668395084508,
+        "cluster_entropy": 3.8419595805727296,
+        "cluster_entropy_norm": 0.9820902318932686,
+        "label_entropy": 3.487160826424417,
+        "label_entropy_norm": 0.8588128973530761,
+        "mean_cluster_purity": 0.312326020270021,
+        "std_cluster_purity": 0.20598091494647808,
+        "frames": 9009,
+        "labels": 58,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6048849052807098,
+        "negative": 0.3821203738782974,
+        "wacs": 0.22276453140241242,
+        "positive_std": 0.11212881624488306,
+        "negative_std": 0.07040513328406536,
+        "cohen_d": 2.312910271179642,
+        "snr": 1.220400477682531,
+        "positive_pairs": 1213,
+        "negative_pairs": 926,
+        "positive_min": 0.2400551105721126,
+        "positive_max": 0.9163613745774952,
+        "negative_min": 0.18202047731124782,
+        "negative_max": 0.6360126401912523,
+        "vocab_size": 186
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3125737343699809,
+        "cluster_entropy": 3.851066507874962,
+        "cluster_entropy_norm": 0.9844181648552159,
+        "label_entropy": 3.487160826424417,
+        "label_entropy_norm": 0.8588128973530761,
+        "mean_cluster_purity": 0.3101449524728863,
+        "std_cluster_purity": 0.24078445458496409,
+        "frames": 9009,
+        "labels": 58,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.636094076790453,
+        "negative": 0.4481031349941632,
+        "wacs": 0.18799094179628983,
+        "positive_std": 0.10708964492840077,
+        "negative_std": 0.07070062056600777,
+        "cohen_d": 2.0190119194438063,
+        "snr": 1.0573747145253853,
+        "positive_pairs": 1213,
+        "negative_pairs": 925,
+        "positive_min": 0.23558312370585166,
+        "positive_max": 0.9132817921700228,
+        "negative_min": 0.21129312236712738,
+        "negative_max": 0.6510596847783374,
+        "vocab_size": 186
+      }
+    }
+  },
+  "lv_lv": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27701614436549127,
+        "cluster_entropy": 3.8630520608238625,
+        "cluster_entropy_norm": 0.9874819384915852,
+        "label_entropy": 2.816921548176754,
+        "label_entropy_norm": 0.7585476995136635,
+        "mean_cluster_purity": 0.3820484550019584,
+        "std_cluster_purity": 0.2501215120899512,
+        "frames": 6732,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5906521150402977,
+        "negative": 0.3787602189411524,
+        "wacs": 0.21189189609914527,
+        "positive_std": 0.12867273520988193,
+        "negative_std": 0.07229974983872313,
+        "cohen_d": 1.9716891820856857,
+        "snr": 1.054332813293179,
+        "positive_pairs": 607,
+        "negative_pairs": 481,
+        "positive_min": 0.22168959137531397,
+        "positive_max": 0.9170456208719635,
+        "negative_min": 0.18825442871243536,
+        "negative_max": 0.657868111661323,
+        "vocab_size": 97
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.25360400955413603,
+        "cluster_entropy": 3.8590247216557505,
+        "cluster_entropy_norm": 0.9864524611182354,
+        "label_entropy": 2.816921548176754,
+        "label_entropy_norm": 0.7585476995136635,
+        "mean_cluster_purity": 0.35644966973704995,
+        "std_cluster_purity": 0.23980481548288324,
+        "frames": 6732,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6146282802500265,
+        "negative": 0.4381955698843079,
+        "wacs": 0.17643271036571856,
+        "positive_std": 0.12048253007253396,
+        "negative_std": 0.07132331449391387,
+        "cohen_d": 1.7339569463030353,
+        "snr": 0.9198504955154875,
+        "positive_pairs": 607,
+        "negative_pairs": 480,
+        "positive_min": 0.2941623363713436,
+        "positive_max": 0.9054610721805679,
+        "negative_min": 0.20051452523995994,
+        "negative_max": 0.6961300610896891,
+        "vocab_size": 97
+      }
+    }
+  },
+  "mi_nz": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.37686908484837595,
+        "cluster_entropy": 3.84450502256996,
+        "cluster_entropy_norm": 0.9827409034240082,
+        "label_entropy": 2.9525768355238005,
+        "label_entropy_norm": 0.8304606987724574,
+        "mean_cluster_purity": 0.5007662949891609,
+        "std_cluster_purity": 0.22540043551688924,
+        "frames": 9662,
+        "labels": 35,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5424552792500539,
+        "negative": 0.3763415676979955,
+        "wacs": 0.1661137115520584,
+        "positive_std": 0.11772878658958888,
+        "negative_std": 0.07307199840418994,
+        "cohen_d": 1.5946272055842154,
+        "snr": 0.8706133093285834,
+        "positive_pairs": 1824,
+        "negative_pairs": 996,
+        "positive_min": 0.17868351100568558,
+        "positive_max": 0.8527077579008064,
+        "negative_min": 0.13788994044208336,
+        "negative_max": 0.6039061001419488,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.35505343701039493,
+        "cluster_entropy": 3.8529616171501213,
+        "cluster_entropy_norm": 0.9849025968926886,
+        "label_entropy": 2.9525768355238005,
+        "label_entropy_norm": 0.8304606987724574,
+        "mean_cluster_purity": 0.4824676350127244,
+        "std_cluster_purity": 0.23247586599310371,
+        "frames": 9662,
+        "labels": 35,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5658695776879785,
+        "negative": 0.41440867596154257,
+        "wacs": 0.15146090172643595,
+        "positive_std": 0.11813288965142305,
+        "negative_std": 0.08037366340262546,
+        "cohen_d": 1.4244844109864951,
+        "snr": 0.7630019854063809,
+        "positive_pairs": 1824,
+        "negative_pairs": 998,
+        "positive_min": 0.205904201035511,
+        "positive_max": 0.8934734672425875,
+        "negative_min": 0.08679099097721665,
+        "negative_max": 0.6822642320966712,
+        "vocab_size": 200
+      }
+    }
+  },
+  "mk_mk": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.342649049359355,
+        "cluster_entropy": 3.853767596503911,
+        "cluster_entropy_norm": 0.9851086231232786,
+        "label_entropy": 3.086924432121054,
+        "label_entropy_norm": 0.8486189183085214,
+        "mean_cluster_purity": 0.40709168363020093,
+        "std_cluster_purity": 0.2356231196420379,
+        "frames": 9350,
+        "labels": 38,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6014324334833429,
+        "negative": 0.3764681589667153,
+        "wacs": 0.22496427451662754,
+        "positive_std": 0.1164740381771768,
+        "negative_std": 0.07086957648079391,
+        "cohen_d": 2.239735032453013,
+        "snr": 1.2008109426052798,
+        "positive_pairs": 1452,
+        "negative_pairs": 997,
+        "positive_min": 0.13702141909631316,
+        "positive_max": 0.8996427000506774,
+        "negative_min": 0.15766066035746884,
+        "negative_max": 0.5898349683605721,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.34246637438810024,
+        "cluster_entropy": 3.8631158548978353,
+        "cluster_entropy_norm": 0.9874982456743099,
+        "label_entropy": 3.086924432121054,
+        "label_entropy_norm": 0.8486189183085214,
+        "mean_cluster_purity": 0.39104661165303406,
+        "std_cluster_purity": 0.2131709463938683,
+        "frames": 9350,
+        "labels": 38,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6329056081685783,
+        "negative": 0.43140247464827064,
+        "wacs": 0.2015031335203077,
+        "positive_std": 0.10821796572117233,
+        "negative_std": 0.07414668913603668,
+        "cohen_d": 2.1028624123278266,
+        "snr": 1.1049461455599638,
+        "positive_pairs": 1452,
+        "negative_pairs": 997,
+        "positive_min": 0.21878326207897691,
+        "positive_max": 0.9002572266111135,
+        "negative_min": 0.1775775907862982,
+        "negative_max": 0.7335827540994366,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ml_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.15003477914039115,
+        "cluster_entropy": 3.8699631731338573,
+        "cluster_entropy_norm": 0.9892485723535039,
+        "label_entropy": 2.7437651690054468,
+        "label_entropy_norm": 0.6648112014349805,
+        "mean_cluster_purity": 0.3237778040919004,
+        "std_cluster_purity": 0.1708887611273877,
+        "frames": 7798,
+        "labels": 62,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.41327329311836936,
+        "negative": 0.343449257041073,
+        "wacs": 0.06982403607729637,
+        "positive_std": 0.13720444829733128,
+        "negative_std": 0.07718213600402694,
+        "cohen_d": 0.6231856975000689,
+        "snr": 0.3256921744796522,
+        "positive_pairs": 751,
+        "negative_pairs": 714,
+        "positive_min": 0.08902667719945345,
+        "positive_max": 0.8979133026790664,
+        "negative_min": 0.14106693108316137,
+        "negative_max": 0.7267029624382334,
+        "vocab_size": 144
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.13728032455529066,
+        "cluster_entropy": 3.8585363688896446,
+        "cluster_entropy_norm": 0.9863276273006867,
+        "label_entropy": 2.7437651690054468,
+        "label_entropy_norm": 0.6648112014349805,
+        "mean_cluster_purity": 0.3289387564997306,
+        "std_cluster_purity": 0.17335192555481657,
+        "frames": 7798,
+        "labels": 62,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4750668094717806,
+        "negative": 0.40672062042293644,
+        "wacs": 0.06834618904884415,
+        "positive_std": 0.12351840464737528,
+        "negative_std": 0.08085321988869625,
+        "cohen_d": 0.6512587325675623,
+        "snr": 0.334421110855191,
+        "positive_pairs": 751,
+        "negative_pairs": 712,
+        "positive_min": 0.16299209597263242,
+        "positive_max": 0.9133990329087006,
+        "negative_min": 0.14970103334115858,
+        "negative_max": 0.7942292564419352,
+        "vocab_size": 144
+      }
+    }
+  },
+  "mn_mn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.10343232752237078,
+        "cluster_entropy": 3.822270149981846,
+        "cluster_entropy_norm": 0.9770571759619606,
+        "label_entropy": 2.697269017305679,
+        "label_entropy_norm": 0.7085653179272068,
+        "mean_cluster_purity": 0.332122142745141,
+        "std_cluster_purity": 0.1760436985888859,
+        "frames": 7391,
+        "labels": 45,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.37863807955838313,
+        "negative": 0.3493399438656172,
+        "wacs": 0.02929813569276596,
+        "positive_std": 0.11329013926716716,
+        "negative_std": 0.09260946184240981,
+        "cohen_d": 0.28154859903739987,
+        "snr": 0.1422933027162149,
+        "positive_pairs": 422,
+        "negative_pairs": 376,
+        "positive_min": 0.19632153674763764,
+        "positive_max": 0.8975092169975214,
+        "negative_min": 0.13129705665826774,
+        "negative_max": 0.8109325615675878,
+        "vocab_size": 76
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.10715861974446268,
+        "cluster_entropy": 3.850389868988061,
+        "cluster_entropy_norm": 0.9842452009217314,
+        "label_entropy": 2.697269017305679,
+        "label_entropy_norm": 0.7085653179272068,
+        "mean_cluster_purity": 0.3136290066866383,
+        "std_cluster_purity": 0.1504109274948291,
+        "frames": 7391,
+        "labels": 45,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.40721719604085965,
+        "negative": 0.37767972059676785,
+        "wacs": 0.0295374754440918,
+        "positive_std": 0.12039264464921377,
+        "negative_std": 0.10103689323389506,
+        "cohen_d": 0.26430126710996743,
+        "snr": 0.13339446215048245,
+        "positive_pairs": 422,
+        "negative_pairs": 371,
+        "positive_min": 0.11567636584021757,
+        "positive_max": 0.8672644810450394,
+        "negative_min": 0.13914781726353753,
+        "negative_max": 0.7343450076198617,
+        "vocab_size": 76
+      }
+    }
+  },
+  "mr_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.10123601388095174,
+        "cluster_entropy": 3.8267281932548274,
+        "cluster_entropy_norm": 0.9781967508741725,
+        "label_entropy": 0.9905804095736036,
+        "label_entropy_norm": 0.25728374910448454,
+        "mean_cluster_purity": 0.8121186129002618,
+        "std_cluster_purity": 0.11834234915165433,
+        "frames": 8245,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4640477333455677,
+        "negative": 0.3629962296626983,
+        "wacs": 0.10105150368286941,
+        "positive_std": 0.14803742036373665,
+        "negative_std": 0.08568555451049537,
+        "cohen_d": 0.829702811868636,
+        "snr": 0.43235586665661463,
+        "positive_pairs": 129,
+        "negative_pairs": 122,
+        "positive_min": 0.24111335973700776,
+        "positive_max": 0.8726796933207204,
+        "negative_min": 0.14647772241998913,
+        "negative_max": 0.6814019257677575,
+        "vocab_size": 25
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.10288613804096584,
+        "cluster_entropy": 3.8348393799981784,
+        "cluster_entropy_norm": 0.9802701504252733,
+        "label_entropy": 0.9905804095736036,
+        "label_entropy_norm": 0.25728374910448454,
+        "mean_cluster_purity": 0.8269904628027721,
+        "std_cluster_purity": 0.12134268231685671,
+        "frames": 8245,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4965056014665768,
+        "negative": 0.39668481392701027,
+        "wacs": 0.09982078753956652,
+        "positive_std": 0.14514013589330962,
+        "negative_std": 0.10144354221849276,
+        "cohen_d": 0.7939424656684441,
+        "snr": 0.4048150480023125,
+        "positive_pairs": 129,
+        "negative_pairs": 123,
+        "positive_min": 0.242714521839675,
+        "positive_max": 0.8681750727430236,
+        "negative_min": 0.19572306768297187,
+        "negative_max": 0.8262248767099175,
+        "vocab_size": 25
+      }
+    }
+  },
+  "ms_my": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.0813927070987517,
+        "cluster_entropy": 3.8417024456137487,
+        "cluster_entropy_norm": 0.9820245024845653,
+        "label_entropy": 2.8556917695442263,
+        "label_entropy_norm": 0.8239784708457768,
+        "mean_cluster_purity": 0.20864999214409746,
+        "std_cluster_purity": 0.13825979423750295,
+        "frames": 9426,
+        "labels": 32,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4000580973895225,
+        "negative": 0.39066654652729715,
+        "wacs": 0.009391550862225373,
+        "positive_std": 0.09577822185563059,
+        "negative_std": 0.08022912256862094,
+        "cohen_d": 0.10518610809393882,
+        "snr": 0.05335885476460147,
+        "positive_pairs": 1069,
+        "negative_pairs": 837,
+        "positive_min": 0.11546533826039806,
+        "positive_max": 0.8835812990029708,
+        "negative_min": 0.18657617906527713,
+        "negative_max": 0.787511579456436,
+        "vocab_size": 168
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.07884493852412681,
+        "cluster_entropy": 3.8618623118192903,
+        "cluster_entropy_norm": 0.9871778122114172,
+        "label_entropy": 2.8556917695442263,
+        "label_entropy_norm": 0.8239784708457768,
+        "mean_cluster_purity": 0.2194532573611859,
+        "std_cluster_purity": 0.17004183842840953,
+        "frames": 9426,
+        "labels": 32,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.42570630177845087,
+        "negative": 0.41302360787830467,
+        "wacs": 0.012682693900146202,
+        "positive_std": 0.10763321297467003,
+        "negative_std": 0.09416209863125884,
+        "cohen_d": 0.12440154905982494,
+        "snr": 0.0628492960055501,
+        "positive_pairs": 1069,
+        "negative_pairs": 834,
+        "positive_min": 0.14169690241546173,
+        "positive_max": 0.9003066129059835,
+        "negative_min": 0.15442375223838534,
+        "negative_max": 0.821031410376226,
+        "vocab_size": 168
+      }
+    }
+  },
+  "mt_mt": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": null
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": null
+    }
+  },
+  "my_mm": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.14960820423208424,
+        "cluster_entropy": 3.8460151853050775,
+        "cluster_entropy_norm": 0.9831269345728594,
+        "label_entropy": 2.883281582972466,
+        "label_entropy_norm": 0.7333187817321052,
+        "mean_cluster_purity": 0.2675008692945398,
+        "std_cluster_purity": 0.1276113051803643,
+        "frames": 8646,
+        "labels": 51,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4079329019383476,
+        "negative": 0.3387611199595817,
+        "wacs": 0.06917178197876589,
+        "positive_std": 0.15153597747871553,
+        "negative_std": 0.10299968205451587,
+        "cohen_d": 0.5198590388759167,
+        "snr": 0.2717567329781849,
+        "positive_pairs": 1067,
+        "negative_pairs": 791,
+        "positive_min": 0.13125007042751946,
+        "positive_max": 0.8424041795504366,
+        "negative_min": 0.1250090718666791,
+        "negative_max": 0.80521124964128,
+        "vocab_size": 160
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.13318317478875102,
+        "cluster_entropy": 3.830405640742341,
+        "cluster_entropy_norm": 0.9791367881598455,
+        "label_entropy": 2.883281582972466,
+        "label_entropy_norm": 0.7333187817321052,
+        "mean_cluster_purity": 0.2621488108143193,
+        "std_cluster_purity": 0.11646840077978292,
+        "frames": 8646,
+        "labels": 51,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.43911723913504663,
+        "negative": 0.3789533682150447,
+        "wacs": 0.060163870920001916,
+        "positive_std": 0.1527371946109613,
+        "negative_std": 0.10701643022232721,
+        "cohen_d": 0.4453775013692545,
+        "snr": 0.23161897602940365,
+        "positive_pairs": 1067,
+        "negative_pairs": 798,
+        "positive_min": 0.10475449415440585,
+        "positive_max": 0.8514102202297997,
+        "negative_min": 0.09669573470495485,
+        "negative_max": 0.7947615095227065,
+        "vocab_size": 160
+      }
+    }
+  },
+  "nb_no": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2288070965496282,
+        "cluster_entropy": 3.8053270756109856,
+        "cluster_entropy_norm": 0.9727261497007779,
+        "label_entropy": 2.762771105066078,
+        "label_entropy_norm": 0.717575373951633,
+        "mean_cluster_purity": 0.37324398508965045,
+        "std_cluster_purity": 0.2426674201781772,
+        "frames": 7740,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.54575495176653,
+        "negative": 0.3722252208064281,
+        "wacs": 0.17352973096010188,
+        "positive_std": 0.1612727734622997,
+        "negative_std": 0.08185267725907376,
+        "cohen_d": 1.3149169480950245,
+        "snr": 0.7137456128421299,
+        "positive_pairs": 975,
+        "negative_pairs": 782,
+        "positive_min": 0.18127230391142102,
+        "positive_max": 0.9540958502216106,
+        "negative_min": 0.16102854505963216,
+        "negative_max": 0.6244976219694565,
+        "vocab_size": 157
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.2222415027018826,
+        "cluster_entropy": 3.8430057095838226,
+        "cluster_entropy_norm": 0.982357645712063,
+        "label_entropy": 2.762771105066078,
+        "label_entropy_norm": 0.717575373951633,
+        "mean_cluster_purity": 0.39600387531333553,
+        "std_cluster_purity": 0.24847017282096265,
+        "frames": 7740,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5836965445401008,
+        "negative": 0.42704805161183407,
+        "wacs": 0.1566484929282667,
+        "positive_std": 0.14673144726394988,
+        "negative_std": 0.08716983937342687,
+        "cohen_d": 1.2648083913513877,
+        "snr": 0.6697204982626622,
+        "positive_pairs": 975,
+        "negative_pairs": 780,
+        "positive_min": 0.20872752057850863,
+        "positive_max": 0.957721579216535,
+        "negative_min": 0.18639891220314775,
+        "negative_max": 0.7126074794794494,
+        "vocab_size": 157
+      }
+    }
+  },
+  "ne_np": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3518029861473516,
+        "cluster_entropy": 3.860913512497581,
+        "cluster_entropy_norm": 0.9869352780237621,
+        "label_entropy": 3.102633901062293,
+        "label_entropy_norm": 0.7931021614027368,
+        "mean_cluster_purity": 0.4459748735290506,
+        "std_cluster_purity": 0.2252860242081908,
+        "frames": 8410,
+        "labels": 50,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6250713857010908,
+        "negative": 0.40535961049511016,
+        "wacs": 0.21971177520598062,
+        "positive_std": 0.10708796713047113,
+        "negative_std": 0.07137586650691677,
+        "cohen_d": 2.3493471668238555,
+        "snr": 1.2311276655701893,
+        "positive_pairs": 1191,
+        "negative_pairs": 888,
+        "positive_min": 0.2560004472324935,
+        "positive_max": 0.9035903102358283,
+        "negative_min": 0.13513771992507662,
+        "negative_max": 0.7015093841717521,
+        "vocab_size": 179
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3215147624365855,
+        "cluster_entropy": 3.8538270112510484,
+        "cluster_entropy_norm": 0.9851238108527615,
+        "label_entropy": 3.102633901062293,
+        "label_entropy_norm": 0.7931021614027368,
+        "mean_cluster_purity": 0.39001265914265626,
+        "std_cluster_purity": 0.2219944025573961,
+        "frames": 8410,
+        "labels": 50,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6405180654364075,
+        "negative": 0.4536608926463654,
+        "wacs": 0.18685717279004216,
+        "positive_std": 0.10084271750175461,
+        "negative_std": 0.07352356427676474,
+        "cohen_d": 2.0720608792634256,
+        "snr": 1.0716358700074253,
+        "positive_pairs": 1191,
+        "negative_pairs": 890,
+        "positive_min": 0.28187298689156226,
+        "positive_max": 0.9159101503528649,
+        "negative_min": 0.20922037917745184,
+        "negative_max": 0.7270888126672432,
+        "vocab_size": 179
+      }
+    }
+  },
+  "nl_nl": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.19519014149943065,
+        "cluster_entropy": 3.847796245481,
+        "cluster_entropy_norm": 0.9835822131265518,
+        "label_entropy": 3.160147691160825,
+        "label_entropy_norm": 0.8207861147342073,
+        "mean_cluster_purity": 0.289969983424625,
+        "std_cluster_purity": 0.21904925595796557,
+        "frames": 8739,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5485994792387504,
+        "negative": 0.39493670082229465,
+        "wacs": 0.15366277841645576,
+        "positive_std": 0.14849000411180732,
+        "negative_std": 0.08337926011524156,
+        "cohen_d": 1.2340265002781283,
+        "snr": 0.6627129831181837,
+        "positive_pairs": 1265,
+        "negative_pairs": 968,
+        "positive_min": 0.0756150412589538,
+        "positive_max": 0.9072040223482524,
+        "negative_min": 0.05038313555864449,
+        "negative_max": 0.7324872794633889,
+        "vocab_size": 194
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.18034671886026452,
+        "cluster_entropy": 3.8570475813462197,
+        "cluster_entropy_norm": 0.9859470601257598,
+        "label_entropy": 3.160147691160825,
+        "label_entropy_norm": 0.8207861147342073,
+        "mean_cluster_purity": 0.27378544128239457,
+        "std_cluster_purity": 0.22858677186138152,
+        "frames": 8739,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5604250176520434,
+        "negative": 0.41577741760547904,
+        "wacs": 0.1446476000465644,
+        "positive_std": 0.14728385189932927,
+        "negative_std": 0.0900811895532544,
+        "cohen_d": 1.1501100652001737,
+        "snr": 0.6093887839063763,
+        "positive_pairs": 1265,
+        "negative_pairs": 965,
+        "positive_min": 0.0612060703172107,
+        "positive_max": 0.9186231491741761,
+        "negative_min": 0.07732712790025598,
+        "negative_max": 0.7051441592400162,
+        "vocab_size": 194
+      }
+    }
+  },
+  "ny_mw": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3429399075751604,
+        "cluster_entropy": 3.8393906129728723,
+        "cluster_entropy_norm": 0.9814335466957909,
+        "label_entropy": 3.0658998567414075,
+        "label_entropy_norm": 0.7919764042483496,
+        "mean_cluster_purity": 0.40237257263868437,
+        "std_cluster_purity": 0.23588482911478023,
+        "frames": 8984,
+        "labels": 48,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5603651121353317,
+        "negative": 0.4094174252299745,
+        "wacs": 0.1509476869053572,
+        "positive_std": 0.12118734865689176,
+        "negative_std": 0.06916194014623932,
+        "cohen_d": 1.4655510297899992,
+        "snr": 0.7930036404361803,
+        "positive_pairs": 1418,
+        "negative_pairs": 993,
+        "positive_min": 0.21606857495084486,
+        "positive_max": 0.883965874178829,
+        "negative_min": 0.1595801364872198,
+        "negative_max": 0.6408004636608566,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3053169048117674,
+        "cluster_entropy": 3.8471741481277086,
+        "cluster_entropy_norm": 0.9834231912208962,
+        "label_entropy": 3.0658998567414075,
+        "label_entropy_norm": 0.7919764042483496,
+        "mean_cluster_purity": 0.4022643820514109,
+        "std_cluster_purity": 0.27756896005441445,
+        "frames": 8984,
+        "labels": 48,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5799652415814992,
+        "negative": 0.4460910992873185,
+        "wacs": 0.1338741422941807,
+        "positive_std": 0.11567230698283396,
+        "negative_std": 0.07601894622517018,
+        "cohen_d": 1.322075462449893,
+        "snr": 0.6983841623961439,
+        "positive_pairs": 1418,
+        "negative_pairs": 991,
+        "positive_min": 0.2061877014237029,
+        "positive_max": 0.8992829422986195,
+        "negative_min": 0.14382317168774994,
+        "negative_max": 0.6667052372436915,
+        "vocab_size": 200
+      }
+    }
+  },
+  "om_et": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.345692135944587,
+        "cluster_entropy": 3.8189166418734413,
+        "cluster_entropy_norm": 0.9761999447790786,
+        "label_entropy": 3.0758549411629046,
+        "label_entropy_norm": 0.7862568642605086,
+        "mean_cluster_purity": 0.3813468918979089,
+        "std_cluster_purity": 0.184986312626073,
+        "frames": 8032,
+        "labels": 50,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6323656437314942,
+        "negative": 0.43527069422858194,
+        "wacs": 0.19709494950291223,
+        "positive_std": 0.107006744494465,
+        "negative_std": 0.07165428036936032,
+        "cohen_d": 2.138600516446787,
+        "snr": 1.103178147675777,
+        "positive_pairs": 193,
+        "negative_pairs": 170,
+        "positive_min": 0.2874710484653137,
+        "positive_max": 0.8740504794734439,
+        "negative_min": 0.23614917057383855,
+        "negative_max": 0.6051941445363374,
+        "vocab_size": 35
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3096770829720938,
+        "cluster_entropy": 3.8417882552965814,
+        "cluster_entropy_norm": 0.9820464373460713,
+        "label_entropy": 3.0758549411629046,
+        "label_entropy_norm": 0.7862568642605086,
+        "mean_cluster_purity": 0.35220333429676665,
+        "std_cluster_purity": 0.1811614576567859,
+        "frames": 8032,
+        "labels": 50,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6535080235224882,
+        "negative": 0.469618343734435,
+        "wacs": 0.18388967978805315,
+        "positive_std": 0.11654940855569061,
+        "negative_std": 0.08193164167131381,
+        "cohen_d": 1.807796478832706,
+        "snr": 0.9264847717849604,
+        "positive_pairs": 193,
+        "negative_pairs": 172,
+        "positive_min": 0.15984423524488567,
+        "positive_max": 0.89115927075349,
+        "negative_min": 0.0597879825196489,
+        "negative_max": 0.6857488940378502,
+        "vocab_size": 35
+      }
+    }
+  },
+  "or_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.40013209023201957,
+        "cluster_entropy": 3.733835986944923,
+        "cluster_entropy_norm": 0.9544514390033038,
+        "label_entropy": 2.1876743922914694,
+        "label_entropy_norm": 0.671457818011728,
+        "mean_cluster_purity": 0.598112358597405,
+        "std_cluster_purity": 0.26116490696643513,
+        "frames": 760,
+        "labels": 26,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6526100074030458,
+        "negative": 0.4477654005205327,
+        "wacs": 0.20484460688251305,
+        "positive_std": 0.08908525983259444,
+        "negative_std": 0.06042785054104552,
+        "cohen_d": 2.4974194606636404,
+        "snr": 1.3700777989958155,
+        "positive_pairs": 29,
+        "negative_pairs": 12,
+        "positive_min": 0.5162231967867019,
+        "positive_max": 0.8486019952767694,
+        "negative_min": 0.3381793402315827,
+        "negative_max": 0.5665554029108326,
+        "vocab_size": 4
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3885200311031633,
+        "cluster_entropy": 3.787877363136827,
+        "cluster_entropy_norm": 0.9682656154835849,
+        "label_entropy": 2.1876743922914694,
+        "label_entropy_norm": 0.671457818011728,
+        "mean_cluster_purity": 0.6290954729955051,
+        "std_cluster_purity": 0.2616090284047209,
+        "frames": 760,
+        "labels": 26,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6701153926166598,
+        "negative": 0.44998434131963694,
+        "wacs": 0.22013105129702282,
+        "positive_std": 0.08933192234481228,
+        "negative_std": 0.08630701519316401,
+        "cohen_d": 2.4876594298240513,
+        "snr": 1.2533157046470376,
+        "positive_pairs": 29,
+        "negative_pairs": 12,
+        "positive_min": 0.5126054444971289,
+        "positive_max": 0.8726788691316238,
+        "negative_min": 0.32791861103794295,
+        "negative_max": 0.5750311593859134,
+        "vocab_size": 4
+      }
+    }
+  },
+  "pa_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.17218741126272535,
+        "cluster_entropy": 3.8444982244806942,
+        "cluster_entropy_norm": 0.9827391656813477,
+        "label_entropy": 2.9535421307081284,
+        "label_entropy_norm": 0.712876197796377,
+        "mean_cluster_purity": 0.33575257220118077,
+        "std_cluster_purity": 0.1449040640283651,
+        "frames": 7937,
+        "labels": 63,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.47385896502658675,
+        "negative": 0.3887934524881992,
+        "wacs": 0.08506551253838757,
+        "positive_std": 0.14083615444063863,
+        "negative_std": 0.09513634467881737,
+        "cohen_d": 0.6921199481505704,
+        "snr": 0.3604890792398405,
+        "positive_pairs": 412,
+        "negative_pairs": 322,
+        "positive_min": 0.15574262898640145,
+        "positive_max": 0.8737649433945781,
+        "negative_min": 0.12264452334320697,
+        "negative_max": 0.7088910361847334,
+        "vocab_size": 65
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.1856144512787241,
+        "cluster_entropy": 3.8465159451135973,
+        "cluster_entropy_norm": 0.9832549399061166,
+        "label_entropy": 2.9535421307081284,
+        "label_entropy_norm": 0.712876197796377,
+        "mean_cluster_purity": 0.34722897125417007,
+        "std_cluster_purity": 0.14918712589825822,
+        "frames": 7937,
+        "labels": 63,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5101768510633432,
+        "negative": 0.42260279529858524,
+        "wacs": 0.08757405576475796,
+        "positive_std": 0.15521620202423844,
+        "negative_std": 0.1196379402052047,
+        "cohen_d": 0.6223017872542186,
+        "snr": 0.31862009380033945,
+        "positive_pairs": 412,
+        "negative_pairs": 322,
+        "positive_min": 0.1617972603949125,
+        "positive_max": 0.8888170809070481,
+        "negative_min": 0.17525193176577303,
+        "negative_max": 0.7992065261923904,
+        "vocab_size": 65
+      }
+    }
+  },
+  "pl_pl": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3012223906320803,
+        "cluster_entropy": 3.847523822978218,
+        "cluster_entropy_norm": 0.9835125758819844,
+        "label_entropy": 3.3527837332067554,
+        "label_entropy_norm": 0.8859978113029142,
+        "mean_cluster_purity": 0.30823858124312553,
+        "std_cluster_purity": 0.18847194341942355,
+        "frames": 9414,
+        "labels": 44,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5710124042018516,
+        "negative": 0.3799379257612906,
+        "wacs": 0.19107447844056102,
+        "positive_std": 0.1214657685661941,
+        "negative_std": 0.0671727491938651,
+        "cohen_d": 1.895842372715646,
+        "snr": 1.012913325339351,
+        "positive_pairs": 1136,
+        "negative_pairs": 925,
+        "positive_min": 0.19726644952962435,
+        "positive_max": 0.895715561573298,
+        "negative_min": 0.14551778920456582,
+        "negative_max": 0.6301292896349493,
+        "vocab_size": 186
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.26388885219780506,
+        "cluster_entropy": 3.8612144821050625,
+        "cluster_entropy_norm": 0.9870122125425684,
+        "label_entropy": 3.3527837332067554,
+        "label_entropy_norm": 0.8859978113029142,
+        "mean_cluster_purity": 0.2885821065136403,
+        "std_cluster_purity": 0.18982257161943766,
+        "frames": 9414,
+        "labels": 44,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6091723682845324,
+        "negative": 0.4535624848013928,
+        "wacs": 0.1556098834831396,
+        "positive_std": 0.1120464717433886,
+        "negative_std": 0.07170315184582558,
+        "cohen_d": 1.6200813392184166,
+        "snr": 0.8468581974482569,
+        "positive_pairs": 1136,
+        "negative_pairs": 926,
+        "positive_min": 0.2187833888539923,
+        "positive_max": 0.901406119920572,
+        "negative_min": 0.18510803037826984,
+        "negative_max": 0.6553630539593386,
+        "vocab_size": 186
+      }
+    }
+  },
+  "ps_af": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.07557036275157766,
+        "cluster_entropy": 3.8702466288858024,
+        "cluster_entropy_norm": 0.9893210299417011,
+        "label_entropy": 2.6138409338074062,
+        "label_entropy_norm": 0.6949486476141449,
+        "mean_cluster_purity": 0.33690476718047935,
+        "std_cluster_purity": 0.12215082286109175,
+        "frames": 8006,
+        "labels": 43,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.40740999349429396,
+        "negative": 0.34715741224407354,
+        "wacs": 0.06025258125022043,
+        "positive_std": 0.10312416770926171,
+        "negative_std": 0.07715578687800975,
+        "cohen_d": 0.6508546475466078,
+        "snr": 0.33421673555439846,
+        "positive_pairs": 271,
+        "negative_pairs": 214,
+        "positive_min": 0.14786601118669807,
+        "positive_max": 0.8158107291275556,
+        "negative_min": 0.17517837151595916,
+        "negative_max": 0.6683462294216822,
+        "vocab_size": 44
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.07683660398437378,
+        "cluster_entropy": 3.848724558358487,
+        "cluster_entropy_norm": 0.9838195105238826,
+        "label_entropy": 2.6138409338074062,
+        "label_entropy_norm": 0.6949486476141449,
+        "mean_cluster_purity": 0.3313197289703805,
+        "std_cluster_purity": 0.12021856614280507,
+        "frames": 8006,
+        "labels": 43,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4508675281677318,
+        "negative": 0.3965092553501829,
+        "wacs": 0.0543582728175489,
+        "positive_std": 0.10672787924790346,
+        "negative_std": 0.08777931747339572,
+        "cohen_d": 0.5499501768033943,
+        "snr": 0.2794666261154862,
+        "positive_pairs": 271,
+        "negative_pairs": 213,
+        "positive_min": 0.20945570203477992,
+        "positive_max": 0.8510115322515214,
+        "negative_min": 0.19656383677282685,
+        "negative_max": 0.6998825508577646,
+        "vocab_size": 44
+      }
+    }
+  },
+  "pt_br": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27290046203849855,
+        "cluster_entropy": 3.834557195274295,
+        "cluster_entropy_norm": 0.9801980177400893,
+        "label_entropy": 2.8928627979284918,
+        "label_entropy_norm": 0.7789973497123558,
+        "mean_cluster_purity": 0.3695891840289178,
+        "std_cluster_purity": 0.2082348175899127,
+        "frames": 8855,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5565069184942615,
+        "negative": 0.3677082902684377,
+        "wacs": 0.18879862822582377,
+        "positive_std": 0.13129081366836073,
+        "negative_std": 0.07352443161769912,
+        "cohen_d": 1.6998951957696855,
+        "snr": 0.9217996382258437,
+        "positive_pairs": 1409,
+        "negative_pairs": 997,
+        "positive_min": 0.14763568988380882,
+        "positive_max": 0.9235865829612178,
+        "negative_min": 0.1505189005749381,
+        "negative_max": 0.6715483667396154,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.24982494361770502,
+        "cluster_entropy": 3.876451923511928,
+        "cluster_entropy_norm": 0.9909072411213172,
+        "label_entropy": 2.8928627979284918,
+        "label_entropy_norm": 0.7789973497123558,
+        "mean_cluster_purity": 0.35858481178817037,
+        "std_cluster_purity": 0.2120467775210228,
+        "frames": 8855,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5717055328989982,
+        "negative": 0.4042467519813447,
+        "wacs": 0.16745878091765348,
+        "positive_std": 0.12712315717626516,
+        "negative_std": 0.07355319253511146,
+        "cohen_d": 1.5477351051565025,
+        "snr": 0.8344718887591025,
+        "positive_pairs": 1409,
+        "negative_pairs": 997,
+        "positive_min": 0.11792058464959687,
+        "positive_max": 0.9271799613698998,
+        "negative_min": 0.20473436859842753,
+        "negative_max": 0.6147683018673189,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ro_ro": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1237340705068491,
+        "cluster_entropy": 3.8495521341891354,
+        "cluster_entropy_norm": 0.984031057293802,
+        "label_entropy": 2.083508476227444,
+        "label_entropy_norm": 0.6252642867102701,
+        "mean_cluster_purity": 0.41660852046422747,
+        "std_cluster_purity": 0.2199111500688199,
+        "frames": 9101,
+        "labels": 28,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4398580095354993,
+        "negative": 0.4193396925704615,
+        "wacs": 0.02051831696503781,
+        "positive_std": 0.09867121082745012,
+        "negative_std": 0.0663906323129381,
+        "cohen_d": 0.23875797194760973,
+        "snr": 0.12430683755614082,
+        "positive_pairs": 134,
+        "negative_pairs": 106,
+        "positive_min": 0.2489138325906799,
+        "positive_max": 0.8061462586955301,
+        "negative_min": 0.22125765662460006,
+        "negative_max": 0.5396341443458785,
+        "vocab_size": 22
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.1246531971308522,
+        "cluster_entropy": 3.826748050987611,
+        "cluster_entropy_norm": 0.9782018269518836,
+        "label_entropy": 2.083508476227444,
+        "label_entropy_norm": 0.6252642867102701,
+        "mean_cluster_purity": 0.4368805315839516,
+        "std_cluster_purity": 0.20867591902023397,
+        "frames": 9101,
+        "labels": 28,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4729177454123714,
+        "negative": 0.4318020143942693,
+        "wacs": 0.04111573101810212,
+        "positive_std": 0.0982644399377904,
+        "negative_std": 0.07235202511994354,
+        "cohen_d": 0.4680757988080618,
+        "snr": 0.2409833575813192,
+        "positive_pairs": 134,
+        "negative_pairs": 105,
+        "positive_min": 0.2815966486480962,
+        "positive_max": 0.818890588937039,
+        "negative_min": 0.2605231271035773,
+        "negative_max": 0.6178766474838934,
+        "vocab_size": 22
+      }
+    }
+  },
+  "ru_ru": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1707247842689518,
+        "cluster_entropy": 3.842502609446464,
+        "cluster_entropy_norm": 0.9822290421387557,
+        "label_entropy": 3.129739341490083,
+        "label_entropy_norm": 0.7920896721130934,
+        "mean_cluster_purity": 0.27225068122286006,
+        "std_cluster_purity": 0.19849568660854133,
+        "frames": 8714,
+        "labels": 52,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.47808815053677106,
+        "negative": 0.3589194577342594,
+        "wacs": 0.11916869280251169,
+        "positive_std": 0.1342001391014533,
+        "negative_std": 0.0717933720745991,
+        "cohen_d": 1.0727398419147578,
+        "snr": 0.5785069944052471,
+        "positive_pairs": 972,
+        "negative_pairs": 767,
+        "positive_min": 0.1428314832840225,
+        "positive_max": 0.9364798405094394,
+        "negative_min": 0.13970199758651458,
+        "negative_max": 0.6097728386972326,
+        "vocab_size": 154
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.16759870121244488,
+        "cluster_entropy": 3.8511231128532493,
+        "cluster_entropy_norm": 0.9844326343453516,
+        "label_entropy": 3.129739341490083,
+        "label_entropy_norm": 0.7920896721130934,
+        "mean_cluster_purity": 0.2847750818085604,
+        "std_cluster_purity": 0.22201888162226097,
+        "frames": 8714,
+        "labels": 52,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5258555057319326,
+        "negative": 0.42058987961565836,
+        "wacs": 0.10526562611627427,
+        "positive_std": 0.12262068089797541,
+        "negative_std": 0.07379373026254939,
+        "cohen_d": 1.0124650544789355,
+        "snr": 0.5359363405920342,
+        "positive_pairs": 972,
+        "negative_pairs": 766,
+        "positive_min": 0.16706088431930177,
+        "positive_max": 0.928836909519442,
+        "negative_min": 0.20510239255107454,
+        "negative_max": 0.7269328207523527,
+        "vocab_size": 154
+      }
+    }
+  },
+  "sl_si": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3148973213531001,
+        "cluster_entropy": 3.8519908591732586,
+        "cluster_entropy_norm": 0.984654449584885,
+        "label_entropy": 2.8794049831494353,
+        "label_entropy_norm": 0.8551090039395206,
+        "mean_cluster_purity": 0.42275332217635403,
+        "std_cluster_purity": 0.22420964380792519,
+        "frames": 9391,
+        "labels": 29,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6094538350425128,
+        "negative": 0.4043006838801136,
+        "wacs": 0.20515315116239924,
+        "positive_std": 0.10637311917123256,
+        "negative_std": 0.06735712374148549,
+        "cohen_d": 2.234427957876717,
+        "snr": 1.1808717694405708,
+        "positive_pairs": 1218,
+        "negative_pairs": 903,
+        "positive_min": 0.2848811756301589,
+        "positive_max": 0.9127764148671412,
+        "negative_min": 0.1871548347693368,
+        "negative_max": 0.6254797980027523,
+        "vocab_size": 182
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.2871036477504722,
+        "cluster_entropy": 3.858553530791976,
+        "cluster_entropy_norm": 0.9863320142642366,
+        "label_entropy": 2.8794049831494353,
+        "label_entropy_norm": 0.8551090039395206,
+        "mean_cluster_purity": 0.3514886942532952,
+        "std_cluster_purity": 0.1855231322562885,
+        "frames": 9391,
+        "labels": 29,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6392862646030268,
+        "negative": 0.45971787339082854,
+        "wacs": 0.1795683912121983,
+        "positive_std": 0.10317082633072928,
+        "negative_std": 0.07294860245039306,
+        "cohen_d": 1.9627769625688152,
+        "snr": 1.019583031009781,
+        "positive_pairs": 1218,
+        "negative_pairs": 909,
+        "positive_min": 0.31751488205408207,
+        "positive_max": 0.9320893915620113,
+        "negative_min": 0.20962016537468775,
+        "negative_max": 0.6881451666961068,
+        "vocab_size": 182
+      }
+    }
+  },
+  "sn_zw": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.33551663904243084,
+        "cluster_entropy": 3.808309467147751,
+        "cluster_entropy_norm": 0.9734885152422451,
+        "label_entropy": 3.115637268133823,
+        "label_entropy_norm": 0.823330110153016,
+        "mean_cluster_purity": 0.3867508201848508,
+        "std_cluster_purity": 0.20918365101126885,
+        "frames": 9292,
+        "labels": 44,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5396523347675504,
+        "negative": 0.37374764312699243,
+        "wacs": 0.16590469164055793,
+        "positive_std": 0.13181208107303732,
+        "negative_std": 0.07033157684658772,
+        "cohen_d": 1.509652638220489,
+        "snr": 0.8207266314496866,
+        "positive_pairs": 1339,
+        "negative_pairs": 995,
+        "positive_min": 0.1909068118555599,
+        "positive_max": 0.8880380894834555,
+        "negative_min": 0.16650042746393479,
+        "negative_max": 0.6156916560036148,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.2935053417875577,
+        "cluster_entropy": 3.8775068662819314,
+        "cluster_entropy_norm": 0.9911769079327188,
+        "label_entropy": 3.115637268133823,
+        "label_entropy_norm": 0.823330110153016,
+        "mean_cluster_purity": 0.3674412586129329,
+        "std_cluster_purity": 0.22808739612785237,
+        "frames": 9292,
+        "labels": 44,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5648991294007909,
+        "negative": 0.42977070511180376,
+        "wacs": 0.13512842428898714,
+        "positive_std": 0.12359758575269164,
+        "negative_std": 0.0751271268646496,
+        "cohen_d": 1.2787899152676283,
+        "snr": 0.6799779237794517,
+        "positive_pairs": 1339,
+        "negative_pairs": 997,
+        "positive_min": 0.12775270998225208,
+        "positive_max": 0.87994786838224,
+        "negative_min": 0.1518443713246327,
+        "negative_max": 0.6533595620688484,
+        "vocab_size": 200
+      }
+    }
+  },
+  "so_so": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.332461352578912,
+        "cluster_entropy": 3.847328348696618,
+        "cluster_entropy_norm": 0.9834626083124356,
+        "label_entropy": 3.174147493540521,
+        "label_entropy_norm": 0.8790417202301166,
+        "mean_cluster_purity": 0.39079795892520314,
+        "std_cluster_purity": 0.22284852348774328,
+        "frames": 9377,
+        "labels": 37,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5565214825211677,
+        "negative": 0.36174464807561757,
+        "wacs": 0.19477683444555016,
+        "positive_std": 0.10979931472953827,
+        "negative_std": 0.06945947784909472,
+        "cohen_d": 2.0425975398752985,
+        "snr": 1.086567753681776,
+        "positive_pairs": 1433,
+        "negative_pairs": 995,
+        "positive_min": 0.12445455163708685,
+        "positive_max": 0.8578808395519244,
+        "negative_min": 0.1461291800326575,
+        "negative_max": 0.6331892285603937,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3105473121461473,
+        "cluster_entropy": 3.8518925053707362,
+        "cluster_entropy_norm": 0.984629308167673,
+        "label_entropy": 3.174147493540521,
+        "label_entropy_norm": 0.8790417202301166,
+        "mean_cluster_purity": 0.3845097484690787,
+        "std_cluster_purity": 0.22653043800579434,
+        "frames": 9377,
+        "labels": 37,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5935067418184524,
+        "negative": 0.4323567428158127,
+        "wacs": 0.1611499990026397,
+        "positive_std": 0.10569101704563344,
+        "negative_std": 0.07669204812526832,
+        "cohen_d": 1.69809004525754,
+        "snr": 0.8835797885940588,
+        "positive_pairs": 1433,
+        "negative_pairs": 993,
+        "positive_min": 0.13328887745004636,
+        "positive_max": 0.871201701684457,
+        "negative_min": 0.1407324413690636,
+        "negative_max": 0.6886652859716962,
+        "vocab_size": 200
+      }
+    }
+  },
+  "sv_se": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3389165239880255,
+        "cluster_entropy": 3.8509636377074523,
+        "cluster_entropy_norm": 0.9843918689547657,
+        "label_entropy": 3.0692405053342964,
+        "label_entropy_norm": 0.8564878707342954,
+        "mean_cluster_purity": 0.3916458715364933,
+        "std_cluster_purity": 0.21319023175628793,
+        "frames": 8022,
+        "labels": 36,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5902062630298981,
+        "negative": 0.41149175394945886,
+        "wacs": 0.17871450908043923,
+        "positive_std": 0.11945666919248134,
+        "negative_std": 0.07130971090246367,
+        "cohen_d": 1.748084077867351,
+        "snr": 0.9368238765303075,
+        "positive_pairs": 746,
+        "negative_pairs": 531,
+        "positive_min": 0.18252041825166332,
+        "positive_max": 0.9044745258058998,
+        "negative_min": 0.18032793749235232,
+        "negative_max": 0.6565802942102945,
+        "vocab_size": 108
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3121060842916857,
+        "cluster_entropy": 3.875395948331742,
+        "cluster_entropy_norm": 0.9906373104029343,
+        "label_entropy": 3.0692405053342964,
+        "label_entropy_norm": 0.8564878707342954,
+        "mean_cluster_purity": 0.40056082628171547,
+        "std_cluster_purity": 0.24131874767834513,
+        "frames": 8022,
+        "labels": 36,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6151437198510359,
+        "negative": 0.4483229414064104,
+        "wacs": 0.1668207784446255,
+        "positive_std": 0.1182293218773798,
+        "negative_std": 0.07852833789356628,
+        "cohen_d": 1.6117217549846434,
+        "snr": 0.8478489231897726,
+        "positive_pairs": 746,
+        "negative_pairs": 536,
+        "positive_min": 0.12512422545019675,
+        "positive_max": 0.9118684752727593,
+        "negative_min": 0.11215577169110746,
+        "negative_max": 0.7030177968027693,
+        "vocab_size": 108
+      }
+    }
+  },
+  "sw_ke": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3753242905036474,
+        "cluster_entropy": 3.85208436722111,
+        "cluster_entropy_norm": 0.984678352319537,
+        "label_entropy": 3.0857607029855982,
+        "label_entropy_norm": 0.8365035348455955,
+        "mean_cluster_purity": 0.4244476278924922,
+        "std_cluster_purity": 0.20442460772585092,
+        "frames": 9246,
+        "labels": 40,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6019038436111104,
+        "negative": 0.3948597941141562,
+        "wacs": 0.20704404949695415,
+        "positive_std": 0.103077694260707,
+        "negative_std": 0.0696516691781057,
+        "cohen_d": 2.258516744551988,
+        "snr": 1.1986614978968648,
+        "positive_pairs": 1594,
+        "negative_pairs": 997,
+        "positive_min": 0.21091945594829087,
+        "positive_max": 0.8910410292509079,
+        "negative_min": 0.18387855993199242,
+        "negative_max": 0.6467238700260273,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.35725814061419364,
+        "cluster_entropy": 3.858680968575967,
+        "cluster_entropy_norm": 0.9863645901933185,
+        "label_entropy": 3.0857607029855982,
+        "label_entropy_norm": 0.8365035348455955,
+        "mean_cluster_purity": 0.4721319635541378,
+        "std_cluster_purity": 0.24810170357273936,
+        "frames": 9246,
+        "labels": 40,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6150341482155378,
+        "negative": 0.43799476937431464,
+        "wacs": 0.17703937884122317,
+        "positive_std": 0.10073476219822874,
+        "negative_std": 0.07754834849661704,
+        "cohen_d": 1.9137204769716794,
+        "snr": 0.9930237823481257,
+        "positive_pairs": 1594,
+        "negative_pairs": 996,
+        "positive_min": 0.19427483029903359,
+        "positive_max": 0.8963699073858288,
+        "negative_min": 0.13009167736244087,
+        "negative_max": 0.6563981875012195,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ta_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.21713501360704798,
+        "cluster_entropy": 3.84835155610998,
+        "cluster_entropy_norm": 0.9837241628615634,
+        "label_entropy": 2.9016547555768195,
+        "label_entropy_norm": 0.753647666465576,
+        "mean_cluster_purity": 0.3589506096430203,
+        "std_cluster_purity": 0.23044131840401672,
+        "frames": 8384,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5282424207690356,
+        "negative": 0.386526015356552,
+        "wacs": 0.1417164054124836,
+        "positive_std": 0.12305269824163463,
+        "negative_std": 0.06480301843114435,
+        "cohen_d": 1.3865734693522493,
+        "snr": 0.7543895941981887,
+        "positive_pairs": 1008,
+        "negative_pairs": 758,
+        "positive_min": 0.18122358089583535,
+        "positive_max": 0.8637484057305693,
+        "negative_min": 0.11949085241672153,
+        "negative_max": 0.5786121389536734,
+        "vocab_size": 152
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.1983314145756895,
+        "cluster_entropy": 3.8624283745007424,
+        "cluster_entropy_norm": 0.9873225104099367,
+        "label_entropy": 2.9016547555768195,
+        "label_entropy_norm": 0.753647666465576,
+        "mean_cluster_purity": 0.3456590216292078,
+        "std_cluster_purity": 0.23546517145505505,
+        "frames": 8384,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5704589856091692,
+        "negative": 0.44704349812455413,
+        "wacs": 0.12341548748461506,
+        "positive_std": 0.11022200745947365,
+        "negative_std": 0.07642099406299295,
+        "cohen_d": 1.2698527625906644,
+        "snr": 0.6612381919789121,
+        "positive_pairs": 1008,
+        "negative_pairs": 756,
+        "positive_min": 0.2583543449615975,
+        "positive_max": 0.9018457978359109,
+        "negative_min": 0.14115856853284603,
+        "negative_max": 0.6936602489982234,
+        "vocab_size": 152
+      }
+    }
+  },
+  "te_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.32425531420128145,
+        "cluster_entropy": 3.829447811153153,
+        "cluster_entropy_norm": 0.9788919456351828,
+        "label_entropy": 3.1353143067613085,
+        "label_entropy_norm": 0.7974194686219791,
+        "mean_cluster_purity": 0.37505650681743347,
+        "std_cluster_purity": 0.21280133407869997,
+        "frames": 8395,
+        "labels": 51,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5916017252530458,
+        "negative": 0.41803655774483545,
+        "wacs": 0.17356516750821033,
+        "positive_std": 0.09612535436164413,
+        "negative_std": 0.06685834484221302,
+        "cohen_d": 2.0547932199588037,
+        "snr": 1.0649234107877499,
+        "positive_pairs": 958,
+        "negative_pairs": 757,
+        "positive_min": 0.30504465840016115,
+        "positive_max": 0.8710892935847766,
+        "negative_min": 0.21499915597107377,
+        "negative_max": 0.6572283434575377,
+        "vocab_size": 152
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.31289145056056256,
+        "cluster_entropy": 3.8579310279456833,
+        "cluster_entropy_norm": 0.9861728887055605,
+        "label_entropy": 3.1353143067613085,
+        "label_entropy_norm": 0.7974194686219791,
+        "mean_cluster_purity": 0.3741114810245662,
+        "std_cluster_purity": 0.21129928667122055,
+        "frames": 8395,
+        "labels": 51,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.619718515352917,
+        "negative": 0.4607916208283555,
+        "wacs": 0.1589268945245615,
+        "positive_std": 0.09301810408638506,
+        "negative_std": 0.06857271218961233,
+        "cohen_d": 1.9118238099853313,
+        "snr": 0.9835143379557582,
+        "positive_pairs": 958,
+        "negative_pairs": 756,
+        "positive_min": 0.3054803620602463,
+        "positive_max": 0.8880078818064767,
+        "negative_min": 0.18796095399761226,
+        "negative_max": 0.6845690246981659,
+        "vocab_size": 152
+      }
+    }
+  },
+  "tg_tj": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.4008480412495144,
+        "cluster_entropy": 3.858118717822931,
+        "cluster_entropy_norm": 0.986220866408398,
+        "label_entropy": 3.207295673871119,
+        "label_entropy_norm": 0.8157268336563577,
+        "mean_cluster_purity": 0.44755261465723967,
+        "std_cluster_purity": 0.2248673129218536,
+        "frames": 9071,
+        "labels": 51,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6532676382627267,
+        "negative": 0.39557964595548506,
+        "wacs": 0.25768799230724165,
+        "positive_std": 0.09832951159736589,
+        "negative_std": 0.0750220620007208,
+        "cohen_d": 2.8695040610981994,
+        "snr": 1.4865049799873062,
+        "positive_pairs": 1515,
+        "negative_pairs": 998,
+        "positive_min": 0.2559107604425154,
+        "positive_max": 0.9104925143835527,
+        "negative_min": 0.17100102794636007,
+        "negative_max": 0.7097079718927305,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.37121355838581316,
+        "cluster_entropy": 3.8636598431695277,
+        "cluster_entropy_norm": 0.9876373011632315,
+        "label_entropy": 3.207295673871119,
+        "label_entropy_norm": 0.8157268336563577,
+        "mean_cluster_purity": 0.4344896196917793,
+        "std_cluster_purity": 0.23599577313111061,
+        "frames": 9071,
+        "labels": 51,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6816280792941452,
+        "negative": 0.45512240048710734,
+        "wacs": 0.2265056788070378,
+        "positive_std": 0.09492274242948262,
+        "negative_std": 0.0759780379800246,
+        "cohen_d": 2.5768646697145257,
+        "snr": 1.3253635531134282,
+        "positive_pairs": 1515,
+        "negative_pairs": 996,
+        "positive_min": 0.3059269977472533,
+        "positive_max": 0.9252756106985851,
+        "negative_min": 0.20576015764699973,
+        "negative_max": 0.7175690209839115,
+        "vocab_size": 200
+      }
+    }
+  },
+  "th_th": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27571749131006884,
+        "cluster_entropy": 3.8523275120610347,
+        "cluster_entropy_norm": 0.9847405055429683,
+        "label_entropy": 3.5063063065312297,
+        "label_entropy_norm": 0.900942499383501,
+        "mean_cluster_purity": 0.3054351502047791,
+        "std_cluster_purity": 0.2235916783656496,
+        "frames": 9603,
+        "labels": 49,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5816399857167472,
+        "negative": 0.36727143214630953,
+        "wacs": 0.21436855357043771,
+        "positive_std": 0.11520191554320958,
+        "negative_std": 0.07597336540241299,
+        "cohen_d": 2.07442605419481,
+        "snr": 1.1213193530926138,
+        "positive_pairs": 1888,
+        "negative_pairs": 998,
+        "positive_min": 0.16234091913960924,
+        "positive_max": 0.9007428320777718,
+        "negative_min": 0.1262183614401967,
+        "negative_max": 0.6406317458653952,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.24835619844969065,
+        "cluster_entropy": 3.839246172300903,
+        "cluster_entropy_norm": 0.9813966244507609,
+        "label_entropy": 3.5063063065312297,
+        "label_entropy_norm": 0.900942499383501,
+        "mean_cluster_purity": 0.31561740273264177,
+        "std_cluster_purity": 0.24819516873524516,
+        "frames": 9603,
+        "labels": 49,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.602306756381142,
+        "negative": 0.43053674074659687,
+        "wacs": 0.17177001563454508,
+        "positive_std": 0.10697255555984862,
+        "negative_std": 0.07770777158641984,
+        "cohen_d": 1.7550933083427231,
+        "snr": 0.930093686684694,
+        "positive_pairs": 1888,
+        "negative_pairs": 995,
+        "positive_min": 0.2058977490859607,
+        "positive_max": 0.9191364045222186,
+        "negative_min": 0.15346445910276751,
+        "negative_max": 0.6628949662228194,
+        "vocab_size": 200
+      }
+    }
+  },
+  "tr_tr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.12542558738221868,
+        "cluster_entropy": 3.8297987481677787,
+        "cluster_entropy_norm": 0.9789816529334626,
+        "label_entropy": 2.411688805090317,
+        "label_entropy_norm": 0.6839030746445941,
+        "mean_cluster_purity": 0.3485732126647933,
+        "std_cluster_purity": 0.12142354020913983,
+        "frames": 8244,
+        "labels": 34,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.39805815281451296,
+        "negative": 0.37710169064230525,
+        "wacs": 0.0209564621722077,
+        "positive_std": 0.13881351440511336,
+        "negative_std": 0.11819812105441786,
+        "cohen_d": 0.16255581332422445,
+        "snr": 0.08153895958581178,
+        "positive_pairs": 335,
+        "negative_pairs": 335,
+        "positive_min": 0.13862899205063095,
+        "positive_max": 0.8634705020701476,
+        "negative_min": 0.15690192090614885,
+        "negative_max": 0.7982078863150273,
+        "vocab_size": 68
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.11912848311972109,
+        "cluster_entropy": 3.807711935817043,
+        "cluster_entropy_norm": 0.9733357729577853,
+        "label_entropy": 2.411688805090317,
+        "label_entropy_norm": 0.6839030746445941,
+        "mean_cluster_purity": 0.3492507458640313,
+        "std_cluster_purity": 0.12094235447148038,
+        "frames": 8244,
+        "labels": 34,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4239544760384756,
+        "negative": 0.38984228329426374,
+        "wacs": 0.034112192744211844,
+        "positive_std": 0.1407552096987013,
+        "negative_std": 0.12100692151490766,
+        "cohen_d": 0.2598379167151126,
+        "snr": 0.13031751874452638,
+        "positive_pairs": 335,
+        "negative_pairs": 333,
+        "positive_min": 0.13957800918828023,
+        "positive_max": 0.8725216050224337,
+        "negative_min": 0.09844821219612321,
+        "negative_max": 0.8519517419370122,
+        "vocab_size": 68
+      }
+    }
+  },
+  "uk_ua": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.33837785830711964,
+        "cluster_entropy": 3.869986360368174,
+        "cluster_entropy_norm": 0.989254499525784,
+        "label_entropy": 3.2733650508824432,
+        "label_entropy_norm": 0.8599041968335749,
+        "mean_cluster_purity": 0.3734454109592733,
+        "std_cluster_purity": 0.20877562477033598,
+        "frames": 9227,
+        "labels": 45,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6044743954728572,
+        "negative": 0.386352833684163,
+        "wacs": 0.21812156178869418,
+        "positive_std": 0.11307683980293977,
+        "negative_std": 0.06928008542250841,
+        "cohen_d": 2.2536672179326533,
+        "snr": 1.1961243016013083,
+        "positive_pairs": 1190,
+        "negative_pairs": 891,
+        "positive_min": 0.21840130497863897,
+        "positive_max": 0.9208675703631963,
+        "negative_min": 0.20175130884569292,
+        "negative_max": 0.690508909699066,
+        "vocab_size": 179
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.32599459514101037,
+        "cluster_entropy": 3.852547303956143,
+        "cluster_entropy_norm": 0.9847966892348339,
+        "label_entropy": 3.2733650508824432,
+        "label_entropy_norm": 0.8599041968335749,
+        "mean_cluster_purity": 0.40089006860246806,
+        "std_cluster_purity": 0.2492638982312923,
+        "frames": 9227,
+        "labels": 45,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6390078858309837,
+        "negative": 0.45399247518485614,
+        "wacs": 0.18501541064612753,
+        "positive_std": 0.10642007001133086,
+        "negative_std": 0.07404997614629667,
+        "cohen_d": 1.969183294217414,
+        "snr": 1.0251861975624919,
+        "positive_pairs": 1190,
+        "negative_pairs": 889,
+        "positive_min": 0.2855908528811386,
+        "positive_max": 0.9342006174827668,
+        "negative_min": 0.21376886701795206,
+        "negative_max": 0.7362548085024996,
+        "vocab_size": 179
+      }
+    }
+  },
+  "ur_pk": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3395953361598168,
+        "cluster_entropy": 3.8758517931915315,
+        "cluster_entropy_norm": 0.9907538344773472,
+        "label_entropy": 3.3166504329450186,
+        "label_entropy_norm": 0.8353668962284674,
+        "mean_cluster_purity": 0.362956526201072,
+        "std_cluster_purity": 0.1912758632535597,
+        "frames": 8954,
+        "labels": 53,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6502072758089935,
+        "negative": 0.415362343274282,
+        "wacs": 0.2348449325347115,
+        "positive_std": 0.09770155322268477,
+        "negative_std": 0.07521870349182554,
+        "cohen_d": 2.600125054686819,
+        "snr": 1.3581110936084677,
+        "positive_pairs": 1788,
+        "negative_pairs": 993,
+        "positive_min": 0.2825192508280635,
+        "positive_max": 0.8945477020763531,
+        "negative_min": 0.15848244976874193,
+        "negative_max": 0.6809138201176008,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.30315393743516295,
+        "cluster_entropy": 3.8483169447728995,
+        "cluster_entropy_norm": 0.983715315434789,
+        "label_entropy": 3.3166504329450186,
+        "label_entropy_norm": 0.8353668962284674,
+        "mean_cluster_purity": 0.32686117835919853,
+        "std_cluster_purity": 0.20641068192199669,
+        "frames": 8954,
+        "labels": 53,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6627669788591227,
+        "negative": 0.4620532265248744,
+        "wacs": 0.20071375233424832,
+        "positive_std": 0.09504348830095243,
+        "negative_std": 0.07896651925847527,
+        "cohen_d": 2.239385132721723,
+        "snr": 1.153460905006235,
+        "positive_pairs": 1788,
+        "negative_pairs": 995,
+        "positive_min": 0.2619084734909295,
+        "positive_max": 0.897880698518748,
+        "negative_min": 0.23693799558239503,
+        "negative_max": 0.7040585976074927,
+        "vocab_size": 200
+      }
+    }
+  },
+  "uz_uz": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2874865925514335,
+        "cluster_entropy": 3.8500720065132192,
+        "cluster_entropy_norm": 0.9841639482106914,
+        "label_entropy": 3.2418673120364634,
+        "label_entropy_norm": 0.8729781605971446,
+        "mean_cluster_purity": 0.34565204749822975,
+        "std_cluster_purity": 0.21466016618747805,
+        "frames": 9411,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5861038067797121,
+        "negative": 0.389187042995179,
+        "wacs": 0.1969167637845331,
+        "positive_std": 0.11159299795160875,
+        "negative_std": 0.07193136858966669,
+        "cohen_d": 2.0321935441043704,
+        "snr": 1.0729733428095622,
+        "positive_pairs": 1370,
+        "negative_pairs": 996,
+        "positive_min": 0.2498174848990793,
+        "positive_max": 0.8806857617936334,
+        "negative_min": 0.14625526056865146,
+        "negative_max": 0.6566592359025216,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.27111193303194037,
+        "cluster_entropy": 3.854963885694381,
+        "cluster_entropy_norm": 0.985414421220276,
+        "label_entropy": 3.2418673120364634,
+        "label_entropy_norm": 0.8729781605971446,
+        "mean_cluster_purity": 0.3414587021685277,
+        "std_cluster_purity": 0.2072762770557216,
+        "frames": 9411,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6129342412523058,
+        "negative": 0.44579662231353595,
+        "wacs": 0.16713761893876983,
+        "positive_std": 0.10682562486092645,
+        "negative_std": 0.0815371840227854,
+        "cohen_d": 1.7232682870926803,
+        "snr": 0.8873174649289696,
+        "positive_pairs": 1370,
+        "negative_pairs": 996,
+        "positive_min": 0.11806304840212756,
+        "positive_max": 0.8852980368934898,
+        "negative_min": 0.22771798802932275,
+        "negative_max": 0.7279378922098588,
+        "vocab_size": 200
+      }
+    }
+  },
+  "vi_vn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38236994071548114,
+        "cluster_entropy": 3.8421450189526425,
+        "cluster_entropy_norm": 0.9821376340633621,
+        "label_entropy": 3.4955839380264213,
+        "label_entropy_norm": 0.9079090724921413,
+        "mean_cluster_purity": 0.35363045917854974,
+        "std_cluster_purity": 0.20457946355671472,
+        "frames": 9781,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6369427913951133,
+        "negative": 0.4138696009750655,
+        "wacs": 0.22307319042004786,
+        "positive_std": 0.09079353596638035,
+        "negative_std": 0.07153627267350808,
+        "cohen_d": 2.632390386473334,
+        "snr": 1.3741972503210405,
+        "positive_pairs": 1932,
+        "negative_pairs": 995,
+        "positive_min": 0.23916248190337464,
+        "positive_max": 0.9002024665622332,
+        "negative_min": 0.21432345661132235,
+        "negative_max": 0.7010925846176752,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.35818057008408677,
+        "cluster_entropy": 3.8526972469901977,
+        "cluster_entropy_norm": 0.9848350180058679,
+        "label_entropy": 3.4955839380264213,
+        "label_entropy_norm": 0.9079090724921413,
+        "mean_cluster_purity": 0.36039572448378565,
+        "std_cluster_purity": 0.22625762173493044,
+        "frames": 9781,
+        "labels": 47,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6364831365218037,
+        "negative": 0.4611107307103684,
+        "wacs": 0.17537240581143526,
+        "positive_std": 0.08729200191071662,
+        "negative_std": 0.07713019249111405,
+        "cohen_d": 2.088120380207345,
+        "snr": 1.066598069582156,
+        "positive_pairs": 1932,
+        "negative_pairs": 991,
+        "positive_min": 0.26796870343154,
+        "positive_max": 0.8954418223819653,
+        "negative_min": 0.23238969880670035,
+        "negative_max": 0.7448939786159405,
+        "vocab_size": 200
+      }
+    }
+  },
+  "wo_sn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.1263675330873496,
+        "cluster_entropy": 3.8532190630070104,
+        "cluster_entropy_norm": 0.9849684057738051,
+        "label_entropy": 2.6950185885280016,
+        "label_entropy_norm": 0.6609426953407802,
+        "mean_cluster_purity": 0.35265048399270166,
+        "std_cluster_purity": 0.13640414792790617,
+        "frames": 7996,
+        "labels": 59,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.41112071426439467,
+        "negative": 0.39164611741650374,
+        "wacs": 0.019474596847890935,
+        "positive_std": 0.10309852189996803,
+        "negative_std": 0.08743139230252668,
+        "cohen_d": 0.20089145436090347,
+        "snr": 0.10221279900995175,
+        "positive_pairs": 354,
+        "negative_pairs": 249,
+        "positive_min": 0.1600881523268609,
+        "positive_max": 0.797329826111066,
+        "negative_min": 0.1622860370125394,
+        "negative_max": 0.7094617791216302,
+        "vocab_size": 51
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.12143335988614407,
+        "cluster_entropy": 3.8378454158222124,
+        "cluster_entropy_norm": 0.9810385599719101,
+        "label_entropy": 2.6950185885280016,
+        "label_entropy_norm": 0.6609426953407802,
+        "mean_cluster_purity": 0.3620831861642562,
+        "std_cluster_purity": 0.17265911999332648,
+        "frames": 7996,
+        "labels": 59,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4179755399066648,
+        "negative": 0.40744982238271693,
+        "wacs": 0.010525717523947875,
+        "positive_std": 0.11084340852485176,
+        "negative_std": 0.0980940127231019,
+        "cohen_d": 0.0995393329930613,
+        "snr": 0.05037736637748084,
+        "positive_pairs": 354,
+        "negative_pairs": 251,
+        "positive_min": 0.07373645945337914,
+        "positive_max": 0.8243536732096874,
+        "negative_min": 0.16453175535873021,
+        "negative_max": 0.7638910841922575,
+        "vocab_size": 51
+      }
+    }
+  },
+  "xh_za": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.32882096213333034,
+        "cluster_entropy": 3.846097748831726,
+        "cluster_entropy_norm": 0.9831480396447195,
+        "label_entropy": 3.2019917269012104,
+        "label_entropy_norm": 0.806487733552183,
+        "mean_cluster_purity": 0.35902693332345614,
+        "std_cluster_purity": 0.1745978037497422,
+        "frames": 8689,
+        "labels": 53,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6390647375978598,
+        "negative": 0.4119126102356699,
+        "wacs": 0.22715212736218987,
+        "positive_std": 0.12323627302726663,
+        "negative_std": 0.06818177112341105,
+        "cohen_d": 2.2203554226716227,
+        "snr": 1.1866807881318424,
+        "positive_pairs": 834,
+        "negative_pairs": 677,
+        "positive_min": 0.22672139334193186,
+        "positive_max": 0.871592511278727,
+        "negative_min": 0.2306206720670264,
+        "negative_max": 0.657535241834539,
+        "vocab_size": 136
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.2949433066680828,
+        "cluster_entropy": 3.8469402558002352,
+        "cluster_entropy_norm": 0.9833634031452256,
+        "label_entropy": 3.2019917269012104,
+        "label_entropy_norm": 0.806487733552183,
+        "mean_cluster_purity": 0.34797166480662933,
+        "std_cluster_purity": 0.19347248075699153,
+        "frames": 8689,
+        "labels": 53,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6451587454215985,
+        "negative": 0.4584237235126299,
+        "wacs": 0.18673502190896857,
+        "positive_std": 0.12707500890716728,
+        "negative_std": 0.06960240991937962,
+        "cohen_d": 1.7730027026357693,
+        "snr": 0.9494481548955641,
+        "positive_pairs": 834,
+        "negative_pairs": 675,
+        "positive_min": 0.1906720568924497,
+        "positive_max": 0.9115547579215364,
+        "negative_min": 0.22318656278341942,
+        "negative_max": 0.674377899350965,
+        "vocab_size": 136
+      }
+    }
+  },
+  "yo_ng": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.39369309933148117,
+        "cluster_entropy": 3.8567475271490674,
+        "cluster_entropy_norm": 0.9858703596061729,
+        "label_entropy": 3.532001038717428,
+        "label_entropy_norm": 0.8735978855418176,
+        "mean_cluster_purity": 0.35844285389859215,
+        "std_cluster_purity": 0.20628587161080647,
+        "frames": 9535,
+        "labels": 57,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5676866123990157,
+        "negative": 0.3703116949629797,
+        "wacs": 0.19737491743603602,
+        "positive_std": 0.11802970605696837,
+        "negative_std": 0.07547372383032169,
+        "cohen_d": 1.8943206821236136,
+        "snr": 1.0200072802375035,
+        "positive_pairs": 1664,
+        "negative_pairs": 992,
+        "positive_min": 0.15239870943921152,
+        "positive_max": 0.8775077784685936,
+        "negative_min": 0.14959762931080367,
+        "negative_max": 0.6893743593886394,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.35339693631811325,
+        "cluster_entropy": 3.8747211841906313,
+        "cluster_entropy_norm": 0.9904648256961279,
+        "label_entropy": 3.532001038717428,
+        "label_entropy_norm": 0.8735978855418176,
+        "mean_cluster_purity": 0.33714656596588966,
+        "std_cluster_purity": 0.23185907152187407,
+        "frames": 9535,
+        "labels": 57,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5962745548278346,
+        "negative": 0.42141745932879393,
+        "wacs": 0.17485709549904072,
+        "positive_std": 0.1119114541292143,
+        "negative_std": 0.08522210886480036,
+        "cohen_d": 1.7016089333351518,
+        "snr": 0.8869980533673465,
+        "positive_pairs": 1664,
+        "negative_pairs": 992,
+        "positive_min": 0.21965360529063305,
+        "positive_max": 0.8950031945975322,
+        "negative_min": 0.128519118274531,
+        "negative_max": 0.7318741258231105,
+        "vocab_size": 200
+      }
+    }
+  },
+  "yue_hant_hk": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.33824785905655413,
+        "cluster_entropy": 3.856731267651503,
+        "cluster_entropy_norm": 0.9858662033173315,
+        "label_entropy": 3.504944663122901,
+        "label_entropy_norm": 0.8707176247953613,
+        "mean_cluster_purity": 0.3114834505578667,
+        "std_cluster_purity": 0.19909704971792472,
+        "frames": 9243,
+        "labels": 56,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6324035332420144,
+        "negative": 0.38623517588914197,
+        "wacs": 0.2461683573528724,
+        "positive_std": 0.10226101478152798,
+        "negative_std": 0.0728102885106978,
+        "cohen_d": 2.6788407063210484,
+        "snr": 1.4061033342565539,
+        "positive_pairs": 1550,
+        "negative_pairs": 993,
+        "positive_min": 0.21967636836733373,
+        "positive_max": 0.9073826537236216,
+        "negative_min": 0.16405871879464473,
+        "negative_max": 0.7105384319710528,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.3131002406483771,
+        "cluster_entropy": 3.8501918129782364,
+        "cluster_entropy_norm": 0.984194573405086,
+        "label_entropy": 3.504944663122901,
+        "label_entropy_norm": 0.8707176247953613,
+        "mean_cluster_purity": 0.32746041181880714,
+        "std_cluster_purity": 0.22889500593532175,
+        "frames": 9243,
+        "labels": 56,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.6458436007994749,
+        "negative": 0.4470815063967226,
+        "wacs": 0.19876209440275228,
+        "positive_std": 0.09815524830935961,
+        "negative_std": 0.07362245217755227,
+        "cohen_d": 2.2242849693721642,
+        "snr": 1.1570889717842432,
+        "positive_pairs": 1550,
+        "negative_pairs": 997,
+        "positive_min": 0.2789855928688171,
+        "positive_max": 0.9299008551399018,
+        "negative_min": 0.24413443144550662,
+        "negative_max": 0.6807634297571458,
+        "vocab_size": 200
+      }
+    }
+  },
+  "zu_za": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.20139154005468646,
+        "cluster_entropy": 3.869600444972934,
+        "cluster_entropy_norm": 0.9891558509762473,
+        "label_entropy": 2.6933730415912036,
+        "label_entropy_norm": 0.7252782477926967,
+        "mean_cluster_purity": 0.3540920643370282,
+        "std_cluster_purity": 0.1964051814842506,
+        "frames": 8532,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.4773811050345813,
+        "negative": 0.3610762683261578,
+        "wacs": 0.11630483670842351,
+        "positive_std": 0.1345453784872798,
+        "negative_std": 0.07815311191490407,
+        "cohen_d": 1.0376745559715028,
+        "snr": 0.5468060963688363,
+        "positive_pairs": 728,
+        "negative_pairs": 625,
+        "positive_min": 0.05143089754668573,
+        "positive_max": 0.8622040985554941,
+        "negative_min": 0.13048411528821025,
+        "negative_max": 0.6779454383158041,
+        "vocab_size": 126
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": {
+        "nmi": 0.19415506894303963,
+        "cluster_entropy": 3.866381379232672,
+        "cluster_entropy_norm": 0.9883329862497885,
+        "label_entropy": 2.6933730415912036,
+        "label_entropy_norm": 0.7252782477926967,
+        "mean_cluster_purity": 0.3510362749474472,
+        "std_cluster_purity": 0.19050782957958948,
+        "frames": 8532,
+        "labels": 41,
+        "clusters_used": 50
+      },
+      "wacs": {
+        "positive": 0.5020461039400297,
+        "negative": 0.39608305527773024,
+        "wacs": 0.10596304866229944,
+        "positive_std": 0.12989411783712418,
+        "negative_std": 0.08633021960695875,
+        "cohen_d": 0.9467961471360264,
+        "snr": 0.4900606703863551,
+        "positive_pairs": 728,
+        "negative_pairs": 624,
+        "positive_min": 0.14379345478908556,
+        "positive_max": 0.8697971514640083,
+        "negative_min": 0.10136833173764037,
+        "negative_max": 0.6312725114693334,
+        "vocab_size": 126
+      }
+    }
+  }
+}

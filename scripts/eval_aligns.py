@@ -68,7 +68,7 @@ class W2V2Embedding:
 # -----------------------------
 def load_textgrid(tg_path, tier_names=["phones", "words"]):
     tg = parselmouth.read(tg_path)
-    out = {t: [] for t in tier_names}
+    out = {}
     n_tiers = call(tg, "Get number of tiers")
 
     for tier_name in tier_names:

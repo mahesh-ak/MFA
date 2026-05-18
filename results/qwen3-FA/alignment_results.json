@@ -1,0 +1,402 @@
+{
+  "cmn_hans_cn": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.5706890219289097,
+        "negative": 0.3769029104131466,
+        "wacs": 0.19378611151576308,
+        "positive_std": 0.09633169249919951,
+        "negative_std": 0.08057548800108866,
+        "cohen_d": 2.1202614550258616,
+        "snr": 1.0954111642819144,
+        "positive_pairs": 2000,
+        "negative_pairs": 996,
+        "positive_min": 0.20975696528295507,
+        "positive_max": 0.9098974515808512,
+        "negative_min": 0.15007039721520044,
+        "negative_max": 0.6451001184304987,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.5805299149432549,
+        "negative": 0.4199982889107796,
+        "wacs": 0.16053162603247528,
+        "positive_std": 0.09437501363897707,
+        "negative_std": 0.08514651550579563,
+        "cohen_d": 1.7562196693714325,
+        "snr": 0.8942193053671222,
+        "positive_pairs": 2000,
+        "negative_pairs": 998,
+        "positive_min": 0.23815906150878607,
+        "positive_max": 0.9065249226395249,
+        "negative_min": 0.15189157756125837,
+        "negative_max": 0.6756566389284229,
+        "vocab_size": 200
+      }
+    }
+  },
+  "de_de": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.588591500954417,
+        "negative": 0.401471657133229,
+        "wacs": 0.18711984382118801,
+        "positive_std": 0.10465573072938972,
+        "negative_std": 0.06699463864398376,
+        "cohen_d": 2.0608060270865955,
+        "snr": 1.0901219356711436,
+        "positive_pairs": 1381,
+        "negative_pairs": 996,
+        "positive_min": 0.2350212236321656,
+        "positive_max": 0.9000156571643549,
+        "negative_min": 0.2223287798007807,
+        "negative_max": 0.6532835269362405,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6230236729268255,
+        "negative": 0.431280273096786,
+        "wacs": 0.19174339983003946,
+        "positive_std": 0.10331894063540686,
+        "negative_std": 0.07334583154220904,
+        "cohen_d": 2.0854231635971128,
+        "snr": 1.0853515763954797,
+        "positive_pairs": 1381,
+        "negative_pairs": 998,
+        "positive_min": 0.29640051298774384,
+        "positive_max": 0.913503917837402,
+        "negative_min": 0.18385314241706752,
+        "negative_max": 0.7180670373020926,
+        "vocab_size": 200
+      }
+    }
+  },
+  "en_us": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.5756480839842073,
+        "negative": 0.40334883837436675,
+        "wacs": 0.17229924560984056,
+        "positive_std": 0.09861104486783476,
+        "negative_std": 0.06846700305445576,
+        "cohen_d": 1.9574272892606452,
+        "snr": 1.0312499902888412,
+        "positive_pairs": 1542,
+        "negative_pairs": 996,
+        "positive_min": 0.25977640276219494,
+        "positive_max": 0.8992255015732569,
+        "negative_min": 0.1786878234495738,
+        "negative_max": 0.6259192775030273,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6001397852807276,
+        "negative": 0.4314652304304763,
+        "wacs": 0.16867455485025135,
+        "positive_std": 0.1036124081229792,
+        "negative_std": 0.07572808906818201,
+        "cohen_d": 1.8005469243678929,
+        "snr": 0.940526808427385,
+        "positive_pairs": 1542,
+        "negative_pairs": 994,
+        "positive_min": 0.2564986334648587,
+        "positive_max": 0.9213903668877619,
+        "negative_min": 0.18433413860134418,
+        "negative_max": 0.6690884527311876,
+        "vocab_size": 200
+      }
+    }
+  },
+  "es_419": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6021743434515276,
+        "negative": 0.39198728406433303,
+        "wacs": 0.21018705938719462,
+        "positive_std": 0.09904826793018928,
+        "negative_std": 0.06740381987441767,
+        "cohen_d": 2.3883350570037947,
+        "snr": 1.2627480347765085,
+        "positive_pairs": 1534,
+        "negative_pairs": 990,
+        "positive_min": 0.26292766821736024,
+        "positive_max": 0.9191255955012202,
+        "negative_min": 0.1892008775683539,
+        "negative_max": 0.6111101497927819,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6203884494306683,
+        "negative": 0.4246324812998434,
+        "wacs": 0.1957559681308249,
+        "positive_std": 0.10564508504176767,
+        "negative_std": 0.07463157232176046,
+        "cohen_d": 2.068168884438684,
+        "snr": 1.0858641386801473,
+        "positive_pairs": 1534,
+        "negative_pairs": 997,
+        "positive_min": 0.2089842584613245,
+        "positive_max": 0.9372281658043833,
+        "negative_min": 0.1864461452179036,
+        "negative_max": 0.6728831996000013,
+        "vocab_size": 200
+      }
+    }
+  },
+  "fr_fr": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.5736345517007401,
+        "negative": 0.368750627575469,
+        "wacs": 0.20488392412527107,
+        "positive_std": 0.10482976006480735,
+        "negative_std": 0.06824590207457984,
+        "cohen_d": 2.218247759883288,
+        "snr": 1.18378233978642,
+        "positive_pairs": 1564,
+        "negative_pairs": 993,
+        "positive_min": 0.26021103388857414,
+        "positive_max": 0.9050205839776716,
+        "negative_min": 0.17002851951758702,
+        "negative_max": 0.6029808740550456,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.5893485119106132,
+        "negative": 0.4111852330772746,
+        "wacs": 0.1781632788333386,
+        "positive_std": 0.10608734673780104,
+        "negative_std": 0.07837286312216594,
+        "cohen_d": 1.8503653469004806,
+        "snr": 0.9658628780156031,
+        "positive_pairs": 1564,
+        "negative_pairs": 992,
+        "positive_min": 0.26767212686388775,
+        "positive_max": 0.9111094490591183,
+        "negative_min": 0.12110997228647791,
+        "negative_max": 0.6674176830035712,
+        "vocab_size": 200
+      }
+    }
+  },
+  "it_it": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.5837269752191968,
+        "negative": 0.3793229465291949,
+        "wacs": 0.2044040286900019,
+        "positive_std": 0.12714787528823404,
+        "negative_std": 0.07589473789816874,
+        "cohen_d": 1.865377905469649,
+        "snr": 1.0067050232223866,
+        "positive_pairs": 1497,
+        "negative_pairs": 997,
+        "positive_min": 0.08086501926040324,
+        "positive_max": 0.9194371720101555,
+        "negative_min": 0.07037027828053843,
+        "negative_max": 0.6948629284449169,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6037226147143158,
+        "negative": 0.4188185346895036,
+        "wacs": 0.18490408002481218,
+        "positive_std": 0.1318006256695824,
+        "negative_std": 0.08143891978831594,
+        "cohen_d": 1.616957650035323,
+        "snr": 0.8671190465941453,
+        "positive_pairs": 1497,
+        "negative_pairs": 998,
+        "positive_min": 0.041617125249135745,
+        "positive_max": 0.928743286551435,
+        "negative_min": 0.04417833386784553,
+        "negative_max": 0.6672286185564429,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ja_jp": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.615505956214587,
+        "negative": 0.41863777929070317,
+        "wacs": 0.19686817692388386,
+        "positive_std": 0.10884405235074246,
+        "negative_std": 0.07743492866227018,
+        "cohen_d": 1.997658784667598,
+        "snr": 1.0568458410327737,
+        "positive_pairs": 1724,
+        "negative_pairs": 991,
+        "positive_min": 0.22732354047359282,
+        "positive_max": 0.9107201312854613,
+        "negative_min": 0.19300420017926667,
+        "negative_max": 0.7782922081902801,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6353101395113108,
+        "negative": 0.46224701419582603,
+        "wacs": 0.17306312531548473,
+        "positive_std": 0.10453062170363718,
+        "negative_std": 0.08528058927614846,
+        "cohen_d": 1.7670904666604723,
+        "snr": 0.9117644595622483,
+        "positive_pairs": 1724,
+        "negative_pairs": 993,
+        "positive_min": 0.2734897874301393,
+        "positive_max": 0.9396463922565294,
+        "negative_min": 0.15289107682868364,
+        "negative_max": 0.7490322720552751,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ko_kr": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6479151394716544,
+        "negative": 0.4037548770181722,
+        "wacs": 0.24416026245348216,
+        "positive_std": 0.09179458475735042,
+        "negative_std": 0.07214474580190663,
+        "cohen_d": 2.8749723976072548,
+        "snr": 1.4893329546194478,
+        "positive_pairs": 1650,
+        "negative_pairs": 998,
+        "positive_min": 0.33526880826907524,
+        "positive_max": 0.893219120940379,
+        "negative_min": 0.19972052583526434,
+        "negative_max": 0.6694487156332825,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6610094931852709,
+        "negative": 0.4537248100470433,
+        "wacs": 0.20728468313822762,
+        "positive_std": 0.08786381713402466,
+        "negative_std": 0.07328086100397396,
+        "cohen_d": 2.5073258552223687,
+        "snr": 1.286326502805456,
+        "positive_pairs": 1650,
+        "negative_pairs": 998,
+        "positive_min": 0.3778850002059676,
+        "positive_max": 0.9011917252049226,
+        "negative_min": 0.2323241914016022,
+        "negative_max": 0.7572483960969483,
+        "vocab_size": 200
+      }
+    }
+  },
+  "pt_br": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6017927996249491,
+        "negative": 0.37061125932820144,
+        "wacs": 0.2311815402967477,
+        "positive_std": 0.10297215434351337,
+        "negative_std": 0.07052373704875753,
+        "cohen_d": 2.5123449212820708,
+        "snr": 1.3324899230561689,
+        "positive_pairs": 1622,
+        "negative_pairs": 992,
+        "positive_min": 0.25911027187272595,
+        "positive_max": 0.8998408138378224,
+        "negative_min": 0.1869937872873526,
+        "negative_max": 0.6747987476206407,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6071491397659015,
+        "negative": 0.4038682494983118,
+        "wacs": 0.20328089026758966,
+        "positive_std": 0.10898736750290025,
+        "negative_std": 0.07433885617004268,
+        "cohen_d": 2.0897728243074303,
+        "snr": 1.1088477966020192,
+        "positive_pairs": 1622,
+        "negative_pairs": 996,
+        "positive_min": 0.2891231450389389,
+        "positive_max": 0.907428280751214,
+        "negative_min": 0.1672515765947057,
+        "negative_max": 0.6706992597873271,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ru_ru": {
+    "facebook/mms-300m": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.5834252498420438,
+        "negative": 0.3775108759409774,
+        "wacs": 0.20591437390106643,
+        "positive_std": 0.10366627868538397,
+        "negative_std": 0.06818270284604701,
+        "cohen_d": 2.2795018384934966,
+        "snr": 1.1982285846781064,
+        "positive_pairs": 1353,
+        "negative_pairs": 997,
+        "positive_min": 0.18980021610002784,
+        "positive_max": 0.895201465614702,
+        "negative_min": 0.1451166819533236,
+        "negative_max": 0.6891034194170802,
+        "vocab_size": 200
+      }
+    },
+    "facebook/wav2vec2-large-xlsr-53": {
+      "nmi": null,
+      "wacs": {
+        "positive": 0.6114026838147133,
+        "negative": 0.4384937317783313,
+        "wacs": 0.172908952036382,
+        "positive_std": 0.1012512457529168,
+        "negative_std": 0.07419385534327994,
+        "cohen_d": 1.9044949123909376,
+        "snr": 0.9855444301413213,
+        "positive_pairs": 1353,
+        "negative_pairs": 993,
+        "positive_min": 0.2981755428472993,
+        "positive_max": 0.892951040546321,
+        "negative_min": 0.18623350513787074,
+        "negative_max": 0.7245332215131763,
+        "vocab_size": 200
+      }
+    }
+  }
+}
