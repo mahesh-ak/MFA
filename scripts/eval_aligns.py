@@ -72,26 +72,28 @@ def load_textgrid(tg_path, tier_names=["phones", "words"]):
     n_tiers = call(tg, "Get number of tiers")
 
     for tier_name in tier_names:
-        intervals = []
+        tier_exists = False
         for i in range(1, n_tiers + 1):
             name = call(tg, "Get tier name", i)
             if name == tier_name:
                 tier_index = i
+                tier_exists = True
                 break
 
-        intervals = []
-        n_intervals = call(tg, "Get number of intervals", tier_index)
+        if tier_exists:
+            intervals = []
+            n_intervals = call(tg, "Get number of intervals", tier_index)
 
-        for j in range(1, n_intervals + 1):
-            start = call(tg, "Get start time of interval", tier_index, j)
-            end = call(tg, "Get end time of interval", tier_index, j)
-            label = call(tg, "Get label of interval", tier_index, j)
+            for j in range(1, n_intervals + 1):
+                start = call(tg, "Get start time of interval", tier_index, j)
+                end = call(tg, "Get end time of interval", tier_index, j)
+                label = call(tg, "Get label of interval", tier_index, j)
 
-            if label.strip() == "":
-                label = "sil"
+                if label.strip() == "":
+                    label = "sil"
 
-            intervals.append((start, end, label))
-        out[tier_name] = intervals
+                intervals.append((start, end, label))
+            out[tier_name] = intervals
 
     return out
 
@@ -191,7 +193,7 @@ class ForcedAlignEval:
                 # phone/frame collection
                 # -------------------------
                 intervals=load_textgrid(tg_path)
-                if processed < self.config.samples_phon_eval:
+                if processed < self.config.samples_phon_eval and "phones" in intervals:
                     labels=assign_labels_to_frames(
                         frame_times,
                         intervals["phones"]
@@ -204,7 +206,7 @@ class ForcedAlignEval:
                 # word collection
                 # -------------------------
 
-                if processed < self.config.samples_word_eval:
+                if processed < self.config.samples_word_eval and "words" in intervals:
                     for start,end,label in intervals["words"]:
 
                         label=label.strip().lower()
