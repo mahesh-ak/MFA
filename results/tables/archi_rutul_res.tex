@@ -1,0 +1,23 @@
+
+\begin{table*}[t]
+\centering
+\resizebox{0.95\linewidth}{!}{%
+\begin{tabular}{llccccc}
+\toprule
+Language & Aligner & AAS & MMS PCMI & MMS WACS & XLSR PCMI & XLSR WACS \\
+\midrule
+Archi & Gold & 0.0 & -- & 0.225 & -- & 0.220 \\
+Archi & CTC-IPA* & 88.5 & 0.306 & 0.203 & 0.307 & 0.194 \\
+Archi & CTC-IPA* + silence correction & 46.3 & 0.319 & 0.215 & 0.330 & 0.215 \\
+Archi & Baseline & 85.8 & 0.204 & 0.112 & 0.203 & 0.102 \\
+Rutul & Gold & 0.0 & -- & 0.182 & -- & 0.182 \\
+Rutul & CTC-IPA* & 68.0 & 0.292 & 0.172 & 0.278 & 0.173 \\
+Rutul & CTC-IPA* + silence correction & 61.9 & 0.292 & 0.175 & 0.277 & 0.172 \\
+Rutul & Baseline & 180.6 & 0.126 & 0.041 & 0.127 & 0.040 \\
+\bottomrule
+\end{tabular}
+
+}
+\caption{Evaluation against manually annotated alignments for Archi and Rutul. Lower AAS is better, while higher PCMI and WACS are better.}
+\label{tab:archi-rutul}
+\end{table*}
