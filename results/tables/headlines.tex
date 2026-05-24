@@ -1,18 +1,24 @@
 \begin{table}[t]
 \centering
 \resizebox{\columnwidth}{!}{%
-\begin{tabular}{lccc}
+\begin{tabular}{llccc}
 \toprule
-\textbf{Alignment model} & \textbf{\#Langs} & \textbf{PCMI} $\uparrow$ & \textbf{WACS} $\uparrow$ \\
+\textbf{Emb.} & \textbf{Alignment model} & \textbf{\#Langs} & \textbf{PCMI} $\uparrow$ & \textbf{WACS} $\uparrow$ \\
 \midrule
-Baseline & 85 &0.09 $\pm$ 0.02 & 0.02 $\pm$ 0.01 \\
-MFA & 82 &0.25 $\pm$ 0.11 & 0.14 $\pm$ 0.08 \\
-MMS-300m-IPA* & 85 &0.24 $\pm$ 0.03 & 0.19 $\pm$ 0.02 \\
-Wav2Vec2-IPA* & 85 &0.24 $\pm$ 0.03 & 0.19 $\pm$ 0.03 \\
-Qwen3-FA & 10 &- & 0.21 $\pm$ 0.02 \\
+\multirow{5}{*}{MMS} & Baseline & 85 & 0.09 $\pm$ 0.02 & 0.02 $\pm$ 0.01 \\
+ & MFA & 82 & 0.25 $\pm$ 0.11 & 0.14 $\pm$ 0.08 \\
+ & MMS-300m-IPA* & 85 & 0.24 $\pm$ 0.03 & 0.19 $\pm$ 0.02 \\
+ & Wav2Vec2-IPA* & 85 & 0.24 $\pm$ 0.03 & 0.19 $\pm$ 0.03 \\
+ & Qwen3-FA & 10 & - & 0.21 $\pm$ 0.02 \\
+\midrule
+\multirow{5}{*}{XLSR} & Baseline & 85 & 0.09 $\pm$ 0.02 & 0.02 $\pm$ 0.01 \\
+ & MFA & 82 & 0.23 $\pm$ 0.09 & 0.13 $\pm$ 0.07 \\
+ & MMS-300m-IPA* & 85 & 0.23 $\pm$ 0.03 & 0.17 $\pm$ 0.02 \\
+ & Wav2Vec2-IPA* & 85 & 0.22 $\pm$ 0.02 & 0.17 $\pm$ 0.02 \\
+ & Qwen3-FA & 10 & - & 0.18 $\pm$ 0.01 \\
 \bottomrule
 \end{tabular}
 }
-\caption{Multilingual evaluation of forced alignment using PCMI and WACS with MMS-300M speech representations. * trained in this work.}
+\caption{Multilingual evaluation of forced alignment using PCMI and WACS across 85 languages. Results are shown using MMS and XLSR speech representations. * trained in this work.}
 \label{tab:headline_metrics}
 \end{table}
