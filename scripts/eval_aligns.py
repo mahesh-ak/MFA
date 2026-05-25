@@ -13,8 +13,74 @@ from fastdtw import fastdtw
 from scipy.spatial.distance import cosine
 from collections import Counter
 from scipy.stats import entropy
+import librosa
 
+class MFCCEmbedding:
 
+    def __init__(
+        self,
+        sampling_rate=16000,
+        n_mfcc=20,
+        window_ms=10,
+        win_length_ms=25
+    ):
+
+        self.sampling_rate = sampling_rate
+        self.n_mfcc = n_mfcc
+
+        # hop/window in samples
+        self.hop_length = int(
+            sampling_rate * window_ms / 1000
+        )
+
+        self.win_length = int(
+            sampling_rate * win_length_ms / 1000
+        )
+
+        self.n_fft = self.win_length
+
+    def extract_embeddings_batch(self, audios):
+
+        results = []
+
+        for audio in audios:
+
+            # ---------------------------------
+            # MFCC extraction
+            # ---------------------------------
+            mfcc = librosa.feature.mfcc(
+                y=np.asarray(audio, dtype=np.float32),
+                sr=self.sampling_rate,
+                n_mfcc=self.n_mfcc,
+                n_fft=self.n_fft,
+                hop_length=self.hop_length,
+                win_length=self.win_length,
+                center=False
+            )
+
+            # librosa returns:
+            # (n_mfcc, n_frames)
+            mfcc = mfcc.T
+
+            # ---------------------------------
+            # timestamps
+            # ---------------------------------
+            num_frames = mfcc.shape[0]
+
+            frame_times = (
+                np.arange(num_frames)
+                * self.hop_length
+                / self.sampling_rate
+            )
+
+            results.append(
+                (
+                    mfcc,
+                    frame_times
+                )
+            )
+
+        return results
 
 class W2V2Embedding:
     
@@ -146,7 +212,10 @@ class ForcedAlignEval:
     
     def __init__(self, config=ForcedAlignEvalConfig()):
         self.config=config
-        self.emb_model = W2V2Embedding(config.model, config.layer_range)
+        if config.model == "mfcc":
+            self.emb_model = MFCCEmbedding()
+        else:
+            self.emb_model = W2V2Embedding(config.model, config.layer_range)
     
     def collect_embeddings(self,audios:Iterator[np.ndarray],tg_paths:Iterator[str])-> dict:
 
