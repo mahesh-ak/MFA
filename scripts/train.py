@@ -3,6 +3,7 @@ from datasets import load_dataset, DownloadConfig
 import torch
 from transformers import (
     Wav2Vec2Processor,
+    Wav2Vec2Config,
     Wav2Vec2ForCTC,
     TrainingArguments,
     Trainer,
@@ -11,6 +12,7 @@ import numpy as np
 import evaluate
 from dataclasses import dataclass
 from typing import List, Dict
+from pathlib import Path
 
 
 LANGS = ['af_za', 'am_et', 'ar_eg', 'ast_es', 'az_az', 'be_by', 'bg_bg', 'bn_in', 'ca_es', 'ceb_ph', 'ckb_iq', 'cmn_hans_cn', 'cs_cz', 'cy_gb', 'da_dk', 'de_de', 'el_gr', 'en_us', 'es_419', 'et_ee', 'fa_ir', 'ff_sn', 'fi_fi', 'fr_fr', 'ga_ie', 'gl_es', 'ha_ng', 'he_il', 'hi_in', 'hr_hr', 'hu_hu', 'hy_am', 'id_id', 'it_it', 'ja_jp', 'jv_id', 'ka_ge', 'kk_kz', 'km_kh', 'kn_in', 'ko_kr', 'ky_kg', 'lg_ug', 'lo_la', 'lt_lt', 'lv_lv', 'mi_nz', 'mk_mk', 'ml_in', 'mn_mn', 'mr_in', 'ms_my', 'mt_mt', 'my_mm', 'nb_no', 'ne_np', 'nl_nl', 'ny_mw', 'om_et', 'or_in', 'pa_in', 'pl_pl', 'ps_af', 'pt_br', 'ro_ro', 'ru_ru', 'sl_si', 'sn_zw', 'so_so', 'sv_se', 'sw_ke', 'ta_in', 'te_in', 'tg_tj', 'th_th', 'tr_tr', 'uk_ua', 'ur_pk', 'uz_uz', 'vi_vn', 'wo_sn', 'xh_za', 'yo_ng', 'yue_hant_hk', 'zu_za']
@@ -24,14 +26,58 @@ def prepare_batch(batch, processor):
         padding=False,   # IMPORTANT: no padding here
     )
 
-    labels = processor.tokenizer(batch["ipa"]).input_ids
+    labels = processor.tokenizer(batch["labels_text"]).input_ids
 
     return {
         "input_values": inputs["input_values"],
         "attention_mask": inputs["attention_mask"],
         "labels": labels,
     }
-    
+
+def phones_to_string(example):
+    """
+    Convert
+    words:
+        je
+        suis
+    phones:
+        ʒ ə s ɥ i
+    into
+        ʒə sɥi
+
+    (spaces only at word boundaries)
+    """
+
+    phones = example["phones"]
+    words = example["words"]
+
+    if len(phones) == 0:
+        return ""
+
+    pieces = []
+
+    phone_idx = 0
+
+    for word in words:
+        wstart = word["start"]
+        wend = word["end"]
+        current = []
+        while phone_idx < len(phones):
+            ph = phones[phone_idx]
+            center = 0.5 * (
+                ph["start"] + ph["end"]
+            )
+            if center >= wend:
+                break
+            if center >= wstart:
+                current.append(ph["phone"])
+            phone_idx += 1
+
+        if current:
+            pieces.append("".join(current))
+
+    return " ".join(pieces)
+
 @dataclass
 class DataCollatorCTCWithPadding:
     processor: Wav2Vec2Processor
@@ -113,15 +159,22 @@ def parse_args():
     )
 
     parser.add_argument(
+        "--dataset",
+        type=str,
+        default="fleurs",
+        choices=["fleurs", "doreco_dataset"],
+    )
+
+    parser.add_argument(
         "--target-lang",
         type=str,
         default='all',
-        help=f"Valid individual languages are {LANGS}"
+        help=f"Valid individual languages"
     )
     
     parser.add_argument(
         "--batch-size",
-        type=float,
+        type=int,
         default=2,
     )
     parser.add_argument(
@@ -157,9 +210,45 @@ def main():
         cache_dir=".cache",   # optional
     )
 
-    dataset = load_dataset("fleurs", args.target_lang, streaming=True, download_config=download_config, trust_remote_code=True)
+    if args.dataset == "fleurs":
+        dataset = load_dataset(
+            "fleurs",
+            args.target_lang,
+            streaming=True,
+            download_config=download_config,
+            trust_remote_code=True,
+        )
+    elif args.dataset == "doreco_dataset":
+        if args.target_lang == "all":
+            dataset = load_dataset(
+                "doreco_dataset",
+                streaming=True,
+                trust_remote_code=True,
+            )
+        else:
+            dataset = load_dataset(
+                "doreco_dataset",
+                data_dir=args.target_lang,
+                streaming=True,
+                trust_remote_code=True,
+            )
     
     processor = Wav2Vec2Processor.from_pretrained(args.model_dir)
+
+    if args.dataset == "doreco_dataset":
+        def add_labels(example):
+            example["labels_text"] = phones_to_string(example)
+            return example
+
+        dataset = dataset.map(add_labels)
+
+    else:
+
+        def add_labels(example):
+            example["labels_text"] = example["ipa"]
+            return example
+
+        dataset = dataset.map(add_labels)
         
     dataset = dataset.map(lambda x: prepare_batch(x, processor= processor), batched=True, batch_size=32, remove_columns=dataset['train'].column_names)
 
@@ -210,8 +299,8 @@ def main():
         accelerator_config={"dispatch_batches": False},
     )
     
-    train_dataset = dataset["train"].shuffle(buffer_size=8000, seed=42)
-    eval_dataset = dataset["validation"].shuffle(buffer_size=8000, seed=42).take(2000)
+    train_dataset = dataset["train"]#.shuffle(buffer_size=8000, seed=42)
+    eval_dataset = dataset["validation"].take(1000)#.shuffle(buffer_size=8000, seed=42)
     
     trainer = Trainer(
         model=model,
@@ -227,17 +316,59 @@ def main():
 
     processor.save_pretrained(args.model_dir)
     model.save_pretrained(args.model_dir)
-    
-    adapter_state = {
-        k: v.cpu()
-        for k, v in model.state_dict().items()
-        if ("adapter" in k) or ("lm_head" in k)
-    }
+   
+    if args.target_lang != 'all': 
+        adapter_state = {
+            k: v.cpu()
+            for k, v in model.state_dict().items()
+            if ("adapter" in k) or ("lm_head" in k)
+        }
 
-    torch.save(
-        adapter_state,
-        f"{args.model_dir}/adapter.{args.target_lang}.bin"
-    )
+        torch.save(
+            adapter_state,
+            f"{args.model_dir}/adapter.{args.target_lang}.bin"
+        )
+
+    else:
+        ## Initialize adapters
+
+        if args.dataset == "fleurs":
+            # Assume LANGS already exists somewhere
+            langs = LANGS
+        elif args.dataset == "doreco_dataset":
+            langs = sorted(
+                p.name
+                for p in Path("doreco_dataset").iterdir()
+                if p.is_dir() and '.' not in p 
+            )
+
+        print(
+            f"Initializing adapters for "
+            f"{len(langs)} languages"
+        )
+
+        for lang in langs:
+            config = Wav2Vec2Config.from_pretrained(args.model_dir)
+            config.adapter_attn_dim = 16
+            tmp_model = Wav2Vec2ForCTC.from_pretrained(
+                args.model_dir,
+                config=config,
+                ignore_mismatched_sizes=True,
+            )
+            tmp_model.freeze_feature_encoder()
+
+            adapter_state = {
+                k: v.cpu()
+                for k, v in tmp_model.state_dict().items()
+                if ("adapter" in k) or ("lm_head" in k)
+            }
+
+            torch.save(
+                adapter_state,
+                f"{args.model_dir}/adapter.{lang}.bin"
+            )
+
+            del tmp_model
 
 if __name__=='__main__':
     main()
