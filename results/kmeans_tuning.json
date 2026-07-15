@@ -1850,5 +1850,1857 @@
         }
       ]
     }
+  },
+  "facebook/wav2vec2-large-xlsr-53": {
+    "n_clusters_25": {
+      "tg": [
+        {
+          "nmi": {
+            "nmi": 0.35276669052242543,
+            "cluster_entropy": 3.176454903959823,
+            "cluster_entropy_norm": 0.9868211999417175,
+            "label_entropy": 4.101609295683259,
+            "label_entropy_norm": 0.855251966633354,
+            "mean_cluster_purity": 0.2168377801947031,
+            "std_cluster_purity": 0.10246640608259515,
+            "frames": 8885,
+            "labels": 121,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.5567248577226402,
+            "negative": 0.3889603860805942,
+            "wacs": 0.16776447164204605,
+            "positive_std": 0.10544056013299193,
+            "negative_std": 0.08308288499855267,
+            "cohen_d": 1.7034837308500523,
+            "snr": 0.8898864681054477,
+            "positive_pairs": 1960,
+            "negative_pairs": 995,
+            "positive_min": 0.16164560238545755,
+            "positive_max": 0.8346748080709229,
+            "negative_min": 0.1614785494597345,
+            "negative_max": 0.6472349032669988,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.33962212588185997,
+            "cluster_entropy": 3.1679403717186916,
+            "cluster_entropy_norm": 0.9841760117752928,
+            "label_entropy": 4.107500748657117,
+            "label_entropy_norm": 0.8721678326879698,
+            "mean_cluster_purity": 0.24459369990513583,
+            "std_cluster_purity": 0.20149242718608462,
+            "frames": 8829,
+            "labels": 111,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.5591611706208521,
+            "negative": 0.38829120984545346,
+            "wacs": 0.17086996077539868,
+            "positive_std": 0.09899842211224727,
+            "negative_std": 0.08624930830342294,
+            "cohen_d": 1.8001283067360176,
+            "snr": 0.9223862077453155,
+            "positive_pairs": 1976,
+            "negative_pairs": 995,
+            "positive_min": 0.1591140579866025,
+            "positive_max": 0.9022148168392695,
+            "negative_min": 0.10022531125030676,
+            "negative_max": 0.641947756021076,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.33627867403829625,
+            "cluster_entropy": 3.181239080598882,
+            "cluster_entropy_norm": 0.9883074879811931,
+            "label_entropy": 4.124192174197928,
+            "label_entropy_norm": 0.8614515482801293,
+            "mean_cluster_purity": 0.20079058444792378,
+            "std_cluster_purity": 0.1294832403771193,
+            "frames": 8740,
+            "labels": 120,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.5555216094749496,
+            "negative": 0.3907665251343093,
+            "wacs": 0.16475508434064023,
+            "positive_std": 0.10438672652997932,
+            "negative_std": 0.0872189129351556,
+            "cohen_d": 1.6656338079654072,
+            "snr": 0.8598654830927598,
+            "positive_pairs": 1944,
+            "negative_pairs": 994,
+            "positive_min": 0.16423039571004905,
+            "positive_max": 0.9582319982784102,
+            "negative_min": 0.044962197876767696,
+            "negative_max": 0.7213751171687417,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_100": [
+        {
+          "nmi": {
+            "nmi": 0.16904762252105696,
+            "cluster_entropy": 3.187353329488029,
+            "cluster_entropy_norm": 0.9902069861979028,
+            "label_entropy": 4.205484652698036,
+            "label_entropy_norm": 0.8547766172467781,
+            "mean_cluster_purity": 0.12134683033216868,
+            "std_cluster_purity": 0.09285301237485463,
+            "frames": 8868,
+            "labels": 137,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.4645501892906786,
+            "negative": 0.38077764504011724,
+            "wacs": 0.08377254425056135,
+            "positive_std": 0.10216264260840978,
+            "negative_std": 0.08095941003240287,
+            "cohen_d": 0.8785046982787692,
+            "snr": 0.4574683303719563,
+            "positive_pairs": 1888,
+            "negative_pairs": 1000,
+            "positive_min": 0.12701360747378432,
+            "positive_max": 0.7987139039959368,
+            "negative_min": 0.152551741499504,
+            "negative_max": 0.6134451021746714,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.18885529051861266,
+            "cluster_entropy": 3.1705230596629317,
+            "cluster_entropy_norm": 0.984978368897704,
+            "label_entropy": 4.065576320481135,
+            "label_entropy_norm": 0.8700460608566891,
+            "mean_cluster_purity": 0.18057963533552113,
+            "std_cluster_purity": 0.15740314978872258,
+            "frames": 8970,
+            "labels": 107,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.46700906407682585,
+            "negative": 0.3796133832082558,
+            "wacs": 0.08739568086857008,
+            "positive_std": 0.10296958577203132,
+            "negative_std": 0.07977283770570272,
+            "cohen_d": 0.9133917243638338,
+            "snr": 0.4782451410182117,
+            "positive_pairs": 1912,
+            "negative_pairs": 992,
+            "positive_min": 0.18142300511663345,
+            "positive_max": 0.835454575499225,
+            "negative_min": 0.0395082355852322,
+            "negative_max": 0.6306331425723469,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.17560791897709405,
+            "cluster_entropy": 3.1903877207507203,
+            "cluster_entropy_norm": 0.991149672846219,
+            "label_entropy": 4.079232942697741,
+            "label_entropy_norm": 0.861288433570714,
+            "mean_cluster_purity": 0.15556945608872053,
+            "std_cluster_purity": 0.13592714199403297,
+            "frames": 8980,
+            "labels": 114,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.46736256623762196,
+            "negative": 0.3845826172761274,
+            "wacs": 0.08277994896149454,
+            "positive_std": 0.1030296458191852,
+            "negative_std": 0.07897423864906662,
+            "cohen_d": 0.8672025676570688,
+            "snr": 0.45482515197461565,
+            "positive_pairs": 1904,
+            "negative_pairs": 996,
+            "positive_min": 0.16499838359160324,
+            "positive_max": 0.7524715377350732,
+            "negative_min": 0.12353936227862661,
+            "negative_max": 0.6100393061553091,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_500": [
+        {
+          "nmi": {
+            "nmi": 0.13034508829493535,
+            "cluster_entropy": 3.186204613115305,
+            "cluster_entropy_norm": 0.9898501173917656,
+            "label_entropy": 4.055888180902893,
+            "label_entropy_norm": 0.8579554579483701,
+            "mean_cluster_purity": 0.13730992527431043,
+            "std_cluster_purity": 0.13932146771375462,
+            "frames": 8889,
+            "labels": 113,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.42530158081477526,
+            "negative": 0.38816650029020383,
+            "wacs": 0.03713508052457143,
+            "positive_std": 0.08896025516281418,
+            "negative_std": 0.07674524530003,
+            "cohen_d": 0.4401566971758355,
+            "snr": 0.2241028703321134,
+            "positive_pairs": 1513,
+            "negative_pairs": 981,
+            "positive_min": 0.1484341669233773,
+            "positive_max": 0.7167746284888936,
+            "negative_min": 0.15905926503196388,
+            "negative_max": 0.5927877603041283,
+            "vocab_size": 197
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.10444097018554567,
+            "cluster_entropy": 3.1756152210381385,
+            "cluster_entropy_norm": 0.9865603377751195,
+            "label_entropy": 3.971160322159161,
+            "label_entropy_norm": 0.8515518787782693,
+            "mean_cluster_purity": 0.10566023159418718,
+            "std_cluster_purity": 0.0689166978078935,
+            "frames": 8812,
+            "labels": 106,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.42684487303319346,
+            "negative": 0.38789214958466023,
+            "wacs": 0.03895272344853323,
+            "positive_std": 0.09100496729873889,
+            "negative_std": 0.07767785263818439,
+            "cohen_d": 0.452370569783725,
+            "snr": 0.2309228714214665,
+            "positive_pairs": 1585,
+            "negative_pairs": 996,
+            "positive_min": 0.11820574399991735,
+            "positive_max": 0.7641185521608844,
+            "negative_min": 0.11675976483651374,
+            "negative_max": 0.5981374522453158,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.12506856221869542,
+            "cluster_entropy": 3.1902077592810905,
+            "cluster_entropy_norm": 0.9910937646722412,
+            "label_entropy": 4.10729937130355,
+            "label_entropy_norm": 0.8624841149314262,
+            "mean_cluster_purity": 0.10674795302618913,
+            "std_cluster_purity": 0.10644630135685881,
+            "frames": 8987,
+            "labels": 117,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.4176381333626999,
+            "negative": 0.38067164018404465,
+            "wacs": 0.036966493178655246,
+            "positive_std": 0.08884316548027006,
+            "negative_std": 0.08185276998620046,
+            "cohen_d": 0.42843824981245676,
+            "snr": 0.21656339333447439,
+            "positive_pairs": 1653,
+            "negative_pairs": 996,
+            "positive_min": 0.0933532806004509,
+            "positive_max": 0.7397774358216749,
+            "negative_min": 0.11940794751679817,
+            "negative_max": 0.6290598461968016,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_2000": [
+        {
+          "nmi": {
+            "nmi": 0.09466822492162887,
+            "cluster_entropy": 3.180023609086877,
+            "cluster_entropy_norm": 0.9879298805250077,
+            "label_entropy": 4.064248880207472,
+            "label_entropy_norm": 0.8534440228042776,
+            "mean_cluster_purity": 0.08162453110718779,
+            "std_cluster_purity": 0.041976709488161276,
+            "frames": 8964,
+            "labels": 117,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.419766600953893,
+            "negative": 0.3843402863076554,
+            "wacs": 0.03542631464623763,
+            "positive_std": 0.08799423337689576,
+            "negative_std": 0.0789533175678879,
+            "cohen_d": 0.4187812466942782,
+            "snr": 0.21220025285637184,
+            "positive_pairs": 1477,
+            "negative_pairs": 940,
+            "positive_min": 0.133120913324275,
+            "positive_max": 0.7404866118510318,
+            "negative_min": 0.08483704574124995,
+            "negative_max": 0.6390546486244348,
+            "vocab_size": 189
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.11021403188303526,
+            "cluster_entropy": 3.1554610127303504,
+            "cluster_entropy_norm": 0.9802990809251094,
+            "label_entropy": 4.078102432865268,
+            "label_entropy_norm": 0.8474534913261157,
+            "mean_cluster_purity": 0.09741862755290992,
+            "std_cluster_purity": 0.05451819903608312,
+            "frames": 8920,
+            "labels": 123,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.4187367515089908,
+            "negative": 0.3823602033633184,
+            "wacs": 0.03637654814567243,
+            "positive_std": 0.08796007510264409,
+            "negative_std": 0.08271270962472019,
+            "cohen_d": 0.4234857356029768,
+            "snr": 0.21313618379414814,
+            "positive_pairs": 1487,
+            "negative_pairs": 993,
+            "positive_min": 0.14636779658974353,
+            "positive_max": 0.7246194736653476,
+            "negative_min": 0.1409254564181749,
+            "negative_max": 0.6791284175170778,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.10200307330473583,
+            "cluster_entropy": 3.1697149890700107,
+            "cluster_entropy_norm": 0.9847273276532179,
+            "label_entropy": 4.095743566479149,
+            "label_entropy_norm": 0.8616105726029978,
+            "mean_cluster_purity": 0.09401602678238284,
+            "std_cluster_purity": 0.07351436884765676,
+            "frames": 8896,
+            "labels": 116,
+            "clusters_used": 25
+          },
+          "wacs": {
+            "positive": 0.4182799834961681,
+            "negative": 0.38677367458249146,
+            "wacs": 0.03150630891367662,
+            "positive_std": 0.08958983807188522,
+            "negative_std": 0.08053439402138622,
+            "cohen_d": 0.3659604642802119,
+            "snr": 0.18519588111612648,
+            "positive_pairs": 1499,
+            "negative_pairs": 995,
+            "positive_min": 0.16575736257742735,
+            "positive_max": 0.7429362764090721,
+            "negative_min": 0.13514418991473354,
+            "negative_max": 0.7133767591213389,
+            "vocab_size": 200
+          }
+        }
+      ]
+    },
+    "n_clusters_50": {
+      "tg": [
+        {
+          "nmi": {
+            "nmi": 0.36366270227521097,
+            "cluster_entropy": 3.850575880719492,
+            "cluster_entropy_norm": 0.984292749653212,
+            "label_entropy": 4.085891103086854,
+            "label_entropy_norm": 0.8675793398560859,
+            "mean_cluster_purity": 0.2564090254950646,
+            "std_cluster_purity": 0.1433250034808519,
+            "frames": 8894,
+            "labels": 111,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.554126953676027,
+            "negative": 0.38885794906021337,
+            "wacs": 0.16526900461581367,
+            "positive_std": 0.10227420483985004,
+            "negative_std": 0.08203825889514615,
+            "cohen_d": 1.7216753276761005,
+            "snr": 0.8966783488210182,
+            "positive_pairs": 1984,
+            "negative_pairs": 995,
+            "positive_min": 0.13049092768502613,
+            "positive_max": 0.9022148168392695,
+            "negative_min": 0.13923963677087958,
+            "negative_max": 0.6425953899566288,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.38646141982883514,
+            "cluster_entropy": 3.8455970387190948,
+            "cluster_entropy_norm": 0.9830200470148357,
+            "label_entropy": 4.089739086650146,
+            "label_entropy_norm": 0.8717620584357226,
+            "mean_cluster_purity": 0.28102634769579915,
+            "std_cluster_purity": 0.1732944511375771,
+            "frames": 9021,
+            "labels": 109,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.5431306120859714,
+            "negative": 0.3900166887629565,
+            "wacs": 0.15311392332301488,
+            "positive_std": 0.10596062751535587,
+            "negative_std": 0.08210949588510626,
+            "cohen_d": 1.5531357947562392,
+            "snr": 0.8141320503930617,
+            "positive_pairs": 1960,
+            "negative_pairs": 994,
+            "positive_min": 0.09757589853320858,
+            "positive_max": 0.8631493267529864,
+            "negative_min": 0.14055622163123693,
+            "negative_max": 0.634091962669604,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.36628448816313347,
+            "cluster_entropy": 3.8631318281272784,
+            "cluster_entropy_norm": 0.9875023287866589,
+            "label_entropy": 4.183945627001386,
+            "label_entropy_norm": 0.8801654031576506,
+            "mean_cluster_purity": 0.24155211357028136,
+            "std_cluster_purity": 0.12853544063923533,
+            "frames": 9065,
+            "labels": 116,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.5404561234304819,
+            "negative": 0.38891352265441725,
+            "wacs": 0.15154260077606463,
+            "positive_std": 0.10598692280231076,
+            "negative_std": 0.08677347771713259,
+            "cohen_d": 1.516442349732669,
+            "snr": 0.7861707721398469,
+            "positive_pairs": 1964,
+            "negative_pairs": 997,
+            "positive_min": 0.17405127704184775,
+            "positive_max": 0.8965697405364634,
+            "negative_min": 0.10747875816016439,
+            "negative_max": 0.6404041898125228,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_100": [
+        {
+          "nmi": {
+            "nmi": 0.20170798390736952,
+            "cluster_entropy": 3.8656066884913156,
+            "cluster_entropy_norm": 0.9881349580837268,
+            "label_entropy": 4.151730067430843,
+            "label_entropy_norm": 0.857054030600214,
+            "mean_cluster_purity": 0.15853378796663353,
+            "std_cluster_purity": 0.12463230587900628,
+            "frames": 8851,
+            "labels": 127,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.4568256076134571,
+            "negative": 0.3733120149829018,
+            "wacs": 0.0835135926305553,
+            "positive_std": 0.10594762469924633,
+            "negative_std": 0.08336229436780909,
+            "cohen_d": 0.8462768245162136,
+            "snr": 0.44114745086072044,
+            "positive_pairs": 1868,
+            "negative_pairs": 996,
+            "positive_min": 0.08432613420148505,
+            "positive_max": 0.7972103758001663,
+            "negative_min": 0.056689350375389136,
+            "negative_max": 0.6834982172641715,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.20811843691738002,
+            "cluster_entropy": 3.879297340398259,
+            "cluster_entropy_norm": 0.9916345928987437,
+            "label_entropy": 4.109241662540645,
+            "label_entropy_norm": 0.8628919730365036,
+            "mean_cluster_purity": 0.16705356422282922,
+            "std_cluster_purity": 0.1305176708426226,
+            "frames": 8980,
+            "labels": 117,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.4634369579368463,
+            "negative": 0.3873408935745718,
+            "wacs": 0.07609606436227451,
+            "positive_std": 0.10174130772742278,
+            "negative_std": 0.0812909195327662,
+            "cohen_d": 0.8002341546632218,
+            "snr": 0.4157522494471854,
+            "positive_pairs": 1848,
+            "negative_pairs": 994,
+            "positive_min": 0.11440827913783125,
+            "positive_max": 0.8034564101948858,
+            "negative_min": 0.14645620568577267,
+            "negative_max": 0.6418358200047638,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.20167598168881454,
+            "cluster_entropy": 3.830638610413315,
+            "cluster_entropy_norm": 0.9791963403840147,
+            "label_entropy": 4.092470842460216,
+            "label_entropy_norm": 0.8563224717584653,
+            "mean_cluster_purity": 0.1784766398087123,
+            "std_cluster_purity": 0.15128907827439805,
+            "frames": 8894,
+            "labels": 119,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.457009955879215,
+            "negative": 0.38874079198789097,
+            "wacs": 0.06826916389132404,
+            "positive_std": 0.10461895013857445,
+            "negative_std": 0.08097670112475498,
+            "cohen_d": 0.7035602464426065,
+            "snr": 0.3678381457121534,
+            "positive_pairs": 1866,
+            "negative_pairs": 999,
+            "positive_min": 0.1370258045428131,
+            "positive_max": 0.8003832709075359,
+            "negative_min": 0.1026084261354685,
+            "negative_max": 0.6155289663483894,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_500": [
+        {
+          "nmi": {
+            "nmi": 0.1568285670462205,
+            "cluster_entropy": 3.8562582795017613,
+            "cluster_entropy_norm": 0.9857452970371063,
+            "label_entropy": 4.114292372448823,
+            "label_entropy_norm": 0.8670919332766168,
+            "mean_cluster_purity": 0.12369386973509083,
+            "std_cluster_purity": 0.08184966294611977,
+            "frames": 8981,
+            "labels": 115,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.43174982990407246,
+            "negative": 0.3888885712196746,
+            "wacs": 0.042861258684397885,
+            "positive_std": 0.09263714339382434,
+            "negative_std": 0.0771376429182692,
+            "cohen_d": 0.4927142291718355,
+            "snr": 0.252459491134402,
+            "positive_pairs": 1584,
+            "negative_pairs": 994,
+            "positive_min": 0.04347325581181949,
+            "positive_max": 0.7418990472104838,
+            "negative_min": 0.10619189553072828,
+            "negative_max": 0.6488785990694563,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.1527037287945059,
+            "cluster_entropy": 3.8494857017345274,
+            "cluster_entropy_norm": 0.9840140756823658,
+            "label_entropy": 4.107049824544615,
+            "label_entropy_norm": 0.8687778498492862,
+            "mean_cluster_purity": 0.12976907375528687,
+            "std_cluster_purity": 0.14421102827815357,
+            "frames": 9025,
+            "labels": 113,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.42304152575064496,
+            "negative": 0.38613686236021166,
+            "wacs": 0.0369046633904333,
+            "positive_std": 0.09281182924919572,
+            "negative_std": 0.07884780569527042,
+            "cohen_d": 0.42043814636431587,
+            "snr": 0.21498741537285823,
+            "positive_pairs": 1629,
+            "negative_pairs": 996,
+            "positive_min": 0.09186309448662022,
+            "positive_max": 0.7198457214674032,
+            "negative_min": 0.13352506378672246,
+            "negative_max": 0.6604099272996768,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.14692415552296006,
+            "cluster_entropy": 3.8420775045776407,
+            "cluster_entropy_norm": 0.9821203758890344,
+            "label_entropy": 4.08352430516981,
+            "label_entropy_norm": 0.8756465395517995,
+            "mean_cluster_purity": 0.12898700998764187,
+            "std_cluster_purity": 0.08900066088319723,
+            "frames": 9165,
+            "labels": 106,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.42329646105958535,
+            "negative": 0.38229760550226083,
+            "wacs": 0.04099885555732452,
+            "positive_std": 0.09621761344350076,
+            "negative_std": 0.08111420997726476,
+            "cohen_d": 0.45166837750779193,
+            "snr": 0.23119850940718667,
+            "positive_pairs": 1628,
+            "negative_pairs": 999,
+            "positive_min": 0.10399301854292808,
+            "positive_max": 0.7604535990606025,
+            "negative_min": 0.12445438515980578,
+            "negative_max": 0.605986571578577,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_2000": [
+        {
+          "nmi": {
+            "nmi": 0.1454147272069626,
+            "cluster_entropy": 3.8749006916614754,
+            "cluster_entropy_norm": 0.9905107117940868,
+            "label_entropy": 4.075493018187816,
+            "label_entropy_norm": 0.8558051583138778,
+            "mean_cluster_purity": 0.10384206224354543,
+            "std_cluster_purity": 0.056375226936549415,
+            "frames": 9002,
+            "labels": 117,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.41565014180597387,
+            "negative": 0.3885177218325094,
+            "wacs": 0.027132419973464494,
+            "positive_std": 0.09114720891489692,
+            "negative_std": 0.08075101974915287,
+            "cohen_d": 0.31100735103298394,
+            "snr": 0.1578400115343292,
+            "positive_pairs": 1498,
+            "negative_pairs": 958,
+            "positive_min": 0.06614587008204942,
+            "positive_max": 0.7862506386022308,
+            "negative_min": 0.10885390128439154,
+            "negative_max": 0.6688288086117813,
+            "vocab_size": 192
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.13785945506836667,
+            "cluster_entropy": 3.845607933581459,
+            "cluster_entropy_norm": 0.983022831983725,
+            "label_entropy": 4.037762754918006,
+            "label_entropy_norm": 0.8590106628894113,
+            "mean_cluster_purity": 0.10442383483188802,
+            "std_cluster_purity": 0.05791352839728933,
+            "frames": 9010,
+            "labels": 110,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.4169039227328011,
+            "negative": 0.3874261681678824,
+            "wacs": 0.02947775456491869,
+            "positive_std": 0.09332953699021129,
+            "negative_std": 0.07752679900310551,
+            "cohen_d": 0.33673858816596736,
+            "snr": 0.1725294685049143,
+            "positive_pairs": 1549,
+            "negative_pairs": 982,
+            "positive_min": 0.0993429591568139,
+            "positive_max": 0.777210242018985,
+            "negative_min": 0.08381672493755854,
+            "negative_max": 0.613134446511029,
+            "vocab_size": 198
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.14962969127522294,
+            "cluster_entropy": 3.843624285369501,
+            "cluster_entropy_norm": 0.9825157674267923,
+            "label_entropy": 3.9863543034164235,
+            "label_entropy_norm": 0.8530923011810826,
+            "mean_cluster_purity": 0.11647859913961685,
+            "std_cluster_purity": 0.08092454481829976,
+            "frames": 8848,
+            "labels": 107,
+            "clusters_used": 50
+          },
+          "wacs": {
+            "positive": 0.4206782605711424,
+            "negative": 0.386644377940199,
+            "wacs": 0.03403388263094337,
+            "positive_std": 0.09440510570157329,
+            "negative_std": 0.08070379375456654,
+            "cohen_d": 0.3814725747105935,
+            "snr": 0.19435837237892203,
+            "positive_pairs": 1395,
+            "negative_pairs": 919,
+            "positive_min": 0.06821926427315483,
+            "positive_max": 0.7546131784932554,
+            "negative_min": 0.10420087329894667,
+            "negative_max": 0.6114549604891906,
+            "vocab_size": 185
+          }
+        }
+      ]
+    },
+    "n_clusters_100": {
+      "tg": [
+        {
+          "nmi": {
+            "nmi": 0.40816750921596867,
+            "cluster_entropy": 4.493547878104346,
+            "cluster_entropy_norm": 0.9757615238143917,
+            "label_entropy": 4.1028551948685985,
+            "label_entropy_norm": 0.8662760312037618,
+            "mean_cluster_purity": 0.30861293525744965,
+            "std_cluster_purity": 0.17741786293890982,
+            "frames": 8916,
+            "labels": 114,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.5472507346708567,
+            "negative": 0.3894402425982695,
+            "wacs": 0.15781049207258724,
+            "positive_std": 0.10409755609965875,
+            "negative_std": 0.08676988383273333,
+            "cohen_d": 1.6001738165541324,
+            "snr": 0.8268067296361215,
+            "positive_pairs": 1972,
+            "negative_pairs": 997,
+            "positive_min": 0.1764134551950739,
+            "positive_max": 0.8191799532332336,
+            "negative_min": 0.029846470931857993,
+            "negative_max": 0.6301326303168627,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.42062754656682166,
+            "cluster_entropy": 4.48678186067038,
+            "cluster_entropy_norm": 0.9742923017963754,
+            "label_entropy": 4.179575683699996,
+            "label_entropy_norm": 0.8730199253087828,
+            "mean_cluster_purity": 0.35963991380569155,
+            "std_cluster_purity": 0.23428251414334883,
+            "frames": 8988,
+            "labels": 120,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.5547065963647161,
+            "negative": 0.39512060731684123,
+            "wacs": 0.15958598904787485,
+            "positive_std": 0.10455031969969446,
+            "negative_std": 0.08002791010089617,
+            "cohen_d": 1.6465623266013205,
+            "snr": 0.8645980654072972,
+            "positive_pairs": 1932,
+            "negative_pairs": 994,
+            "positive_min": 0.1307313275490145,
+            "positive_max": 0.9319266293513799,
+            "negative_min": 0.1356110316385879,
+            "negative_max": 0.6702956296036324,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.4254142391302517,
+            "cluster_entropy": 4.463394643238455,
+            "cluster_entropy_norm": 0.969213832057497,
+            "label_entropy": 4.126279832970226,
+            "label_entropy_norm": 0.8761552971505349,
+            "mean_cluster_purity": 0.3461812759927964,
+            "std_cluster_purity": 0.22492266939673897,
+            "frames": 8939,
+            "labels": 111,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.5560740049580439,
+            "negative": 0.38317298084824014,
+            "wacs": 0.1729010241098038,
+            "positive_std": 0.10395832971554056,
+            "negative_std": 0.08625347025274636,
+            "cohen_d": 1.758201009483873,
+            "snr": 0.9089920554282657,
+            "positive_pairs": 1956,
+            "negative_pairs": 997,
+            "positive_min": 0.1379889171526184,
+            "positive_max": 0.8573661816450777,
+            "negative_min": 0.042621231563353734,
+            "negative_max": 0.6503280268691619,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_100": [
+        {
+          "nmi": {
+            "nmi": 0.24548185051297675,
+            "cluster_entropy": 4.501976465803905,
+            "cluster_entropy_norm": 0.9775917683784697,
+            "label_entropy": 4.100236574619259,
+            "label_entropy_norm": 0.8549657320593148,
+            "mean_cluster_purity": 0.1957005151158878,
+            "std_cluster_purity": 0.12465804078235712,
+            "frames": 8842,
+            "labels": 121,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.4557283973427152,
+            "negative": 0.3786560551466702,
+            "wacs": 0.07707234219604497,
+            "positive_std": 0.10859912796658186,
+            "negative_std": 0.08100758892842937,
+            "cohen_d": 0.7720921924359184,
+            "snr": 0.40648527327156153,
+            "positive_pairs": 1848,
+            "negative_pairs": 994,
+            "positive_min": 0.08412545307498442,
+            "positive_max": 0.7433323514238117,
+            "negative_min": 0.128894518428193,
+            "negative_max": 0.6052658605904482,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.2592598387621526,
+            "cluster_entropy": 4.496522043627959,
+            "cluster_entropy_norm": 0.9764073556519777,
+            "label_entropy": 4.157153117299184,
+            "label_entropy_norm": 0.863880685007019,
+            "mean_cluster_purity": 0.2189324906906895,
+            "std_cluster_purity": 0.18374541694522545,
+            "frames": 9007,
+            "labels": 123,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.44744714396970886,
+            "negative": 0.37759282389479526,
+            "wacs": 0.0698543200749136,
+            "positive_std": 0.10457919128540427,
+            "negative_std": 0.07924115827851944,
+            "cohen_d": 0.7228048321399834,
+            "snr": 0.3800140541593364,
+            "positive_pairs": 1912,
+            "negative_pairs": 998,
+            "positive_min": 0.06553779286263872,
+            "positive_max": 0.7472221168057369,
+            "negative_min": 0.12293870705068333,
+            "negative_max": 0.6545106861170046,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.2495726995555799,
+            "cluster_entropy": 4.486645629817064,
+            "cluster_entropy_norm": 0.9742627196424453,
+            "label_entropy": 4.096953856602475,
+            "label_entropy_norm": 0.8666422163177666,
+            "mean_cluster_purity": 0.22806454582931004,
+            "std_cluster_purity": 0.1981327287576226,
+            "frames": 9013,
+            "labels": 113,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.45041640075068434,
+            "negative": 0.3812951536235564,
+            "wacs": 0.06912124712712792,
+            "positive_std": 0.10501048290233632,
+            "negative_std": 0.08636127872808913,
+            "cohen_d": 0.6975137958091936,
+            "snr": 0.3611883118300954,
+            "positive_pairs": 1944,
+            "negative_pairs": 994,
+            "positive_min": 0.08686778923093708,
+            "positive_max": 0.8333244764396903,
+            "negative_min": 0.023206635999883263,
+            "negative_max": 0.621798534018029,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_500": [
+        {
+          "nmi": {
+            "nmi": 0.2065941015180193,
+            "cluster_entropy": 4.486733550359851,
+            "cluster_entropy_norm": 0.9742818113457345,
+            "label_entropy": 4.131555698270899,
+            "label_entropy_norm": 0.8660299356370993,
+            "mean_cluster_purity": 0.17583235173048678,
+            "std_cluster_purity": 0.17000099097087815,
+            "frames": 9029,
+            "labels": 118,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.4192100258773699,
+            "negative": 0.38309641371320746,
+            "wacs": 0.03611361216416242,
+            "positive_std": 0.09170316833335225,
+            "negative_std": 0.08179646332082649,
+            "cohen_d": 0.41066818921369863,
+            "snr": 0.20814805045041213,
+            "positive_pairs": 1538,
+            "negative_pairs": 998,
+            "positive_min": 0.12253356589002806,
+            "positive_max": 0.7019928860588869,
+            "negative_min": 0.14035727815100885,
+            "negative_max": 0.6116810355091888,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.2087801719996687,
+            "cluster_entropy": 4.47706488658362,
+            "cluster_entropy_norm": 0.972182287683037,
+            "label_entropy": 4.034071792189889,
+            "label_entropy_norm": 0.8565762655191753,
+            "mean_cluster_purity": 0.18686026976753115,
+            "std_cluster_purity": 0.1873507959972435,
+            "frames": 8917,
+            "labels": 111,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.42009030998139824,
+            "negative": 0.37851307249950206,
+            "wacs": 0.04157723748189618,
+            "positive_std": 0.09449899539584901,
+            "negative_std": 0.08244154578671414,
+            "cohen_d": 0.4615866985374795,
+            "snr": 0.23497856881319282,
+            "positive_pairs": 1599,
+            "negative_pairs": 992,
+            "positive_min": 0.12173477789515275,
+            "positive_max": 0.7181916038442593,
+            "negative_min": 0.0940728929369482,
+            "negative_max": 0.6702412836228548,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.22095069023010855,
+            "cluster_entropy": 4.4821596753128325,
+            "cluster_entropy_norm": 0.9732886069988169,
+            "label_entropy": 4.115611370914646,
+            "label_entropy_norm": 0.8626877890457096,
+            "mean_cluster_purity": 0.17066512535460793,
+            "std_cluster_purity": 0.15470633875100362,
+            "frames": 8815,
+            "labels": 118,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.4202235223280526,
+            "negative": 0.38006765204346254,
+            "wacs": 0.040155870284590056,
+            "positive_std": 0.09059809605395719,
+            "negative_std": 0.0820171954712476,
+            "cohen_d": 0.4597163025601713,
+            "snr": 0.2326321590831078,
+            "positive_pairs": 1549,
+            "negative_pairs": 992,
+            "positive_min": 0.13549378383718647,
+            "positive_max": 0.7366001549062624,
+            "negative_min": 0.036646770604612744,
+            "negative_max": 0.7341531931035611,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_2000": [
+        {
+          "nmi": {
+            "nmi": 0.20089050189449797,
+            "cluster_entropy": 4.449910620812305,
+            "cluster_entropy_norm": 0.9662858137907286,
+            "label_entropy": 4.116402734519692,
+            "label_entropy_norm": 0.8613300619774606,
+            "mean_cluster_purity": 0.17163769970405302,
+            "std_cluster_purity": 0.17656905610515114,
+            "frames": 8878,
+            "labels": 119,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.430937909674941,
+            "negative": 0.3905687016027375,
+            "wacs": 0.04036920807220351,
+            "positive_std": 0.08886027153311077,
+            "negative_std": 0.08066344828287693,
+            "cohen_d": 0.4709788553283199,
+            "snr": 0.2381330809322266,
+            "positive_pairs": 1457,
+            "negative_pairs": 953,
+            "positive_min": 0.09310861783026725,
+            "positive_max": 0.7581310417796896,
+            "negative_min": 0.07911131898337431,
+            "negative_max": 0.6626081292717589,
+            "vocab_size": 192
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.18977794710877524,
+            "cluster_entropy": 4.464795734396109,
+            "cluster_entropy_norm": 0.9695180751367033,
+            "label_entropy": 4.032876580593031,
+            "label_entropy_norm": 0.8757280225742041,
+            "mean_cluster_purity": 0.17993923956576086,
+            "std_cluster_purity": 0.19178589552253797,
+            "frames": 9126,
+            "labels": 100,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.4258777306467668,
+            "negative": 0.3898883621214576,
+            "wacs": 0.03598936852530921,
+            "positive_std": 0.0867934591612179,
+            "negative_std": 0.08056664736141725,
+            "cohen_d": 0.4263851718405109,
+            "snr": 0.2150414882176645,
+            "positive_pairs": 1397,
+            "negative_pairs": 902,
+            "positive_min": 0.11333485387063957,
+            "positive_max": 0.7477516572256255,
+            "negative_min": 0.0929238566322711,
+            "negative_max": 0.651727150380079,
+            "vocab_size": 181
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.21085690191197878,
+            "cluster_entropy": 4.455879676522303,
+            "cluster_entropy_norm": 0.9675819777692415,
+            "label_entropy": 4.093946188863529,
+            "label_entropy_norm": 0.87437664394085,
+            "mean_cluster_purity": 0.18270960691648605,
+            "std_cluster_purity": 0.2002999941132907,
+            "frames": 8907,
+            "labels": 108,
+            "clusters_used": 100
+          },
+          "wacs": {
+            "positive": 0.42807733802926307,
+            "negative": 0.39285734103687164,
+            "wacs": 0.03521999699239142,
+            "positive_std": 0.08503069059144444,
+            "negative_std": 0.0769724128437928,
+            "cohen_d": 0.42977508005187937,
+            "snr": 0.21740321062700474,
+            "positive_pairs": 1411,
+            "negative_pairs": 918,
+            "positive_min": 0.15888134229295425,
+            "positive_max": 0.7932723621986547,
+            "negative_min": 0.1292394965739001,
+            "negative_max": 0.597669543738208,
+            "vocab_size": 184
+          }
+        }
+      ]
+    },
+    "n_clusters_150": {
+      "tg": [
+        {
+          "nmi": {
+            "nmi": 0.42666562002784175,
+            "cluster_entropy": 4.831252611087058,
+            "cluster_entropy_norm": 0.9641996129272163,
+            "label_entropy": 4.134342550942493,
+            "label_entropy_norm": 0.8666140976370985,
+            "mean_cluster_purity": 0.3770217793738909,
+            "std_cluster_purity": 0.22098963225980553,
+            "frames": 8958,
+            "labels": 118,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.5464564873680882,
+            "negative": 0.39024791240482487,
+            "wacs": 0.1562085749632633,
+            "positive_std": 0.10841863989007564,
+            "negative_std": 0.0841892920535369,
+            "cohen_d": 1.549149177905983,
+            "snr": 0.8110183483970488,
+            "positive_pairs": 1936,
+            "negative_pairs": 998,
+            "positive_min": 0.18578345153521536,
+            "positive_max": 0.8096841009052234,
+            "negative_min": 0.13412467579961895,
+            "negative_max": 0.6190660324969903,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.4320506121078355,
+            "cluster_entropy": 4.810479704030168,
+            "cluster_entropy_norm": 0.9600538497978651,
+            "label_entropy": 4.168259000548837,
+            "label_entropy_norm": 0.8737234440467123,
+            "mean_cluster_purity": 0.3891160584751347,
+            "std_cluster_purity": 0.2237078566704809,
+            "frames": 8936,
+            "labels": 118,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.5577428761139908,
+            "negative": 0.3860314302284641,
+            "wacs": 0.17171144588552667,
+            "positive_std": 0.0984299888064496,
+            "negative_std": 0.08793399109732088,
+            "cohen_d": 1.8061486195093375,
+            "snr": 0.9213767422246666,
+            "positive_pairs": 2000,
+            "negative_pairs": 996,
+            "positive_min": 0.18869964275984952,
+            "positive_max": 0.840627037188856,
+            "negative_min": 0.09962192234732559,
+            "negative_max": 0.6657185443610958,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.4478002381479264,
+            "cluster_entropy": 4.796895641524264,
+            "cluster_entropy_norm": 0.9573428038508752,
+            "label_entropy": 4.174176183881086,
+            "label_entropy_norm": 0.8659610703378376,
+            "mean_cluster_purity": 0.4138994634907254,
+            "std_cluster_purity": 0.2612209316557769,
+            "frames": 8844,
+            "labels": 124,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.5450782339771804,
+            "negative": 0.38818579551790944,
+            "wacs": 0.15689243845927092,
+            "positive_std": 0.10260204840962997,
+            "negative_std": 0.08581513457280653,
+            "cohen_d": 1.6133650510674573,
+            "snr": 0.8326864230160558,
+            "positive_pairs": 1940,
+            "negative_pairs": 993,
+            "positive_min": 0.18277672369146103,
+            "positive_max": 0.8383879366573594,
+            "negative_min": 0.11586227072895283,
+            "negative_max": 0.6864939412896645,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_100": [
+        {
+          "nmi": {
+            "nmi": 0.29741603356680246,
+            "cluster_entropy": 4.816895676908251,
+            "cluster_entropy_norm": 0.9613343207364788,
+            "label_entropy": 4.118911600967245,
+            "label_entropy_norm": 0.8712870106961449,
+            "mean_cluster_purity": 0.2841238959510981,
+            "std_cluster_purity": 0.22893555147587316,
+            "frames": 8883,
+            "labels": 113,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.4618181464612442,
+            "negative": 0.38885525944231997,
+            "wacs": 0.07296288701892423,
+            "positive_std": 0.10651698824701582,
+            "negative_std": 0.08135705551829256,
+            "cohen_d": 0.7429164061257726,
+            "snr": 0.3883606360571174,
+            "positive_pairs": 1772,
+            "negative_pairs": 996,
+            "positive_min": 0.101992210024061,
+            "positive_max": 0.8287552309966537,
+            "negative_min": 0.13171712945950365,
+            "negative_max": 0.638804235603892,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.2723509682035299,
+            "cluster_entropy": 4.813691969763915,
+            "cluster_entropy_norm": 0.9606949393095148,
+            "label_entropy": 4.077177146397375,
+            "label_entropy_norm": 0.8624587833176606,
+            "mean_cluster_purity": 0.26838548972304477,
+            "std_cluster_purity": 0.2245187823511464,
+            "frames": 8964,
+            "labels": 113,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.45203025115160195,
+            "negative": 0.3796392320310411,
+            "wacs": 0.07239101912056084,
+            "positive_std": 0.10310342153495301,
+            "negative_std": 0.08366111517452365,
+            "cohen_d": 0.7482553408752058,
+            "snr": 0.38760578705105825,
+            "positive_pairs": 1848,
+            "negative_pairs": 995,
+            "positive_min": 0.11104008566331225,
+            "positive_max": 0.7810266617002363,
+            "negative_min": 0.08445180452607404,
+            "negative_max": 0.6371966610042105,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.2877662845502511,
+            "cluster_entropy": 4.80441375896331,
+            "cluster_entropy_norm": 0.9588432358316071,
+            "label_entropy": 4.132515012544761,
+            "label_entropy_norm": 0.8631900031525334,
+            "mean_cluster_purity": 0.2743757470795635,
+            "std_cluster_purity": 0.21337391050271207,
+            "frames": 8829,
+            "labels": 120,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.46180469494471715,
+            "negative": 0.3834346826414159,
+            "wacs": 0.07837001230330126,
+            "positive_std": 0.10340833113184539,
+            "negative_std": 0.0794696516766888,
+            "cohen_d": 0.818108378019706,
+            "snr": 0.42853714161961237,
+            "positive_pairs": 1876,
+            "negative_pairs": 995,
+            "positive_min": 0.168254402727406,
+            "positive_max": 0.828516579857411,
+            "negative_min": 0.1263131006758016,
+            "negative_max": 0.603530346361031,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_500": [
+        {
+          "nmi": {
+            "nmi": 0.2406854740228238,
+            "cluster_entropy": 4.8170829023221575,
+            "cluster_entropy_norm": 0.9613716863404228,
+            "label_entropy": 4.067923745340261,
+            "label_entropy_norm": 0.8758788469102191,
+            "mean_cluster_purity": 0.24984902612767806,
+            "std_cluster_purity": 0.23782674710206278,
+            "frames": 9136,
+            "labels": 104,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.41817387561716496,
+            "negative": 0.3824853148595796,
+            "wacs": 0.035688560757585364,
+            "positive_std": 0.08999230478337483,
+            "negative_std": 0.07940235100692726,
+            "cohen_d": 0.41406681891486025,
+            "snr": 0.21068290781815482,
+            "positive_pairs": 1669,
+            "negative_pairs": 995,
+            "positive_min": 0.09690556677448892,
+            "positive_max": 0.7120231453534505,
+            "negative_min": 0.08381651064463147,
+            "negative_max": 0.6325821877655952,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.23805213666659442,
+            "cluster_entropy": 4.785928345929644,
+            "cluster_entropy_norm": 0.9551540004455382,
+            "label_entropy": 4.079634264252753,
+            "label_entropy_norm": 0.8679185842243169,
+            "mean_cluster_purity": 0.2684369139102416,
+            "std_cluster_purity": 0.2666752850147085,
+            "frames": 8917,
+            "labels": 110,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.4232445028305614,
+            "negative": 0.38888438814042836,
+            "wacs": 0.03436011469013306,
+            "positive_std": 0.08766147622399435,
+            "negative_std": 0.07585984052787596,
+            "cohen_d": 0.41245351342333303,
+            "snr": 0.21012619804798677,
+            "positive_pairs": 1585,
+            "negative_pairs": 996,
+            "positive_min": 0.07216284573013398,
+            "positive_max": 0.7802149521472806,
+            "negative_min": 0.10572487385409546,
+            "negative_max": 0.6296638118562448,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.2191566229375223,
+            "cluster_entropy": 4.817678217925945,
+            "cluster_entropy_norm": 0.9614904967444625,
+            "label_entropy": 3.9972862416943076,
+            "label_entropy_norm": 0.8661282467289028,
+            "mean_cluster_purity": 0.22023153020950934,
+            "std_cluster_purity": 0.20695879684306867,
+            "frames": 9137,
+            "labels": 101,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.418773290778683,
+            "negative": 0.38570038178112764,
+            "wacs": 0.033072908997555384,
+            "positive_std": 0.09625354752864708,
+            "negative_std": 0.07689293854538168,
+            "cohen_d": 0.37045647430203515,
+            "snr": 0.1910111365084458,
+            "positive_pairs": 1581,
+            "negative_pairs": 995,
+            "positive_min": 0.04347323210797738,
+            "positive_max": 0.7780171015027885,
+            "negative_min": 0.13017625084781081,
+            "negative_max": 0.610212127116269,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_2000": [
+        {
+          "nmi": {
+            "nmi": 0.22464203737173638,
+            "cluster_entropy": 4.81240545461211,
+            "cluster_entropy_norm": 0.9604381824161682,
+            "label_entropy": 4.091360302288477,
+            "label_entropy_norm": 0.8654589932507152,
+            "mean_cluster_purity": 0.22427053380579812,
+            "std_cluster_purity": 0.21472108321665992,
+            "frames": 8958,
+            "labels": 113,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.4297710306128074,
+            "negative": 0.38262771949724583,
+            "wacs": 0.04714331111556158,
+            "positive_std": 0.08892165361213783,
+            "negative_std": 0.08177643892536059,
+            "cohen_d": 0.5469152375627909,
+            "snr": 0.2761794678133888,
+            "positive_pairs": 1554,
+            "negative_pairs": 998,
+            "positive_min": 0.07400562946518119,
+            "positive_max": 0.7765347427885615,
+            "negative_min": 0.04354687016255443,
+            "negative_max": 0.6286327195911032,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.22102799580926072,
+            "cluster_entropy": 4.812538315051622,
+            "cluster_entropy_norm": 0.9604646981036438,
+            "label_entropy": 4.016197083345514,
+            "label_entropy_norm": 0.8683720414117515,
+            "mean_cluster_purity": 0.21897906886080576,
+            "std_cluster_purity": 0.20387575326922813,
+            "frames": 9034,
+            "labels": 102,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.4284259824637083,
+            "negative": 0.3831372825641417,
+            "wacs": 0.045288699899566576,
+            "positive_std": 0.09307837932820523,
+            "negative_std": 0.08129026203695586,
+            "cohen_d": 0.5108134491399302,
+            "snr": 0.2597295990133194,
+            "positive_pairs": 1528,
+            "negative_pairs": 980,
+            "positive_min": 0.15671681981489827,
+            "positive_max": 0.7881593326578654,
+            "negative_min": 0.09790652873774519,
+            "negative_max": 0.6429660170480515,
+            "vocab_size": 197
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.2269486009093902,
+            "cluster_entropy": 4.818164071961506,
+            "cluster_entropy_norm": 0.961587461302257,
+            "label_entropy": 4.079331667758414,
+            "label_entropy_norm": 0.872989748238481,
+            "mean_cluster_purity": 0.23305130479848865,
+            "std_cluster_purity": 0.22635756079305058,
+            "frames": 9168,
+            "labels": 107,
+            "clusters_used": 150
+          },
+          "wacs": {
+            "positive": 0.4185724753365693,
+            "negative": 0.3898702355101883,
+            "wacs": 0.028702239826381037,
+            "positive_std": 0.08879265201390264,
+            "negative_std": 0.07725678755556746,
+            "cohen_d": 0.34021843812009095,
+            "snr": 0.17285356802325855,
+            "positive_pairs": 1490,
+            "negative_pairs": 995,
+            "positive_min": 0.16809369894591364,
+            "positive_max": 0.7925652696471406,
+            "negative_min": 0.07883036560122214,
+            "negative_max": 0.6202716907010479,
+            "vocab_size": 200
+          }
+        }
+      ]
+    },
+    "n_clusters_200": {
+      "tg": [
+        {
+          "nmi": {
+            "nmi": 0.4577677403866105,
+            "cluster_entropy": 4.996009329494273,
+            "cluster_entropy_norm": 0.9429426332664698,
+            "label_entropy": 4.099743802252275,
+            "label_entropy_norm": 0.8593617321143844,
+            "mean_cluster_purity": 0.48372388145136114,
+            "std_cluster_purity": 0.27052120716761374,
+            "frames": 8656,
+            "labels": 118,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.5539826695002089,
+            "negative": 0.38882140017365985,
+            "wacs": 0.16516126932654907,
+            "positive_std": 0.10022131393881825,
+            "negative_std": 0.08348957066071554,
+            "cohen_d": 1.738950313025457,
+            "snr": 0.8990281697042491,
+            "positive_pairs": 2000,
+            "negative_pairs": 999,
+            "positive_min": 0.23642894588166552,
+            "positive_max": 0.8462022270689898,
+            "negative_min": 0.09551273054811737,
+            "negative_max": 0.6366419435970454,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.45844233368819315,
+            "cluster_entropy": 5.000412933521635,
+            "cluster_entropy_norm": 0.9437737658171858,
+            "label_entropy": 4.1997019723346245,
+            "label_entropy_norm": 0.8641695651802116,
+            "mean_cluster_purity": 0.45198168210388034,
+            "std_cluster_purity": 0.26548160012897926,
+            "frames": 8890,
+            "labels": 129,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.5536184379006953,
+            "negative": 0.3873249682806599,
+            "wacs": 0.16629346962003544,
+            "positive_std": 0.09769009676241701,
+            "negative_std": 0.08162124500441158,
+            "cohen_d": 1.7963742411469497,
+            "snr": 0.9274006803332717,
+            "positive_pairs": 1948,
+            "negative_pairs": 995,
+            "positive_min": 0.18042733261354882,
+            "positive_max": 0.8127405041476518,
+            "negative_min": 0.08965176821221998,
+            "negative_max": 0.6679951348967692,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.4578854570818939,
+            "cluster_entropy": 5.016734158114925,
+            "cluster_entropy_norm": 0.9468542201320476,
+            "label_entropy": 4.089979365256948,
+            "label_entropy_norm": 0.8667967243010836,
+            "mean_cluster_purity": 0.4547946727580337,
+            "std_cluster_purity": 0.2607612543716347,
+            "frames": 8916,
+            "labels": 112,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.5601825497664534,
+            "negative": 0.3916230109142993,
+            "wacs": 0.16855953885215413,
+            "positive_std": 0.10015594414309206,
+            "negative_std": 0.08482509700931104,
+            "cohen_d": 1.768818444475983,
+            "snr": 0.9112259758610652,
+            "positive_pairs": 1976,
+            "negative_pairs": 996,
+            "positive_min": 0.1595304915788709,
+            "positive_max": 0.8480214615577653,
+            "negative_min": 0.10130866738295152,
+            "negative_max": 0.683588022671783,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_100": [
+        {
+          "nmi": {
+            "nmi": 0.30063251068871927,
+            "cluster_entropy": 5.037737218779755,
+            "cluster_entropy_norm": 0.9508183202815473,
+            "label_entropy": 4.084103471032047,
+            "label_entropy_norm": 0.8655514354104479,
+            "mean_cluster_purity": 0.3136469578414039,
+            "std_cluster_purity": 0.2404939318207319,
+            "frames": 8829,
+            "labels": 112,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.45732083784265587,
+            "negative": 0.379193957407584,
+            "wacs": 0.07812688043507188,
+            "positive_std": 0.09977119725125824,
+            "negative_std": 0.08076862208896965,
+            "cohen_d": 0.8343110875410856,
+            "snr": 0.4327404136836837,
+            "positive_pairs": 1880,
+            "negative_pairs": 993,
+            "positive_min": 0.16200977683253837,
+            "positive_max": 0.7771127521975201,
+            "negative_min": 0.11227910025196053,
+            "negative_max": 0.6135100421243918,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.2996440621949333,
+            "cluster_entropy": 5.007379397925709,
+            "cluster_entropy_norm": 0.9450886104975097,
+            "label_entropy": 4.079136736275919,
+            "label_entropy_norm": 0.8628733018538357,
+            "mean_cluster_purity": 0.34392168830033404,
+            "std_cluster_purity": 0.27980371200434345,
+            "frames": 8908,
+            "labels": 113,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.4530399597216575,
+            "negative": 0.38167574285946976,
+            "wacs": 0.07136421686218775,
+            "positive_std": 0.10561704245649313,
+            "negative_std": 0.07782732221141553,
+            "cohen_d": 0.7369349352017887,
+            "snr": 0.3890237408008786,
+            "positive_pairs": 1864,
+            "negative_pairs": 998,
+            "positive_min": 0.10978839274941299,
+            "positive_max": 0.8529183214942486,
+            "negative_min": 0.1374240381866061,
+            "negative_max": 0.6463910860096116,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.3039952955719947,
+            "cluster_entropy": 4.991305429654333,
+            "cluster_entropy_norm": 0.9420548231345892,
+            "label_entropy": 4.078316279388163,
+            "label_entropy_norm": 0.8595099295540326,
+            "mean_cluster_purity": 0.34533791375345707,
+            "std_cluster_purity": 0.26197644147877963,
+            "frames": 8926,
+            "labels": 115,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.4533580498742494,
+            "negative": 0.3779396437488897,
+            "wacs": 0.07541840612535966,
+            "positive_std": 0.10787267277245978,
+            "negative_std": 0.0824826387943144,
+            "cohen_d": 0.7556672402084853,
+            "snr": 0.39619804429215216,
+            "positive_pairs": 1872,
+            "negative_pairs": 994,
+            "positive_min": 0.12163942859255761,
+            "positive_max": 0.7801270987324793,
+            "negative_min": 0.06986766241051645,
+            "negative_max": 0.6058912729212093,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_500": [
+        {
+          "nmi": {
+            "nmi": 0.25142627710058013,
+            "cluster_entropy": 5.024318270006568,
+            "cluster_entropy_norm": 0.9482856390839448,
+            "label_entropy": 4.040417535671837,
+            "label_entropy_norm": 0.8646620021418154,
+            "mean_cluster_purity": 0.30168079104455714,
+            "std_cluster_purity": 0.2782524355830503,
+            "frames": 9055,
+            "labels": 107,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.41198626732408256,
+            "negative": 0.3828544136723023,
+            "wacs": 0.029131853651780282,
+            "positive_std": 0.0876877427500261,
+            "negative_std": 0.07840423313985115,
+            "cohen_d": 0.34547825156548695,
+            "snr": 0.17539590182933548,
+            "positive_pairs": 1652,
+            "negative_pairs": 993,
+            "positive_min": 0.14302672591883936,
+            "positive_max": 0.8022871039994603,
+            "negative_min": 0.12738804354166333,
+            "negative_max": 0.6566427099896296,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.2658543243768468,
+            "cluster_entropy": 5.011630248862707,
+            "cluster_entropy_norm": 0.9458909125573743,
+            "label_entropy": 4.089717544930121,
+            "label_entropy_norm": 0.8572600930182395,
+            "mean_cluster_purity": 0.32066576905554056,
+            "std_cluster_purity": 0.2845289724583041,
+            "frames": 8913,
+            "labels": 118,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.4196941393859761,
+            "negative": 0.38858384182688355,
+            "wacs": 0.03111029755909256,
+            "positive_std": 0.09291189434920105,
+            "negative_std": 0.0765488060728047,
+            "cohen_d": 0.35839129051452107,
+            "snr": 0.18358413275631266,
+            "positive_pairs": 1517,
+            "negative_pairs": 994,
+            "positive_min": 0.07791921239609856,
+            "positive_max": 0.8012779916182097,
+            "negative_min": 0.10101549089853035,
+            "negative_max": 0.6734736275862081,
+            "vocab_size": 200
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.25068901382043973,
+            "cluster_entropy": 4.946817845106361,
+            "cluster_entropy_norm": 0.9336582735377582,
+            "label_entropy": 4.06699854910303,
+            "label_entropy_norm": 0.8756796396821189,
+            "mean_cluster_purity": 0.3251451263513808,
+            "std_cluster_purity": 0.2812998372611659,
+            "frames": 9076,
+            "labels": 104,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.42501939986926784,
+            "negative": 0.383266894178462,
+            "wacs": 0.04175250569080585,
+            "positive_std": 0.09199172510467891,
+            "negative_std": 0.08354029776584397,
+            "cohen_d": 0.4705183937493358,
+            "snr": 0.2378625998230398,
+            "positive_pairs": 1511,
+            "negative_pairs": 993,
+            "positive_min": 0.13765210542539685,
+            "positive_max": 0.7516975201476945,
+            "negative_min": 0.11085398984232064,
+            "negative_max": 0.6561446004552944,
+            "vocab_size": 200
+          }
+        }
+      ],
+      "tg_2000": [
+        {
+          "nmi": {
+            "nmi": 0.2588801957958906,
+            "cluster_entropy": 5.015488240273372,
+            "cluster_entropy_norm": 0.9466190666379555,
+            "label_entropy": 4.060220402375706,
+            "label_entropy_norm": 0.8588718671026319,
+            "mean_cluster_purity": 0.2962161561537448,
+            "std_cluster_purity": 0.26748715368114817,
+            "frames": 8936,
+            "labels": 113,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.41465751129905526,
+            "negative": 0.3764679974599645,
+            "wacs": 0.03818951383909075,
+            "positive_std": 0.0927878470261766,
+            "negative_std": 0.08393122148826763,
+            "cohen_d": 0.427026321230685,
+            "snr": 0.21610294802419597,
+            "positive_pairs": 1429,
+            "negative_pairs": 917,
+            "positive_min": 0.0909035475652531,
+            "positive_max": 0.7958041521092192,
+            "negative_min": 0.01302427411784901,
+            "negative_max": 0.7241286891542099,
+            "vocab_size": 184
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.249336991442502,
+            "cluster_entropy": 5.0255908546187875,
+            "cluster_entropy_norm": 0.9485258256420876,
+            "label_entropy": 3.9981656048418914,
+            "label_entropy_norm": 0.8681906299591052,
+            "mean_cluster_purity": 0.2992780844294942,
+            "std_cluster_purity": 0.26683327866307727,
+            "frames": 9113,
+            "labels": 100,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.4272761139339416,
+            "negative": 0.38963270436857944,
+            "wacs": 0.03764340956536216,
+            "positive_std": 0.09235922552974869,
+            "negative_std": 0.07729081613766667,
+            "cohen_d": 0.4336674559106185,
+            "snr": 0.22188858297054276,
+            "positive_pairs": 1528,
+            "negative_pairs": 975,
+            "positive_min": 0.07110807557170296,
+            "positive_max": 0.7467538213871815,
+            "negative_min": 0.1582795300278228,
+            "negative_max": 0.6168016136612009,
+            "vocab_size": 196
+          }
+        },
+        {
+          "nmi": {
+            "nmi": 0.23893132694239294,
+            "cluster_entropy": 5.030218225136693,
+            "cluster_entropy_norm": 0.9493991916935668,
+            "label_entropy": 3.9870312190383945,
+            "label_entropy_norm": 0.8515419636128486,
+            "mean_cluster_purity": 0.28244930415543046,
+            "std_cluster_purity": 0.26458941955789417,
+            "frames": 8925,
+            "labels": 108,
+            "clusters_used": 200
+          },
+          "wacs": {
+            "positive": 0.423117582471677,
+            "negative": 0.3903609236410165,
+            "wacs": 0.032756658830660534,
+            "positive_std": 0.09336488752525125,
+            "negative_std": 0.07916919648793305,
+            "cohen_d": 0.3714939651703241,
+            "snr": 0.1898561499859698,
+            "positive_pairs": 1588,
+            "negative_pairs": 993,
+            "positive_min": 0.09256650640668274,
+            "positive_max": 0.7984238497587202,
+            "negative_min": 0.07911357936275765,
+            "negative_max": 0.7089913077294651,
+            "vocab_size": 200
+          }
+        }
+      ]
+    }
   }
 }
