@@ -1,0 +1,46 @@
+name,iso639_3,family,subfamily,division,glottocode,train,validation,test,citation
+Anal,anm,Sino-Tibetan,Tibeto-Burman,Kuki-Chin,anal1239,1588,227,453,\citet{doreco_anal1239}
+Yali (Apahapsili),na,Trans-New Guinea,Dani,-,apah1238,1057,151,302,\citet{doreco_apah1238}
+Arapaho,arp,Algic,Algonquian,-,arap1274,782,112,223,\citet{doreco_arap1274}
+Baïnounk Gubëeher,bab,Niger-Congo,West-Atlantic,-,bain1259,1315,188,376,\citet{doreco_bain1259}
+Beja,bej,Afroasiatic,Cushitic,North,beja1238,3172,453,906,\citet{doreco_beja1238}
+Bora,boa,Boran,-,-,bora1263,733,105,209,\citet{doreco_bora1263}
+Cabécar,cjp,Chibchan,Isthmic,-,cabe1245,801,114,229,\citet{doreco_cabe1245}
+Cashinahua,cbs,Pano-Tacanan,Panoan,-,cash1254,1185,169,339,\citet{doreco_cash1254}
+Dolgan,dlg,Turkic,Siberian,-,dolg1241,797,114,228,\citet{doreco_dolg1241}
+Evenki,evn,Tungusic,Ewenic,-,even1259,1310,187,374,\citet{doreco_even1259}
+Gorwaa,gow,Afroasiatic,Cushitic,South,goro1270,996,142,285,\citet{doreco_goro1270}
+Jahai,jhi,Austroasiatic,Aslian,-,jeha1242,836,119,239,\citet{doreco_jeha1242}
+Jejuan,jje,Koreanic,-,-,jeju1234,307,44,88,\citet{doreco_jeju1234}
+Kakabe,kke,Niger-Congo,Mande,-,kaka1265,668,95,191,\citet{doreco_kaka1265}
+Kamas,xas,Uralic,Samoyedic,-,kama1351,1270,182,363,\citet{doreco_kama1351}
+Komnzo,tci,Yam,-,-,komn1238,1526,218,436,\citet{doreco_komn1238}
+Light Warlpiri,na,Mixed Language,-,-,ligh1234,694,99,198,\citet{doreco_ligh1234}
+Dalabon,ngk,Gunwinyguan,-,-,ngal1292,291,42,83,\citet{doreco_ngal1292}
+Nisvai,none,Austronesian,Oceanic,Southern,nisv1234,1185,169,339,\citet{doreco_nisv1234}
+Nǁng,ngh,Tuu,-,-,nngg1234,1091,156,311,\citet{doreco_nngg1234}
+Northern Kurdish (Kurmanji),kmr,Indo-European,Iranian,Western,nort2641,584,83,167,\citet{doreco_nort2641}
+Northern Alta,aqn,Austronesian,Phillippine,-,nort2875,1323,189,378,\citet{doreco_nort2875}
+Fanbyak,fnb,Austronesian,Oceanic,Southern,orko1234,1060,151,303,\citet{doreco_orko1234}
+Pnar,pbv,Austroasiatic,Khasic,-,pnar1238,219,31,63,\citet{doreco_pnar1238}
+Daakie,ptv,Austronesian,Oceanic,Southern,port1286,921,132,263,\citet{doreco_port1286}
+Resígaro,rgr,Arawakan,-,-,resi1247,944,135,269,\citet{doreco_resi1247}
+Ruuli,ruc,Niger-Congo,Bantu,Northeast,ruul1235,818,117,233,\citet{doreco_ruul1235}
+Sadu,na,Sino-Tibetan,Tibeto-Burman,Lolo-Burmese,sadu1234,1035,148,296,\citet{doreco_sadu1234}
+Sanzhi Dargwa,na,Nakh-Daghestanian,Dargin,-,sanz1248,314,45,90,\citet{doreco_sanz1248}
+Savosavo,svs,Isolate,-,-,savo1255,625,89,179,\citet{doreco_savo1255}
+Nafsan (South Efate),erk,Austronesian,Oceanic,Southern,sout2856,543,78,155,\citet{doreco_sout2856}
+English (Southern England),na,Indo-European,Germanic,West,sout3282,431,62,123,\citet{doreco_sout3282}
+French (Swiss),fra,Indo-European,Romance,West,stan1290,1222,174,349,\citet{doreco_stan1290}
+Sümi,nsm,Sino-Tibetan,Angami-Pochuri,-,sumi1235,809,116,231,\citet{doreco_sumi1235}
+Svan,sva,Kartvelian,-,-,svan1243,498,71,142,\citet{doreco_svan1243}
+Tabasaran,tab,Nakh-Daghestanian,Lezgic,-,taba1259,440,63,125,\citet{doreco_taba1259}
+Teop,tio,Austronesian,Oceanic,Western,teop1238,1325,189,379,\citet{doreco_teop1238}
+Texistepec Popoluca,poq,Mixe-Zoque,Zoquean,-,texi1237,1648,236,471,\citet{doreco_texi1237}
+Mojeño Trinitario,trn,Arawakan,-,-,trin1278,626,90,179,\citet{doreco_trin1278}
+Asimjeeg Datooga,na,Nilo-Saharan,Nilotic,-,tsim1256,1138,163,325,\citet{doreco_tsim1256}
+Urum,uum,Turkic,Kipchak,-,urum1249,889,127,254,\citet{doreco_urum1249}
+Vera'a,vra,Austronesian,Oceanic,Southern,vera1241,943,135,269,\citet{doreco_vera1241}
+Warlpiri,wbp,Pama-Nyungan,Ngumpic-Yapa,-,warl1254,1173,168,335,\citet{doreco_warl1254}
+Yongning Na,nru,Sino-Tibetan,Tibeto-Burman,Lolo-Burmese,yong1270,465,66,133,\citet{doreco_yong1270}
+Yucatec Maya,yua,Mayan,-,-,yuca1254,788,112,225,\citet{doreco_yuca1254}

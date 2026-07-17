@@ -54,9 +54,9 @@ fleurs/data/lg_ug	Ganda	Niger-Congo	Bantu	Northeast	lg	lug		3	lg		lug-Latn
 fleurs/data/ln_cd	Lingala	Niger-Congo	Bantu	Bantu-Ntomba	ln	lin		3					
 fleurs/data/lo_la	Lao	Kra-Dai	Tai		lo	lao		4	lo		lao-Laoo		
 fleurs/data/lt_lt	Lithuanian	Indo-European	Baltic		lt	lit		3	lt		lit-Latn		lit
-fleurs/data/luo_ke	Luo (Kenya and Tanzania)	Nilo-Saharan				luo		3					
+fleurs/data/luo_ke	Luo (Kenya and Tanzania)	Nilo-Saharan	Nilotic			luo		3					
 fleurs/data/lv_lv	Latvian	Indo-European	Baltic		lv	lav		3	lv		lav-Latn		lav
-fleurs/data/mi_nz	Maori	Austronesian	Oceanic		mi	mri		3	mi		mri-Latn		
+fleurs/data/mi_nz	Maori	Austronesian	Oceanic	Central Pacific	mi	mri		3	mi		mri-Latn		
 fleurs/data/mk_mk	Macedonian	Indo-European	Slavic	South	mk	mkd		3	mk	1			
 fleurs/data/ml_in	Malayalam	Dravidian	Southern		ml	mal		1	ml		mal-Mlym		mal
 fleurs/data/mn_mn	Mongolian	Mongolic			mn	mon		3	mn		mon-Cyrl-bab		khk
@@ -70,7 +70,7 @@ fleurs/data/nl_nl	Dutch	Indo-European	Germanic	West	nl	nld	dutch_cv	1	nl		nld-La
 fleurs/data/nso_za	Pedi	Niger-Congo	Bantu	Southern		nso		3					
 fleurs/data/ny_mw	Chichewa	Niger-Congo	Bantu	Nyasa	ny	nya		3	ny		nya-Latn		
 fleurs/data/oc_fr	Occitan (post 1500)	Indo-European	Romance	West	oc	oci		3					
-fleurs/data/om_et	Oromo	Afroasiatic	Cushitic		om	orm		3	om		orm-Latn		
+fleurs/data/om_et	Oromo	Afroasiatic	Cushitic	East	om	orm		3	om		orm-Latn		
 fleurs/data/or_in	Odia	Indo-European	Indo-Aryan	East	or	ori		1	or		ori-Orya		
 fleurs/data/pa_in	Punjabi	Indo-European	Indo-Aryan	Northwest	pa	pan		1	pa		pan-Guru		
 fleurs/data/pl_pl	Polish	Indo-European	Slavic	West	pl	pol	polish_mfa	3	pl		pol-Latn		pol
@@ -82,7 +82,7 @@ fleurs/data/sd_in	Sindhi	Indo-European	Indo-Aryan	Northwest	sd	snd		1
 fleurs/data/sk_sk	Slovak	Indo-European	Slavic	West	sk	slk		3	sk				slk
 fleurs/data/sl_si	Slovenian	Indo-European	Slavic	South	sl	slv		3	sl		slv-Latn		slv
 fleurs/data/sn_zw	Shona	Niger-Congo	Bantu	Southern	sn	sna		3	sn		sna-Latn		
-fleurs/data/so_so	Somali	Afroasiatic	Cushitic		so	som		3	so		som-Latn		
+fleurs/data/so_so	Somali	Afroasiatic	Cushitic	East	so	som		3	so		som-Latn		
 fleurs/data/sr_rs	Serbian	Indo-European	Slavic	South	sr	srp		3	sr				
 fleurs/data/sv_se	Swedish	Indo-European	Germanic	North	sv	swe	swedish_mfa	1	sv		swe-Latn		swe
 fleurs/data/sw_ke	Swahili	Niger-Congo	Bantu	Northeast	sw	swa	swahili_mfa	3	sw		swa-Latn		

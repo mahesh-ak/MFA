@@ -1,0 +1,67 @@
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{0.92}
+\begin{longtable}{lcccccccc}
+\caption{Language-wise multilingual WACS scores on DoReCo. Higher values are better. * Trained in this work.}\label{tab:wacs_table_doreco}\\
+\toprule
+\multirow{2}{*}{\textbf{Language}} & \multicolumn{4}{c}{\textbf{MMS}} & \multicolumn{4}{c}{\textbf{XLSR}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+& \textbf{Base}& \textbf{MMS-DORECO*}& \textbf{MMS-DORECO*-SIL}& \textbf{Gold}& \textbf{Base}& \textbf{MMS-DORECO*}& \textbf{MMS-DORECO*-SIL}& \textbf{Gold}\\
+\midrule
+\endfirsthead
+\toprule
+\multirow{2}{*}{\textbf{Language}} & \multicolumn{4}{c}{\textbf{MMS}} & \multicolumn{4}{c}{\textbf{XLSR}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+& \textbf{Base}& \textbf{MMS-DORECO*}& \textbf{MMS-DORECO*-SIL}& \textbf{Gold}& \textbf{Base}& \textbf{MMS-DORECO*}& \textbf{MMS-DORECO*-SIL}& \textbf{Gold}\\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Anal & 0.042 & 0.091 & 0.097 & \textbf{0.104} & 0.046 & 0.096 & 0.095 & \textbf{0.105} \\
+Yali (Apahapsili) & 0.049 & 0.084 & \textbf{0.085} & 0.083 & 0.053 & 0.095 & 0.101 & \textbf{0.111} \\
+Arapaho & 0.071 & 0.100 & 0.116 & \textbf{0.136} & 0.072 & 0.115 & 0.123 & \textbf{0.151} \\
+Baïnounk Gubëeher & 0.037 & 0.092 & 0.102 & \textbf{0.114} & 0.038 & 0.093 & 0.097 & \textbf{0.114} \\
+Beja & 0.084 & 0.104 & 0.092 & \textbf{0.111} & 0.083 & 0.118 & 0.119 & \textbf{0.127} \\
+Bora & 0.043 & 0.118 & 0.117 & \textbf{0.145} & 0.044 & 0.120 & 0.119 & \textbf{0.148} \\
+Cabécar & 0.044 & 0.125 & 0.127 & \textbf{0.157} & 0.041 & 0.119 & 0.121 & \textbf{0.147} \\
+Cashinahua & 0.055 & 0.117 & 0.116 & \textbf{0.153} & 0.047 & 0.117 & 0.126 & \textbf{0.153} \\
+Dolgan & 0.054 & 0.142 & 0.149 & \textbf{0.153} & 0.053 & \textbf{0.146} & 0.139 & 0.144 \\
+Evenki & 0.031 & 0.091 & 0.090 & \textbf{0.111} & 0.037 & 0.082 & 0.086 & \textbf{0.127} \\
+Gorwaa & 0.051 & 0.115 & 0.111 & \textbf{0.125} & 0.055 & 0.116 & 0.113 & \textbf{0.127} \\
+Jahai & 0.039 & 0.113 & 0.109 & \textbf{0.137} & 0.046 & 0.111 & 0.107 & \textbf{0.137} \\
+Jejuan & 0.045 & 0.097 & 0.091 & \textbf{0.103} & 0.064 & 0.116 & 0.124 & \textbf{0.127} \\
+Kakabe & 0.037 & 0.140 & 0.141 & \textbf{0.171} & 0.028 & 0.137 & 0.140 & \textbf{0.170} \\
+Kamas & 0.054 & 0.141 & 0.143 & \textbf{0.178} & 0.053 & 0.143 & 0.150 & \textbf{0.177} \\
+Komnzo & 0.048 & 0.100 & 0.101 & \textbf{0.112} & 0.052 & 0.106 & 0.107 & \textbf{0.121} \\
+Light Warlpiri & 0.021 & 0.086 & 0.083 & \textbf{0.101} & 0.022 & 0.091 & 0.086 & \textbf{0.098} \\
+Dalabon & 0.056 & \textbf{0.105} & 0.099 & 0.085 & 0.075 & 0.100 & \textbf{0.111} & 0.103 \\
+Nisvai & 0.053 & 0.114 & 0.116 & \textbf{0.124} & 0.056 & 0.112 & 0.120 & \textbf{0.125} \\
+Nǁng & 0.043 & 0.068 & 0.069 & \textbf{0.103} & 0.047 & 0.068 & 0.072 & \textbf{0.112} \\
+Northern Kurdish (Kurmanji) & 0.022 & 0.133 & 0.140 & \textbf{0.140} & 0.027 & 0.129 & 0.129 & \textbf{0.142} \\
+Northern Alta & 0.044 & 0.105 & 0.104 & \textbf{0.111} & 0.042 & 0.096 & 0.097 & \textbf{0.104} \\
+Fanbyak & 0.038 & 0.105 & 0.104 & \textbf{0.110} & 0.044 & \textbf{0.119} & 0.114 & 0.118 \\
+Pnar & 0.010 & 0.134 & 0.133 & \textbf{0.153} & 0.005 & 0.128 & 0.129 & \textbf{0.153} \\
+Daakie & 0.024 & 0.089 & 0.095 & \textbf{0.099} & 0.025 & 0.101 & 0.099 & \textbf{0.112} \\
+Resígaro & 0.024 & 0.127 & 0.141 & \textbf{0.156} & 0.022 & 0.134 & 0.157 & \textbf{0.162} \\
+Ruuli & 0.056 & \textbf{0.115} & 0.105 & 0.112 & 0.045 & \textbf{0.121} & 0.120 & 0.116 \\
+Sadu & 0.042 & 0.107 & 0.113 & \textbf{0.127} & 0.054 & 0.106 & 0.109 & \textbf{0.129} \\
+Sanzhi Dargwa & 0.031 & 0.169 & 0.171 & \textbf{0.178} & 0.011 & 0.142 & 0.141 & \textbf{0.153} \\
+Savosavo & 0.021 & 0.132 & 0.137 & \textbf{0.150} & 0.018 & 0.128 & 0.134 & \textbf{0.143} \\
+Nafsan (South Efate) & 0.002 & 0.109 & 0.115 & \textbf{0.143} & 0.004 & 0.104 & 0.116 & \textbf{0.142} \\
+English (Southern England) & 0.014 & 0.116 & 0.115 & \textbf{0.121} & 0.007 & 0.125 & 0.126 & \textbf{0.139} \\
+French (Swiss) & 0.017 & 0.078 & 0.077 & \textbf{0.104} & 0.018 & 0.085 & 0.077 & \textbf{0.101} \\
+Sümi & 0.042 & 0.077 & 0.079 & \textbf{0.108} & 0.043 & 0.073 & 0.073 & \textbf{0.113} \\
+Svan & 0.013 & 0.108 & 0.127 & \textbf{0.152} & 0.012 & 0.109 & 0.115 & \textbf{0.131} \\
+Tabasaran & 0.042 & 0.154 & 0.168 & \textbf{0.179} & 0.036 & 0.156 & 0.149 & \textbf{0.168} \\
+Teop & 0.031 & 0.092 & 0.094 & \textbf{0.103} & 0.044 & 0.106 & 0.101 & \textbf{0.121} \\
+Texistepec Popoluca & 0.016 & 0.064 & 0.057 & \textbf{0.090} & 0.015 & 0.057 & 0.057 & \textbf{0.092} \\
+Mojeño Trinitario & 0.034 & 0.167 & 0.164 & \textbf{0.183} & 0.031 & 0.160 & 0.167 & \textbf{0.176} \\
+Asimjeeg Datooga & 0.041 & 0.108 & 0.105 & \textbf{0.127} & 0.036 & 0.112 & 0.109 & \textbf{0.133} \\
+Urum & 0.025 & 0.128 & 0.135 & \textbf{0.173} & 0.023 & 0.119 & 0.128 & \textbf{0.153} \\
+Vera'a & 0.026 & 0.114 & 0.113 & \textbf{0.134} & 0.020 & 0.124 & 0.121 & \textbf{0.145} \\
+Warlpiri & 0.045 & 0.109 & 0.111 & \textbf{0.121} & 0.049 & \textbf{0.118} & 0.116 & 0.107 \\
+Yongning Na & 0.039 & 0.151 & 0.161 & \textbf{0.199} & 0.037 & 0.156 & 0.166 & \textbf{0.201} \\
+Yucatec Maya & 0.032 & 0.112 & 0.113 & \textbf{0.129} & 0.028 & 0.108 & 0.115 & \textbf{0.135} \\
+\end{longtable}
+\endgroup
