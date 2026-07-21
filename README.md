@@ -1,7 +1,7 @@
 # Forced Alignment Evaluation with Self-Supervised Speech Representations
 
 ## Overview
-This repository contains notebooks, scripts, and experiment outputs for reproducting "Phoneme- and Word-Level Metrics Using Self-Supervised Speech Representations for Forced Alignment Evaluation" 
+This repository contains notebooks, scripts, and experiment outputs for reproducing "Phoneme- and Word-Level Metrics Using Self-Supervised Speech Representations for Forced Alignment Evaluation".
 
 ## Repository layout
 - Top-level notebooks: training, alignment, evaluation, and analysis notebooks such as train.ipynb, align.ipynb, eval.ipynb, and eval_mfa.ipynb.
@@ -9,19 +9,21 @@ This repository contains notebooks, scripts, and experiment outputs for reproduc
 - results/: experiment artifacts, tuning summaries, evaluation JSON files, and plots generated during analysis.
 - Required data folders: buckeye/, doreco/, fleurs/, fleurs_ipa/ for the different corpora used in the study.
 
+## Requirements
+- Tested with python 3.12
+- Pip requirements are in requirements.txt
 
 ## Description of Tasks
 
 ### Processing FLEURS
 - fleurs/ should contain sub-directory data/, which should be downloaded from [https://huggingface.co/datasets/google/fleurs](https://huggingface.co/datasets/google/fleurs)
-- Then paste the dataloading script scripts/fleurs.py to fleurs/ for proper loading and incorporation of IPA transcripts.
-- IPA transcripts are be loaded by the script from fleurs_ipa_asr/
+- Then paste the data-loading script scripts/fleurs.py into fleurs/ for proper loading and incorporation of IPA transcripts.
 - The notebook mfa.ipynb should be followed to produce fleurs_ipa_asr/ and fleurs_ipa/
 - G2P requires a few dictionaries and G2P models for Chinese, Cantonese, and Hebrew. These should be downloaded (see [https://github.com/dmort27/epitran](https://github.com/dmort27/epitran)) and placed under epitran_dicts/ with the following structure:
   - epitran_dicts/cccanto-170202/: Cantonese dictionary files, including cccanto-webdist.txt.
   - epitran_dicts/cedict_1_0_ts_utf-8_mdbg/: Chinese dictionary files, including cedict_ts.u8.
   - epitran_dicts/phonikud-1.0.int8.onnx: ONNX model for Hebrew phoneme conversion used by Phonikud, that can be downloaded from [https://github.com/phonikud/phonikud](https://github.com/phonikud/phonikud)
-- Many languages are not supported by current num2words module. We have our own fixes which we are available in num2words_addons/.
+- Many languages are not supported by the current num2words module. We have our own fixes, which are available in num2words_addons/. These should be incorporated into locally downloaded num2words from [https://github.com/savoirfairelinux/num2words](https://github.com/savoirfairelinux/num2words).
 
 ### Processing DoReCo
 - doreco/ should contain sub-directory downloads/, where audio and annotation zip files for each language should be downloaded from [https://doreco.huma-num.fr/](https://doreco.huma-num.fr/)
@@ -30,7 +32,7 @@ This repository contains notebooks, scripts, and experiment outputs for reproduc
 
 ### Processing Buckeye
 - Download Buckeye corpus [https://buckeyecorpus.osu.edu/](https://buckeyecorpus.osu.edu/) to buckeye/. Resulting directory structure should be like buckeye/s01, buckeye/s02 ...
-- Processed Buckeye with perturbed alignments should be produced in buckeye_clean/ by following latter part of mfa.ipynb.
+- Processed Buckeye corpus with perturbed alignments should be produced in buckeye_clean/ by following the latter part of mfa.ipynb.
 
 ### Running MFA on FLEURS
 - mfa.yaml defines the MFA training configuration, including acoustic model settings, feature extraction, and the sequence of training stages (monophone, triphone, LDA, SAT).
@@ -40,7 +42,7 @@ This repository contains notebooks, scripts, and experiment outputs for reproduc
   - If no model archive exists at processed_data_train/<lang>/<lang>_model.zip, the script will run MFA training; otherwise it will reuse the existing model.
   - Alignment outputs on test set are written to alignments/mfa/<lang> and are skipped if that directory already exists.
 
-### Training Phoeneme Models on FLEURS and DoReCo
+### Training Phoneme Models on FLEURS and DoReCo
 - Models should be first initialized following the section "Configure" in train.ipynb
 - Training should be done by executing the script scripts/train.sh, which also calls script to train adapters
 
@@ -52,7 +54,7 @@ This repository contains notebooks, scripts, and experiment outputs for reproduc
     > `python scripts/ctc_align.py`
 - For running on phonologically complex Archi and Rutul, follow align.ipynb taking datasets and phoneme models from [https://github.com/mahesh-ak/north_caucasian_asr](https://github.com/mahesh-ak/north_caucasian_asr)
 
-### Evalution of Alignments
+### Evaluation of Alignments
 - The metrics PCMI and WACS are defined in scripts/eval_aligns.py
 - Complete evaluation of the alignments generated in the previous step can be done by executing:
     > `python scripts/eval_dataset.py`
