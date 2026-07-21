@@ -630,7 +630,7 @@ def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=
         model.eval()
         model.to(device)
     
-    output_path = os.path.join("alignments", os.path.basename(model_path) if model_path[-1] != '/' else os.path.basename(model_path[:-1]))
+    output_path = os.path.join(align_dir, os.path.basename(model_path) if model_path[-1] != '/' else os.path.basename(model_path[:-1]))
     if trim_silence:
         output_path += "-SIL"
     os.makedirs(output_path, exist_ok=True)
@@ -793,3 +793,23 @@ def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=
             )
         
     print("Total failures:", ctc_segmentor.total_failures)
+    
+    
+if __name__=="__main__":
+    fleurs_models = ['random', 'models/mms-300m-ipa', 'models/w2v2-lv-60-espeak-ipa']
+    doreco_models = ['random_doreco', 'models/mms-300m-ipa-doreco']
+
+    for model in fleurs_models:
+        alignData(dataset='fleurs', align_dir="alignments", model_path=model, trim_silence=False)
+        if 'random' not in model:
+            alignData(dataset='fleurs', align_dir="alignments", model_path=model, trim_silence=True)
+    
+    for model in doreco_models:
+        alignData(dataset='doreco_dataset', align_dir="alignments", model_path=model, trim_silence=False)
+        if 'random' not in model:
+            alignData(dataset='doreco_dataset', align_dir="alignments", model_path=model, trim_silence=True)
+        else:
+            alignData(dataset='doreco_dataset', align_dir="alignments", model_path=model, trim_silence=False, save_audio=True)
+   
+
+   

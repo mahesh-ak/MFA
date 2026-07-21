@@ -5,7 +5,7 @@ python scripts/pre_process.py
 set -e
 
 ROOT="processed_data_train"
-TEST_ROOT="processed_data_dev"
+TEST_ROOT="processed_data_test"
 LEX_ROOT="fleurs_ipa"
 CONFIG="mfa.yaml"
 NUM_JOBS=4
@@ -19,7 +19,7 @@ for lang_dir in "$ROOT"/*; do
     test_corpus_dir="$TEST_ROOT/$lang/textgrid_corpus_directory"
     lexicon="$LEX_ROOT/$lang/lexicon.txt"
     model="$lang_dir/${lang}_model.zip"
-    align_out="alignments/mfa_dev/$lang"
+    align_out="alignments/mfa/$lang"
 
     echo "==== Processing $lang ===="
 

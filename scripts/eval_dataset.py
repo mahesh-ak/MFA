@@ -111,17 +111,17 @@ DORECO_LANGS = sorted(
     )
 
 ALIGN_DIRS=[
-#    "alignments/qwen3-FA/",
-#    "alignments/mms-300m-ipa/",
-#    "alignments/random/",
-#    "alignments/mfa/",
-#    "alignments/w2v2-lv-60-espeak-ipa/",
+    "alignments/qwen3-FA/",
+    "alignments/mms-300m-ipa/",
+    "alignments/random/",
+    "alignments/mfa/",
+    "alignments/w2v2-lv-60-espeak-ipa/",
     "alignments/gold_doreco",
     "alignments/random_doreco/",
     "alignments/mms-300m-ipa-doreco-SIL/",
     "alignments/mms-300m-ipa-doreco/",
-#    "alignments/w2v2-lv-60-espeak-ipa-doreco-SIL/",
-#    "alignments/w2v2-lv-60-espeak-ipa-doreco/",
+    "alignments/w2v2-lv-60-espeak-ipa-doreco-SIL/",
+    "alignments/w2v2-lv-60-espeak-ipa-doreco/",
 ]
 
 MODELS=[
