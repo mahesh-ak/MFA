@@ -4,7 +4,7 @@ import numpy as np
 from transformers import Wav2Vec2Tokenizer, Wav2Vec2Processor, Wav2Vec2ForCTC
 from lingpy.sequence.sound_classes import ipa2tokens
 from praatio import textgrid
-from datasets import load_dataset, DownloadConfig
+from datasets import load_dataset, concatenate_datasets, DownloadConfig
 import os
 import logging
 from itertools import islice
@@ -613,7 +613,7 @@ def trim_alignment_silence(
 
     return alignment
 
-def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=None, save_audio=False, trim_silence=False):
+def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=None, save_audio=False, trim_silence=False, split='test'):
     if not device:
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -661,7 +661,17 @@ def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=
                 streaming=True,
             )
 
-        test_dataset = lang_dataset["test"]   # streaming dataset
+        if split != 'all':
+            test_dataset = lang_dataset[split]   # streaming dataset
+        else:
+            # lazily chain all available splits into one streaming dataset
+            splits = [
+                lang_dataset[s]
+                for s in ['train', 'test', 'validation']
+                if s in lang_dataset
+            ]
+            test_dataset = splits[0] if len(splits) == 1 else concatenate_datasets(splits)
+
         if model:
             model.load_adapter(lang)
         alignments = []
