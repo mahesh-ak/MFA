@@ -56,7 +56,7 @@ def _build_intervals_with_pauses(
     segments,
     xmin,
     xmax,
-    min_gap=0.001,
+    min_gap=0.0005,
 ):
     """
     Fill gaps between segments with silence intervals,
@@ -78,8 +78,8 @@ def _build_intervals_with_pauses(
 
     for seg in segments:
 
-        start = round(float(seg["start"]), 3)
-        end = round(float(seg["end"]), 3)
+        start = round(float(seg["start"]), 4)
+        end = round(float(seg["end"]), 4)
         text = seg["text"]
 
         # ---------------------------------
@@ -98,12 +98,12 @@ def _build_intervals_with_pauses(
         # insert silence gap if needed
         # ---------------------------------
         if start - cur >= min_gap:
-            intervals.append((round(cur, 3), round(start, 3),""))
+            intervals.append((cur, start,""))
 
         # ---------------------------------
         # add segment
         # ---------------------------------
-        intervals.append((round(start, 3),round(end, 3),text))
+        intervals.append((start, end, text))
 
         # next interval must begin AFTER this
         cur = end
@@ -112,7 +112,7 @@ def _build_intervals_with_pauses(
     # tail silence
     # ---------------------------------
     if xmax - cur >= min_gap:
-        intervals.append((round(cur, 3),round(float(xmax), 3),""))
+        intervals.append((cur,float(xmax),""))
 
     return intervals
 
