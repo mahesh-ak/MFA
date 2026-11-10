@@ -1,0 +1,1037 @@
+{
+  "anal1239": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.30605598459923905,
+        "label_entropy_norm": 0.8406187859197731,
+        "frames": 4968,
+        "labels": 23
+      },
+      "wacs": {
+        "wacs": 0.10342007300331602,
+        "positive": 0.6781429171150443,
+        "negative": 0.5747228441117282,
+        "positive_pairs": 434,
+        "negative_pairs": 327,
+        "cohen_d": 1.4442734356266838,
+        "vocab_size": 66
+      },
+      "aas": {
+        "word_aas_ms": 83.25114569536424,
+        "phone_aas_ms": 57.684980132450335
+      }
+    }
+  },
+  "apah1238": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27327432452920125,
+        "label_entropy_norm": 0.8352457009558916,
+        "frames": 3036,
+        "labels": 22
+      },
+      "wacs": {
+        "wacs": 0.09345637917457328,
+        "positive": 0.7195452025495898,
+        "negative": 0.6260888233750165,
+        "positive_pairs": 398,
+        "negative_pairs": 290,
+        "cohen_d": 1.4359343164112952,
+        "vocab_size": 59
+      },
+      "aas": {
+        "word_aas_ms": 61.4508178807947,
+        "phone_aas_ms": 38.44047682119205
+      }
+    }
+  },
+  "arap1274": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3003659791379078,
+        "label_entropy_norm": 0.8165563418162899,
+        "frames": 9497,
+        "labels": 20
+      },
+      "wacs": {
+        "wacs": 0.12990790285715326,
+        "positive": 0.6602853788655366,
+        "negative": 0.5303774760083834,
+        "positive_pairs": 269,
+        "negative_pairs": 195,
+        "cohen_d": 1.6503571730054976,
+        "vocab_size": 40
+      },
+      "aas": {
+        "word_aas_ms": 170.59386995515695,
+        "phone_aas_ms": 124.62782062780269
+      }
+    }
+  },
+  "bain1259": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.29506412770932744,
+        "label_entropy_norm": 0.8099318701991847,
+        "frames": 5904,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.12276931885260811,
+        "positive": 0.6725004947319616,
+        "negative": 0.5497311758793535,
+        "positive_pairs": 264,
+        "negative_pairs": 245,
+        "cohen_d": 1.509180124548794,
+        "vocab_size": 50
+      },
+      "aas": {
+        "word_aas_ms": 81.31974734042554,
+        "phone_aas_ms": 51.78047872340425
+      }
+    }
+  },
+  "beja1238": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38910505605443935,
+        "label_entropy_norm": 0.8658636825965693,
+        "frames": 2782,
+        "labels": 23
+      },
+      "wacs": {
+        "wacs": 0.12237836874183505,
+        "positive": 0.7502805670047034,
+        "negative": 0.6279021982628683,
+        "positive_pairs": 111,
+        "negative_pairs": 91,
+        "cohen_d": 2.0485050487763514,
+        "vocab_size": 19
+      },
+      "aas": {
+        "word_aas_ms": 50.22137527593819,
+        "phone_aas_ms": 52.38221633554083
+      }
+    }
+  },
+  "bora1263": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27139775990989656,
+        "label_entropy_norm": 0.9237812593991006,
+        "frames": 9237,
+        "labels": 22
+      },
+      "wacs": {
+        "wacs": 0.13076348622020345,
+        "positive": 0.5991886249886973,
+        "negative": 0.46842513876849384,
+        "positive_pairs": 479,
+        "negative_pairs": 361,
+        "cohen_d": 1.4309718773771742,
+        "vocab_size": 73
+      },
+      "aas": {
+        "word_aas_ms": 155.10982775119618,
+        "phone_aas_ms": 84.04001913875597
+      }
+    }
+  },
+  "cabe1245": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.29787423389748247,
+        "label_entropy_norm": 0.8261482654177872,
+        "frames": 8135,
+        "labels": 24
+      },
+      "wacs": {
+        "wacs": 0.1436876609808747,
+        "positive": 0.6464851909393973,
+        "negative": 0.5027975299585226,
+        "positive_pairs": 844,
+        "negative_pairs": 567,
+        "cohen_d": 1.8344252292677838,
+        "vocab_size": 115
+      },
+      "aas": {
+        "word_aas_ms": 115.46245851528384,
+        "phone_aas_ms": 79.16128820960698
+      }
+    }
+  },
+  "cash1254": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.28944546059189064,
+        "label_entropy_norm": 0.7974837841081227,
+        "frames": 6572,
+        "labels": 18
+      },
+      "wacs": {
+        "wacs": 0.14071643227376573,
+        "positive": 0.6655725561899534,
+        "negative": 0.5248561239161876,
+        "positive_pairs": 441,
+        "negative_pairs": 311,
+        "cohen_d": 1.6469632814451505,
+        "vocab_size": 63
+      },
+      "aas": {
+        "word_aas_ms": 127.10642182890857,
+        "phone_aas_ms": 76.5479587020649
+      }
+    }
+  },
+  "dolg1241": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.30231936496081074,
+        "label_entropy_norm": 0.8417721272814429,
+        "frames": 8530,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.14907361244076156,
+        "positive": 0.6145131687947029,
+        "negative": 0.4654395563539413,
+        "positive_pairs": 622,
+        "negative_pairs": 456,
+        "cohen_d": 1.6135819189253355,
+        "vocab_size": 92
+      },
+      "aas": {
+        "word_aas_ms": 88.98018421052632,
+        "phone_aas_ms": 61.238434210526314
+      }
+    }
+  },
+  "even1259": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.26708984861141866,
+        "label_entropy_norm": 0.797187659600687,
+        "frames": 9036,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.10682987049930315,
+        "positive": 0.6270882927683127,
+        "negative": 0.5202584222690095,
+        "positive_pairs": 167,
+        "negative_pairs": 135,
+        "cohen_d": 1.2185519915426488,
+        "vocab_size": 28
+      },
+      "aas": {
+        "word_aas_ms": 173.907679144385,
+        "phone_aas_ms": 95.05817914438502
+      }
+    }
+  },
+  "goro1270": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2909529207365837,
+        "label_entropy_norm": 0.7888902934078578,
+        "frames": 4422,
+        "labels": 29
+      },
+      "wacs": {
+        "wacs": 0.12633242406229883,
+        "positive": 0.673782469073453,
+        "negative": 0.5474500450111541,
+        "positive_pairs": 560,
+        "negative_pairs": 429,
+        "cohen_d": 1.4867105103772258,
+        "vocab_size": 87
+      },
+      "aas": {
+        "word_aas_ms": 60.253638596491214,
+        "phone_aas_ms": 49.94786315789474
+      }
+    }
+  },
+  "jeha1242": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.30376189303099305,
+        "label_entropy_norm": 0.8618532837863273,
+        "frames": 6669,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.123389741310581,
+        "positive": 0.6470018646984003,
+        "negative": 0.5236121233878193,
+        "positive_pairs": 768,
+        "negative_pairs": 510,
+        "cohen_d": 1.4035486540916151,
+        "vocab_size": 103
+      },
+      "aas": {
+        "word_aas_ms": 108.94490794979079,
+        "phone_aas_ms": 76.6186108786611
+      }
+    }
+  },
+  "jeju1234": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27442932299737416,
+        "label_entropy_norm": 0.8557578411963872,
+        "frames": 4240,
+        "labels": 23
+      },
+      "wacs": {
+        "wacs": 0.11969891507444952,
+        "positive": 0.6929868506099298,
+        "negative": 0.5732879355354803,
+        "positive_pairs": 129,
+        "negative_pairs": 102,
+        "cohen_d": 1.3560034346217942,
+        "vocab_size": 22
+      },
+      "aas": {
+        "word_aas_ms": 93.13089772727272,
+        "phone_aas_ms": 73.68305681818181
+      }
+    }
+  },
+  "kaka1265": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3381416231206515,
+        "label_entropy_norm": 0.72654935037925,
+        "frames": 9196,
+        "labels": 23
+      },
+      "wacs": {
+        "wacs": 0.15851244619543603,
+        "positive": 0.673849428680566,
+        "negative": 0.5153369824851299,
+        "positive_pairs": 1022,
+        "negative_pairs": 723,
+        "cohen_d": 1.817614096521138,
+        "vocab_size": 145
+      },
+      "aas": {
+        "word_aas_ms": 91.7789005235602,
+        "phone_aas_ms": 64.49851832460733
+      }
+    }
+  },
+  "kama1351": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3366558683149722,
+        "label_entropy_norm": 0.8622410144471502,
+        "frames": 7879,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.16091133585884543,
+        "positive": 0.6979715438014111,
+        "negative": 0.5370602079425657,
+        "positive_pairs": 408,
+        "negative_pairs": 304,
+        "cohen_d": 2.2205330119574267,
+        "vocab_size": 62
+      },
+      "aas": {
+        "word_aas_ms": 129.53700826446283,
+        "phone_aas_ms": 67.7855564738292
+      }
+    }
+  },
+  "komn1238": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3478538431713067,
+        "label_entropy_norm": 0.858236147052673,
+        "frames": 4054,
+        "labels": 30
+      },
+      "wacs": {
+        "wacs": 0.11233655224303674,
+        "positive": 0.6993813992286081,
+        "negative": 0.5870448469855714,
+        "positive_pairs": 417,
+        "negative_pairs": 300,
+        "cohen_d": 1.6194224717666903,
+        "vocab_size": 61
+      },
+      "aas": {
+        "word_aas_ms": 51.859149082568806,
+        "phone_aas_ms": 36.6019380733945
+      }
+    }
+  },
+  "ligh1234": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27144315553731124,
+        "label_entropy_norm": 0.7998431713417917,
+        "frames": 6184,
+        "labels": 32
+      },
+      "wacs": {
+        "wacs": 0.09338426044274717,
+        "positive": 0.6691857074171642,
+        "negative": 0.575801446974417,
+        "positive_pairs": 608,
+        "negative_pairs": 446,
+        "cohen_d": 1.268127137053082,
+        "vocab_size": 90
+      },
+      "aas": {
+        "word_aas_ms": 99.56694444444443,
+        "phone_aas_ms": 53.326196969696966
+      }
+    }
+  },
+  "ngal1292": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3346461192925564,
+        "label_entropy_norm": 0.8847743521524049,
+        "frames": 4002,
+        "labels": 20
+      },
+      "wacs": {
+        "wacs": 0.09899561366941712,
+        "positive": 0.7306482385459431,
+        "negative": 0.631652624876526,
+        "positive_pairs": 103,
+        "negative_pairs": 74,
+        "cohen_d": 1.3025488605830162,
+        "vocab_size": 16
+      },
+      "aas": {
+        "word_aas_ms": 105.7134096385542,
+        "phone_aas_ms": 61.23761445783132
+      }
+    }
+  },
+  "nisv1234": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.34812403568075123,
+        "label_entropy_norm": 0.8585715275943401,
+        "frames": 5168,
+        "labels": 23
+      },
+      "wacs": {
+        "wacs": 0.1253175963254488,
+        "positive": 0.6689154008238525,
+        "negative": 0.5435978044984037,
+        "positive_pairs": 681,
+        "negative_pairs": 509,
+        "cohen_d": 1.5814993752194428,
+        "vocab_size": 103
+      },
+      "aas": {
+        "word_aas_ms": 59.35269321533924,
+        "phone_aas_ms": 39.47820353982301
+      }
+    }
+  },
+  "nngg1234": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.21996766601881249,
+        "label_entropy_norm": 0.7065707690873606,
+        "frames": 3435,
+        "labels": 26
+      },
+      "wacs": {
+        "wacs": 0.10330442864559375,
+        "positive": 0.6579615799846724,
+        "negative": 0.5546571513390787,
+        "positive_pairs": 559,
+        "negative_pairs": 404,
+        "cohen_d": 1.3168508946767,
+        "vocab_size": 81
+      },
+      "aas": {
+        "word_aas_ms": 124.61841800643087,
+        "phone_aas_ms": 106.28249196141478
+      }
+    }
+  },
+  "nort2641": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2995541944799311,
+        "label_entropy_norm": 0.7876386763830258,
+        "frames": 9804,
+        "labels": 32
+      },
+      "wacs": {
+        "wacs": 0.14800516901733823,
+        "positive": 0.6456359881135315,
+        "negative": 0.4976308190961933,
+        "positive_pairs": 940,
+        "negative_pairs": 728,
+        "cohen_d": 1.70913830496217,
+        "vocab_size": 146
+      },
+      "aas": {
+        "word_aas_ms": 74.02749101796407,
+        "phone_aas_ms": 56.03141317365269
+      }
+    }
+  },
+  "nort2875": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.34261407730097154,
+        "label_entropy_norm": 0.8278129335646873,
+        "frames": 4660,
+        "labels": 23
+      },
+      "wacs": {
+        "wacs": 0.11401665412227013,
+        "positive": 0.7354327933432471,
+        "negative": 0.6214161392209769,
+        "positive_pairs": 432,
+        "negative_pairs": 291,
+        "cohen_d": 1.7622669132854678,
+        "vocab_size": 59
+      },
+      "aas": {
+        "word_aas_ms": 83.39442592592593,
+        "phone_aas_ms": 60.65813492063492
+      }
+    }
+  },
+  "orko1234": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.33895558030219974,
+        "label_entropy_norm": 0.8367344506653149,
+        "frames": 5637,
+        "labels": 25
+      },
+      "wacs": {
+        "wacs": 0.11964186829397494,
+        "positive": 0.6898838446948994,
+        "negative": 0.5702419764009244,
+        "positive_pairs": 839,
+        "negative_pairs": 571,
+        "cohen_d": 1.5725820506833004,
+        "vocab_size": 116
+      },
+      "aas": {
+        "word_aas_ms": 68.5375379537954,
+        "phone_aas_ms": 48.26631023102311
+      }
+    }
+  },
+  "pnar1238": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.32531298987286944,
+        "label_entropy_norm": 0.9265477646179887,
+        "frames": 9752,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.14916905370076516,
+        "positive": 0.5358687027824502,
+        "negative": 0.3866996490816851,
+        "positive_pairs": 832,
+        "negative_pairs": 575,
+        "cohen_d": 1.558988532594516,
+        "vocab_size": 116
+      },
+      "aas": {
+        "word_aas_ms": 274.9732380952381,
+        "phone_aas_ms": 221.50846031746033
+      }
+    }
+  },
+  "port1286": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27839343313146087,
+        "label_entropy_norm": 0.7982216788852803,
+        "frames": 7266,
+        "labels": 26
+      },
+      "wacs": {
+        "wacs": 0.11325699916001875,
+        "positive": 0.6336863747172987,
+        "negative": 0.52042937555728,
+        "positive_pairs": 957,
+        "negative_pairs": 612,
+        "cohen_d": 1.4493377053640506,
+        "vocab_size": 123
+      },
+      "aas": {
+        "word_aas_ms": 94.0559771863118,
+        "phone_aas_ms": 74.50271102661597
+      }
+    }
+  },
+  "resi1247": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.34495785633967163,
+        "label_entropy_norm": 0.8757157605520655,
+        "frames": 8370,
+        "labels": 21
+      },
+      "wacs": {
+        "wacs": 0.14589425160934644,
+        "positive": 0.6364342926527595,
+        "negative": 0.4905400410434131,
+        "positive_pairs": 372,
+        "negative_pairs": 326,
+        "cohen_d": 1.6342615486051022,
+        "vocab_size": 66
+      },
+      "aas": {
+        "word_aas_ms": 191.1086840148699,
+        "phone_aas_ms": 117.44590334572491
+      }
+    }
+  },
+  "ruul1235": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3200380987082306,
+        "label_entropy_norm": 0.8546186937635006,
+        "frames": 4938,
+        "labels": 25
+      },
+      "wacs": {
+        "wacs": 0.11515964995099315,
+        "positive": 0.6293613917790689,
+        "negative": 0.5142017418280758,
+        "positive_pairs": 190,
+        "negative_pairs": 150,
+        "cohen_d": 1.3994232867090837,
+        "vocab_size": 31
+      },
+      "aas": {
+        "word_aas_ms": 70.3878540772532,
+        "phone_aas_ms": 51.98300858369098
+      }
+    }
+  },
+  "sadu1234": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.288116746710416,
+        "label_entropy_norm": 0.7835958385191654,
+        "frames": 5113,
+        "labels": 30
+      },
+      "wacs": {
+        "wacs": 0.12585230604920172,
+        "positive": 0.6678780168166372,
+        "negative": 0.5420257107674354,
+        "positive_pairs": 854,
+        "negative_pairs": 579,
+        "cohen_d": 1.5458688002339833,
+        "vocab_size": 117
+      },
+      "aas": {
+        "word_aas_ms": 64.20610472972974,
+        "phone_aas_ms": 59.69267567567567
+      }
+    }
+  },
+  "sanz1248": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.31232450397985606,
+        "label_entropy_norm": 0.9263163652437649,
+        "frames": 9349,
+        "labels": 27
+      },
+      "wacs": {
+        "wacs": 0.16796525598091572,
+        "positive": 0.5907685862040712,
+        "negative": 0.4228033302231555,
+        "positive_pairs": 389,
+        "negative_pairs": 364,
+        "cohen_d": 1.8827489970551308,
+        "vocab_size": 74
+      },
+      "aas": {
+        "word_aas_ms": 176.6799,
+        "phone_aas_ms": 80.85623333333334
+      }
+    }
+  },
+  "savo1255": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38076277220533317,
+        "label_entropy_norm": 0.8839940669740532,
+        "frames": 8421,
+        "labels": 22
+      },
+      "wacs": {
+        "wacs": 0.14403517429371715,
+        "positive": 0.6171487960460196,
+        "negative": 0.4731136217523024,
+        "positive_pairs": 963,
+        "negative_pairs": 684,
+        "cohen_d": 1.6102997349075154,
+        "vocab_size": 138
+      },
+      "aas": {
+        "word_aas_ms": 102.1477653631285,
+        "phone_aas_ms": 47.77621229050279
+      }
+    }
+  },
+  "sout2856": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.26659490276430187,
+        "label_entropy_norm": 0.9428363283481253,
+        "frames": 9698,
+        "labels": 18
+      },
+      "wacs": {
+        "wacs": 0.1226152215032435,
+        "positive": 0.5654960143833316,
+        "negative": 0.44288079288008814,
+        "positive_pairs": 1219,
+        "negative_pairs": 886,
+        "cohen_d": 1.3324268896726719,
+        "vocab_size": 178
+      },
+      "aas": {
+        "word_aas_ms": 304.89246451612905,
+        "phone_aas_ms": 245.00035483870963
+      }
+    }
+  },
+  "sout3282": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2693848707116089,
+        "label_entropy_norm": 0.9142742346043424,
+        "frames": 7912,
+        "labels": 35
+      },
+      "wacs": {
+        "wacs": 0.13665126040861109,
+        "positive": 0.5977563009878456,
+        "negative": 0.4611050405792345,
+        "positive_pairs": 889,
+        "negative_pairs": 552,
+        "cohen_d": 1.5675180065133738,
+        "vocab_size": 111
+      },
+      "aas": {
+        "word_aas_ms": 121.62733333333334,
+        "phone_aas_ms": 95.06470731707314
+      }
+    }
+  },
+  "stan1290": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.27318576970436026,
+        "label_entropy_norm": 0.7637104683446931,
+        "frames": 4543,
+        "labels": 31
+      },
+      "wacs": {
+        "wacs": 0.10084084865584753,
+        "positive": 0.623621948729179,
+        "negative": 0.5227811000733315,
+        "positive_pairs": 728,
+        "negative_pairs": 463,
+        "cohen_d": 1.3125185548779914,
+        "vocab_size": 94
+      },
+      "aas": {
+        "word_aas_ms": 83.16292263610315,
+        "phone_aas_ms": 56.87992263610315
+      }
+    }
+  },
+  "sumi1235": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2807178952639653,
+        "label_entropy_norm": 0.8159246376719053,
+        "frames": 4324,
+        "labels": 27
+      },
+      "wacs": {
+        "wacs": 0.09494733520919263,
+        "positive": 0.6624445360471546,
+        "negative": 0.567497200837962,
+        "positive_pairs": 472,
+        "negative_pairs": 343,
+        "cohen_d": 1.260009316237263,
+        "vocab_size": 69
+      },
+      "aas": {
+        "word_aas_ms": 73.4417922077922,
+        "phone_aas_ms": 47.44493939393939
+      }
+    }
+  },
+  "svan1243": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.35052787576386335,
+        "label_entropy_norm": 0.9327736681687228,
+        "frames": 8390,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.1348213282045168,
+        "positive": 0.588381802506072,
+        "negative": 0.45356047430155516,
+        "positive_pairs": 397,
+        "negative_pairs": 311,
+        "cohen_d": 1.5981496333939162,
+        "vocab_size": 64
+      },
+      "aas": {
+        "word_aas_ms": 108.38166901408451,
+        "phone_aas_ms": 61.12163380281691
+      }
+    }
+  },
+  "taba1259": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.28937776281086663,
+        "label_entropy_norm": 0.7760530610608323,
+        "frames": 9494,
+        "labels": 30
+      },
+      "wacs": {
+        "wacs": 0.18546127133947848,
+        "positive": 0.6443560499252383,
+        "negative": 0.45889477858575983,
+        "positive_pairs": 414,
+        "negative_pairs": 334,
+        "cohen_d": 2.031180704168684,
+        "vocab_size": 68
+      },
+      "aas": {
+        "word_aas_ms": 106.590752,
+        "phone_aas_ms": 51.684312
+      }
+    }
+  },
+  "teop1238": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.36088096368099826,
+        "label_entropy_norm": 0.8224279700119148,
+        "frames": 4818,
+        "labels": 20
+      },
+      "wacs": {
+        "wacs": 0.10929179271270639,
+        "positive": 0.6725292005618768,
+        "negative": 0.5632374078491704,
+        "positive_pairs": 715,
+        "negative_pairs": 478,
+        "cohen_d": 1.5392657330390724,
+        "vocab_size": 96
+      },
+      "aas": {
+        "word_aas_ms": 69.4870290237467,
+        "phone_aas_ms": 49.56498944591029
+      }
+    }
+  },
+  "texi1237": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.21225854189877016,
+        "label_entropy_norm": 0.8056427690590605,
+        "frames": 4696,
+        "labels": 24
+      },
+      "wacs": {
+        "wacs": 0.08036946582504623,
+        "positive": 0.6846746306426261,
+        "negative": 0.6043051648175799,
+        "positive_pairs": 315,
+        "negative_pairs": 230,
+        "cohen_d": 1.1008676599794833,
+        "vocab_size": 48
+      },
+      "aas": {
+        "word_aas_ms": 114.13059447983015,
+        "phone_aas_ms": 74.69888959660298
+      }
+    }
+  },
+  "trin1278": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38264061029064256,
+        "label_entropy_norm": 0.8990585653108345,
+        "frames": 9014,
+        "labels": 24
+      },
+      "wacs": {
+        "wacs": 0.17139260776629023,
+        "positive": 0.6147279923495007,
+        "negative": 0.4433353845832105,
+        "positive_pairs": 487,
+        "negative_pairs": 342,
+        "cohen_d": 1.97613987078565,
+        "vocab_size": 69
+      },
+      "aas": {
+        "word_aas_ms": 171.13062011173184,
+        "phone_aas_ms": 88.34175418994414
+      }
+    }
+  },
+  "tsim1256": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.311491290062164,
+        "label_entropy_norm": 0.8422017459995764,
+        "frames": 6346,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.12283882906308652,
+        "positive": 0.6678396654150083,
+        "negative": 0.5450008363519218,
+        "positive_pairs": 344,
+        "negative_pairs": 266,
+        "cohen_d": 1.5505011846550605,
+        "vocab_size": 54
+      },
+      "aas": {
+        "word_aas_ms": 77.34823692307694,
+        "phone_aas_ms": 58.04888923076923
+      }
+    }
+  },
+  "urum1249": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3488748330287245,
+        "label_entropy_norm": 0.9240951502140102,
+        "frames": 8970,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.15709048949830712,
+        "positive": 0.5796297500771351,
+        "negative": 0.422539260578828,
+        "positive_pairs": 787,
+        "negative_pairs": 541,
+        "cohen_d": 1.896050443613218,
+        "vocab_size": 110
+      },
+      "aas": {
+        "word_aas_ms": 170.64235433070866,
+        "phone_aas_ms": 77.58318897637797
+      }
+    }
+  },
+  "vera1241": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3157285389677582,
+        "label_entropy_norm": 0.8400469604393923,
+        "frames": 5691,
+        "labels": 23
+      },
+      "wacs": {
+        "wacs": 0.13260993031401214,
+        "positive": 0.6633457043034697,
+        "negative": 0.5307357739894576,
+        "positive_pairs": 1175,
+        "negative_pairs": 846,
+        "cohen_d": 1.618273355139056,
+        "vocab_size": 170
+      },
+      "aas": {
+        "word_aas_ms": 71.40076951672863,
+        "phone_aas_ms": 52.24031598513011
+      }
+    }
+  },
+  "warl1254": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.344549753706105,
+        "label_entropy_norm": 0.7737304639066587,
+        "frames": 6939,
+        "labels": 24
+      },
+      "wacs": {
+        "wacs": 0.10531002091922725,
+        "positive": 0.6536390675573605,
+        "negative": 0.5483290466381332,
+        "positive_pairs": 374,
+        "negative_pairs": 256,
+        "cohen_d": 1.1894334933709085,
+        "vocab_size": 52
+      },
+      "aas": {
+        "word_aas_ms": 100.12791641791044,
+        "phone_aas_ms": 49.84825074626866
+      }
+    }
+  },
+  "yong1270": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3612657822473234,
+        "label_entropy_norm": 0.8955774502855262,
+        "frames": 8160,
+        "labels": 32
+      },
+      "wacs": {
+        "wacs": 0.1968426691744113,
+        "positive": 0.6644655984705721,
+        "negative": 0.4676229292961608,
+        "positive_pairs": 494,
+        "negative_pairs": 356,
+        "cohen_d": 2.089148745536931,
+        "vocab_size": 72
+      },
+      "aas": {
+        "word_aas_ms": 114.83582706766917,
+        "phone_aas_ms": 74.2334962406015
+      }
+    }
+  },
+  "yuca1254": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.2710887204257068,
+        "label_entropy_norm": 0.834175251112964,
+        "frames": 7733,
+        "labels": 22
+      },
+      "wacs": {
+        "wacs": 0.1268636030036584,
+        "positive": 0.6384469707565931,
+        "negative": 0.5115833677529347,
+        "positive_pairs": 844,
+        "negative_pairs": 563,
+        "cohen_d": 1.6030076771444697,
+        "vocab_size": 114
+      },
+      "aas": {
+        "word_aas_ms": 105.31892444444445,
+        "phone_aas_ms": 75.36750666666666
+      }
+    }
+  }
+}

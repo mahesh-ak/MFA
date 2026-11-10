@@ -12,3 +12,4 @@ alignments/
 buckeye*
 doreco/
 models/
+__pycache__/

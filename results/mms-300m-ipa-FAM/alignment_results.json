@@ -1,0 +1,1617 @@
+{
+  "af_za": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3259639754468735,
+        "label_entropy_norm": 0.9197687190509684,
+        "frames": 9747,
+        "labels": 37
+      },
+      "wacs": {
+        "wacs": 0.21415127477802853,
+        "positive": 0.5982530726397911,
+        "negative": 0.3841017978617626,
+        "positive_pairs": 1519,
+        "negative_pairs": 995,
+        "cohen_d": 1.926619269443111,
+        "vocab_size": 200
+      }
+    }
+  },
+  "am_et": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.4034609346629271,
+        "label_entropy_norm": 0.9117575702387273,
+        "frames": 9734,
+        "labels": 35
+      },
+      "wacs": {
+        "wacs": 0.2467089647856412,
+        "positive": 0.6316441671286072,
+        "negative": 0.38493520234296597,
+        "positive_pairs": 1329,
+        "negative_pairs": 997,
+        "cohen_d": 2.5695904569344594,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ar_eg": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3887723333335854,
+        "label_entropy_norm": 0.8845879987623017,
+        "frames": 9689,
+        "labels": 38
+      },
+      "wacs": {
+        "wacs": 0.23806786552203313,
+        "positive": 0.6156596675464272,
+        "negative": 0.3775918020243941,
+        "positive_pairs": 1358,
+        "negative_pairs": 992,
+        "cohen_d": 2.7388843946000287,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ast_es": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38535440929052944,
+        "label_entropy_norm": 0.9463474902537916,
+        "frames": 9795,
+        "labels": 25
+      },
+      "wacs": {
+        "wacs": 0.19770759872014992,
+        "positive": 0.596260165059555,
+        "negative": 0.3985525663394051,
+        "positive_pairs": 1500,
+        "negative_pairs": 995,
+        "cohen_d": 2.12685344685556,
+        "vocab_size": 200
+      }
+    }
+  },
+  "az_az": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.35141041460101374,
+        "label_entropy_norm": 0.9308614296314297,
+        "frames": 9845,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.2628267959054178,
+        "positive": 0.639166564410551,
+        "negative": 0.3763397685051332,
+        "positive_pairs": 1439,
+        "negative_pairs": 990,
+        "cohen_d": 2.8929634600833696,
+        "vocab_size": 200
+      }
+    }
+  },
+  "be_by": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.37198853568729723,
+        "label_entropy_norm": 0.925094714862278,
+        "frames": 9887,
+        "labels": 29
+      },
+      "wacs": {
+        "wacs": 0.2302988970776872,
+        "positive": 0.5865119128943642,
+        "negative": 0.356213015816677,
+        "positive_pairs": 1502,
+        "negative_pairs": 993,
+        "cohen_d": 2.290807336194202,
+        "vocab_size": 200
+      }
+    }
+  },
+  "bg_bg": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3762109905754259,
+        "label_entropy_norm": 0.8869590908651291,
+        "frames": 9578,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.22809749161974513,
+        "positive": 0.6202437622098872,
+        "negative": 0.39214627059014207,
+        "positive_pairs": 1378,
+        "negative_pairs": 997,
+        "cohen_d": 2.4923435451257774,
+        "vocab_size": 200
+      }
+    }
+  },
+  "bn_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.33741180204083854,
+        "label_entropy_norm": 0.899119505892518,
+        "frames": 9726,
+        "labels": 40
+      },
+      "wacs": {
+        "wacs": 0.21958222045118003,
+        "positive": 0.6365914425551499,
+        "negative": 0.41700922210396985,
+        "positive_pairs": 1633,
+        "negative_pairs": 996,
+        "cohen_d": 2.3476549035235696,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ca_es": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.36434636000063025,
+        "label_entropy_norm": 0.8661675903686762,
+        "frames": 9547,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.22238476989513972,
+        "positive": 0.6028285016457063,
+        "negative": 0.3804437317505666,
+        "positive_pairs": 1503,
+        "negative_pairs": 994,
+        "cohen_d": 2.2579081401821037,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ceb_ph": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.36661340400659,
+        "label_entropy_norm": 0.8821684867793425,
+        "frames": 9757,
+        "labels": 29
+      },
+      "wacs": {
+        "wacs": 0.19024500205220773,
+        "positive": 0.5928998224083447,
+        "negative": 0.402654820356137,
+        "positive_pairs": 1595,
+        "negative_pairs": 995,
+        "cohen_d": 1.739166432580441,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ckb_iq": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38152772917751154,
+        "label_entropy_norm": 0.907057264977098,
+        "frames": 9693,
+        "labels": 34
+      },
+      "wacs": {
+        "wacs": 0.19946454035377187,
+        "positive": 0.6094245385592528,
+        "negative": 0.40995999820548096,
+        "positive_pairs": 1352,
+        "negative_pairs": 998,
+        "cohen_d": 2.2247020415635497,
+        "vocab_size": 200
+      }
+    }
+  },
+  "cmn_hans_cn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.39024852579142105,
+        "label_entropy_norm": 0.8607777909742872,
+        "frames": 9491,
+        "labels": 39
+      },
+      "wacs": {
+        "wacs": 0.24234038427587962,
+        "positive": 0.624829166157426,
+        "negative": 0.3824887818815464,
+        "positive_pairs": 1652,
+        "negative_pairs": 993,
+        "cohen_d": 2.6625465851791468,
+        "vocab_size": 200
+      }
+    }
+  },
+  "cs_cz": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.4269161708809397,
+        "label_entropy_norm": 0.9333731565240913,
+        "frames": 9849,
+        "labels": 32
+      },
+      "wacs": {
+        "wacs": 0.25035921953931584,
+        "positive": 0.6283399693916147,
+        "negative": 0.3779807498522989,
+        "positive_pairs": 1352,
+        "negative_pairs": 995,
+        "cohen_d": 2.8107715915893983,
+        "vocab_size": 200
+      }
+    }
+  },
+  "cy_gb": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.34010070925299163,
+        "label_entropy_norm": 0.9123470821994353,
+        "frames": 9778,
+        "labels": 42
+      },
+      "wacs": {
+        "wacs": 0.19659918471468152,
+        "positive": 0.5537777124133737,
+        "negative": 0.3571785276986922,
+        "positive_pairs": 1824,
+        "negative_pairs": 995,
+        "cohen_d": 1.9224324110840558,
+        "vocab_size": 200
+      }
+    }
+  },
+  "da_dk": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.30461260028643883,
+        "label_entropy_norm": 0.8702165502971395,
+        "frames": 9487,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.21579445820724885,
+        "positive": 0.6139997067873746,
+        "negative": 0.39820524858012574,
+        "positive_pairs": 1430,
+        "negative_pairs": 995,
+        "cohen_d": 2.2728175438590763,
+        "vocab_size": 200
+      }
+    }
+  },
+  "de_de": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.33582823113073457,
+        "label_entropy_norm": 0.929979035394823,
+        "frames": 9858,
+        "labels": 32
+      },
+      "wacs": {
+        "wacs": 0.2115954664321243,
+        "positive": 0.602854672215916,
+        "negative": 0.39125920578379175,
+        "positive_pairs": 1406,
+        "negative_pairs": 996,
+        "cohen_d": 2.237164136304746,
+        "vocab_size": 200
+      }
+    }
+  },
+  "el_gr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.37030453193999996,
+        "label_entropy_norm": 0.8577686310745788,
+        "frames": 9437,
+        "labels": 37
+      },
+      "wacs": {
+        "wacs": 0.2118640454645006,
+        "positive": 0.6028838116518807,
+        "negative": 0.39101976618738005,
+        "positive_pairs": 1479,
+        "negative_pairs": 999,
+        "cohen_d": 2.1995033271202487,
+        "vocab_size": 200
+      }
+    }
+  },
+  "en_us": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.35071762383466293,
+        "label_entropy_norm": 0.9569105213388572,
+        "frames": 9860,
+        "labels": 37
+      },
+      "wacs": {
+        "wacs": 0.19827178806881263,
+        "positive": 0.6053805461213619,
+        "negative": 0.4071087580525493,
+        "positive_pairs": 1594,
+        "negative_pairs": 993,
+        "cohen_d": 2.230353652603617,
+        "vocab_size": 200
+      }
+    }
+  },
+  "es_419": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.42621387581293463,
+        "label_entropy_norm": 0.8960963338530961,
+        "frames": 9689,
+        "labels": 26
+      },
+      "wacs": {
+        "wacs": 0.239964787810576,
+        "positive": 0.6262170868941562,
+        "negative": 0.3862522990835802,
+        "positive_pairs": 1483,
+        "negative_pairs": 995,
+        "cohen_d": 2.6872141703062744,
+        "vocab_size": 200
+      }
+    }
+  },
+  "et_ee": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.39892226457460456,
+        "label_entropy_norm": 0.9093863478750273,
+        "frames": 9762,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.27069219841848113,
+        "positive": 0.6610877589390936,
+        "negative": 0.3903955605206124,
+        "positive_pairs": 1032,
+        "negative_pairs": 831,
+        "cohen_d": 3.0776597560291594,
+        "vocab_size": 168
+      }
+    }
+  },
+  "fa_ir": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3439893627671013,
+        "label_entropy_norm": 0.906284145627246,
+        "frames": 9879,
+        "labels": 27
+      },
+      "wacs": {
+        "wacs": 0.2506910424208561,
+        "positive": 0.6294501364798833,
+        "negative": 0.37875909405902725,
+        "positive_pairs": 1772,
+        "negative_pairs": 995,
+        "cohen_d": 2.6537348387854784,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ff_sn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3605457561247732,
+        "label_entropy_norm": 0.9246855521204178,
+        "frames": 9851,
+        "labels": 31
+      },
+      "wacs": {
+        "wacs": 0.16258693211430725,
+        "positive": 0.570250031384855,
+        "negative": 0.4076630992705477,
+        "positive_pairs": 1824,
+        "negative_pairs": 997,
+        "cohen_d": 1.5090899183883317,
+        "vocab_size": 200
+      }
+    }
+  },
+  "fi_fi": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3965323185572447,
+        "label_entropy_norm": 0.8830388916372087,
+        "frames": 9550,
+        "labels": 34
+      },
+      "wacs": {
+        "wacs": 0.245785129634621,
+        "positive": 0.6324407356002791,
+        "negative": 0.3866556059656581,
+        "positive_pairs": 1102,
+        "negative_pairs": 953,
+        "cohen_d": 3.0592031547113643,
+        "vocab_size": 191
+      }
+    }
+  },
+  "fr_fr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.36580396866860854,
+        "label_entropy_norm": 0.9123683776561002,
+        "frames": 9593,
+        "labels": 39
+      },
+      "wacs": {
+        "wacs": 0.2271583657468183,
+        "positive": 0.5899192113466654,
+        "negative": 0.36276084559984706,
+        "positive_pairs": 1560,
+        "negative_pairs": 997,
+        "cohen_d": 2.3819341594812817,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ga_ie": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3115483777601696,
+        "label_entropy_norm": 0.8873302013996801,
+        "frames": 9666,
+        "labels": 38
+      },
+      "wacs": {
+        "wacs": 0.1711410904679621,
+        "positive": 0.5779395424213619,
+        "negative": 0.4067984519533998,
+        "positive_pairs": 1828,
+        "negative_pairs": 996,
+        "cohen_d": 1.7378555108515716,
+        "vocab_size": 200
+      }
+    }
+  },
+  "gl_es": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38836291121374705,
+        "label_entropy_norm": 0.8646037490380257,
+        "frames": 9257,
+        "labels": 37
+      },
+      "wacs": {
+        "wacs": 0.21419024394583985,
+        "positive": 0.6202487902437774,
+        "negative": 0.4060585462979376,
+        "positive_pairs": 1498,
+        "negative_pairs": 992,
+        "cohen_d": 2.4255807491131276,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ha_ng": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.37281498284741116,
+        "label_entropy_norm": 0.882939761506899,
+        "frames": 9756,
+        "labels": 30
+      },
+      "wacs": {
+        "wacs": 0.18998911460732454,
+        "positive": 0.5601905131081218,
+        "negative": 0.3702013985007973,
+        "positive_pairs": 1956,
+        "negative_pairs": 997,
+        "cohen_d": 1.6000322905537157,
+        "vocab_size": 200
+      }
+    }
+  },
+  "he_il": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3757944566088873,
+        "label_entropy_norm": 0.9467714335882244,
+        "frames": 9806,
+        "labels": 27
+      },
+      "wacs": {
+        "wacs": 0.17836107315207944,
+        "positive": 0.5917682361748475,
+        "negative": 0.4134071630227681,
+        "positive_pairs": 1248,
+        "negative_pairs": 996,
+        "cohen_d": 1.6693648847948377,
+        "vocab_size": 200
+      }
+    }
+  },
+  "hi_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38706425804330835,
+        "label_entropy_norm": 0.8917005785583353,
+        "frames": 9592,
+        "labels": 44
+      },
+      "wacs": {
+        "wacs": 0.21946819792946404,
+        "positive": 0.6052213849903282,
+        "negative": 0.38575318706086414,
+        "positive_pairs": 1760,
+        "negative_pairs": 992,
+        "cohen_d": 2.616575041693372,
+        "vocab_size": 200
+      }
+    }
+  },
+  "hr_hr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3876379673179629,
+        "label_entropy_norm": 0.9085364689382283,
+        "frames": 9594,
+        "labels": 30
+      },
+      "wacs": {
+        "wacs": 0.24020418053894965,
+        "positive": 0.6494800422106439,
+        "negative": 0.4092758616716943,
+        "positive_pairs": 1269,
+        "negative_pairs": 997,
+        "cohen_d": 2.7621787471750494,
+        "vocab_size": 200
+      }
+    }
+  },
+  "hu_hu": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.36577566760691715,
+        "label_entropy_norm": 0.9432810713646083,
+        "frames": 9873,
+        "labels": 32
+      },
+      "wacs": {
+        "wacs": 0.2394298249001343,
+        "positive": 0.6285959197128705,
+        "negative": 0.38916609481273623,
+        "positive_pairs": 1212,
+        "negative_pairs": 996,
+        "cohen_d": 2.6732762497562237,
+        "vocab_size": 200
+      }
+    }
+  },
+  "hy_am": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.4429825202012943,
+        "label_entropy_norm": 0.9221684774523474,
+        "frames": 9841,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.23739926450636445,
+        "positive": 0.6084553810205604,
+        "negative": 0.37105611651419595,
+        "positive_pairs": 1387,
+        "negative_pairs": 994,
+        "cohen_d": 2.5627517710349497,
+        "vocab_size": 200
+      }
+    }
+  },
+  "id_id": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3827303846266576,
+        "label_entropy_norm": 0.9032272924871789,
+        "frames": 9709,
+        "labels": 29
+      },
+      "wacs": {
+        "wacs": 0.20180509390250023,
+        "positive": 0.6040267272542974,
+        "negative": 0.40222163335179717,
+        "positive_pairs": 1784,
+        "negative_pairs": 999,
+        "cohen_d": 2.3636725157233447,
+        "vocab_size": 200
+      }
+    }
+  },
+  "it_it": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.4055043235097183,
+        "label_entropy_norm": 0.8796611288284399,
+        "frames": 9688,
+        "labels": 30
+      },
+      "wacs": {
+        "wacs": 0.240251171049376,
+        "positive": 0.6239393617694308,
+        "negative": 0.3836881907200548,
+        "positive_pairs": 1514,
+        "negative_pairs": 997,
+        "cohen_d": 2.62805013675417,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ja_jp": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.4157216419840077,
+        "label_entropy_norm": 0.8682378280087215,
+        "frames": 9600,
+        "labels": 34
+      },
+      "wacs": {
+        "wacs": 0.2245342342842367,
+        "positive": 0.6353684278094524,
+        "negative": 0.41083419352521566,
+        "positive_pairs": 1816,
+        "negative_pairs": 999,
+        "cohen_d": 2.2653297059913626,
+        "vocab_size": 200
+      }
+    }
+  },
+  "jv_id": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3708158644474731,
+        "label_entropy_norm": 0.9076203298830693,
+        "frames": 9693,
+        "labels": 32
+      },
+      "wacs": {
+        "wacs": 0.2035692220595942,
+        "positive": 0.6086261982451961,
+        "negative": 0.40505697618560194,
+        "positive_pairs": 1752,
+        "negative_pairs": 992,
+        "cohen_d": 2.227647786394756,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ka_ge": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.40582317861346634,
+        "label_entropy_norm": 0.9043154093856878,
+        "frames": 9732,
+        "labels": 31
+      },
+      "wacs": {
+        "wacs": 0.23161565006903445,
+        "positive": 0.607048170826475,
+        "negative": 0.37543252075744055,
+        "positive_pairs": 1288,
+        "negative_pairs": 999,
+        "cohen_d": 2.6614907322982337,
+        "vocab_size": 200
+      }
+    }
+  },
+  "kk_kz": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.40139450997281423,
+        "label_entropy_norm": 0.9187439493599866,
+        "frames": 9836,
+        "labels": 36
+      },
+      "wacs": {
+        "wacs": 0.22254991014354875,
+        "positive": 0.585105424546756,
+        "negative": 0.3625555144032072,
+        "positive_pairs": 1451,
+        "negative_pairs": 996,
+        "cohen_d": 2.1998862918682196,
+        "vocab_size": 200
+      }
+    }
+  },
+  "km_kh": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3202451665781363,
+        "label_entropy_norm": 0.878358093752414,
+        "frames": 9636,
+        "labels": 45
+      },
+      "wacs": {
+        "wacs": 0.19266903571246707,
+        "positive": 0.5591831462196798,
+        "negative": 0.3665141105072127,
+        "positive_pairs": 2000,
+        "negative_pairs": 997,
+        "cohen_d": 2.088006793953291,
+        "vocab_size": 200
+      }
+    }
+  },
+  "kn_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3737124305172522,
+        "label_entropy_norm": 0.9125643145538962,
+        "frames": 9757,
+        "labels": 39
+      },
+      "wacs": {
+        "wacs": 0.23535686783193793,
+        "positive": 0.6060730480439196,
+        "negative": 0.37071618021198166,
+        "positive_pairs": 1037,
+        "negative_pairs": 866,
+        "cohen_d": 2.3560739345801838,
+        "vocab_size": 174
+      }
+    }
+  },
+  "ko_kr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.4100167472741817,
+        "label_entropy_norm": 0.832531921395643,
+        "frames": 9600,
+        "labels": 39
+      },
+      "wacs": {
+        "wacs": 0.277898724647029,
+        "positive": 0.6805607258000705,
+        "negative": 0.4026620011530415,
+        "positive_pairs": 820,
+        "negative_pairs": 737,
+        "cohen_d": 3.058615107641915,
+        "vocab_size": 149
+      }
+    }
+  },
+  "ky_kg": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.40374951513461993,
+        "label_entropy_norm": 0.9041631910694968,
+        "frames": 9735,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.24232762492250365,
+        "positive": 0.6369020792291334,
+        "negative": 0.3945744543066298,
+        "positive_pairs": 1400,
+        "negative_pairs": 993,
+        "cohen_d": 2.78424108012074,
+        "vocab_size": 200
+      }
+    }
+  },
+  "lg_ug": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.42188159397814146,
+        "label_entropy_norm": 0.9312370428265827,
+        "frames": 9880,
+        "labels": 31
+      },
+      "wacs": {
+        "wacs": 0.24904710476164887,
+        "positive": 0.6324499578490709,
+        "negative": 0.383402853087422,
+        "positive_pairs": 1252,
+        "negative_pairs": 996,
+        "cohen_d": 2.220686715568348,
+        "vocab_size": 200
+      }
+    }
+  },
+  "lo_la": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3032812574389331,
+        "label_entropy_norm": 0.8924334355127088,
+        "frames": 9562,
+        "labels": 45
+      },
+      "wacs": {
+        "wacs": 0.18080620589391577,
+        "positive": 0.5931954978448819,
+        "negative": 0.41238929195096613,
+        "positive_pairs": 2000,
+        "negative_pairs": 996,
+        "cohen_d": 1.7480448095337047,
+        "vocab_size": 200
+      }
+    }
+  },
+  "lt_lt": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3493167758640685,
+        "label_entropy_norm": 0.9158365870443888,
+        "frames": 9704,
+        "labels": 39
+      },
+      "wacs": {
+        "wacs": 0.22164367514752908,
+        "positive": 0.6079290585158736,
+        "negative": 0.38628538336834456,
+        "positive_pairs": 1269,
+        "negative_pairs": 994,
+        "cohen_d": 2.3524433719271056,
+        "vocab_size": 200
+      }
+    }
+  },
+  "lv_lv": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.36403091089120726,
+        "label_entropy_norm": 0.9197454268660067,
+        "frames": 9716,
+        "labels": 31
+      },
+      "wacs": {
+        "wacs": 0.24738966930333756,
+        "positive": 0.614768226245283,
+        "negative": 0.3673785569419455,
+        "positive_pairs": 1316,
+        "negative_pairs": 997,
+        "cohen_d": 2.5827799509532245,
+        "vocab_size": 200
+      }
+    }
+  },
+  "mi_nz": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3430139670100744,
+        "label_entropy_norm": 0.8622447248676375,
+        "frames": 9706,
+        "labels": 28
+      },
+      "wacs": {
+        "wacs": 0.16360827269706002,
+        "positive": 0.5274838703302414,
+        "negative": 0.36387559763318134,
+        "positive_pairs": 1884,
+        "negative_pairs": 996,
+        "cohen_d": 1.4337175461223866,
+        "vocab_size": 200
+      }
+    }
+  },
+  "mk_mk": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.4343689358585035,
+        "label_entropy_norm": 0.8590920046644864,
+        "frames": 9583,
+        "labels": 40
+      },
+      "wacs": {
+        "wacs": 0.2421163859245462,
+        "positive": 0.6209834876757472,
+        "negative": 0.378867101751201,
+        "positive_pairs": 1443,
+        "negative_pairs": 994,
+        "cohen_d": 2.3886591667045716,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ml_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38256267858393883,
+        "label_entropy_norm": 0.9330396357959997,
+        "frames": 9859,
+        "labels": 40
+      },
+      "wacs": {
+        "wacs": 0.24659212865877933,
+        "positive": 0.627042475630017,
+        "negative": 0.3804503469712377,
+        "positive_pairs": 967,
+        "negative_pairs": 846,
+        "cohen_d": 2.539079257503435,
+        "vocab_size": 170
+      }
+    }
+  },
+  "mn_mn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.34529527156564077,
+        "label_entropy_norm": 0.9461745888812471,
+        "frames": 9862,
+        "labels": 25
+      },
+      "wacs": {
+        "wacs": 0.24010912527141792,
+        "positive": 0.6172347770894884,
+        "negative": 0.37712565181807045,
+        "positive_pairs": 1626,
+        "negative_pairs": 996,
+        "cohen_d": 2.419045144479546,
+        "vocab_size": 200
+      }
+    }
+  },
+  "mr_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.39118156935001497,
+        "label_entropy_norm": 0.8850087169125525,
+        "frames": 9579,
+        "labels": 45
+      },
+      "wacs": {
+        "wacs": 0.22749953727811828,
+        "positive": 0.6098427216848826,
+        "negative": 0.38234318440676435,
+        "positive_pairs": 1619,
+        "negative_pairs": 998,
+        "cohen_d": 2.617010535255621,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ms_my": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3906447467107251,
+        "label_entropy_norm": 0.9003800711459601,
+        "frames": 9611,
+        "labels": 29
+      },
+      "wacs": {
+        "wacs": 0.19870475129544812,
+        "positive": 0.6282081468704955,
+        "negative": 0.4295033955750474,
+        "positive_pairs": 1760,
+        "negative_pairs": 994,
+        "cohen_d": 2.4450916686893147,
+        "vocab_size": 200
+      }
+    }
+  },
+  "mt_mt": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.39776612101727493,
+        "label_entropy_norm": 0.9257105009133273,
+        "frames": 9884,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.23537441775953266,
+        "positive": 0.6079002555082543,
+        "negative": 0.37252583774872167,
+        "positive_pairs": 1559,
+        "negative_pairs": 995,
+        "cohen_d": 2.298181412183627,
+        "vocab_size": 200
+      }
+    }
+  },
+  "my_mm": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3584432503055773,
+        "label_entropy_norm": 0.8826471624629468,
+        "frames": 9661,
+        "labels": 46
+      },
+      "wacs": {
+        "wacs": 0.19773856844737564,
+        "positive": 0.569810509930139,
+        "negative": 0.3720719414827634,
+        "positive_pairs": 1920,
+        "negative_pairs": 997,
+        "cohen_d": 1.9172820717582992,
+        "vocab_size": 200
+      }
+    }
+  },
+  "nb_no": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.35406159188003594,
+        "label_entropy_norm": 0.9070445568799652,
+        "frames": 9671,
+        "labels": 35
+      },
+      "wacs": {
+        "wacs": 0.2633815347023845,
+        "positive": 0.6488920999570539,
+        "negative": 0.38551056525466937,
+        "positive_pairs": 1497,
+        "negative_pairs": 993,
+        "cohen_d": 2.452131793719857,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ne_np": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3751720156125243,
+        "label_entropy_norm": 0.9029433221570161,
+        "frames": 9696,
+        "labels": 36
+      },
+      "wacs": {
+        "wacs": 0.23139446747578285,
+        "positive": 0.6196554552487668,
+        "negative": 0.3882609877729839,
+        "positive_pairs": 1479,
+        "negative_pairs": 996,
+        "cohen_d": 2.3731807605626787,
+        "vocab_size": 200
+      }
+    }
+  },
+  "nl_nl": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3545111163752682,
+        "label_entropy_norm": 0.9135606965554449,
+        "frames": 9616,
+        "labels": 39
+      },
+      "wacs": {
+        "wacs": 0.22697088421335615,
+        "positive": 0.6271656954703367,
+        "negative": 0.4001948112569806,
+        "positive_pairs": 1584,
+        "negative_pairs": 997,
+        "cohen_d": 2.407318104010252,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ny_mw": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.35194832247269353,
+        "label_entropy_norm": 0.8931441375886164,
+        "frames": 9726,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.1735809503218092,
+        "positive": 0.5729916617479079,
+        "negative": 0.39941071142609874,
+        "positive_pairs": 1483,
+        "negative_pairs": 994,
+        "cohen_d": 1.670279486259255,
+        "vocab_size": 200
+      }
+    }
+  },
+  "om_et": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3645407743232818,
+        "label_entropy_norm": 0.9006236025608927,
+        "frames": 9549,
+        "labels": 29
+      },
+      "wacs": {
+        "wacs": 0.19169633746502046,
+        "positive": 0.6243033059499052,
+        "negative": 0.4326069684848848,
+        "positive_pairs": 208,
+        "negative_pairs": 184,
+        "cohen_d": 2.019145095141464,
+        "vocab_size": 38
+      }
+    }
+  },
+  "or_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3323676341763533,
+        "label_entropy_norm": 0.8722441990979345,
+        "frames": 9554,
+        "labels": 48
+      },
+      "wacs": {
+        "wacs": 0.18764045864453577,
+        "positive": 0.6070964149659812,
+        "negative": 0.41945595632144544,
+        "positive_pairs": 1720,
+        "negative_pairs": 997,
+        "cohen_d": 2.129707710465583,
+        "vocab_size": 200
+      }
+    }
+  },
+  "pa_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.33712209859683967,
+        "label_entropy_norm": 0.9341536174987006,
+        "frames": 9760,
+        "labels": 42
+      },
+      "wacs": {
+        "wacs": 0.21484190915790286,
+        "positive": 0.6123115427508536,
+        "negative": 0.3974696335929508,
+        "positive_pairs": 1804,
+        "negative_pairs": 995,
+        "cohen_d": 2.2193546117177623,
+        "vocab_size": 200
+      }
+    }
+  },
+  "pl_pl": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.36222947839977,
+        "label_entropy_norm": 0.9477540446713207,
+        "frames": 9813,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.22507098771706435,
+        "positive": 0.6070158949410454,
+        "negative": 0.381944907223981,
+        "positive_pairs": 1195,
+        "negative_pairs": 995,
+        "cohen_d": 2.506788076069552,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ps_af": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3140028079987674,
+        "label_entropy_norm": 0.9026950374747901,
+        "frames": 9699,
+        "labels": 44
+      },
+      "wacs": {
+        "wacs": 0.1888627536012662,
+        "positive": 0.5783906946916583,
+        "negative": 0.38952794109039207,
+        "positive_pairs": 1788,
+        "negative_pairs": 993,
+        "cohen_d": 1.7889118688541605,
+        "vocab_size": 200
+      }
+    }
+  },
+  "pt_br": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3760983477379121,
+        "label_entropy_norm": 0.921437803550784,
+        "frames": 9826,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.23668242339990453,
+        "positive": 0.605553799885513,
+        "negative": 0.3688713764856085,
+        "positive_pairs": 1555,
+        "negative_pairs": 997,
+        "cohen_d": 2.4166381030664157,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ro_ro": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.35864284629535276,
+        "label_entropy_norm": 0.9233959150763725,
+        "frames": 9728,
+        "labels": 27
+      },
+      "wacs": {
+        "wacs": 0.21795725298216395,
+        "positive": 0.6177026100437422,
+        "negative": 0.3997453570615782,
+        "positive_pairs": 1536,
+        "negative_pairs": 997,
+        "cohen_d": 2.5425754345455682,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ru_ru": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.38305952050010444,
+        "label_entropy_norm": 0.8911426035974075,
+        "frames": 9648,
+        "labels": 35
+      },
+      "wacs": {
+        "wacs": 0.23622339544087972,
+        "positive": 0.6044263398925798,
+        "negative": 0.36820294445170004,
+        "positive_pairs": 1336,
+        "negative_pairs": 998,
+        "cohen_d": 2.5113384765326288,
+        "vocab_size": 200
+      }
+    }
+  },
+  "sl_si": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3573429033692236,
+        "label_entropy_norm": 0.9291393233001058,
+        "frames": 9779,
+        "labels": 26
+      },
+      "wacs": {
+        "wacs": 0.21295365116821446,
+        "positive": 0.6135388298211443,
+        "negative": 0.4005851786529298,
+        "positive_pairs": 1249,
+        "negative_pairs": 997,
+        "cohen_d": 2.3714868290053697,
+        "vocab_size": 200
+      }
+    }
+  },
+  "sn_zw": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3982753119391517,
+        "label_entropy_norm": 0.9115981461336811,
+        "frames": 9773,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.20812357038007423,
+        "positive": 0.579705322490608,
+        "negative": 0.3715817521105338,
+        "positive_pairs": 1397,
+        "negative_pairs": 995,
+        "cohen_d": 2.039096022045622,
+        "vocab_size": 200
+      }
+    }
+  },
+  "so_so": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.32462591237650446,
+        "label_entropy_norm": 0.9130770820258662,
+        "frames": 9778,
+        "labels": 32
+      },
+      "wacs": {
+        "wacs": 0.19202398441422353,
+        "positive": 0.5390016042325433,
+        "negative": 0.34697761981831976,
+        "positive_pairs": 1660,
+        "negative_pairs": 994,
+        "cohen_d": 1.8363372209388757,
+        "vocab_size": 200
+      }
+    }
+  },
+  "sv_se": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.34788299245603105,
+        "label_entropy_norm": 0.9331942139086035,
+        "frames": 9724,
+        "labels": 36
+      },
+      "wacs": {
+        "wacs": 0.22107794921058793,
+        "positive": 0.6264361779839636,
+        "negative": 0.40535822877337563,
+        "positive_pairs": 1367,
+        "negative_pairs": 993,
+        "cohen_d": 2.317722884908472,
+        "vocab_size": 200
+      }
+    }
+  },
+  "sw_ke": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.46401690914897986,
+        "label_entropy_norm": 0.8983703855112538,
+        "frames": 9709,
+        "labels": 36
+      },
+      "wacs": {
+        "wacs": 0.20997212623303507,
+        "positive": 0.6098202514314446,
+        "negative": 0.3998481251984095,
+        "positive_pairs": 1639,
+        "negative_pairs": 998,
+        "cohen_d": 2.3176022647485723,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ta_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3223052832990901,
+        "label_entropy_norm": 0.8607600393586373,
+        "frames": 9517,
+        "labels": 41
+      },
+      "wacs": {
+        "wacs": 0.1847532552850013,
+        "positive": 0.5827664822952977,
+        "negative": 0.3980132270102964,
+        "positive_pairs": 1209,
+        "negative_pairs": 984,
+        "cohen_d": 2.0066284408649224,
+        "vocab_size": 198
+      }
+    }
+  },
+  "te_in": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.36364599157053146,
+        "label_entropy_norm": 0.8962073520902426,
+        "frames": 9546,
+        "labels": 38
+      },
+      "wacs": {
+        "wacs": 0.20360739666670957,
+        "positive": 0.6013456023281522,
+        "negative": 0.3977382056614426,
+        "positive_pairs": 1407,
+        "negative_pairs": 997,
+        "cohen_d": 2.2820820745838666,
+        "vocab_size": 200
+      }
+    }
+  },
+  "tg_tj": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.42535103582690187,
+        "label_entropy_norm": 0.8958370460455235,
+        "frames": 9762,
+        "labels": 39
+      },
+      "wacs": {
+        "wacs": 0.24864130638374127,
+        "positive": 0.6382982718827686,
+        "negative": 0.3896569654990273,
+        "positive_pairs": 1667,
+        "negative_pairs": 991,
+        "cohen_d": 2.404200991260504,
+        "vocab_size": 200
+      }
+    }
+  },
+  "th_th": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.31798645550046856,
+        "label_entropy_norm": 0.8935267505007036,
+        "frames": 9641,
+        "labels": 40
+      },
+      "wacs": {
+        "wacs": 0.2316604691590537,
+        "positive": 0.6044307500913219,
+        "negative": 0.37277028093226816,
+        "positive_pairs": 1876,
+        "negative_pairs": 989,
+        "cohen_d": 2.298287187253738,
+        "vocab_size": 200
+      }
+    }
+  },
+  "tr_tr": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.37732861852713967,
+        "label_entropy_norm": 0.9167936001714055,
+        "frames": 9815,
+        "labels": 31
+      },
+      "wacs": {
+        "wacs": 0.2678710692341111,
+        "positive": 0.6573869241526797,
+        "negative": 0.38951585491856866,
+        "positive_pairs": 1231,
+        "negative_pairs": 995,
+        "cohen_d": 3.222519210926469,
+        "vocab_size": 200
+      }
+    }
+  },
+  "uk_ua": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3838623678009258,
+        "label_entropy_norm": 0.9115217251359866,
+        "frames": 9804,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.24385809848984358,
+        "positive": 0.6188254894693216,
+        "negative": 0.374967390979478,
+        "positive_pairs": 1319,
+        "negative_pairs": 991,
+        "cohen_d": 2.5113249822536465,
+        "vocab_size": 200
+      }
+    }
+  },
+  "ur_pk": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.33193128895972784,
+        "label_entropy_norm": 0.9287483482788483,
+        "frames": 9719,
+        "labels": 34
+      },
+      "wacs": {
+        "wacs": 0.2468222792795961,
+        "positive": 0.6630471572179307,
+        "negative": 0.4162248779383346,
+        "positive_pairs": 1864,
+        "negative_pairs": 995,
+        "cohen_d": 2.8045085217310315,
+        "vocab_size": 200
+      }
+    }
+  },
+  "uz_uz": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3861508394893704,
+        "label_entropy_norm": 0.9343112208517482,
+        "frames": 9814,
+        "labels": 33
+      },
+      "wacs": {
+        "wacs": 0.22910516312171497,
+        "positive": 0.6091166237009665,
+        "negative": 0.38001146057925156,
+        "positive_pairs": 1475,
+        "negative_pairs": 990,
+        "cohen_d": 2.650207613375728,
+        "vocab_size": 200
+      }
+    }
+  },
+  "vi_vn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3488291444743216,
+        "label_entropy_norm": 0.9469975200657749,
+        "frames": 9956,
+        "labels": 38
+      },
+      "wacs": {
+        "wacs": 0.20117706473254715,
+        "positive": 0.6078923227927117,
+        "negative": 0.4067152580601645,
+        "positive_pairs": 1972,
+        "negative_pairs": 998,
+        "cohen_d": 2.1481043926079373,
+        "vocab_size": 200
+      }
+    }
+  },
+  "wo_sn": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3159215941343792,
+        "label_entropy_norm": 0.9252375790097436,
+        "frames": 9871,
+        "labels": 34
+      },
+      "wacs": {
+        "wacs": 0.150682008264505,
+        "positive": 0.5578422075138846,
+        "negative": 0.4071601992493796,
+        "positive_pairs": 1840,
+        "negative_pairs": 998,
+        "cohen_d": 1.3819509921007305,
+        "vocab_size": 200
+      }
+    }
+  },
+  "xh_za": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3861890078272495,
+        "label_entropy_norm": 0.9084136472280425,
+        "frames": 9655,
+        "labels": 39
+      },
+      "wacs": {
+        "wacs": 0.21726953845077984,
+        "positive": 0.6115640426807484,
+        "negative": 0.39429450422996853,
+        "positive_pairs": 976,
+        "negative_pairs": 825,
+        "cohen_d": 1.9438018299611017,
+        "vocab_size": 166
+      }
+    }
+  },
+  "yo_ng": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.350790620157418,
+        "label_entropy_norm": 0.9418321296966283,
+        "frames": 9879,
+        "labels": 45
+      },
+      "wacs": {
+        "wacs": 0.20298821206996065,
+        "positive": 0.563049404066573,
+        "negative": 0.36006119199661235,
+        "positive_pairs": 1856,
+        "negative_pairs": 995,
+        "cohen_d": 1.907908253108684,
+        "vocab_size": 200
+      }
+    }
+  },
+  "yue_hant_hk": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.3850761257141071,
+        "label_entropy_norm": 0.9256103264272013,
+        "frames": 9737,
+        "labels": 47
+      },
+      "wacs": {
+        "wacs": 0.2431501855995316,
+        "positive": 0.6334704882654436,
+        "negative": 0.390320302665912,
+        "positive_pairs": 1592,
+        "negative_pairs": 994,
+        "cohen_d": 2.5192577415515003,
+        "vocab_size": 200
+      }
+    }
+  },
+  "zu_za": {
+    "facebook/mms-300m": {
+      "nmi": {
+        "nmi": 0.35513642739379053,
+        "label_entropy_norm": 0.9189268456225589,
+        "frames": 9831,
+        "labels": 37
+      },
+      "wacs": {
+        "wacs": 0.2023383016255273,
+        "positive": 0.558911945018713,
+        "negative": 0.3565736433931857,
+        "positive_pairs": 1186,
+        "negative_pairs": 992,
+        "cohen_d": 1.6921937629191348,
+        "vocab_size": 200
+      }
+    }
+  }
+}

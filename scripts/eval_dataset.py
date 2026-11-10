@@ -24,7 +24,7 @@ def batch_iterator(iterable, batch_size):
 
 LANGS = ['af_za', 'am_et', 'ar_eg', 'ast_es', 'az_az', 'be_by', 'bg_bg', 'bn_in', 'ca_es', 'ceb_ph', 'ckb_iq', 'cmn_hans_cn', 'cs_cz', 'cy_gb', 'da_dk', 'de_de', 'el_gr', 'en_us', 'es_419', 'et_ee', 'fa_ir', 'ff_sn', 'fi_fi', 'fr_fr', 'ga_ie', 'gl_es', 'ha_ng', 'he_il', 'hi_in', 'hr_hr', 'hu_hu', 'hy_am', 'id_id', 'it_it', 'ja_jp', 'jv_id', 'ka_ge', 'kk_kz', 'km_kh', 'kn_in', 'ko_kr', 'ky_kg', 'lg_ug', 'lo_la', 'lt_lt', 'lv_lv', 'mi_nz', 'mk_mk', 'ml_in', 'mn_mn', 'mr_in', 'ms_my', 'mt_mt', 'my_mm', 'nb_no', 'ne_np', 'nl_nl', 'ny_mw', 'om_et', 'or_in', 'pa_in', 'pl_pl', 'ps_af', 'pt_br', 'ro_ro', 'ru_ru', 'sl_si', 'sn_zw', 'so_so', 'sv_se', 'sw_ke', 'ta_in', 'te_in', 'tg_tj', 'th_th', 'tr_tr', 'uk_ua', 'ur_pk', 'uz_uz', 'vi_vn', 'wo_sn', 'xh_za', 'yo_ng', 'yue_hant_hk', 'zu_za']
 
-from eval_aligns import ForcedAlignEval, ForcedAlignEvalConfig
+from forced_aligner_metrics import ForcedAlignEval, ForcedAlignEvalConfig
 from scipy.io import wavfile
 from tqdm import tqdm
 import numpy as np
@@ -51,7 +51,56 @@ def load_tg(path,word_tier="words",phone_tier="phones"):
         return out
 
     return tg.maxTime,tier2list(word_tier),tier2list(phone_tier)
-    
+
+def tg_to_intervals(tg_path, word_tier="words", phone_tier="phones"):
+    """
+    TextGrid path -> interval dict in the format
+    forced_aligner_metrics.ForcedAlignEval.compute_metrics expects:
+    {"words": [{"text","start","end"}, ...], "phones": [...]}
+    Missing/None paths yield an empty dict (item is skipped downstream).
+    """
+    if tg_path is None or not os.path.exists(tg_path):
+        return {}
+
+    _, words, phones = load_tg(tg_path, word_tier=word_tier, phone_tier=phone_tier)
+
+    return {
+        "words": words,
+        "phones": phones,
+    }
+
+def adapt_metrics(metrics):
+    """
+    Map the flat output of forced_aligner_metrics.compute_metrics
+    (pcmi_score / wacs_score / ...) onto the nested {"nmi","wacs"}
+    format used by the local eval_aligns results.
+    """
+    if not metrics:
+        return {"nmi": None, "wacs": None}
+
+    nmi = None
+    if "pcmi_score" in metrics:
+        nmi = {
+            "nmi": metrics.get("pcmi_score"),
+            "label_entropy_norm": metrics.get("pcmi_normalized_label_entropy"),
+            "frames": metrics.get("pcmi_num_frames"),
+            "labels": metrics.get("pcmi_num_labels"),
+        }
+
+    wacs = None
+    if "wacs_score" in metrics:
+        wacs = {
+            "wacs": metrics.get("wacs_score"),
+            "positive": metrics.get("wacs_positive_dtw"),
+            "negative": metrics.get("wacs_negative_dtw"),
+            "positive_pairs": metrics.get("wacs_num_positive_pairs"),
+            "negative_pairs": metrics.get("wacs_num_negative_pairs"),
+            "cohen_d": metrics.get("wacs_cohen_d"),
+            "vocab_size": metrics.get("wacs_vocab_size"),
+        }
+
+    return {"nmi": nmi, "wacs": wacs}
+
 def compute_aas(gold,pred):
 
     def align_and_score(g,p):
@@ -269,9 +318,10 @@ def audio_iter(items):
         yield x["audio"]
 
 def tg_iter(tg_paths):
-
+    # TextGrid inputs are converted to interval dicts for
+    # forced_aligner_metrics.ForcedAlignEval.compute_metrics
     for tg in tg_paths:
-        yield tg
+        yield tg_to_intervals(tg)
 
 
 
@@ -304,10 +354,10 @@ for lang in tqdm(LANGS,desc="languages"):
 
         for model_name,evaluator in evaluators.items():
 
-            metrics=evaluator.compute_metrics(
+            metrics=adapt_metrics(evaluator.compute_metrics(
                 audios=audio_iter(items),
-                tg_paths=tg_iter(tg_paths)
-            )
+                intervals_iter=tg_iter(tg_paths)
+            ))
 
             results[align_dir][lang][model_name]=metrics
 
@@ -357,10 +407,10 @@ for lang in tqdm(DORECO_LANGS, desc="languages"):
 
         for model_name,evaluator in evaluators.items():
 
-            metrics=evaluator.compute_metrics(
+            metrics=adapt_metrics(evaluator.compute_metrics(
                 audios=audio_iter(items),
-                tg_paths=tg_iter(tg_paths)
-            )
+                intervals_iter=tg_iter(tg_paths)
+            ))
             gold_tg_paths = resolve_tg_paths(items, "alignments/random_doreco", lang, gold=True)
             
             aas_scores = []

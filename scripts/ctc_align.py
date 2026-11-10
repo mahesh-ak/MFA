@@ -12,6 +12,12 @@ from tqdm.auto import tqdm
 import torch
 import soundfile as sf
 
+# optional dependency: only needed when use_fam_aligner=True
+try:
+    from forced_aligner_metrics import CTCAligner as _FAM_CTCAligner
+except ImportError:
+    _FAM_CTCAligner = None
+
 SILENCE_RATIO=0.05
 MIN_WORD_DUR=0.04
 MIN_PHONE_DUR=0.02
@@ -461,6 +467,96 @@ def detect_speech_bounds(audio, factor=0.05):
 
     return idx[0], idx[-1]
 
+
+class FAMCTCAligner:
+    """
+    Alignment backend that uses the GPU CTCAligner from
+    forced-aligner-metrics
+    (https://github.com/mahesh-ak/forced-aligner-metrics) as documented:
+    ``CTCAligner.align_batch(audios, texts)`` followed by
+    ``CTCAligner.intervals_batch(results)``. One DP pass per audio yields
+    both the phones (character) tier and the words tier; silence trimming
+    is the aligner's own (``trim_silence=True`` by default in v1.1.0+).
+
+    Returns alignments in the same format as CTCSegmentation above:
+    {"words": [...], "phones": [...]} dicts with "text"/"start"/"end"
+    keys, so the TextGrid output remains unchanged.
+    """
+
+    def __init__(self, model_path, device=None, batch_size=8):
+        if _FAM_CTCAligner is None:
+            raise ImportError(
+                "use_fam_aligner=True requires the forced-aligner-metrics "
+                "package: pip install forced-aligner-metrics"
+            )
+        if not device:
+            device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.aligner = _FAM_CTCAligner(model_path, device=device, batch_size=batch_size)
+        self.total_failures = 0
+
+    def load_adapter(self, lang):
+        self.aligner.model.load_adapter(lang)
+
+    def get_word_and_timestamps_batch(
+        self,
+        audios: List[np.ndarray],
+        ipa_transcripts: List[str],
+        transcripts: Optional[List[str]] = None,
+        trim_silence: bool = True,
+    ) -> List[dict]:
+
+        if not transcripts:
+            transcripts = ipa_transcripts
+
+        # batched CTC forward + per-item DP, exactly as documented
+        try:
+            results = self.aligner.align_batch(
+                audios, ipa_transcripts, batch_size=len(audios)
+            )
+        except Exception:
+            # fall back to per-item align() so one bad item doesn't kill the batch
+            results = []
+            for audio, text in zip(audios, ipa_transcripts):
+                try:
+                    results.append(self.aligner.align(audio, text))
+                except Exception:
+                    self.total_failures += 1
+                    results.append(None)
+
+        # batched interval materialization (+ batched silence trimming by default)
+        alignments: List[Optional[dict]] = [None] * len(results)
+        valid = [(i, r) for i, r in enumerate(results) if r is not None]
+        if valid:
+            tiers_list = self.aligner.intervals_batch(
+                [r for _, r in valid],
+                trim_silence=trim_silence,
+            )
+            for (i, _), tiers in zip(valid, tiers_list):
+                alignments[i] = tiers
+
+        out = []
+        for align, transcript in zip(alignments, transcripts):
+            if align is None:
+                out.append({"words": [], "phones": []})
+                continue
+
+            # the aligner's words tier carries the aligned IPA strings;
+            # relabel positionally with the orthographic words so the
+            # TextGrids match the other aligners' format
+            word_entries = align.get("words", [])
+            orth_words = transcript.split()
+            filled = [w for w in word_entries if w.get("text")]
+            if len(filled) == len(orth_words):
+                it = iter(orth_words)
+                for w in word_entries:
+                    if w.get("text"):
+                        w["text"] = next(it)
+
+            out.append(align)
+
+        return out
+
+
 def compute_global_threshold(
     audio,
     factor=SILENCE_RATIO,
@@ -613,11 +709,21 @@ def trim_alignment_silence(
 
     return alignment
 
-def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=None, save_audio=False, trim_silence=False, split='test'):
+def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=None, save_audio=False, trim_silence=False, split='test', use_fam_aligner=False, batch_size=2):
     if not device:
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-    if os.path.exists(model_path):
+    fam_aligner = None
+
+    if use_fam_aligner:
+        # GPU CTCAligner from forced-aligner-metrics: it loads the model
+        # (and its language adapters) itself, and trims silences itself
+        # (trim_silence=True by default in v1.1.0+)
+        fam_aligner = FAMCTCAligner(model_path, device=device, batch_size=batch_size)
+        processor = None
+        model = None
+        tokenizer = None
+    elif os.path.exists(model_path):
         processor = Wav2Vec2Processor.from_pretrained(model_path)
         model = Wav2Vec2ForCTC.from_pretrained(model_path)
         tokenizer = processor.tokenizer
@@ -631,6 +737,8 @@ def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=
         model.to(device)
     
     output_path = os.path.join(align_dir, os.path.basename(model_path) if model_path[-1] != '/' else os.path.basename(model_path[:-1]))
+    if use_fam_aligner:
+        output_path += "-FAM"
     if trim_silence:
         output_path += "-SIL"
     os.makedirs(output_path, exist_ok=True)
@@ -674,13 +782,15 @@ def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=
 
         if model:
             model.load_adapter(lang)
+        if fam_aligner:
+            fam_aligner.load_adapter(lang)
         alignments = []
         audio_filenames = []
         audio_durs = []
 
         gold_alignments = []
 
-        for batch in batch_iterator(test_dataset, batch_size=2):
+        for batch in batch_iterator(test_dataset, batch_size=batch_size):
 
             # audio arrays
             audios = [x["audio"]["array"][:360000] for x in batch]
@@ -694,45 +804,54 @@ def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=
                     phs, wrds = phones_to_string(x)
                     ipa_transcripts.append(phs)
                     transcripts.append(wrds)
-            if model:
-                # processor handles padding dynamically
-                inputs = processor(
-                    audios,
-                    sampling_rate=16000,
-                    return_tensors="pt",
-                    padding=True,
-                )
-    
-                inputs = {k: v.to(device) for k, v in inputs.items()}
-                audio_lengths = inputs["attention_mask"].sum(-1)
-                logit_lengths = model._get_feat_extract_output_lengths(audio_lengths).cpu().numpy()
-                audio_lengths = audio_lengths.cpu().numpy()
-                with torch.no_grad():
-                    logits = model(**inputs).logits
-    
-                probs_batch = torch.softmax(logits, dim=-1).cpu().numpy()
-            
-            else:
-                audio_lengths = []
-                probs_batch = []
-                logit_lengths = []
-                speech_offsets = []
-        
-                for audio in audios:
-                    start, end = detect_speech_bounds(audio)
-                    speech_offsets.append((start, end))
-                    audio_lengths.append(end - start)
-                    probs_batch.append(None)
-                    logit_lengths.append(100)
-
-            alignments_batch = ctc_segmentor.get_word_and_timestamps_batch(
-                    probs_batch=probs_batch,
-                    audio_lens=audio_lengths,
-                    frame_lens=logit_lengths,
+            if fam_aligner:
+                alignments_batch = fam_aligner.get_word_and_timestamps_batch(
+                    audios=audios,
                     ipa_transcripts=ipa_transcripts,
-                    transcripts=transcripts
+                    transcripts=transcripts,
+                    trim_silence=trim_silence,
                 )
-            if trim_silence:
+            else:
+                if model:
+                    # processor handles padding dynamically
+                    inputs = processor(
+                        audios,
+                        sampling_rate=16000,
+                        return_tensors="pt",
+                        padding=True,
+                    )
+    
+                    inputs = {k: v.to(device) for k, v in inputs.items()}
+                    audio_lengths = inputs["attention_mask"].sum(-1)
+                    logit_lengths = model._get_feat_extract_output_lengths(audio_lengths).cpu().numpy()
+                    audio_lengths = audio_lengths.cpu().numpy()
+                    with torch.no_grad():
+                        logits = model(**inputs).logits
+    
+                    probs_batch = torch.softmax(logits, dim=-1).cpu().numpy()
+                
+                else:
+                    audio_lengths = []
+                    probs_batch = []
+                    logit_lengths = []
+                    speech_offsets = []
+            
+                    for audio in audios:
+                        start, end = detect_speech_bounds(audio)
+                        speech_offsets.append((start, end))
+                        audio_lengths.append(end - start)
+                        probs_batch.append(None)
+                        logit_lengths.append(100)
+
+                alignments_batch = ctc_segmentor.get_word_and_timestamps_batch(
+                        probs_batch=probs_batch,
+                        audio_lens=audio_lengths,
+                        frame_lens=logit_lengths,
+                        ipa_transcripts=ipa_transcripts,
+                        transcripts=transcripts
+                    )
+            if trim_silence and not fam_aligner:
+                # the FAM aligner already trims silences itself
                 alignments_batch = [
                     trim_alignment_silence(
                         alignment,
@@ -744,7 +863,7 @@ def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=
                         audios,
                     )
                 ]
-            if not model:
+            if not model and not fam_aligner:
                 for alignment, (start_sample, _) in zip(alignments_batch, speech_offsets):
     
                     offset_sec = start_sample / 16000
@@ -802,12 +921,16 @@ def alignData(dataset="fleurs", align_dir="alignments", model_path=None, device=
                 audio_durs,
             )
         
-    print("Total failures:", ctc_segmentor.total_failures)
+    print("Total failures:", (fam_aligner.total_failures if fam_aligner else ctc_segmentor.total_failures))
     
     
 if __name__=="__main__":
     fleurs_models = ['random', 'models/mms-300m-ipa', 'models/w2v2-lv-60-espeak-ipa']
     doreco_models = ['random_doreco', 'models/mms-300m-ipa-doreco']
+
+    # CTCAligner of forced-aligner-metrics (models/mms-*)
+    fleurs_fam_models = ['models/mms-300m-ipa']
+    doreco_fam_models = ['models/mms-300m-ipa-doreco']
 
     for model in fleurs_models:
         alignData(dataset='fleurs', align_dir="alignments", model_path=model, trim_silence=False)
@@ -820,6 +943,16 @@ if __name__=="__main__":
             alignData(dataset='doreco_dataset', align_dir="alignments", model_path=model, trim_silence=True)
         else:
             alignData(dataset='doreco_dataset', align_dir="alignments", model_path=model, trim_silence=False, save_audio=True)
+
+    # CTCAligner of forced-aligner-metrics (models/mms-*); it cuts silences
+    # by default (v1.1.0+) - pass trim_silence=False to switch that off
+    for model in fleurs_fam_models:
+        alignData(dataset='fleurs', align_dir="alignments", model_path=model, trim_silence=True, use_fam_aligner=True, batch_size=4)
+        alignData(dataset='fleurs', align_dir="alignments", model_path=model, trim_silence=False, use_fam_aligner=True, batch_size=4)
+
+    for model in doreco_fam_models:
+        alignData(dataset='doreco_dataset', align_dir="alignments", model_path=model, trim_silence=True, use_fam_aligner=True, batch_size=4)
+        alignData(dataset='doreco_dataset', align_dir="alignments", model_path=model, trim_silence=False, use_fam_aligner=True, batch_size=4)
    
 
    
