@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 os.environ["OPENBLAS_NUM_THREADS"] = "2"
 os.environ["OMP_NUM_THREADS"] = "2"
 
@@ -24,16 +24,11 @@ def batch_iterator(iterable, batch_size):
 
 LANGS = ['af_za', 'am_et', 'ar_eg', 'ast_es', 'az_az', 'be_by', 'bg_bg', 'bn_in', 'ca_es', 'ceb_ph', 'ckb_iq', 'cmn_hans_cn', 'cs_cz', 'cy_gb', 'da_dk', 'de_de', 'el_gr', 'en_us', 'es_419', 'et_ee', 'fa_ir', 'ff_sn', 'fi_fi', 'fr_fr', 'ga_ie', 'gl_es', 'ha_ng', 'he_il', 'hi_in', 'hr_hr', 'hu_hu', 'hy_am', 'id_id', 'it_it', 'ja_jp', 'jv_id', 'ka_ge', 'kk_kz', 'km_kh', 'kn_in', 'ko_kr', 'ky_kg', 'lg_ug', 'lo_la', 'lt_lt', 'lv_lv', 'mi_nz', 'mk_mk', 'ml_in', 'mn_mn', 'mr_in', 'ms_my', 'mt_mt', 'my_mm', 'nb_no', 'ne_np', 'nl_nl', 'ny_mw', 'om_et', 'or_in', 'pa_in', 'pl_pl', 'ps_af', 'pt_br', 'ro_ro', 'ru_ru', 'sl_si', 'sn_zw', 'so_so', 'sv_se', 'sw_ke', 'ta_in', 'te_in', 'tg_tj', 'th_th', 'tr_tr', 'uk_ua', 'ur_pk', 'uz_uz', 'vi_vn', 'wo_sn', 'xh_za', 'yo_ng', 'yue_hant_hk', 'zu_za']
 
-from forced_aligner_metrics import ForcedAlignEval, ForcedAlignEvalConfig
+from forced_aligner_metrics import ForcedAlignEval, ForcedAlignEvalConfig, compute_aas
 from scipy.io import wavfile
 from tqdm import tqdm
 import numpy as np
 import os, json, gc
-# ---------------------------------------------------------
-# AAS
-# ---------------------------------------------------------
-from difflib import SequenceMatcher
-import numpy as np
 import textgrid
 
 def load_tg(path,word_tier="words",phone_tier="phones"):
@@ -101,53 +96,6 @@ def adapt_metrics(metrics):
 
     return {"nmi": nmi, "wacs": wacs}
 
-def compute_aas(gold,pred):
-
-    def align_and_score(g,p):
-
-        gl=[x["text"] for x in g]
-        pl=[x["text"] for x in p]
-
-        sm=SequenceMatcher(a=gl,b=pl)
-
-        errs=[]
-
-        for tag,i1,i2,j1,j2 in sm.get_opcodes():
-
-            if tag=="equal":
-
-                for gx,px in zip(g[i1:i2],p[j1:j2]):
-
-                    e=(
-                        abs(gx["start"]-px["start"])+
-                        abs(gx["end"]-px["end"])
-                    )/2
-
-                    errs.append(e)
-
-            else:
-                # insertion/deletion/substitution
-                bad=g[i1:i2]
-
-                for x in bad:
-                    errs.append(x["end"]-x["start"])
-
-        if len(errs)==0:
-            return None, None
-        
-        return 1000*np.mean(errs), np.array(errs)
-
-    _,gw,gp=load_tg(gold)
-    _,pw,pp=load_tg(pred)
-
-    waas, errs =align_and_score(gw,pw)
-    paas, _ =align_and_score(gp,pp)
-
-    return {
-        "word_aas_ms":round(float(waas),3) if waas is not None else None,
-        "phone_aas_ms":round(float(paas),3) if paas is not None else None,
-    }
-    
 # ---------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------
@@ -160,22 +108,26 @@ DORECO_LANGS = sorted(
     )
 
 ALIGN_DIRS=[
-    "alignments/qwen3-FA/",
-    "alignments/mms-300m-ipa/",
-    "alignments/random/",
-    "alignments/mfa/",
-    "alignments/w2v2-lv-60-espeak-ipa/",
-    "alignments/gold_doreco",
-    "alignments/random_doreco/",
-    "alignments/mms-300m-ipa-doreco-SIL/",
-    "alignments/mms-300m-ipa-doreco/",
-    "alignments/w2v2-lv-60-espeak-ipa-doreco-SIL/",
-    "alignments/w2v2-lv-60-espeak-ipa-doreco/",
+#    "alignments/qwen3-FA/",
+#    "alignments/mms-300m-ipa/",
+#    "alignments/random/",
+#    "alignments/mfa/",
+#    "alignments/w2v2-lv-60-espeak-ipa/",
+#    "alignments/gold_doreco",
+#    "alignments/random_doreco/",
+#    "alignments/mms-300m-ipa-doreco-SIL/",
+    "alignments/mms-300m-ipa-FAM-SIL/",
+    "alignments/mms-300m-ipa-FAM/",
+#    "alignments/mms-300m-ipa-doreco-FAM/",
+#    "alignments/mms-300m-ipa-doreco-FAM-SIL/",
+#    "alignments/mms-300m-ipa-doreco/",
+#    "alignments/w2v2-lv-60-espeak-ipa-doreco-SIL/",
+#    "alignments/w2v2-lv-60-espeak-ipa-doreco/",
 ]
 
 MODELS=[
     "facebook/mms-300m",
-    "facebook/wav2vec2-large-xlsr-53"
+#    "facebook/wav2vec2-large-xlsr-53"
 ]
 
 SAMPLE_SIZE=250
@@ -412,12 +364,16 @@ for lang in tqdm(DORECO_LANGS, desc="languages"):
                 intervals_iter=tg_iter(tg_paths)
             ))
             gold_tg_paths = resolve_tg_paths(items, "alignments/random_doreco", lang, gold=True)
-            
-            aas_scores = []
-            
-            for gold_tg, pred_tg in zip(gold_tg_paths, tg_paths):
-                
-                aas_scores.append(compute_aas(gold_tg, pred_tg))
+
+            # AAS from the library's compute_aas on interval dicts
+            # (same format as ForcedAlignEval.compute_metrics input)
+            aas_scores = [
+                compute_aas(gold_intervals, pred_intervals)
+                for gold_intervals, pred_intervals in zip(
+                    tg_iter(gold_tg_paths),
+                    tg_iter(tg_paths),
+                )
+            ]
 
             
             metrics["aas"] = {

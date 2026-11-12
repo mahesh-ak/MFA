@@ -2,18 +2,18 @@
   "af_za": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3523301359386487,
-        "label_entropy_norm": 0.9125964347506725,
-        "frames": 9716,
+        "nmi": 0.33484301218731843,
+        "label_entropy_norm": 0.911534586193119,
+        "frames": 9700,
         "labels": 37
       },
       "wacs": {
-        "wacs": 0.22382130297019215,
-        "positive": 0.6104545368088553,
-        "negative": 0.38663323383866316,
-        "positive_pairs": 1516,
+        "wacs": 0.2097319700933858,
+        "positive": 0.5996655608476981,
+        "negative": 0.3899335907543123,
+        "positive_pairs": 1494,
         "negative_pairs": 996,
-        "cohen_d": 1.997574119385093,
+        "cohen_d": 1.826682240603584,
         "vocab_size": 200
       }
     }
@@ -21,18 +21,18 @@
   "am_et": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.43057355231067707,
-        "label_entropy_norm": 0.9084389355079389,
-        "frames": 9725,
-        "labels": 35
+        "nmi": 0.40536826165104745,
+        "label_entropy_norm": 0.8928258743581735,
+        "frames": 9516,
+        "labels": 42
       },
       "wacs": {
-        "wacs": 0.2451066506500325,
-        "positive": 0.6381807628903239,
-        "negative": 0.3930741122402914,
-        "positive_pairs": 1329,
-        "negative_pairs": 995,
-        "cohen_d": 2.5721126704019808,
+        "wacs": 0.2451318529955263,
+        "positive": 0.6440887980074753,
+        "negative": 0.398956945011949,
+        "positive_pairs": 1146,
+        "negative_pairs": 998,
+        "cohen_d": 2.6350480672986527,
         "vocab_size": 200
       }
     }
@@ -40,18 +40,18 @@
   "ar_eg": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3787424833472874,
-        "label_entropy_norm": 0.8826357165768177,
-        "frames": 9678,
-        "labels": 38
+        "nmi": 0.3943047709367676,
+        "label_entropy_norm": 0.9209351118162467,
+        "frames": 9759,
+        "labels": 33
       },
       "wacs": {
-        "wacs": 0.24389868493162126,
-        "positive": 0.6208897313400671,
-        "negative": 0.37699104640844583,
-        "positive_pairs": 1354,
-        "negative_pairs": 996,
-        "cohen_d": 2.842853120418741,
+        "wacs": 0.2500390948550827,
+        "positive": 0.6215097906554262,
+        "negative": 0.37147069580034353,
+        "positive_pairs": 1335,
+        "negative_pairs": 997,
+        "cohen_d": 3.0448917517075764,
         "vocab_size": 200
       }
     }
@@ -59,18 +59,18 @@
   "ast_es": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.40779637451412254,
-        "label_entropy_norm": 0.9421667810449132,
-        "frames": 9759,
+        "nmi": 0.4253843868213983,
+        "label_entropy_norm": 0.9405914157145204,
+        "frames": 9679,
         "labels": 25
       },
       "wacs": {
-        "wacs": 0.20040359009842978,
-        "positive": 0.5954110409443218,
-        "negative": 0.39500745084589206,
-        "positive_pairs": 1493,
+        "wacs": 0.2059643713949154,
+        "positive": 0.6034743116460134,
+        "negative": 0.397509940251098,
+        "positive_pairs": 1441,
         "negative_pairs": 996,
-        "cohen_d": 2.1179174624258197,
+        "cohen_d": 2.366045074408089,
         "vocab_size": 200
       }
     }
@@ -78,18 +78,18 @@
   "az_az": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.37468113809665116,
-        "label_entropy_norm": 0.930262112073543,
-        "frames": 9846,
-        "labels": 33
+        "nmi": 0.341552685729943,
+        "label_entropy_norm": 0.9267571803022779,
+        "frames": 9848,
+        "labels": 35
       },
       "wacs": {
-        "wacs": 0.2617021299593019,
-        "positive": 0.6405265301437599,
-        "negative": 0.378824400184458,
-        "positive_pairs": 1443,
-        "negative_pairs": 995,
-        "cohen_d": 2.843244426669495,
+        "wacs": 0.24463373235382363,
+        "positive": 0.6192155772082583,
+        "negative": 0.37458184485443463,
+        "positive_pairs": 1469,
+        "negative_pairs": 994,
+        "cohen_d": 2.4524876174393033,
         "vocab_size": 200
       }
     }
@@ -97,18 +97,18 @@
   "be_by": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.39712036810461726,
-        "label_entropy_norm": 0.9205424106909702,
-        "frames": 9880,
-        "labels": 29
+        "nmi": 0.41459821526039864,
+        "label_entropy_norm": 0.8850256221329543,
+        "frames": 9761,
+        "labels": 34
       },
       "wacs": {
-        "wacs": 0.23618891075543602,
-        "positive": 0.5895274671245236,
-        "negative": 0.3533385563690876,
-        "positive_pairs": 1506,
-        "negative_pairs": 990,
-        "cohen_d": 2.317311972195023,
+        "wacs": 0.23794479279987696,
+        "positive": 0.5880292515589902,
+        "negative": 0.35008445875911326,
+        "positive_pairs": 1483,
+        "negative_pairs": 997,
+        "cohen_d": 2.3953480451057265,
         "vocab_size": 200
       }
     }
@@ -116,18 +116,18 @@
   "bg_bg": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3903567081125294,
-        "label_entropy_norm": 0.881730866810769,
-        "frames": 9572,
+        "nmi": 0.37388734211172586,
+        "label_entropy_norm": 0.8795171489356918,
+        "frames": 9589,
         "labels": 33
       },
       "wacs": {
-        "wacs": 0.23216295572868878,
-        "positive": 0.6217224534970411,
-        "negative": 0.38955949776835236,
-        "positive_pairs": 1378,
-        "negative_pairs": 994,
-        "cohen_d": 2.545647846924781,
+        "wacs": 0.2464199975292493,
+        "positive": 0.6345660989966649,
+        "negative": 0.3881461014674156,
+        "positive_pairs": 1462,
+        "negative_pairs": 996,
+        "cohen_d": 2.7136735446401397,
         "vocab_size": 200
       }
     }
@@ -135,18 +135,18 @@
   "bn_in": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3428848070069957,
-        "label_entropy_norm": 0.8984374782261689,
-        "frames": 9730,
-        "labels": 40
+        "nmi": 0.35004284881778236,
+        "label_entropy_norm": 0.8868550110294743,
+        "frames": 9688,
+        "labels": 45
       },
       "wacs": {
-        "wacs": 0.22327828980656117,
-        "positive": 0.6370254262320048,
-        "negative": 0.4137471364254436,
-        "positive_pairs": 1633,
-        "negative_pairs": 993,
-        "cohen_d": 2.3948747749461856,
+        "wacs": 0.22149164696204354,
+        "positive": 0.6367993741529638,
+        "negative": 0.4153077271909203,
+        "positive_pairs": 1532,
+        "negative_pairs": 996,
+        "cohen_d": 2.493830773726444,
         "vocab_size": 200
       }
     }
@@ -154,18 +154,18 @@
   "ca_es": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.395876680299004,
-        "label_entropy_norm": 0.8610066532365891,
-        "frames": 9498,
-        "labels": 33
+        "nmi": 0.36923957565407534,
+        "label_entropy_norm": 0.8547493560059001,
+        "frames": 9315,
+        "labels": 36
       },
       "wacs": {
-        "wacs": 0.2336963489571373,
-        "positive": 0.6107455521057847,
-        "negative": 0.3770492031486474,
-        "positive_pairs": 1486,
-        "negative_pairs": 992,
-        "cohen_d": 2.3921106237497387,
+        "wacs": 0.22841209128827528,
+        "positive": 0.6138196444340822,
+        "negative": 0.38540755314580694,
+        "positive_pairs": 1477,
+        "negative_pairs": 995,
+        "cohen_d": 2.481341255396873,
         "vocab_size": 200
       }
     }
@@ -173,18 +173,18 @@
   "ceb_ph": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3783773133940933,
-        "label_entropy_norm": 0.8780126594744707,
-        "frames": 9748,
-        "labels": 29
+        "nmi": 0.37486872819378286,
+        "label_entropy_norm": 0.8997996147116959,
+        "frames": 9751,
+        "labels": 28
       },
       "wacs": {
-        "wacs": 0.1996867108923922,
-        "positive": 0.6023492706702624,
-        "negative": 0.40266255977787024,
-        "positive_pairs": 1591,
-        "negative_pairs": 988,
-        "cohen_d": 1.8051560724318403,
+        "wacs": 0.2040384742835728,
+        "positive": 0.5996829676343068,
+        "negative": 0.39564449335073404,
+        "positive_pairs": 1545,
+        "negative_pairs": 995,
+        "cohen_d": 1.7789883637428252,
         "vocab_size": 200
       }
     }
@@ -192,18 +192,18 @@
   "ckb_iq": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4019128949345006,
-        "label_entropy_norm": 0.9052419263995158,
-        "frames": 9683,
-        "labels": 34
+        "nmi": 0.3886241217173638,
+        "label_entropy_norm": 0.910183429872883,
+        "frames": 9669,
+        "labels": 36
       },
       "wacs": {
-        "wacs": 0.19970563948346065,
-        "positive": 0.612807412559752,
-        "negative": 0.41310177307629137,
-        "positive_pairs": 1349,
+        "wacs": 0.19951526329856561,
+        "positive": 0.6056616559899607,
+        "negative": 0.4061463926913951,
+        "positive_pairs": 1386,
         "negative_pairs": 997,
-        "cohen_d": 2.2457250285464814,
+        "cohen_d": 2.0980442004419304,
         "vocab_size": 200
       }
     }
@@ -211,18 +211,18 @@
   "cmn_hans_cn": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3965103875342382,
-        "label_entropy_norm": 0.8575298186047859,
-        "frames": 9466,
-        "labels": 39
+        "nmi": 0.39185753185157635,
+        "label_entropy_norm": 0.8492089646745213,
+        "frames": 9451,
+        "labels": 45
       },
       "wacs": {
-        "wacs": 0.24287563988909266,
-        "positive": 0.6273827064179768,
-        "negative": 0.3845070665288841,
-        "positive_pairs": 1652,
-        "negative_pairs": 990,
-        "cohen_d": 2.6861514297314377,
+        "wacs": 0.24204307742158315,
+        "positive": 0.6255941094390702,
+        "negative": 0.3835510320174871,
+        "positive_pairs": 1657,
+        "negative_pairs": 994,
+        "cohen_d": 2.8036735419551686,
         "vocab_size": 200
       }
     }
@@ -230,18 +230,18 @@
   "cs_cz": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.42591873740593744,
-        "label_entropy_norm": 0.9301337533371888,
-        "frames": 9840,
-        "labels": 32
+        "nmi": 0.4304003750209509,
+        "label_entropy_norm": 0.9302498302051159,
+        "frames": 9830,
+        "labels": 34
       },
       "wacs": {
-        "wacs": 0.25865872092954006,
-        "positive": 0.6356344431969015,
-        "negative": 0.3769757222673615,
-        "positive_pairs": 1338,
-        "negative_pairs": 998,
-        "cohen_d": 2.942921087838604,
+        "wacs": 0.2500806306007924,
+        "positive": 0.6238796614886565,
+        "negative": 0.3737990308878641,
+        "positive_pairs": 1407,
+        "negative_pairs": 996,
+        "cohen_d": 2.725859186281711,
         "vocab_size": 200
       }
     }
@@ -249,18 +249,18 @@
   "cy_gb": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.35040211417665057,
-        "label_entropy_norm": 0.9070045574250059,
-        "frames": 9762,
-        "labels": 42
+        "nmi": 0.36543439788791715,
+        "label_entropy_norm": 0.9081753314703557,
+        "frames": 9739,
+        "labels": 43
       },
       "wacs": {
-        "wacs": 0.20408729911022455,
-        "positive": 0.5672668448457893,
-        "negative": 0.3631795457355647,
-        "positive_pairs": 1820,
-        "negative_pairs": 997,
-        "cohen_d": 1.995118059649874,
+        "wacs": 0.20463543632358228,
+        "positive": 0.5731036209632395,
+        "negative": 0.36846818463965725,
+        "positive_pairs": 1784,
+        "negative_pairs": 990,
+        "cohen_d": 1.9043271177107053,
         "vocab_size": 200
       }
     }
@@ -268,18 +268,18 @@
   "da_dk": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3161247769567955,
-        "label_entropy_norm": 0.8647095141819785,
-        "frames": 9455,
-        "labels": 33
+        "nmi": 0.3118614060024198,
+        "label_entropy_norm": 0.877065525219409,
+        "frames": 9500,
+        "labels": 32
       },
       "wacs": {
-        "wacs": 0.2291764754151468,
-        "positive": 0.6257626142574769,
-        "negative": 0.3965861388423301,
-        "positive_pairs": 1417,
-        "negative_pairs": 997,
-        "cohen_d": 2.4939405703039896,
+        "wacs": 0.22779228011086194,
+        "positive": 0.6238360524609552,
+        "negative": 0.39604377235009325,
+        "positive_pairs": 1517,
+        "negative_pairs": 995,
+        "cohen_d": 2.463363819960758,
         "vocab_size": 200
       }
     }
@@ -287,18 +287,18 @@
   "de_de": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3461134966808073,
-        "label_entropy_norm": 0.9254883536426516,
-        "frames": 9844,
-        "labels": 32
+        "nmi": 0.3452390676556782,
+        "label_entropy_norm": 0.9086310641881744,
+        "frames": 9786,
+        "labels": 36
       },
       "wacs": {
-        "wacs": 0.21151052547161198,
-        "positive": 0.6094615491999381,
-        "negative": 0.39795102372832614,
-        "positive_pairs": 1395,
-        "negative_pairs": 996,
-        "cohen_d": 2.2687712552519965,
+        "wacs": 0.19890893564565781,
+        "positive": 0.6004938352756375,
+        "negative": 0.4015848996299797,
+        "positive_pairs": 1371,
+        "negative_pairs": 991,
+        "cohen_d": 2.1744933797401877,
         "vocab_size": 200
       }
     }
@@ -306,18 +306,18 @@
   "el_gr": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.37668514622384675,
-        "label_entropy_norm": 0.8565888481466615,
-        "frames": 9428,
-        "labels": 37
+        "nmi": 0.3849457893349477,
+        "label_entropy_norm": 0.8589185132726332,
+        "frames": 9480,
+        "labels": 36
       },
       "wacs": {
-        "wacs": 0.21498060896822196,
-        "positive": 0.6042525474168741,
-        "negative": 0.3892719384486521,
-        "positive_pairs": 1479,
-        "negative_pairs": 992,
-        "cohen_d": 2.226891296133527,
+        "wacs": 0.22858187351343157,
+        "positive": 0.6209948778163183,
+        "negative": 0.3924130043028868,
+        "positive_pairs": 1511,
+        "negative_pairs": 998,
+        "cohen_d": 2.371392215115501,
         "vocab_size": 200
       }
     }
@@ -325,18 +325,18 @@
   "en_us": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.35521240003390053,
-        "label_entropy_norm": 0.9552310355298971,
-        "frames": 9850,
-        "labels": 37
+        "nmi": 0.3594185272316579,
+        "label_entropy_norm": 0.9460240311061283,
+        "frames": 9788,
+        "labels": 39
       },
       "wacs": {
-        "wacs": 0.20343552020310157,
-        "positive": 0.6067876327839189,
-        "negative": 0.4033521125808173,
-        "positive_pairs": 1590,
-        "negative_pairs": 996,
-        "cohen_d": 2.283847660372468,
+        "wacs": 0.1979472729082784,
+        "positive": 0.6022006759887247,
+        "negative": 0.4042534030804463,
+        "positive_pairs": 1553,
+        "negative_pairs": 998,
+        "cohen_d": 2.1082397754828084,
         "vocab_size": 200
       }
     }
@@ -344,18 +344,18 @@
   "es_419": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4487199148633348,
-        "label_entropy_norm": 0.8931656662384527,
-        "frames": 9677,
-        "labels": 26
+        "nmi": 0.4376026948213526,
+        "label_entropy_norm": 0.8811148737101147,
+        "frames": 9564,
+        "labels": 28
       },
       "wacs": {
-        "wacs": 0.25172961917964215,
-        "positive": 0.6312230775711389,
-        "negative": 0.3794934583914968,
-        "positive_pairs": 1494,
-        "negative_pairs": 995,
-        "cohen_d": 2.8548443234129732,
+        "wacs": 0.24970951216722598,
+        "positive": 0.6382312194274187,
+        "negative": 0.3885217072601927,
+        "positive_pairs": 1480,
+        "negative_pairs": 996,
+        "cohen_d": 2.7837239407264316,
         "vocab_size": 200
       }
     }
@@ -363,37 +363,37 @@
   "et_ee": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3996748546359354,
-        "label_entropy_norm": 0.9058861094915279,
-        "frames": 9768,
-        "labels": 28
+        "nmi": 0.40116090549158356,
+        "label_entropy_norm": 0.890779577128319,
+        "frames": 9736,
+        "labels": 30
       },
       "wacs": {
-        "wacs": 0.2675550913033772,
-        "positive": 0.6634527019366664,
-        "negative": 0.3958976106332892,
-        "positive_pairs": 1032,
-        "negative_pairs": 838,
-        "cohen_d": 2.9864778342213287,
-        "vocab_size": 168
+        "wacs": 0.2723324479067596,
+        "positive": 0.6554762883814584,
+        "negative": 0.38314384047469885,
+        "positive_pairs": 1069,
+        "negative_pairs": 853,
+        "cohen_d": 3.0104678823086517,
+        "vocab_size": 172
       }
     }
   },
   "fa_ir": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3778977228482699,
-        "label_entropy_norm": 0.9029497182246111,
-        "frames": 9872,
-        "labels": 27
+        "nmi": 0.3619508770671269,
+        "label_entropy_norm": 0.8957588952362985,
+        "frames": 9826,
+        "labels": 30
       },
       "wacs": {
-        "wacs": 0.25243818072379903,
-        "positive": 0.6314805499250375,
-        "negative": 0.3790423692012385,
-        "positive_pairs": 1772,
-        "negative_pairs": 995,
-        "cohen_d": 2.670427303929037,
+        "wacs": 0.24857944222099332,
+        "positive": 0.6261837091430649,
+        "negative": 0.37760426692207155,
+        "positive_pairs": 1816,
+        "negative_pairs": 997,
+        "cohen_d": 2.5294669442434445,
         "vocab_size": 200
       }
     }
@@ -401,18 +401,18 @@
   "ff_sn": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3818982937613136,
-        "label_entropy_norm": 0.9221029863843289,
-        "frames": 9845,
-        "labels": 31
+        "nmi": 0.34606922282475766,
+        "label_entropy_norm": 0.9184694961310584,
+        "frames": 9816,
+        "labels": 32
       },
       "wacs": {
-        "wacs": 0.17217475884320843,
-        "positive": 0.5764901098577131,
-        "negative": 0.40431535101450466,
-        "positive_pairs": 1824,
-        "negative_pairs": 993,
-        "cohen_d": 1.632284566271854,
+        "wacs": 0.16426682940480336,
+        "positive": 0.5615421044603429,
+        "negative": 0.39727527505553956,
+        "positive_pairs": 1888,
+        "negative_pairs": 992,
+        "cohen_d": 1.4249070204418686,
         "vocab_size": 200
       }
     }
@@ -420,37 +420,37 @@
   "fi_fi": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.42367639730811774,
-        "label_entropy_norm": 0.87781328319595,
-        "frames": 9525,
-        "labels": 34
+        "nmi": 0.4078282918427456,
+        "label_entropy_norm": 0.893717172489784,
+        "frames": 9618,
+        "labels": 32
       },
       "wacs": {
-        "wacs": 0.24995855649599635,
-        "positive": 0.6394109270378047,
-        "negative": 0.3894523705418083,
-        "positive_pairs": 1098,
-        "negative_pairs": 947,
-        "cohen_d": 3.2231624056361547,
-        "vocab_size": 191
+        "wacs": 0.2568070819064617,
+        "positive": 0.6448826257440179,
+        "negative": 0.3880755438375562,
+        "positive_pairs": 964,
+        "negative_pairs": 849,
+        "cohen_d": 3.417533361682715,
+        "vocab_size": 171
       }
     }
   },
   "fr_fr": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.38706243401049545,
-        "label_entropy_norm": 0.9095933986505779,
-        "frames": 9563,
-        "labels": 39
+        "nmi": 0.37356616181511276,
+        "label_entropy_norm": 0.9031225432905049,
+        "frames": 9520,
+        "labels": 43
       },
       "wacs": {
-        "wacs": 0.22106641208920785,
-        "positive": 0.5896425437779689,
-        "negative": 0.368576131688761,
-        "positive_pairs": 1542,
-        "negative_pairs": 997,
-        "cohen_d": 2.3050906802141515,
+        "wacs": 0.23290088130819442,
+        "positive": 0.5903861182665407,
+        "negative": 0.35748523695834633,
+        "positive_pairs": 1562,
+        "negative_pairs": 996,
+        "cohen_d": 2.440863954335848,
         "vocab_size": 200
       }
     }
@@ -458,18 +458,18 @@
   "ga_ie": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.30909376669371075,
-        "label_entropy_norm": 0.8826634511490214,
-        "frames": 9639,
-        "labels": 38
+        "nmi": 0.3021009639957271,
+        "label_entropy_norm": 0.8762491364337286,
+        "frames": 9621,
+        "labels": 40
       },
       "wacs": {
-        "wacs": 0.17683224535774927,
-        "positive": 0.5832259125530772,
-        "negative": 0.40639366719532793,
-        "positive_pairs": 1821,
-        "negative_pairs": 995,
-        "cohen_d": 1.8311548697859883,
+        "wacs": 0.18130984981782722,
+        "positive": 0.589776723612833,
+        "negative": 0.40846687379500574,
+        "positive_pairs": 1768,
+        "negative_pairs": 998,
+        "cohen_d": 1.77988560075136,
         "vocab_size": 200
       }
     }
@@ -477,18 +477,18 @@
   "gl_es": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3899837731191804,
-        "label_entropy_norm": 0.8633776192074545,
-        "frames": 9239,
-        "labels": 37
+        "nmi": 0.3984724183685529,
+        "label_entropy_norm": 0.8549498874119598,
+        "frames": 9202,
+        "labels": 38
       },
       "wacs": {
-        "wacs": 0.21662811636558676,
-        "positive": 0.62070212271227,
-        "negative": 0.4040740063466832,
-        "positive_pairs": 1497,
-        "negative_pairs": 992,
-        "cohen_d": 2.423641162640794,
+        "wacs": 0.21620261092639265,
+        "positive": 0.6136836575319033,
+        "negative": 0.3974810466055107,
+        "positive_pairs": 1508,
+        "negative_pairs": 997,
+        "cohen_d": 2.3851006814917723,
         "vocab_size": 200
       }
     }
@@ -496,18 +496,18 @@
   "ha_ng": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.38851333248559494,
-        "label_entropy_norm": 0.877207639866758,
-        "frames": 9737,
-        "labels": 30
+        "nmi": 0.4048727480341106,
+        "label_entropy_norm": 0.87566908565844,
+        "frames": 9717,
+        "labels": 34
       },
       "wacs": {
-        "wacs": 0.2044751656794752,
-        "positive": 0.5745527849770536,
-        "negative": 0.37007761929757843,
-        "positive_pairs": 1948,
-        "negative_pairs": 996,
-        "cohen_d": 1.707860887512573,
+        "wacs": 0.21273184882247614,
+        "positive": 0.5837458867715456,
+        "negative": 0.37101403794906945,
+        "positive_pairs": 1896,
+        "negative_pairs": 995,
+        "cohen_d": 1.9035381159947666,
         "vocab_size": 200
       }
     }
@@ -515,18 +515,18 @@
   "he_il": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.39917740384456807,
-        "label_entropy_norm": 0.9451858732443525,
-        "frames": 9804,
-        "labels": 27
+        "nmi": 0.36144913360350117,
+        "label_entropy_norm": 0.8920172395707634,
+        "frames": 9674,
+        "labels": 34
       },
       "wacs": {
-        "wacs": 0.18178561358352896,
-        "positive": 0.595833641635456,
-        "negative": 0.4140480280519271,
-        "positive_pairs": 1241,
-        "negative_pairs": 999,
-        "cohen_d": 1.7299631038450878,
+        "wacs": 0.17661688809735643,
+        "positive": 0.5845296290000552,
+        "negative": 0.4079127409026988,
+        "positive_pairs": 1234,
+        "negative_pairs": 995,
+        "cohen_d": 1.74908066757332,
         "vocab_size": 200
       }
     }
@@ -534,18 +534,18 @@
   "hi_in": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3843541867645904,
-        "label_entropy_norm": 0.8951200973159198,
-        "frames": 9595,
-        "labels": 43
+        "nmi": 0.3805717649698325,
+        "label_entropy_norm": 0.8993831007916863,
+        "frames": 9602,
+        "labels": 44
       },
       "wacs": {
-        "wacs": 0.22103081579499567,
-        "positive": 0.6058222338695095,
-        "negative": 0.38479141807451384,
-        "positive_pairs": 1753,
-        "negative_pairs": 997,
-        "cohen_d": 2.620061974467031,
+        "wacs": 0.21141361613177262,
+        "positive": 0.5981457801281093,
+        "negative": 0.38673216399633664,
+        "positive_pairs": 1820,
+        "negative_pairs": 995,
+        "cohen_d": 2.4411422619821947,
         "vocab_size": 200
       }
     }
@@ -553,18 +553,18 @@
   "hr_hr": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4046187627981174,
-        "label_entropy_norm": 0.9069891835658066,
-        "frames": 9587,
-        "labels": 30
+        "nmi": 0.3896759659688534,
+        "label_entropy_norm": 0.918597379540497,
+        "frames": 9704,
+        "labels": 33
       },
       "wacs": {
-        "wacs": 0.24444813864480314,
-        "positive": 0.6497618092966859,
-        "negative": 0.4053136706518828,
-        "positive_pairs": 1262,
-        "negative_pairs": 997,
-        "cohen_d": 2.816598925869142,
+        "wacs": 0.23775192598955625,
+        "positive": 0.6418931475817621,
+        "negative": 0.40414122159220583,
+        "positive_pairs": 1243,
+        "negative_pairs": 994,
+        "cohen_d": 2.797637999276083,
         "vocab_size": 200
       }
     }
@@ -572,18 +572,18 @@
   "hu_hu": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3787316801953467,
-        "label_entropy_norm": 0.9407173753723326,
-        "frames": 9868,
-        "labels": 32
+        "nmi": 0.3855947969149177,
+        "label_entropy_norm": 0.9289995460392602,
+        "frames": 9844,
+        "labels": 35
       },
       "wacs": {
-        "wacs": 0.24346905082598008,
-        "positive": 0.6341637722014055,
-        "negative": 0.39069472137542544,
-        "positive_pairs": 1204,
-        "negative_pairs": 997,
-        "cohen_d": 2.714156414457005,
+        "wacs": 0.24500220856362276,
+        "positive": 0.6368186367727018,
+        "negative": 0.391816428209079,
+        "positive_pairs": 1124,
+        "negative_pairs": 995,
+        "cohen_d": 2.8106062617690335,
         "vocab_size": 200
       }
     }
@@ -591,18 +591,18 @@
   "hy_am": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4482050331582113,
-        "label_entropy_norm": 0.9192372282729878,
-        "frames": 9835,
-        "labels": 33
+        "nmi": 0.426478640638322,
+        "label_entropy_norm": 0.9255897107755087,
+        "frames": 9874,
+        "labels": 32
       },
       "wacs": {
-        "wacs": 0.23947991761084952,
-        "positive": 0.6118143387802072,
-        "negative": 0.37233442116935767,
-        "positive_pairs": 1387,
-        "negative_pairs": 995,
-        "cohen_d": 2.5644278458762706,
+        "wacs": 0.24420436235939819,
+        "positive": 0.615578426170776,
+        "negative": 0.3713740638113778,
+        "positive_pairs": 1394,
+        "negative_pairs": 997,
+        "cohen_d": 2.558429526524859,
         "vocab_size": 200
       }
     }
@@ -610,18 +610,18 @@
   "id_id": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.38783382432405256,
-        "label_entropy_norm": 0.9025301863362447,
-        "frames": 9705,
-        "labels": 29
+        "nmi": 0.4035012234906906,
+        "label_entropy_norm": 0.897389371542765,
+        "frames": 9711,
+        "labels": 30
       },
       "wacs": {
-        "wacs": 0.19802419208406263,
-        "positive": 0.6032094366857387,
-        "negative": 0.40518524460167604,
-        "positive_pairs": 1784,
-        "negative_pairs": 996,
-        "cohen_d": 2.3266924757350256,
+        "wacs": 0.20127337434975784,
+        "positive": 0.6105043515257547,
+        "negative": 0.4092309771759968,
+        "positive_pairs": 1724,
+        "negative_pairs": 992,
+        "cohen_d": 2.3486143606525673,
         "vocab_size": 200
       }
     }
@@ -629,18 +629,18 @@
   "it_it": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.41571009903349554,
-        "label_entropy_norm": 0.8724691369000491,
-        "frames": 9670,
-        "labels": 30
+        "nmi": 0.43238383010228504,
+        "label_entropy_norm": 0.8688618406037678,
+        "frames": 9608,
+        "labels": 33
       },
       "wacs": {
-        "wacs": 0.2516636782986097,
-        "positive": 0.6372521816108665,
-        "negative": 0.3855885033122568,
-        "positive_pairs": 1511,
-        "negative_pairs": 998,
-        "cohen_d": 2.829052574445852,
+        "wacs": 0.2498342705298061,
+        "positive": 0.6284197354419189,
+        "negative": 0.37858546491211276,
+        "positive_pairs": 1530,
+        "negative_pairs": 993,
+        "cohen_d": 2.641938609373321,
         "vocab_size": 200
       }
     }
@@ -648,18 +648,18 @@
   "ja_jp": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.41771744642025077,
-        "label_entropy_norm": 0.8659596688892242,
-        "frames": 9592,
-        "labels": 34
+        "nmi": 0.40810240497312095,
+        "label_entropy_norm": 0.8484590839282637,
+        "frames": 9405,
+        "labels": 37
       },
       "wacs": {
-        "wacs": 0.23242437664466487,
-        "positive": 0.637673074409328,
-        "negative": 0.4052486977646631,
-        "positive_pairs": 1816,
-        "negative_pairs": 994,
-        "cohen_d": 2.3500740490721737,
+        "wacs": 0.23547172527655302,
+        "positive": 0.650889823523251,
+        "negative": 0.41541809824669795,
+        "positive_pairs": 1680,
+        "negative_pairs": 996,
+        "cohen_d": 2.3275208823740523,
         "vocab_size": 200
       }
     }
@@ -667,18 +667,18 @@
   "jv_id": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3719277294928731,
-        "label_entropy_norm": 0.9065860573214848,
-        "frames": 9690,
-        "labels": 32
+        "nmi": 0.3892698833335217,
+        "label_entropy_norm": 0.9222624285089577,
+        "frames": 9753,
+        "labels": 31
       },
       "wacs": {
-        "wacs": 0.2052473016407757,
-        "positive": 0.6100778118525763,
-        "negative": 0.40483051021180055,
-        "positive_pairs": 1752,
-        "negative_pairs": 996,
-        "cohen_d": 2.254809974626103,
+        "wacs": 0.2125723611389132,
+        "positive": 0.6166557873050422,
+        "negative": 0.404083426166129,
+        "positive_pairs": 1725,
+        "negative_pairs": 997,
+        "cohen_d": 2.338878161117724,
         "vocab_size": 200
       }
     }
@@ -686,18 +686,18 @@
   "ka_ge": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.40825055386518544,
-        "label_entropy_norm": 0.9032793697445906,
-        "frames": 9724,
-        "labels": 31
+        "nmi": 0.39458213659980207,
+        "label_entropy_norm": 0.8894693899223233,
+        "frames": 9596,
+        "labels": 41
       },
       "wacs": {
-        "wacs": 0.23856396318170664,
-        "positive": 0.6093396241636667,
-        "negative": 0.3707756609819601,
-        "positive_pairs": 1288,
-        "negative_pairs": 992,
-        "cohen_d": 2.725160214872283,
+        "wacs": 0.24625766110952446,
+        "positive": 0.6168619459800314,
+        "negative": 0.37060428487050695,
+        "positive_pairs": 1327,
+        "negative_pairs": 994,
+        "cohen_d": 3.05344772565277,
         "vocab_size": 200
       }
     }
@@ -705,18 +705,18 @@
   "kk_kz": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4247026974172677,
-        "label_entropy_norm": 0.9127334724060389,
-        "frames": 9826,
-        "labels": 36
+        "nmi": 0.4299779559346617,
+        "label_entropy_norm": 0.8958682587019523,
+        "frames": 9779,
+        "labels": 40
       },
       "wacs": {
-        "wacs": 0.23946905401130075,
-        "positive": 0.595817008528998,
-        "negative": 0.35634795451769724,
-        "positive_pairs": 1451,
+        "wacs": 0.23610685586867913,
+        "positive": 0.5827931729841034,
+        "negative": 0.34668631711542425,
+        "positive_pairs": 1582,
         "negative_pairs": 998,
-        "cohen_d": 2.380629606716299,
+        "cohen_d": 2.2266063372891467,
         "vocab_size": 200
       }
     }
@@ -724,18 +724,18 @@
   "km_kh": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3191822588904537,
-        "label_entropy_norm": 0.8758359043194315,
-        "frames": 9625,
-        "labels": 45
+        "nmi": 0.3169916314470031,
+        "label_entropy_norm": 0.8750655356314859,
+        "frames": 9624,
+        "labels": 46
       },
       "wacs": {
-        "wacs": 0.18693090979508542,
-        "positive": 0.5578237288777587,
-        "negative": 0.37089281908267324,
+        "wacs": 0.1806784563628221,
+        "positive": 0.5520400380951124,
+        "negative": 0.3713615817322903,
         "positive_pairs": 2000,
-        "negative_pairs": 991,
-        "cohen_d": 2.054526453601004,
+        "negative_pairs": 995,
+        "cohen_d": 1.9596650932646165,
         "vocab_size": 200
       }
     }
@@ -743,56 +743,56 @@
   "kn_in": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3726790445893183,
-        "label_entropy_norm": 0.9106667915497028,
-        "frames": 9748,
-        "labels": 39
+        "nmi": 0.36697754464628135,
+        "label_entropy_norm": 0.9028123059928934,
+        "frames": 9727,
+        "labels": 40
       },
       "wacs": {
-        "wacs": 0.24120344203758098,
-        "positive": 0.6127766766680456,
-        "negative": 0.3715732346304646,
-        "positive_pairs": 1034,
-        "negative_pairs": 861,
-        "cohen_d": 2.4354983558553096,
-        "vocab_size": 173
+        "wacs": 0.2533203731187186,
+        "positive": 0.622122350704356,
+        "negative": 0.3688019775856374,
+        "positive_pairs": 1199,
+        "negative_pairs": 997,
+        "cohen_d": 2.791289567955805,
+        "vocab_size": 200
       }
     }
   },
   "ko_kr": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.39606744266349947,
-        "label_entropy_norm": 0.8299644909246937,
-        "frames": 9586,
+        "nmi": 0.4190684478593384,
+        "label_entropy_norm": 0.8314201022939204,
+        "frames": 9641,
         "labels": 39
       },
       "wacs": {
-        "wacs": 0.28982198979500035,
-        "positive": 0.6884715527725412,
-        "negative": 0.3986495629775409,
-        "positive_pairs": 809,
-        "negative_pairs": 741,
-        "cohen_d": 3.2125519094439507,
-        "vocab_size": 149
+        "wacs": 0.26346180752846055,
+        "positive": 0.6645734141410593,
+        "negative": 0.40111160661259876,
+        "positive_pairs": 858,
+        "negative_pairs": 751,
+        "cohen_d": 2.7487920444429976,
+        "vocab_size": 151
       }
     }
   },
   "ky_kg": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.40482555584614843,
-        "label_entropy_norm": 0.9022910230895089,
-        "frames": 9727,
-        "labels": 33
+        "nmi": 0.4157709814839195,
+        "label_entropy_norm": 0.8957673608438289,
+        "frames": 9617,
+        "labels": 37
       },
       "wacs": {
-        "wacs": 0.2522624118635908,
-        "positive": 0.6425254786526012,
-        "negative": 0.39026306678901046,
-        "positive_pairs": 1400,
-        "negative_pairs": 994,
-        "cohen_d": 2.9876568457060917,
+        "wacs": 0.24990312825968103,
+        "positive": 0.6459137849215415,
+        "negative": 0.39601065666186047,
+        "positive_pairs": 1375,
+        "negative_pairs": 998,
+        "cohen_d": 2.944321793562391,
         "vocab_size": 200
       }
     }
@@ -800,18 +800,18 @@
   "lg_ug": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4440760464863793,
-        "label_entropy_norm": 0.926616197832749,
-        "frames": 9863,
+        "nmi": 0.43806377081597203,
+        "label_entropy_norm": 0.9297981167730486,
+        "frames": 9896,
         "labels": 31
       },
       "wacs": {
-        "wacs": 0.26377586138857395,
-        "positive": 0.6503034931567031,
-        "negative": 0.38652763176812915,
-        "positive_pairs": 1252,
-        "negative_pairs": 995,
-        "cohen_d": 2.342130406635326,
+        "wacs": 0.2513069236480892,
+        "positive": 0.6317214606493177,
+        "negative": 0.38041453700122846,
+        "positive_pairs": 1308,
+        "negative_pairs": 993,
+        "cohen_d": 2.033565509236498,
         "vocab_size": 200
       }
     }
@@ -819,18 +819,18 @@
   "lo_la": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3092630029192243,
-        "label_entropy_norm": 0.8892018730824508,
-        "frames": 9544,
-        "labels": 45
+        "nmi": 0.33246048520366434,
+        "label_entropy_norm": 0.8807085951330793,
+        "frames": 9541,
+        "labels": 46
       },
       "wacs": {
-        "wacs": 0.18836516920630308,
-        "positive": 0.5964515243578667,
-        "negative": 0.40808635515156366,
+        "wacs": 0.17869402984991717,
+        "positive": 0.5947380050745248,
+        "negative": 0.4160439752246076,
         "positive_pairs": 2000,
-        "negative_pairs": 995,
-        "cohen_d": 1.8621997908921,
+        "negative_pairs": 993,
+        "cohen_d": 1.735404791524772,
         "vocab_size": 200
       }
     }
@@ -838,18 +838,18 @@
   "lt_lt": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.35624678872484117,
-        "label_entropy_norm": 0.9134947226288961,
-        "frames": 9695,
-        "labels": 39
+        "nmi": 0.3649644651613784,
+        "label_entropy_norm": 0.9118332918509088,
+        "frames": 9553,
+        "labels": 42
       },
       "wacs": {
-        "wacs": 0.2310316105515024,
-        "positive": 0.6098532572158958,
-        "negative": 0.3788216466643934,
-        "positive_pairs": 1269,
-        "negative_pairs": 992,
-        "cohen_d": 2.4108203082942996,
+        "wacs": 0.23488830526421772,
+        "positive": 0.6137783581282075,
+        "negative": 0.37889005286398975,
+        "positive_pairs": 1327,
+        "negative_pairs": 995,
+        "cohen_d": 2.5257001942724435,
         "vocab_size": 200
       }
     }
@@ -857,18 +857,18 @@
   "lv_lv": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.39395746425079564,
-        "label_entropy_norm": 0.9156331744339307,
-        "frames": 9711,
-        "labels": 31
+        "nmi": 0.3805832638026483,
+        "label_entropy_norm": 0.9045233020117772,
+        "frames": 9657,
+        "labels": 36
       },
       "wacs": {
-        "wacs": 0.2548100701861089,
-        "positive": 0.6227565754387248,
-        "negative": 0.36794650525261585,
-        "positive_pairs": 1309,
-        "negative_pairs": 998,
-        "cohen_d": 2.717585121872582,
+        "wacs": 0.2461524861603408,
+        "positive": 0.6161624191516581,
+        "negative": 0.37000993299131735,
+        "positive_pairs": 1303,
+        "negative_pairs": 996,
+        "cohen_d": 2.5170646349556636,
         "vocab_size": 200
       }
     }
@@ -876,18 +876,18 @@
   "mi_nz": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3768055570449735,
-        "label_entropy_norm": 0.8543742446824683,
-        "frames": 9689,
+        "nmi": 0.3485610911162853,
+        "label_entropy_norm": 0.8431214018064975,
+        "frames": 9667,
         "labels": 28
       },
       "wacs": {
-        "wacs": 0.17054854337328124,
-        "positive": 0.5368689958566523,
-        "negative": 0.36632045248337103,
-        "positive_pairs": 1884,
+        "wacs": 0.17151387315712446,
+        "positive": 0.5388106907423181,
+        "negative": 0.36729681758519367,
+        "positive_pairs": 1880,
         "negative_pairs": 996,
-        "cohen_d": 1.49528829740347,
+        "cohen_d": 1.5283770915311796,
         "vocab_size": 200
       }
     }
@@ -895,18 +895,18 @@
   "mk_mk": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4421924329617226,
-        "label_entropy_norm": 0.8568065265244651,
-        "frames": 9571,
+        "nmi": 0.450843712887963,
+        "label_entropy_norm": 0.8599009206271252,
+        "frames": 9589,
         "labels": 40
       },
       "wacs": {
-        "wacs": 0.25098438627132275,
-        "positive": 0.6250355513017304,
-        "negative": 0.37405116503040764,
-        "positive_pairs": 1440,
-        "negative_pairs": 997,
-        "cohen_d": 2.5188165088823307,
+        "wacs": 0.2549135551481216,
+        "positive": 0.6338903240012885,
+        "negative": 0.37897676885316695,
+        "positive_pairs": 1378,
+        "negative_pairs": 993,
+        "cohen_d": 2.8513555852709973,
         "vocab_size": 200
       }
     }
@@ -914,37 +914,37 @@
   "ml_in": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3889452133655339,
-        "label_entropy_norm": 0.931672146857424,
-        "frames": 9853,
-        "labels": 40
+        "nmi": 0.40131613438281527,
+        "label_entropy_norm": 0.9219589645178062,
+        "frames": 9785,
+        "labels": 42
       },
       "wacs": {
-        "wacs": 0.25476522729109846,
-        "positive": 0.6320265984414419,
-        "negative": 0.37726137115034347,
-        "positive_pairs": 963,
-        "negative_pairs": 844,
-        "cohen_d": 2.6193172310849664,
-        "vocab_size": 170
+        "wacs": 0.23707115758422187,
+        "positive": 0.6117372957840681,
+        "negative": 0.37466613819984623,
+        "positive_pairs": 970,
+        "negative_pairs": 865,
+        "cohen_d": 2.4086963140860576,
+        "vocab_size": 174
       }
     }
   },
   "mn_mn": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.34830071138137736,
-        "label_entropy_norm": 0.9419423974975566,
-        "frames": 9842,
-        "labels": 25
+        "nmi": 0.3673827316490567,
+        "label_entropy_norm": 0.9048843488015108,
+        "frames": 9608,
+        "labels": 33
       },
       "wacs": {
-        "wacs": 0.24593832562490192,
-        "positive": 0.6240919738246804,
-        "negative": 0.3781536481997785,
-        "positive_pairs": 1626,
-        "negative_pairs": 994,
-        "cohen_d": 2.5163436843546076,
+        "wacs": 0.24578327343348766,
+        "positive": 0.6233095147935507,
+        "negative": 0.377526241360063,
+        "positive_pairs": 1617,
+        "negative_pairs": 997,
+        "cohen_d": 2.6483526975444613,
         "vocab_size": 200
       }
     }
@@ -952,18 +952,18 @@
   "mr_in": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4083576008659919,
-        "label_entropy_norm": 0.8837310405119526,
-        "frames": 9577,
-        "labels": 45
+        "nmi": 0.37878163713845425,
+        "label_entropy_norm": 0.8803066681730829,
+        "frames": 9602,
+        "labels": 49
       },
       "wacs": {
-        "wacs": 0.22830325752825775,
-        "positive": 0.612599978004357,
-        "negative": 0.3842967204760992,
-        "positive_pairs": 1608,
-        "negative_pairs": 991,
-        "cohen_d": 2.639210732247299,
+        "wacs": 0.21818893339582524,
+        "positive": 0.601823974541407,
+        "negative": 0.3836350411455818,
+        "positive_pairs": 1575,
+        "negative_pairs": 994,
+        "cohen_d": 2.33580696146503,
         "vocab_size": 200
       }
     }
@@ -971,18 +971,18 @@
   "ms_my": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.38904318751767675,
-        "label_entropy_norm": 0.9004991063791957,
-        "frames": 9611,
-        "labels": 29
+        "nmi": 0.39919655084994715,
+        "label_entropy_norm": 0.8882838545552694,
+        "frames": 9589,
+        "labels": 31
       },
       "wacs": {
-        "wacs": 0.19607817882170786,
-        "positive": 0.6286407720192805,
-        "negative": 0.4325625931975726,
-        "positive_pairs": 1760,
-        "negative_pairs": 995,
-        "cohen_d": 2.412698437211316,
+        "wacs": 0.2019561416977666,
+        "positive": 0.631681315764113,
+        "negative": 0.4297251740663464,
+        "positive_pairs": 1816,
+        "negative_pairs": 997,
+        "cohen_d": 2.584198108904073,
         "vocab_size": 200
       }
     }
@@ -990,18 +990,18 @@
   "mt_mt": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4117923746270513,
-        "label_entropy_norm": 0.9217146211919154,
-        "frames": 9882,
-        "labels": 33
+        "nmi": 0.4206841911036189,
+        "label_entropy_norm": 0.9242534244511031,
+        "frames": 9841,
+        "labels": 35
       },
       "wacs": {
-        "wacs": 0.24393108574739514,
-        "positive": 0.6147345646126018,
-        "negative": 0.37080347886520665,
-        "positive_pairs": 1552,
-        "negative_pairs": 996,
-        "cohen_d": 2.43509899896027,
+        "wacs": 0.23912445233794705,
+        "positive": 0.6097927354027648,
+        "negative": 0.37066828306481775,
+        "positive_pairs": 1447,
+        "negative_pairs": 994,
+        "cohen_d": 2.5900250936651057,
         "vocab_size": 200
       }
     }
@@ -1009,18 +1009,18 @@
   "my_mm": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.36334694920092,
-        "label_entropy_norm": 0.8785833106631356,
-        "frames": 9633,
-        "labels": 46
+        "nmi": 0.361693026777699,
+        "label_entropy_norm": 0.8878849786424287,
+        "frames": 9652,
+        "labels": 44
       },
       "wacs": {
-        "wacs": 0.204520370329271,
-        "positive": 0.5736651802615429,
-        "negative": 0.3691448099322719,
-        "positive_pairs": 1904,
-        "negative_pairs": 993,
-        "cohen_d": 1.9914646800516242,
+        "wacs": 0.21880075615165817,
+        "positive": 0.5778983312334065,
+        "negative": 0.35909757508174833,
+        "positive_pairs": 1976,
+        "negative_pairs": 992,
+        "cohen_d": 2.2072803009882205,
         "vocab_size": 200
       }
     }
@@ -1028,18 +1028,18 @@
   "nb_no": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.37903574044454746,
-        "label_entropy_norm": 0.9035761441593101,
-        "frames": 9665,
+        "nmi": 0.35668851971256393,
+        "label_entropy_norm": 0.8981191461859712,
+        "frames": 9650,
         "labels": 35
       },
       "wacs": {
-        "wacs": 0.27205587928974245,
-        "positive": 0.6564180835843871,
-        "negative": 0.3843622042946447,
-        "positive_pairs": 1491,
+        "wacs": 0.2727237700477454,
+        "positive": 0.6577007433843352,
+        "negative": 0.38497697333658976,
+        "positive_pairs": 1470,
         "negative_pairs": 994,
-        "cohen_d": 2.6012443429119063,
+        "cohen_d": 2.585231133339631,
         "vocab_size": 200
       }
     }
@@ -1047,18 +1047,18 @@
   "ne_np": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.39244040980845324,
-        "label_entropy_norm": 0.9007199110341224,
-        "frames": 9690,
-        "labels": 36
+        "nmi": 0.3966858630667761,
+        "label_entropy_norm": 0.867272932720687,
+        "frames": 9563,
+        "labels": 42
       },
       "wacs": {
-        "wacs": 0.23223671351743336,
-        "positive": 0.627280433483076,
-        "negative": 0.3950437199656427,
-        "positive_pairs": 1479,
-        "negative_pairs": 994,
-        "cohen_d": 2.488225738962405,
+        "wacs": 0.22795772614421456,
+        "positive": 0.6242495899814486,
+        "negative": 0.3962918638372341,
+        "positive_pairs": 1485,
+        "negative_pairs": 990,
+        "cohen_d": 2.4495164561080456,
         "vocab_size": 200
       }
     }
@@ -1066,18 +1066,18 @@
   "nl_nl": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3655108871138309,
-        "label_entropy_norm": 0.9102229303912363,
-        "frames": 9586,
-        "labels": 39
+        "nmi": 0.36580139249823884,
+        "label_entropy_norm": 0.9090889719682628,
+        "frames": 9550,
+        "labels": 40
       },
       "wacs": {
-        "wacs": 0.2329032187608761,
-        "positive": 0.6368744814005326,
-        "negative": 0.4039712626396565,
-        "positive_pairs": 1578,
-        "negative_pairs": 997,
-        "cohen_d": 2.5205404022135927,
+        "wacs": 0.2397298012055552,
+        "positive": 0.6451766234553832,
+        "negative": 0.405446822249828,
+        "positive_pairs": 1472,
+        "negative_pairs": 996,
+        "cohen_d": 2.5884158730316678,
         "vocab_size": 200
       }
     }
@@ -1085,18 +1085,18 @@
   "ny_mw": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3424963279691127,
-        "label_entropy_norm": 0.8929273897524306,
-        "frames": 9723,
-        "labels": 33
+        "nmi": 0.3640414128032237,
+        "label_entropy_norm": 0.8877012943030835,
+        "frames": 9696,
+        "labels": 35
       },
       "wacs": {
-        "wacs": 0.17172006387777183,
-        "positive": 0.572718630409884,
-        "negative": 0.4009985665321122,
-        "positive_pairs": 1483,
-        "negative_pairs": 997,
-        "cohen_d": 1.6605844178273075,
+        "wacs": 0.17637505115414792,
+        "positive": 0.5854223140862024,
+        "negative": 0.40904726293205446,
+        "positive_pairs": 1484,
+        "negative_pairs": 996,
+        "cohen_d": 1.7604304430472528,
         "vocab_size": 200
       }
     }
@@ -1104,18 +1104,18 @@
   "om_et": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.37913145379572755,
-        "label_entropy_norm": 0.9049886290175213,
-        "frames": 9525,
-        "labels": 28
+        "nmi": 0.38436173647465777,
+        "label_entropy_norm": 0.8898440463417439,
+        "frames": 9446,
+        "labels": 32
       },
       "wacs": {
-        "wacs": 0.19720149548722193,
-        "positive": 0.6344996474257054,
-        "negative": 0.4372981519384835,
+        "wacs": 0.19268798426116818,
+        "positive": 0.6370867498981798,
+        "negative": 0.44439876563701164,
         "positive_pairs": 208,
-        "negative_pairs": 183,
-        "cohen_d": 2.2372641374196696,
+        "negative_pairs": 188,
+        "cohen_d": 2.2098413753194475,
         "vocab_size": 38
       }
     }
@@ -1123,18 +1123,18 @@
   "or_in": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3412192298370827,
-        "label_entropy_norm": 0.8765259294769687,
-        "frames": 9563,
-        "labels": 47
+        "nmi": 0.34440366377561027,
+        "label_entropy_norm": 0.8979114882513505,
+        "frames": 9698,
+        "labels": 42
       },
       "wacs": {
-        "wacs": 0.1873654535845105,
-        "positive": 0.6072848894345265,
-        "negative": 0.419919435850016,
-        "positive_pairs": 1720,
-        "negative_pairs": 994,
-        "cohen_d": 2.115076463775493,
+        "wacs": 0.1974797530903662,
+        "positive": 0.6124337387705123,
+        "negative": 0.41495398568014613,
+        "positive_pairs": 1726,
+        "negative_pairs": 995,
+        "cohen_d": 2.247591392946437,
         "vocab_size": 200
       }
     }
@@ -1142,18 +1142,18 @@
   "pa_in": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3516380823182738,
-        "label_entropy_norm": 0.9313219522246685,
-        "frames": 9746,
-        "labels": 42
+        "nmi": 0.3242963717663596,
+        "label_entropy_norm": 0.9232239262188461,
+        "frames": 9641,
+        "labels": 48
       },
       "wacs": {
-        "wacs": 0.2067892983264608,
-        "positive": 0.6088438944564336,
-        "negative": 0.4020545961299728,
-        "positive_pairs": 1804,
-        "negative_pairs": 994,
-        "cohen_d": 2.080314589567831,
+        "wacs": 0.2009322740623981,
+        "positive": 0.6095532565552653,
+        "negative": 0.40862098249286716,
+        "positive_pairs": 1824,
+        "negative_pairs": 995,
+        "cohen_d": 1.9980855346285862,
         "vocab_size": 200
       }
     }
@@ -1161,18 +1161,18 @@
   "pl_pl": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3730673773977412,
-        "label_entropy_norm": 0.9470305911053585,
-        "frames": 9815,
-        "labels": 33
+        "nmi": 0.3818855308307694,
+        "label_entropy_norm": 0.932157373661445,
+        "frames": 9694,
+        "labels": 39
       },
       "wacs": {
-        "wacs": 0.22558995869478515,
-        "positive": 0.6081061146549623,
-        "negative": 0.3825161559601772,
-        "positive_pairs": 1180,
-        "negative_pairs": 996,
-        "cohen_d": 2.4946170536513237,
+        "wacs": 0.22941981458179372,
+        "positive": 0.6113001367869646,
+        "negative": 0.3818803222051709,
+        "positive_pairs": 1285,
+        "negative_pairs": 995,
+        "cohen_d": 2.6440857046536674,
         "vocab_size": 200
       }
     }
@@ -1180,18 +1180,18 @@
   "ps_af": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3297252681256037,
-        "label_entropy_norm": 0.9015139504793824,
-        "frames": 9692,
-        "labels": 44
+        "nmi": 0.3372724081026786,
+        "label_entropy_norm": 0.926095039559259,
+        "frames": 9803,
+        "labels": 42
       },
       "wacs": {
-        "wacs": 0.18792121107517334,
-        "positive": 0.5806663911371132,
-        "negative": 0.3927451800619398,
-        "positive_pairs": 1788,
-        "negative_pairs": 990,
-        "cohen_d": 1.7888272705058106,
+        "wacs": 0.19065684766013385,
+        "positive": 0.5807241565237121,
+        "negative": 0.39006730886357827,
+        "positive_pairs": 1792,
+        "negative_pairs": 996,
+        "cohen_d": 1.8902720652750005,
         "vocab_size": 200
       }
     }
@@ -1199,18 +1199,18 @@
   "pt_br": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3996161731059978,
-        "label_entropy_norm": 0.9170293743916289,
-        "frames": 9807,
+        "nmi": 0.41549317913161204,
+        "label_entropy_norm": 0.9168906207484527,
+        "frames": 9709,
         "labels": 33
       },
       "wacs": {
-        "wacs": 0.24672065106491015,
-        "positive": 0.6084053023620555,
-        "negative": 0.36168465129714533,
-        "positive_pairs": 1552,
-        "negative_pairs": 996,
-        "cohen_d": 2.582015537286504,
+        "wacs": 0.2440930344793017,
+        "positive": 0.6149354983155186,
+        "negative": 0.37084246383621694,
+        "positive_pairs": 1629,
+        "negative_pairs": 997,
+        "cohen_d": 2.5719667999929974,
         "vocab_size": 200
       }
     }
@@ -1218,18 +1218,18 @@
   "ro_ro": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3730702446551245,
-        "label_entropy_norm": 0.9222287044359051,
-        "frames": 9733,
-        "labels": 27
+        "nmi": 0.36785135472449704,
+        "label_entropy_norm": 0.925481381774817,
+        "frames": 9746,
+        "labels": 31
       },
       "wacs": {
-        "wacs": 0.22037297473575362,
-        "positive": 0.6192252754967148,
-        "negative": 0.3988523007609612,
-        "positive_pairs": 1533,
-        "negative_pairs": 997,
-        "cohen_d": 2.572145293437721,
+        "wacs": 0.21470306817015944,
+        "positive": 0.6161615609471052,
+        "negative": 0.40145849277694573,
+        "positive_pairs": 1493,
+        "negative_pairs": 992,
+        "cohen_d": 2.4420173107149155,
         "vocab_size": 200
       }
     }
@@ -1237,18 +1237,18 @@
   "ru_ru": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.382190712147558,
-        "label_entropy_norm": 0.8866369093087312,
-        "frames": 9623,
-        "labels": 35
+        "nmi": 0.39710458375059954,
+        "label_entropy_norm": 0.9320464468168702,
+        "frames": 9780,
+        "labels": 31
       },
       "wacs": {
-        "wacs": 0.2418586432916423,
-        "positive": 0.6104130694986224,
-        "negative": 0.3685544262069801,
-        "positive_pairs": 1329,
-        "negative_pairs": 995,
-        "cohen_d": 2.6239220302421677,
+        "wacs": 0.23951649552171117,
+        "positive": 0.6057090748761115,
+        "negative": 0.3661925793544003,
+        "positive_pairs": 1350,
+        "negative_pairs": 992,
+        "cohen_d": 2.5671678473312856,
         "vocab_size": 200
       }
     }
@@ -1256,18 +1256,18 @@
   "sl_si": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.37388753049129014,
-        "label_entropy_norm": 0.9281190287973625,
-        "frames": 9778,
+        "nmi": 0.36088028309117526,
+        "label_entropy_norm": 0.9321483885378485,
+        "frames": 9808,
         "labels": 26
       },
       "wacs": {
-        "wacs": 0.212976565914053,
-        "positive": 0.6147364277044449,
-        "negative": 0.4017598617903919,
-        "positive_pairs": 1241,
-        "negative_pairs": 993,
-        "cohen_d": 2.3710367536279064,
+        "wacs": 0.21294217141527877,
+        "positive": 0.6218165085399254,
+        "negative": 0.40887433712464666,
+        "positive_pairs": 1244,
+        "negative_pairs": 992,
+        "cohen_d": 2.3615486439466364,
         "vocab_size": 200
       }
     }
@@ -1275,18 +1275,18 @@
   "sn_zw": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4058352580129922,
-        "label_entropy_norm": 0.9092579165857467,
-        "frames": 9764,
-        "labels": 33
+        "nmi": 0.4204101304260052,
+        "label_entropy_norm": 0.9057988048804142,
+        "frames": 9656,
+        "labels": 37
       },
       "wacs": {
-        "wacs": 0.2170663631883969,
-        "positive": 0.583915932485625,
-        "negative": 0.3668495692972281,
-        "positive_pairs": 1397,
-        "negative_pairs": 996,
-        "cohen_d": 2.1406809762830656,
+        "wacs": 0.21662443622769434,
+        "positive": 0.587528382166671,
+        "negative": 0.3709039459389767,
+        "positive_pairs": 1292,
+        "negative_pairs": 995,
+        "cohen_d": 2.1195263750637436,
         "vocab_size": 200
       }
     }
@@ -1294,18 +1294,18 @@
   "so_so": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3216851833429354,
-        "label_entropy_norm": 0.9111765289822933,
-        "frames": 9776,
-        "labels": 32
+        "nmi": 0.3359912203765244,
+        "label_entropy_norm": 0.9205503866576532,
+        "frames": 9793,
+        "labels": 30
       },
       "wacs": {
-        "wacs": 0.19337216526106493,
-        "positive": 0.5396892447388352,
-        "negative": 0.34631707947777024,
-        "positive_pairs": 1660,
+        "wacs": 0.18441377414521698,
+        "positive": 0.5422572297270786,
+        "negative": 0.3578434555818616,
+        "positive_pairs": 1596,
         "negative_pairs": 995,
-        "cohen_d": 1.8631780496340793,
+        "cohen_d": 1.9106624681351474,
         "vocab_size": 200
       }
     }
@@ -1313,18 +1313,18 @@
   "sv_se": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3528122278901481,
-        "label_entropy_norm": 0.9323327584142852,
-        "frames": 9718,
+        "nmi": 0.3543863965509298,
+        "label_entropy_norm": 0.9353826785745409,
+        "frames": 9780,
         "labels": 36
       },
       "wacs": {
-        "wacs": 0.2189726826552335,
-        "positive": 0.6258364078179011,
-        "negative": 0.40686372516266756,
-        "positive_pairs": 1367,
+        "wacs": 0.22129334489010544,
+        "positive": 0.6115720692701884,
+        "negative": 0.39027872438008293,
+        "positive_pairs": 1422,
         "negative_pairs": 998,
-        "cohen_d": 2.336075850661538,
+        "cohen_d": 2.2549233992294995,
         "vocab_size": 200
       }
     }
@@ -1332,18 +1332,18 @@
   "sw_ke": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4602506418813339,
-        "label_entropy_norm": 0.897596249142087,
-        "frames": 9702,
+        "nmi": 0.44185727210240355,
+        "label_entropy_norm": 0.9055235888377091,
+        "frames": 9789,
         "labels": 36
       },
       "wacs": {
-        "wacs": 0.21182069993739633,
-        "positive": 0.6110274385601282,
-        "negative": 0.39920673862273187,
-        "positive_pairs": 1639,
-        "negative_pairs": 998,
-        "cohen_d": 2.3683652558355472,
+        "wacs": 0.21137210052676458,
+        "positive": 0.6086176276744306,
+        "negative": 0.39724552714766603,
+        "positive_pairs": 1679,
+        "negative_pairs": 997,
+        "cohen_d": 2.5078391452248936,
         "vocab_size": 200
       }
     }
@@ -1351,37 +1351,37 @@
   "ta_in": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3442311332700362,
-        "label_entropy_norm": 0.8649052831668823,
-        "frames": 9523,
-        "labels": 40
+        "nmi": 0.33409964021084476,
+        "label_entropy_norm": 0.877130709407882,
+        "frames": 9572,
+        "labels": 39
       },
       "wacs": {
-        "wacs": 0.18613941757313168,
-        "positive": 0.5864128202319933,
-        "negative": 0.4002734026588616,
-        "positive_pairs": 1209,
-        "negative_pairs": 986,
-        "cohen_d": 2.0494254210201435,
-        "vocab_size": 198
+        "wacs": 0.1964219240232944,
+        "positive": 0.5938245093032345,
+        "negative": 0.3974025852799401,
+        "positive_pairs": 1154,
+        "negative_pairs": 994,
+        "cohen_d": 2.321690963922964,
+        "vocab_size": 200
       }
     }
   },
   "te_in": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.37183450882981944,
-        "label_entropy_norm": 0.8947050137104983,
-        "frames": 9539,
-        "labels": 38
+        "nmi": 0.385606943850704,
+        "label_entropy_norm": 0.8642929393799424,
+        "frames": 9355,
+        "labels": 46
       },
       "wacs": {
-        "wacs": 0.20743411796463612,
-        "positive": 0.6046651213207109,
-        "negative": 0.3972310033560748,
-        "positive_pairs": 1407,
-        "negative_pairs": 994,
-        "cohen_d": 2.293048378811211,
+        "wacs": 0.19907868317648503,
+        "positive": 0.6001544704206557,
+        "negative": 0.4010757872441707,
+        "positive_pairs": 1318,
+        "negative_pairs": 996,
+        "cohen_d": 2.3713319331972893,
         "vocab_size": 200
       }
     }
@@ -1389,18 +1389,18 @@
   "tg_tj": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4277622135274174,
-        "label_entropy_norm": 0.8935712799192966,
-        "frames": 9755,
+        "nmi": 0.4282996716382694,
+        "label_entropy_norm": 0.9022215563094651,
+        "frames": 9767,
         "labels": 39
       },
       "wacs": {
-        "wacs": 0.2548207442239664,
-        "positive": 0.6439889953416168,
-        "negative": 0.3891682511176504,
-        "positive_pairs": 1667,
-        "negative_pairs": 997,
-        "cohen_d": 2.506434281402655,
+        "wacs": 0.2522401126363147,
+        "positive": 0.6463215314941151,
+        "negative": 0.3940814188578004,
+        "positive_pairs": 1715,
+        "negative_pairs": 993,
+        "cohen_d": 2.507693633527125,
         "vocab_size": 200
       }
     }
@@ -1408,18 +1408,18 @@
   "th_th": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3169250981652407,
-        "label_entropy_norm": 0.8922949847325631,
-        "frames": 9635,
-        "labels": 40
+        "nmi": 0.33761021665676216,
+        "label_entropy_norm": 0.9184853536621826,
+        "frames": 9779,
+        "labels": 35
       },
       "wacs": {
-        "wacs": 0.23683473372177066,
-        "positive": 0.6055121462524021,
-        "negative": 0.36867741253063147,
-        "positive_pairs": 1876,
-        "negative_pairs": 991,
-        "cohen_d": 2.3387950488966345,
+        "wacs": 0.24384203492101308,
+        "positive": 0.605898470838924,
+        "negative": 0.3620564359179109,
+        "positive_pairs": 1900,
+        "negative_pairs": 997,
+        "cohen_d": 2.531981474539574,
         "vocab_size": 200
       }
     }
@@ -1427,18 +1427,18 @@
   "tr_tr": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.39644192429147074,
-        "label_entropy_norm": 0.9141946232112147,
-        "frames": 9809,
-        "labels": 31
+        "nmi": 0.39536977679867485,
+        "label_entropy_norm": 0.9072661319199302,
+        "frames": 9736,
+        "labels": 33
       },
       "wacs": {
-        "wacs": 0.26813255439199496,
-        "positive": 0.6628940991140416,
-        "negative": 0.39476154472204666,
-        "positive_pairs": 1228,
-        "negative_pairs": 994,
-        "cohen_d": 3.173401419517809,
+        "wacs": 0.27385922998829876,
+        "positive": 0.6648370483951425,
+        "negative": 0.3909778184068437,
+        "positive_pairs": 1252,
+        "negative_pairs": 997,
+        "cohen_d": 3.3888716234858305,
         "vocab_size": 200
       }
     }
@@ -1446,18 +1446,18 @@
   "uk_ua": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.4041444940699325,
-        "label_entropy_norm": 0.9093855250987829,
-        "frames": 9800,
+        "nmi": 0.4097140590421181,
+        "label_entropy_norm": 0.9194176950616165,
+        "frames": 9778,
         "labels": 33
       },
       "wacs": {
-        "wacs": 0.24892515303109175,
-        "positive": 0.6251449601207594,
-        "negative": 0.3762198070896676,
+        "wacs": 0.2506579131692707,
+        "positive": 0.6312946068343114,
+        "negative": 0.38063669366504066,
         "positive_pairs": 1308,
-        "negative_pairs": 994,
-        "cohen_d": 2.6761548972080584,
+        "negative_pairs": 997,
+        "cohen_d": 2.6833493960868444,
         "vocab_size": 200
       }
     }
@@ -1465,18 +1465,18 @@
   "ur_pk": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.34095355472510736,
-        "label_entropy_norm": 0.9281578452623507,
-        "frames": 9717,
-        "labels": 34
+        "nmi": 0.3522306083988665,
+        "label_entropy_norm": 0.9363061692444274,
+        "frames": 9734,
+        "labels": 36
       },
       "wacs": {
-        "wacs": 0.25015272634190205,
-        "positive": 0.6633109482733002,
-        "negative": 0.4131582219313981,
+        "wacs": 0.24570773194705803,
+        "positive": 0.665434880989597,
+        "negative": 0.419727149042539,
         "positive_pairs": 1864,
         "negative_pairs": 995,
-        "cohen_d": 2.831870725089744,
+        "cohen_d": 2.895101058996501,
         "vocab_size": 200
       }
     }
@@ -1484,18 +1484,18 @@
   "uz_uz": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3886284355184875,
-        "label_entropy_norm": 0.93135701573315,
-        "frames": 9803,
-        "labels": 33
+        "nmi": 0.4042223821049352,
+        "label_entropy_norm": 0.9243873540096866,
+        "frames": 9745,
+        "labels": 35
       },
       "wacs": {
-        "wacs": 0.23749531308147342,
-        "positive": 0.6170049021898547,
-        "negative": 0.3795095891083813,
-        "positive_pairs": 1469,
-        "negative_pairs": 993,
-        "cohen_d": 2.667120433381213,
+        "wacs": 0.21918235217839532,
+        "positive": 0.6214643050990976,
+        "negative": 0.40228195292070223,
+        "positive_pairs": 1365,
+        "negative_pairs": 995,
+        "cohen_d": 2.564868978258894,
         "vocab_size": 200
       }
     }
@@ -1503,18 +1503,18 @@
   "vi_vn": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.35689132902436294,
-        "label_entropy_norm": 0.9456895597443624,
-        "frames": 9943,
+        "nmi": 0.37300276366879265,
+        "label_entropy_norm": 0.9441671653013449,
+        "frames": 9918,
         "labels": 38
       },
       "wacs": {
-        "wacs": 0.2044442553375843,
-        "positive": 0.6083371244654056,
-        "negative": 0.40389286912782124,
-        "positive_pairs": 1972,
-        "negative_pairs": 996,
-        "cohen_d": 2.1874158263818484,
+        "wacs": 0.20867404384381266,
+        "positive": 0.6155671110168969,
+        "negative": 0.4068930671730842,
+        "positive_pairs": 1976,
+        "negative_pairs": 998,
+        "cohen_d": 2.1656266373553903,
         "vocab_size": 200
       }
     }
@@ -1522,18 +1522,18 @@
   "wo_sn": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.34621965033568325,
-        "label_entropy_norm": 0.9232859684751075,
-        "frames": 9866,
+        "nmi": 0.35869649432185235,
+        "label_entropy_norm": 0.9202119044665915,
+        "frames": 9859,
         "labels": 34
       },
       "wacs": {
-        "wacs": 0.1582633415585047,
-        "positive": 0.5613486177370853,
-        "negative": 0.40308527617858064,
-        "positive_pairs": 1840,
+        "wacs": 0.167347188991121,
+        "positive": 0.5741891960494743,
+        "negative": 0.40684200705835327,
+        "positive_pairs": 1872,
         "negative_pairs": 996,
-        "cohen_d": 1.4602494051742338,
+        "cohen_d": 1.6291494722555442,
         "vocab_size": 200
       }
     }
@@ -1541,37 +1541,37 @@
   "xh_za": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.3927200609349872,
-        "label_entropy_norm": 0.9074712345153765,
-        "frames": 9649,
-        "labels": 39
+        "nmi": 0.4002767445670674,
+        "label_entropy_norm": 0.8968930417398774,
+        "frames": 9602,
+        "labels": 43
       },
       "wacs": {
-        "wacs": 0.2160104942608163,
-        "positive": 0.6136948441782343,
-        "negative": 0.39768434991741797,
-        "positive_pairs": 973,
-        "negative_pairs": 820,
-        "cohen_d": 1.9156334829008772,
-        "vocab_size": 165
+        "wacs": 0.22061283879476323,
+        "positive": 0.6273571879885684,
+        "negative": 0.4067443491938052,
+        "positive_pairs": 1168,
+        "negative_pairs": 988,
+        "cohen_d": 1.9810097724821587,
+        "vocab_size": 198
       }
     }
   },
   "yo_ng": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.380531180090528,
-        "label_entropy_norm": 0.9376895288500906,
-        "frames": 9867,
-        "labels": 45
+        "nmi": 0.3872095424589693,
+        "label_entropy_norm": 0.9260509106135283,
+        "frames": 9827,
+        "labels": 49
       },
       "wacs": {
-        "wacs": 0.20550281573071205,
-        "positive": 0.5694468904676746,
-        "negative": 0.36394407473696255,
+        "wacs": 0.21201692888117557,
+        "positive": 0.5716661671156028,
+        "negative": 0.35964923823442724,
         "positive_pairs": 1848,
-        "negative_pairs": 1000,
-        "cohen_d": 1.9177643163210614,
+        "negative_pairs": 996,
+        "cohen_d": 1.9891613770371321,
         "vocab_size": 200
       }
     }
@@ -1579,18 +1579,18 @@
   "yue_hant_hk": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.38333475959697627,
-        "label_entropy_norm": 0.9246699018912292,
-        "frames": 9724,
-        "labels": 47
+        "nmi": 0.40502867397691455,
+        "label_entropy_norm": 0.9180359862234616,
+        "frames": 9576,
+        "labels": 50
       },
       "wacs": {
-        "wacs": 0.24727083471826117,
-        "positive": 0.6346723002077876,
-        "negative": 0.3874014654895265,
-        "positive_pairs": 1592,
-        "negative_pairs": 995,
-        "cohen_d": 2.541917111999893,
+        "wacs": 0.2511501244113534,
+        "positive": 0.634330774167708,
+        "negative": 0.3831806497563546,
+        "positive_pairs": 1509,
+        "negative_pairs": 997,
+        "cohen_d": 2.6523807931322962,
         "vocab_size": 200
       }
     }
@@ -1598,19 +1598,19 @@
   "zu_za": {
     "facebook/mms-300m": {
       "nmi": {
-        "nmi": 0.37665388914036285,
-        "label_entropy_norm": 0.9143204306063587,
-        "frames": 9824,
-        "labels": 37
+        "nmi": 0.3827877871890329,
+        "label_entropy_norm": 0.9102325015155841,
+        "frames": 9851,
+        "labels": 39
       },
       "wacs": {
-        "wacs": 0.21313065209088938,
-        "positive": 0.565238588012855,
-        "negative": 0.3521079359219656,
-        "positive_pairs": 1178,
-        "negative_pairs": 995,
-        "cohen_d": 1.7422468736664387,
-        "vocab_size": 200
+        "wacs": 0.2027184990338577,
+        "positive": 0.5594523942404587,
+        "negative": 0.356733895206601,
+        "positive_pairs": 1089,
+        "negative_pairs": 894,
+        "cohen_d": 1.736634306243386,
+        "vocab_size": 179
       }
     }
   }
